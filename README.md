@@ -11,7 +11,7 @@ I'm a self-taught developer. I'm currently **seeking challenging career opportun
 
 <details> <summary> <h2> 💡 Current Projects  </summary>
 
-[![ContactBook](https://github-readme-stats.vercel.app/api/pin/?username=szymcode&repo=contactbook)](https://github.com/szymcode/contactbook) [![ECommerceTemplate](https://github-readme-stats.vercel.app/api/pin/?username=szymcode&repo=ecommercetemplate)](https://github.com/szymcode/ecommercetemplate)
+[![ContactBook](https://github-readme-stats.vercel.app/api/pin/?username=szymcode&repo=contactbook)](https://github.com/szymcode/contactbook)
   
 </details>    
 
