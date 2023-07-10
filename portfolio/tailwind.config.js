@@ -35,10 +35,16 @@ module.exports = {
       },
       colors: {
         primary: {
-          DEFAULT: '#0097b5',
+          DEFAULT: '#0098c2',
+          lightblue: '#e8f8fc',
           black: '#222831',
-          gray: '#393e46',
-          white: '#eeeeee'
+          gray: '#5f6875',
+          lightgray: '#f0f8fa',
+          white: '#ffffff',
+
+          linkedin: '#0072b1',
+          facebook: '#3b5998',
+          discord: '#5865F2'
         }
       }
     },
