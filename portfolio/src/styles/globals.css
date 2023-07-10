@@ -28,6 +28,9 @@
   }
   .navlink {
     @apply
-      flex items-center gap-1 font-medium text-primary-black hover:text-primary hover:scale-105 duration-300
+      flex items-center gap-1
+      font-medium text-primary-black transition
+      hover:text-primary hover:scale-105 duration-300
+
   }
 }
