@@ -5,10 +5,14 @@
 
 I'm a self-taught developer. I'm currently **seeking challenging career opportunities**. I have a no-commerce mastery of **JavaScript, Python, React, Django** and mostly work in a **Windows** environment. Intermediate in creating a visually attractive and user-friendly frontend using **HTML5, TailwindCSS and MUI**.
 
-<h4 align="center">🔍 &nbsp;looking for a job &nbsp; &nbsp;  &nbsp;
-<a href="mailto:s.radomski19@gmail.com"> <img src="https://img.shields.io/badge/-Gmail-informational?style=flat&logo=gmail&color=black" /></a> &nbsp; contact me!
-</h4><br>
+<br/>
 
+| 💻 **Portfolio**| [SzymCode / portfolio](https://github.com/SzymCode/SzymCode/tree/main/portfolio)|
+|:-|:-|
+| 🚀 **Exists on**| [![CodeWars](https://img.shields.io/badge/CodeWars-5%20KYU-C90000?logo=codewars&logoColor=white)](https://www.codewars.com/users/SzymCode)|
+| 🔍 **Find me**| [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/szymon-radomski/) [![Facebook](https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/s.radomski16) [![Gmail](https://img.shields.io/badge/-Gmail-informational?style=flat&logo=gmail&color=black)](mailto:s.radomski19@gmail.com)  |
+
+<br/>
 
 <details> <summary> <h2> 💡 Current Projects  </summary>
 
@@ -24,7 +28,6 @@ Main|<img src="https://shields.io/badge/react-black?logo=react&style=for-the-bad
 Have experienced| <img src="https://img.shields.io/badge/Bootstrap-%237952b3.svg?logo=bootstrap&logoColor=white&style=flat" alt="Bootstrap" /> <img src="https://img.shields.io/badge/%20-%20MUI-blue" /> <img src="https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white" /> <img src="https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white" />  <img src="https://img.shields.io/badge/Strapi-2E7EEA?logo=strapi&logoColor=white" /> <img src="https://img.shields.io/badge/Shopify-7AB55C?logo=shopify&logoColor=white" /> <img src="https://img.shields.io/badge/nginx-%23009639.svg?style=flat&logo=nginx&logoColor=white" alt="nginx" /> <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white"> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white"/>
 IDEs|<img src="https://img.shields.io/badge/Visual%20Studio-007ACC?logo=visual-studio&logoColor=white"/> <img src="https://img.shields.io/badge/PyCharm-black?logo=pycharm&logoColor=green"/> <img src="https://img.shields.io/badge/Jupyter-%23FA0F00.svg?style=flat&logo=jupyter&logoColor=white" alt="Jupyter Notebook" /> <img src="https://img.shields.io/badge/DataGrip-black?style=flat-square&logo=datagrip&logoColor=white" />
 Tools|<img src="https://img.shields.io/badge/git-%23d22128.svg?logo=git&logoColor=white&style=flat" /> <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" /> <img src="https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white"/> <img src="https://img.shields.io/badge/Heroku-430098?logo=heroku&logoColor=white" /> <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws&logoColor=white"/> <img src="https://img.shields.io/badge/Adobe%20Photoshop-00599C?logo=adobe-photoshop&logoColor=white"/> <img src="https://img.shields.io/badge/Figma-000000?logo=figma&logoColor=white"/> <img src="https://img.shields.io/badge/insomnia-%23d22128.svg?logo=insomnia&logoColor=white&style=flat" />
-Find me| [![Facebook](https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/s.radomski16) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/szymon-radomski/)  [![Gmail](https://img.shields.io/badge/-Gmail-informational?style=flat&logo=gmail&color=black)](mailto:s.radomski19@gmail.com) [![CodeWars](https://img.shields.io/badge/CodeWars-5%20KYU-C90000?logo=codewars&logoColor=white)](https://www.codewars.com/users/SzymCode)
 </details>  
 
 
