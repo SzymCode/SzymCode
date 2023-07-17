@@ -1,7 +1,7 @@
 import Head from "next/head"
 import { motion } from "framer-motion"
 
-import { Banner, LeftSide, Navbar, RightSide } from "@/components"
+import { About, Banner, LeftSide, Navbar, Projects, RightSide } from "@/components"
 
 
 export default function Home() {
@@ -22,8 +22,10 @@ export default function Home() {
               className="hidden xl:inline-flex w-32 h-full fixed left-0 bottom-0">
             <LeftSide/>
           </motion.div>
-          <div className="h-[88vh] w-full mx-auto p-4 pt-14 xl:pt-32">
+          <div className="h-[88vh] w-full mx-auto p-4 xl:p-0 pt-14 xl:pt-32">
             <Banner />
+            <About />
+            <Projects />
           </div>
           <motion.div
               initial={{ opacity: 0 }}
