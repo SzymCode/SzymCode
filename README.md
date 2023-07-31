@@ -3,13 +3,13 @@
   Hi <img alt="hi" src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" width="36"/>, I'm Szymon
 </h2>
 
-As a self-taught developer, I'm actively seeking **challenging career opportunities**. I have a no-commerce mastery of **JavaScript**, **Python**, **React**, **Django** and work in a **Windows** environment. Intermediate in creating a visually attractive and user-friendly frontend using **HTML5, CSS3**/**Tailwind** and **Material UI**.
+As a self-taught developer, I'm actively seeking **challenging career opportunities**. I have a no-commerce mastery of **JavaScript** (**TypeScript**), **Python** and mostly use **React**, **Django** frameworks. Intermediate in creating a visually attractive and user-friendly frontend using **HTML5, CSS3**/**Tailwind** and **Material UI**.
 
 <br/>
 
 | 💻 **Portfolio**| [SzymCode / portfolio](https://github.com/SzymCode/SzymCode/tree/main/portfolio)|
 |:-|:-|
-| 🚀 **Exists on**| [![CodeWars](https://img.shields.io/badge/CodeWars-5%20KYU-C90000?logo=codewars&logoColor=white)](https://www.codewars.com/users/SzymCode)|
+| 🚀 **Exists on**| [![CodeWars](https://img.shields.io/badge/CodeWars-4%20KYU-1f5be7?logo=codewars&logoColor=white)](https://www.codewars.com/users/SzymCode) [![Sphere Judge](https://img.shields.io/badge/SPOJ-szymcode-blue?logo=spoj&logoColor=white)](https://www.spoj.com/users/szymcode)
 | 🔍 **Find me**| [![Gmail](https://img.shields.io/badge/-Gmail-informational?style=flat&logo=gmail&color=white)](mailto:s.radomski19@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/szymon-radomski/) [![Facebook](https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/s.radomski16) |
 
 <br/>
