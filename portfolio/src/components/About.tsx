@@ -1,4 +1,5 @@
 import { motion } from "framer-motion"
+import Image from "next/image"
 
 import { SectionTitle } from "@/components"
 
@@ -26,32 +27,136 @@ export default function About() {
           contact information provided on my GitHub profile.
         </div>
       </motion.div>
-      <div className="block text-center mx-auto mt-5 md:text-2xl text-lg">
-        Tech Stack:
-        <div className="flex py-4 gap-5 color:grey mt-5">
-          <img alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png"
-               className="w-6 h-6 md:w-8 md:h-8 lgl:w-10 lgl:h-10 xl:w-12 xl:h-12 hover:-translate-y-1.5 transition-all duration-300 ease-in-out"/>
-          <img alt="" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
-               className="w-6 h-6 md:w-8 md:h-8 lgl:w-10 lgl:h-10 xl:w-12 xl:h-12 hover:-translate-y-1.5 transition-all duration-300 ease-in-out"/>
-          <img alt="" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
-               className="w-6 h-6 md:w-8 md:h-8 lgl:w-10 lgl:h-10 xl:w-12 xl:h-12 hover:-translate-y-1.5 transition-all duration-300 ease-in-out"/>
-          <img alt="" src="https://cdn.worldvectorlogo.com/logos/django.svg"
-               className="w-6 h-6 md:w-8 md:h-8 lgl:w-10 lgl:h-10 xl:w-12 xl:h-12 hover:-translate-y-1.5 transition-all duration-300 ease-in-out"/>
-          <img alt="" src="https://cdn.worldvectorlogo.com/logos/html-1.svg"
-               className="w-6 h-6 md:w-8 md:h-8 lgl:w-10 lgl:h-10 xl:w-12 xl:h-12 hover:-translate-y-1.5 transition-all duration-300 ease-in-out"/>
-          <img alt="" src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg"
-               className="w-6 h-6 md:w-8 md:h-8 lgl:w-10 lgl:h-10 xl:w-12 xl:h-12 hover:-translate-y-1.5 transition-all duration-300 ease-in-out"/>
-          <img alt="" src="https://cdn-images.himalayas.app/9w3a704t88nxt617os94xdamvz15"
-               className="w-6 h-6 md:w-8 md:h-8 lgl:w-10 lgl:h-10 xl:w-12 xl:h-12 hover:-translate-y-1.5 transition-all duration-300 ease-in-out"/>
-          <img alt="" src="https://mui.com/static/logo.png"
-               className="w-6 h-6 md:w-8 md:h-8 lgl:w-10 lgl:h-10 xl:w-12 xl:h-12 hover:-translate-y-1.5 transition-all duration-300 ease-in-out"/>
-          <img alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-               className="w-5 h-6 md:w-6 md:h-8 lgl:w-8 lgl:h-10 xl:w-10 xl:h-12 hover:-translate-y-1.5 transition-all duration-300 ease-in-out"/>
-          <img alt="" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
-               className="w-6 h-6 md:w-8 md:h-8 lgl:w-10 lgl:h-10 xl:w-12 xl:h-12 hover:-translate-y-1.5 transition-all duration-300 ease-in-out"/>
+      <motion.div
+          initial={{ y: 5, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.2, delay: 0.3 }}
+          className="block text-center items-center mx-auto mt-14 md:text-2xl text-lg">
+        Technologies:
+        <div className="grid grid-cols-9 py-4 gap-5 color:grey mt-5">
+          {techStack.map((tech, index) => (
+            <motion.a
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ duration: 0.7, delay: index * 0.125 }}
+              key={tech.alt}
+              href={tech.link}
+              className="group w-12 -mb-8"
+            >
+              <Image
+                alt={tech.alt}
+                src={tech.src}
+                width={0}
+                height={0}
+                className="w-6 h-6 md:w-8 md:h-8 lgl:w-10 lgl:h-10 group-hover:-translate-y-1.5 transition-all duration-300 ease-in-out z-0 mb-2"/>
+              <span className="p-2 relative bottom-16 left-4 rounded-md shadow-md text-white bg-gray-900 text-xs font-bold invisible opacity-0 group-hover:opacity-100 group-hover:visible z-40 transition-all duration-300">
+                {tech.alt}
+              </span>
+            </motion.a>
+          ))}
         </div>
-      </div>
-
+      </motion.div>
     </section>
   )
 }
+
+
+interface Tech {
+  alt: string
+  src: string
+  link?: string
+}
+
+const techStack: Tech[] = [
+  {
+    alt: "javascript",
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript?retiredLocale=pl"
+  },
+  {
+    alt: "typescript",
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+    link: "https://www.typescriptlang.org/"
+  },
+  {
+    alt: "python",
+    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+    link: ""
+  },
+  {
+    alt: "react",
+    src: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+    link: "https://www.python.org/"
+  },
+  {
+    alt: "redux",
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+    link: "https://redux.js.org/"
+  },
+  {
+    alt: "django",
+    src: "https://cdn.worldvectorlogo.com/logos/django.svg",
+    link: "https://www.djangoproject.com/"
+  },
+  {
+    alt: "html5",
+    src: "https://cdn.worldvectorlogo.com/logos/html-1.svg",
+    link: "https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
+  },
+  {
+    alt: "css3",
+    src: "https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg",
+    link: "https://developer.mozilla.org/en-US/docs/Glossary/CSS3"
+  },
+  {
+    alt: "tailwind",
+    src: "https://raw.githubusercontent.com/aniftyco/awesome-tailwindcss/c9545b3625c5738460143e951b04739440863cee/assets/logo.svg",
+    link: "https://tailwindcss.com/"
+  },
+  {
+    alt: "bootstrap",
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+    link: "https://getbootstrap.com/"
+  },
+  {
+    alt: "mui",
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
+    link: "https://mui.com/material-ui/material-icons/"
+  },
+  {
+    alt: "nodejs",
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    link: "https://nodejs.org/en"
+  },
+  {
+    alt: "npm",
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg",
+    link: "https://www.npmjs.com/"
+  },
+  {
+    alt: "nextjs",
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+    link: "https://nextjs.org/"
+  },
+  {
+    alt: "git",
+    src: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
+    link: "https://git-scm.com/"
+  },
+  {
+    alt: "docker",
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+    link: "https://www.docker.com/"
+  },
+  {
+    alt: "nginx",
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg",
+    link: "https://www.nginx.com/"
+  },
+  {
+    alt: "webpack",
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg",
+    link: "https://webpack.js.org/"
+  }
+];
+

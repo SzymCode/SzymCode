@@ -17,14 +17,14 @@ export default function ArchiveCard({ title, description, listItem, link }: Arch
           <RxOpenInNewWindow className="text-4xl hover:text-primary" />
         </div>
         <div>
-          <h2 className="text-2xl font-semibold tracking-wide group-hover:text-primary">
+          <h2 className="text-2xl font-semibold tracking-wide group-hover:text-primary -mt-1">
             {title}
           </h2>
-          <p className="text-sm mt-3 mb-4">
+          <p className="text-sm mt-4 mb-2">
             {description}
           </p>
         </div>
-        <ul className="text-xs mdl:text-sm text-primary-gray px-10 md:px-0 flex items-center gap-2 justify-between flex-wrap">
+        <ul className="text-xs mdl:text-sm text-primary-gray px-10 md:px-0 flex items-center text-center gap-4 mt-1">
           {listItem.map((item, i) => (
             <li key={i}>
               {item}
