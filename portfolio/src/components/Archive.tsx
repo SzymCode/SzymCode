@@ -18,47 +18,45 @@ export default function Archive() {
   }
 
   return (
-    <motion.div
-      initial={{ y: 5, opacity: 0 }}
-      whileInView={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.2, delay: 2.5 }}
-      className="max-w-contentContainer mx-auto px-2 py-10"
-    >
-      <div className="w-full flex flex-col items-center">
-        <h2 className="text-3xl font-semibold">
-          Some things I have built
-        </h2>
-        <p className="mt-2 text-sm text-primary">
-          view the archive
-        </p>
-      </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mt-10 lgl:px-10">
-        {archiveCardsData.slice(0, visibleCardsCount).map((cardData, index) => (
-          <motion.div
-            key={index}
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.4, delay: 0.2 }}
-          >
-            <ArchiveCard
-              title={cardData.title}
-              description={cardData.description}
-              listItem={cardData.listItem}
-              link={cardData.link}/>
-          </motion.div>
-        ))}
-      </div>
-
+    <section id="projects">
+      <motion.div
+        initial={{ y: 5, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.2, delay: 2.5 }}
+        className="max-w-contentContainer mx-auto px-2 py-10"
+      >
+        <div className="w-full flex flex-col items-center">
+          <h2 className="text-3xl font-semibold">
+            Some things I have built
+          </h2>
+          <p className="mt-2 text-sm text-primary">
+            view the archive
+          </p>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mt-10 lgl:px-10">
+          {archiveCardsData.slice(0, visibleCardsCount).map((cardData, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ duration: 0.4, delay: 0.2 }}
+            >
+              <ArchiveCard
+                title={cardData.title}
+                description={cardData.description}
+                listItem={cardData.listItem}
+                link={cardData.link}/>
+            </motion.div>
+          ))}
+        </div>
         <div className="mt-12 flex items-center justify-center">
-          <button
-            onClick={handleShowMoreClick}
-            className="w-36 h-12 rounded-md text-primary text-[13px] border border-primary hover:bg-primary-lightblue duration-300"
-          >
+          <button onClick={handleShowMoreClick} className="w-36 h-12 rounded-md text-primary text-[13px] border border-primary hover:bg-primary-lightblue dark:hover:bg-primary-darker duration-300">
             {visibleCardsCount < archiveCardsData.length ? "Show More" : "Show Less"}
           </button>
         </div>
 
-    </motion.div>
+      </motion.div>
+    </section>
   )
 }
 

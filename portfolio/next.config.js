@@ -10,7 +10,9 @@ const nextConfig = {
       "cdn-images.himalayas.app",
       "mui.com",
       "vectorlogo.zone",
-      "adware-technologies.s3.amazonaws.com"
+      "adware-technologies.s3.amazonaws.com",
+      "en.gravatar.com",
+      "skillicons.dev"
     ],
   },
 }

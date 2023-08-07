@@ -11,10 +11,12 @@
   body {
     font-family: 'Montserrat', sans-serif;
     @apply
-      bg-primary-white dark:bg-primary-black text-primary-black dark:text-primary-white
+      bg-primary-white dark:bg-primary-dark text-primary-black dark:text-primary-white
   }
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Inter', sans-serif;
+    @apply
+      text-primary-black dark:text-primary-white
   }
 }
 
@@ -22,15 +24,14 @@
   .nav {
     @apply
       fixed top-0 left-0 z-40 h-16 md:h-24 justify-center items-center
-      bg-white dark:bg-primary-gray shadow-md md:shadow-lg
-      py-0
-      w-full
+      bg-white dark:bg-black shadow-md md:shadow-lg py-0 w-full
   }
   .navlink {
     @apply
       flex items-center gap-1
       font-medium text-primary-black transition
-      hover:text-primary hover:scale-105 duration-300
+      text-primary-black dark:text-primary-white
+      hover:text-primary dark:hover:text-primary duration-300
 
   }
 }

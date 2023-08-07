@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  mode: 'jit',
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -37,7 +38,10 @@ module.exports = {
         primary: {
           DEFAULT: '#0098c2',
           lightblue: '#e8f8fc',
-          black: '#222831',
+          black: '#0a0a0a',
+          darkest: '#0d0d0d',
+          darker: '#141414',
+          dark: '#212121',
           gray: '#5f6875',
           lightgray: '#f0f8fa',
           white: '#ffffff',

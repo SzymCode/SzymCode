@@ -2,8 +2,113 @@ import { motion } from "framer-motion"
 import Image from "next/image"
 
 import { SectionTitle } from "@/components"
+import { HandleDarkMode } from "@/utils"
 
-export default function About() {
+interface Tech {
+  alt: string
+  src: string
+  link?: string
+}
+
+interface AboutProps {
+  darkMode: boolean
+}
+
+export default function About({ darkMode }: AboutProps) {
+  const theme = darkMode ?  'dark' : 'light'
+  const techStack: Tech[] = [
+    {
+      alt: "javascript",
+      src: `https://skillicons.dev/icons?i=js&theme=${theme}`,
+      link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript?retiredLocale=pl"
+    },
+    {
+      alt: "typescript",
+      src: `https://skillicons.dev/icons?i=ts&theme=${theme}`,
+      link: "https://www.typescriptlang.org/"
+    },
+    {
+      alt: "python",
+      src: `https://skillicons.dev/icons?i=py&theme=${theme}`,
+      link: "https://www.python.org/"
+    },
+    {
+      alt: "react",
+      src: `https://skillicons.dev/icons?i=react&theme=${theme}`,
+      link: "https://www.python.org/"
+    },
+    {
+      alt: "redux",
+      src: `https://skillicons.dev/icons?i=redux&theme=${theme}`,
+      link: "https://redux.js.org/"
+    },
+    {
+      alt: "django",
+      src: `https://skillicons.dev/icons?i=django&theme=${theme}`,
+      link: "https://www.djangoproject.com/"
+    },
+    {
+      alt: "html",
+      src: `https://skillicons.dev/icons?i=html&theme=${theme}`,
+      link: "https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
+    },
+    {
+      alt: "css",
+      src: `https://skillicons.dev/icons?i=css&theme=${theme}`,
+      link: "https://developer.mozilla.org/en-US/docs/Glossary/CSS3"
+    },
+    {
+      alt: "tailwind",
+      src: `https://skillicons.dev/icons?i=tailwind&theme=${theme}`,
+      link: "https://tailwindcss.com/"
+    },
+    {
+      alt: "bootstrap",
+      src: `https://skillicons.dev/icons?i=bootstrap&theme=${theme}`,
+      link: "https://getbootstrap.com/"
+    },
+    {
+      alt: "mui",
+      src: `https://skillicons.dev/icons?i=mui&theme=${theme}`,
+      link: "https://mui.com/material-ui/material-icons/"
+    },
+    {
+      alt: "nodejs",
+      src: `https://skillicons.dev/icons?i=nodejs&theme=${theme}`,
+      link: "https://nodejs.org/en"
+    },
+    {
+      alt: "npm",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg",
+      link: "https://www.npmjs.com/"
+    },
+    {
+      alt: "nextjs",
+      src: `https://skillicons.dev/icons?i=nextjs&theme=${theme}`,
+      link: "https://nextjs.org/"
+    },
+    {
+      alt: "git",
+      src: `https://skillicons.dev/icons?i=git&theme=${theme}`,
+      link: "https://git-scm.com/"
+    },
+    {
+      alt: "docker",
+      src: `https://skillicons.dev/icons?i=docker&theme=${theme}`,
+      link: "https://www.docker.com/"
+    },
+    {
+      alt: "nginx",
+      src: `https://skillicons.dev/icons?i=nginx&theme=${theme}`,
+      link: "https://www.nginx.com/"
+    },
+    {
+      alt: "webpack",
+      src: `https://skillicons.dev/icons?i=webpack&theme=${theme}`,
+      link: "https://webpack.js.org/"
+    }
+  ]
+
   return (
     <section id="about" className="max-w-containerSmall mx-auto pt-10 pb-20 flex flex-col gap-8 text-primary">
       <motion.div
@@ -17,7 +122,7 @@ export default function About() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.2, delay: 1.4 }}
           className="flex flex-col lgl:flex-row gap-16">
-        <div className="w-full text-base text-primary-black font-medium flex inline-flex flex-col gap-4">
+        <div className="w-full text-base text-primary-black dark:text-primary-lightgray font-medium flex inline-flex flex-col gap-4">
           Greetings! I am Szymon Radomski, a passionate web developer with a deep curiosity for technology and its possibilities.
           Always seeking opportunities to expand my knowledge and stay up-to-date with the latest trends and best practices.
           I am open to new challenges and enjoy stepping out of my comfort zone to explore new technologies and frameworks.
@@ -43,13 +148,13 @@ export default function About() {
               href={tech.link}
               className="group w-12 -mb-8"
             >
-              <Image
+              <img
                 alt={tech.alt}
                 src={tech.src}
                 width={0}
                 height={0}
-                className="w-6 h-6 md:w-8 md:h-8 lgl:w-10 lgl:h-10 group-hover:-translate-y-1.5 transition-all duration-300 ease-in-out z-0 mb-2"/>
-              <span className="p-2 relative bottom-16 left-4 rounded-md shadow-md text-white bg-gray-900 text-xs font-bold invisible opacity-0 group-hover:opacity-100 group-hover:visible z-40 transition-all duration-300">
+                className="markdown-icon w-8 h-8 md:w-10 md:h-10 xl:w-12 xl:h-12 group-hover:-translate-y-1.5 transition-all duration-300 ease-in-out z-0 mb-2"/>
+              <span className="p-2 relative -top-20 left-6 rounded-md shadow-md text-primary-white dark:text-primary-lightgray bg-primary-dark text-xs font-bold invisible opacity-0 group-hover:opacity-100 group-hover:visible z-40 transition-all duration-300">
                 {tech.alt}
               </span>
             </motion.a>
@@ -61,102 +166,6 @@ export default function About() {
 }
 
 
-interface Tech {
-  alt: string
-  src: string
-  link?: string
-}
 
-const techStack: Tech[] = [
-  {
-    alt: "javascript",
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript?retiredLocale=pl"
-  },
-  {
-    alt: "typescript",
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-    link: "https://www.typescriptlang.org/"
-  },
-  {
-    alt: "python",
-    src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-    link: ""
-  },
-  {
-    alt: "react",
-    src: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
-    link: "https://www.python.org/"
-  },
-  {
-    alt: "redux",
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
-    link: "https://redux.js.org/"
-  },
-  {
-    alt: "django",
-    src: "https://cdn.worldvectorlogo.com/logos/django.svg",
-    link: "https://www.djangoproject.com/"
-  },
-  {
-    alt: "html5",
-    src: "https://cdn.worldvectorlogo.com/logos/html-1.svg",
-    link: "https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
-  },
-  {
-    alt: "css3",
-    src: "https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg",
-    link: "https://developer.mozilla.org/en-US/docs/Glossary/CSS3"
-  },
-  {
-    alt: "tailwind",
-    src: "https://raw.githubusercontent.com/aniftyco/awesome-tailwindcss/c9545b3625c5738460143e951b04739440863cee/assets/logo.svg",
-    link: "https://tailwindcss.com/"
-  },
-  {
-    alt: "bootstrap",
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
-    link: "https://getbootstrap.com/"
-  },
-  {
-    alt: "mui",
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
-    link: "https://mui.com/material-ui/material-icons/"
-  },
-  {
-    alt: "nodejs",
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-    link: "https://nodejs.org/en"
-  },
-  {
-    alt: "npm",
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg",
-    link: "https://www.npmjs.com/"
-  },
-  {
-    alt: "nextjs",
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-    link: "https://nextjs.org/"
-  },
-  {
-    alt: "git",
-    src: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
-    link: "https://git-scm.com/"
-  },
-  {
-    alt: "docker",
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
-    link: "https://www.docker.com/"
-  },
-  {
-    alt: "nginx",
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg",
-    link: "https://www.nginx.com/"
-  },
-  {
-    alt: "webpack",
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg",
-    link: "https://webpack.js.org/"
-  }
-];
+
 

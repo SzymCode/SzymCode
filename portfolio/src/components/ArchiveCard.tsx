@@ -11,16 +11,16 @@ interface ArchiveCardProps {
 export default function ArchiveCard({ title, description, listItem, link }: ArchiveCardProps) {
   return (
     <a href={link} target="_blank" rel="noopener noreferrer">
-      <div className="w-full h-68 md:h-76 rounded-lg p-6 bg-primary-lightblue flex flex-col gap-6 hover:-translate-y-2 transition-transform duration-300 group">
+      <div className="w-full h-68 md:h-76 rounded-lg p-6 bg-primary-lightblue dark:bg-primary-darker flex flex-col gap-6 hover:-translate-y-2 transition-transform duration-300 group">
         <div className="flex justify-between items-center">
           <FaRegFolder className="text-4xl text-primary" />
-          <RxOpenInNewWindow className="text-4xl hover:text-primary" />
+          <RxOpenInNewWindow className="text-4xl hover:text-primary dark:text-primary-lightgray dark:hover:text-primary duration-300" />
         </div>
         <div>
-          <h2 className="text-2xl font-semibold tracking-wide group-hover:text-primary -mt-1">
+          <h2 className="text-2xl font-semibold tracking-wide group-hover:text-primary -mt-1 duration-300">
             {title}
           </h2>
-          <p className="text-sm mt-4 mb-2">
+          <p className="text-sm mt-4 mb-2 text-primary-black dark:text-primary-lightgray">
             {description}
           </p>
         </div>
