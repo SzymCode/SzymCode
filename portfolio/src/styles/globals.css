@@ -22,9 +22,9 @@
   .nav {
     @apply
       fixed top-0 left-0 z-40 h-16 md:h-24 justify-center items-center
-      bg-white/80 dark:bg-primary-gray/80 shadow-md md:shadow-lg
+      bg-white dark:bg-primary-gray shadow-md md:shadow-lg
       py-0
-      w-full backdrop-blur
+      w-full
   }
   .navlink {
     @apply

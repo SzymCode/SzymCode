@@ -24,20 +24,22 @@ export default function Banner() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.9 }}
           className="text-base md:max-w-[650px] font-medium">
-        I'm a self-taught developer. I have a no-commerce mastery of JavaScript, Python, React, Django and mostly work in a Windows environment.
-        Intermediate in creating a visually attractive and user-friendly frontend using HTML5, TailwindCSS and MUI. <br/>
-        <span className="inline-flex relative text-primary cursor-pointer h-7 overflow-x-hidden group">
+        As a self-taught developer, Im actively seeking challenging career opportunities. I have a no-commerce mastery of JavaScript (TypeScript),
+        Python and mostly use React, Django frameworks. Intermediate in creating a visually attractive and user-friendly frontend using HTML5, CSS3/Tailwind and MUI. <br/>
+        <span className="mt-2 inline-flex relative text-primary cursor-pointer h-7 overflow-x-hidden group">
           Learn More
           <span className="absolute w-full h-[1px] bg-primary left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"/>
         </span>
       </motion.p>
-      <motion.button
-          initial={{ y: 10, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.2, delay: 1 }}
-          className="w-52 h-14 text-sm border border-primary rounded-md text-primary tracking-wide hover:bg-primary-lightblue hover:scale-105 duration-300">
-        Check out my Project!
-      </motion.button>
+      <a href="https://github.com/SzymCode/ContactBook" target="_blank">
+        <motion.button
+            initial={{ y: 10, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.2, delay: 1 }}
+            className="w-52 h-14 text-sm border border-primary rounded-md text-primary tracking-wide hover:bg-primary-lightblue duration-300">
+          Check out my Project!
+        </motion.button>
+      </a>
     </section>
   )
 }

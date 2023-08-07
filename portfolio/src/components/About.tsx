@@ -27,8 +27,8 @@ export default function About() {
         </div>
       </motion.div>
       <div className="block text-center mx-auto mt-5 md:text-2xl text-lg">
-        Main technologies:
-        <div className="flex py-4 gap-5 color:grey">
+        Tech Stack:
+        <div className="flex py-4 gap-5 color:grey mt-5">
           <img alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png"
                className="w-6 h-6 md:w-8 md:h-8 lgl:w-10 lgl:h-10 xl:w-12 xl:h-12 hover:-translate-y-1.5 transition-all duration-300 ease-in-out"/>
           <img alt="" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
@@ -45,7 +45,7 @@ export default function About() {
                className="w-6 h-6 md:w-8 md:h-8 lgl:w-10 lgl:h-10 xl:w-12 xl:h-12 hover:-translate-y-1.5 transition-all duration-300 ease-in-out"/>
           <img alt="" src="https://mui.com/static/logo.png"
                className="w-6 h-6 md:w-8 md:h-8 lgl:w-10 lgl:h-10 xl:w-12 xl:h-12 hover:-translate-y-1.5 transition-all duration-300 ease-in-out"/>
-          <img alt="" src="https://static-00.iconduck.com/assets.00/node-js-icon-227x256-913nazt0.png"
+          <img alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
                className="w-5 h-6 md:w-6 md:h-8 lgl:w-8 lgl:h-10 xl:w-10 xl:h-12 hover:-translate-y-1.5 transition-all duration-300 ease-in-out"/>
           <img alt="" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
                className="w-6 h-6 md:w-8 md:h-8 lgl:w-10 lgl:h-10 xl:w-12 xl:h-12 hover:-translate-y-1.5 transition-all duration-300 ease-in-out"/>
