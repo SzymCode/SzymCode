@@ -1,18 +1,21 @@
 import Link from "next/link"
 import { motion } from "framer-motion"
+import { useRef } from "react"
 
-import { DarkMode } from "@/components"
-import { HandleDarkMode } from "@/utils"
+import { ChangeTheme } from "@/components"
+import { HandleScroll } from "@/utils"
 
 interface NavbarProps {
   darkMode: boolean
-  toggleDarkMode: () => void
+  toggleChangeTheme: () => void
 }
 
-export default function Navbar({ darkMode, toggleDarkMode }: NavbarProps) {
+export default function Navbar({ darkMode, toggleChangeTheme }: NavbarProps) {
   const imageUrl = darkMode
-      ? 'https://en.gravatar.com/userimage/238227496/ff196669e76d560e0703412e584f8232.jpeg?size=256'
-      : 'https://en.gravatar.com/userimage/238227496/f30c21dc5a75bf59192a2b6b24b97ae0.jpeg?size=256'
+      ? 'https://en.gravatar.com/userimage/238510040/9ae62fa2d77e0c151046465752929d88.jpeg?size=256'
+      : 'https://en.gravatar.com/userimage/238510040/faf1c514d46714163a51e876ee5eafc1.jpeg?size=256'
+
+  const ref = useRef<string | any>("")
 
   return (
     <div className="nav">
@@ -20,7 +23,7 @@ export default function Navbar({ darkMode, toggleDarkMode }: NavbarProps) {
         <img src={imageUrl} alt="" className="w-16 md:w-24 h-16 md:h-24 -ml-6 md:-ml-12"/>
         <div className="-mr-8">
           <ul className="flex text-[16px] gap-7 invisible md:visible">
-            <Link href="#home" className="navlink">
+            <Link href="#home" className="nav-link" onClick={ HandleScroll }>
               <motion.li
                   initial={{ y: -10, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
@@ -28,7 +31,7 @@ export default function Navbar({ darkMode, toggleDarkMode }: NavbarProps) {
                 Home
               </motion.li>
             </Link>
-            <Link href="#about" className="navlink">
+            <Link href="#about" className="nav-link" onClick={ HandleScroll }>
               <motion.li
                   initial={{ y: -10, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
@@ -36,7 +39,7 @@ export default function Navbar({ darkMode, toggleDarkMode }: NavbarProps) {
                 About Me
               </motion.li>
             </Link>
-            <Link href="#projects" className="navlink">
+            <Link href="#projects" className="nav-link" onClick={ HandleScroll }>
               <motion.li
                   initial={{ y: -10, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
@@ -44,7 +47,7 @@ export default function Navbar({ darkMode, toggleDarkMode }: NavbarProps) {
                 Projects
               </motion.li>
             </Link>
-            <Link href="#contact" className="navlink">
+            <Link href="#contact" className="nav-link" onClick={ HandleScroll }>
               <motion.li
                   initial={{ y: -10, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
@@ -52,14 +55,14 @@ export default function Navbar({ darkMode, toggleDarkMode }: NavbarProps) {
                 Contact
               </motion.li>
             </Link>
-            <DarkMode darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+            <ChangeTheme darkMode={darkMode} toggleChangeTheme={toggleChangeTheme} />
           </ul>
         </div>
 
         <div className="w-5 h-5 -mr-3 flex flex-col justify-between items-center md:hidden text-4xl duration-300 cursor-pointer overflow-hidden group">
-          <span className="w-full h-[2px] bg-primary-black inline-flex transform group-hover:translate-x-2 transition-all ease-in-out duration-300"/>
-          <span className="w-full h-[2px] bg-primary-black inline-flex transform translate-x-3 group-hover:translate-x-0 transition-all ease-in-out duration-300"/>
-          <span className="w-full h-[2px] bg-primary-black inline-flex transform translate-x-1 group-hover:translate-x-3 transition-all ease-in-out duration-300"/>
+          <span className="w-full h-[2px] bg-primary-black dark:bg-primary-lightgray inline-flex transform group-hover:translate-x-2 transition-all ease-in-out duration-300"/>
+          <span className="w-full h-[2px] bg-primary-black dark:bg-primary-lightgray inline-flex transform translate-x-3 group-hover:translate-x-0 transition-all ease-in-out duration-300"/>
+          <span className="w-full h-[2px] bg-primary-black dark:bg-primary-lightgray inline-flex transform translate-x-1 group-hover:translate-x-3 transition-all ease-in-out duration-300"/>
         </div>
       </div>
     </div>

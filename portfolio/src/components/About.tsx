@@ -2,7 +2,6 @@ import { motion } from "framer-motion"
 import Image from "next/image"
 
 import { SectionTitle } from "@/components"
-import { HandleDarkMode } from "@/utils"
 
 interface Tech {
   alt: string
@@ -110,23 +109,21 @@ export default function About({ darkMode }: AboutProps) {
   ]
 
   return (
-    <section id="about" className="max-w-containerSmall mx-auto pt-10 pb-20 flex flex-col gap-8 text-primary">
+    <section id="about" className="max-w-containerSmall mx-auto py-10 md:py-32 flex flex-col gap-8 text-primary">
       <motion.div
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.2, delay: 1.2 }}>
+          transition={{ duration: 0.2, delay: 0.8 }}>
         <SectionTitle title="About Me" />
       </motion.div>
       <motion.div
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.2, delay: 1.4 }}
+          transition={{ duration: 0.2, delay: 1 }}
           className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full text-base text-primary-black dark:text-primary-lightgray font-medium flex inline-flex flex-col gap-4">
           Greetings! I am Szymon Radomski, a passionate web developer with a deep curiosity for technology and its possibilities.
           Always seeking opportunities to expand my knowledge and stay up-to-date with the latest trends and best practices.
-          I am open to new challenges and enjoy stepping out of my comfort zone to explore new technologies and frameworks.
-          Throughout my journey as a developer, I have embarked on several projects that reflect my passion for technology.
           If you are looking for a passionate software developer who is committed to delivering high-quality solutions,
           I would be delighted to collaborate on projects and contribute to your team. Feel free to reach out to me via the
           contact information provided on my GitHub profile.
@@ -136,9 +133,9 @@ export default function About({ darkMode }: AboutProps) {
           initial={{ y: 5, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.2, delay: 0.3 }}
-          className="block text-center items-center mx-auto mt-14 md:text-2xl text-lg">
+          className="block text-center mx-auto mt-14 text-xl md:text-2xl">
         Technologies:
-        <div className="grid grid-cols-9 py-4 gap-5 color:grey mt-5">
+        <div className="grid grid-cols-9 py-4 gap-2 md:gap-3 color:grey mt-0 md:mt-5 mx-auto">
           {techStack.map((tech, index) => (
             <motion.a
               initial={{ opacity: 0 }}
@@ -146,7 +143,7 @@ export default function About({ darkMode }: AboutProps) {
               transition={{ duration: 0.7, delay: index * 0.125 }}
               key={tech.alt}
               href={tech.link}
-              className="group w-12 -mb-8"
+              className="group w-8 h-8 md:w-10 md:h-10 xl:w-12 xl:h-12"
             >
               <img
                 alt={tech.alt}
@@ -154,7 +151,7 @@ export default function About({ darkMode }: AboutProps) {
                 width={0}
                 height={0}
                 className="markdown-icon w-8 h-8 md:w-10 md:h-10 xl:w-12 xl:h-12 group-hover:-translate-y-1.5 transition-all duration-300 ease-in-out z-0 mb-2"/>
-              <span className="p-2 relative -top-20 left-6 rounded-md shadow-md text-primary-white dark:text-primary-lightgray bg-primary-dark text-xs font-bold invisible opacity-0 group-hover:opacity-100 group-hover:visible z-40 transition-all duration-300">
+              <span className="p-1 md:p-2 relative -top-10 md:-top-12 left-2 md:left-6 rounded-md shadow-md text-primary-white dark:text-primary-lightgray bg-primary-dark text-[10px] md:text-xs font-bold invisible opacity-0 group-hover:opacity-100 group-hover:visible z-40 transition-all duration-300">
                 {tech.alt}
               </span>
             </motion.a>

@@ -26,7 +26,7 @@
       fixed top-0 left-0 z-40 h-16 md:h-24 justify-center items-center
       bg-white dark:bg-black shadow-md md:shadow-lg py-0 w-full
   }
-  .navlink {
+  .nav-link {
     @apply
       flex items-center gap-1
       font-medium text-primary-black transition

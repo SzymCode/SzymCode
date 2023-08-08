@@ -5,7 +5,7 @@ export default function Contact() {
     <motion.section
         initial={{ y: 5, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.2, delay: 2.9 }}
+        transition={{ duration: 0.2, delay: 0.5 }}
         id="contact" className="max-w-contentContainer mx-auto py-10 xl:py-32 flex flex-col gap-4 items-center justify-center">
       <p className="text-4xl text-primary font-bold flex items-center tracking-wide">
         Contact Me

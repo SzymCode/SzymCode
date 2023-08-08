@@ -2,28 +2,20 @@ import { useState } from "react"
 import { motion } from "framer-motion"
 
 import { ArchiveCard } from "@/components"
+import { HandleShowMore } from "@/utils"
+import { ArchiveCardProps } from "@/components/ArchiveCard"
 
 
 export default function Archive() {
-  const [visibleCardsCount, setVisibleCardsCount] = useState(3)
-
-  const handleShowMoreClick = () => {
-    if (visibleCardsCount < archiveCardsData.length) {
-      setVisibleCardsCount(visibleCardsCount + 3)
-    }
-
-    else {
-      setVisibleCardsCount(3)
-    }
-  }
+  const { visibleCardsCount, handleShowMoreClick } = HandleShowMore()
 
   return (
     <section id="projects">
       <motion.div
         initial={{ y: 5, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.2, delay: 2.5 }}
-        className="max-w-contentContainer mx-auto px-2 py-10"
+        transition={{ duration: 0.2, delay: 0.4 }}
+        className="max-w-contentContainer mx-auto px-2 py-10 md:py-32"
       >
         <div className="w-full flex flex-col items-center">
           <h2 className="text-3xl font-semibold">
@@ -50,7 +42,7 @@ export default function Archive() {
           ))}
         </div>
         <div className="mt-12 flex items-center justify-center">
-          <button onClick={handleShowMoreClick} className="w-36 h-12 rounded-md text-primary text-[13px] border border-primary hover:bg-primary-lightblue dark:hover:bg-primary-darker duration-300">
+          <button onClick={ () => { handleShowMoreClick(archiveCardsData) } } className="w-36 h-12 rounded-md text-primary text-[13px] border border-primary hover:bg-primary-lightblue dark:hover:bg-primary-darker duration-300">
             {visibleCardsCount < archiveCardsData.length ? "Show More" : "Show Less"}
           </button>
         </div>
@@ -60,7 +52,7 @@ export default function Archive() {
   )
 }
 
-const archiveCardsData = [
+const archiveCardsData: ArchiveCardProps[] = [
   {
     title: "ContactBook",
     description:

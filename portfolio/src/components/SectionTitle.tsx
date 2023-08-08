@@ -1,6 +1,7 @@
 interface Props {
     title: string
 }
+
 export default function SectionTitle({ title }: Props) {
   return (
     <div className="text-2xl font-semibold flex">

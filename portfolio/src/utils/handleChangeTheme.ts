@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react'
 
-interface HandleDarkModeHook {
+interface HandleChangeThemeHook {
   darkMode: boolean
-  toggleDarkMode: () => void
+  toggleChangeTheme: () => void
 }
 
-export default function HandleDarkMode(): HandleDarkModeHook {
+export default function HandleChangeTheme(): HandleChangeThemeHook {
   const [darkMode, setDarkMode] = useState<boolean>(() => {
     if (typeof localStorage !== 'undefined') {
       if (localStorage.theme === 'dark' || !('theme' in localStorage)) {
@@ -23,7 +23,7 @@ export default function HandleDarkMode(): HandleDarkModeHook {
     }
   }, [darkMode])
 
-  function toggleDarkMode() {
+  function toggleChangeTheme() {
     setDarkMode((prevDarkMode) => {
       const newDarkMode = !prevDarkMode
       if (typeof localStorage !== 'undefined') {
@@ -39,5 +39,5 @@ export default function HandleDarkMode(): HandleDarkModeHook {
     })
   }
 
-  return { darkMode, toggleDarkMode }
+  return { darkMode, toggleChangeTheme }
 }

@@ -1,7 +1,7 @@
 import { FaRegFolder } from "react-icons/fa"
 import { RxOpenInNewWindow } from "react-icons/rx"
 
-interface ArchiveCardProps {
+export interface ArchiveCardProps {
   title: string
   description: string
   listItem: string[]

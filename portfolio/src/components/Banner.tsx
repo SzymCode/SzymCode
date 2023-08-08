@@ -1,7 +1,7 @@
 import { motion } from "framer-motion"
 export default function Banner() {
   return (
-    <section id="home" className="max-w-containerSmall mx-auto py-10 md:py-24 flex flex-col gap-4 lgl:gap-8">
+    <section id="home" className="max-w-containerSmall mx-auto py-10 md:py-32 flex flex-col gap-4 lgl:gap-8">
       <motion.h3
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
@@ -28,7 +28,7 @@ export default function Banner() {
         Python and mostly use React, Django frameworks. Intermediate in creating a visually attractive and user-friendly frontend using HTML5, CSS3/Tailwind and MUI. <br/>
         <a href="https://github.com/SzymCode/ContactBook" target="_blank">
          <span className="mt-4 text-xl inline-flex relative text-primary cursor-pointer h-7 overflow-x-hidden group">
-           Check out my Project!
+           Check out my main project!
            <span className="absolute w-full h-[1px] bg-primary left-0 bottom-0.5 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"/>
          </span>
         </a>

@@ -26,13 +26,6 @@ export default function LeftSide() {
             <BiLogoFacebook/>
           </span>
         </a>
-
-        <a href="https://discordapp.com/users/455029947380269056" target="_blank">
-          <span className="w-14 h-14 text-4xl rounded-full inline-flex items-center justify-center cursor-pointer
-              bg-primary-white hover:outline hover:outline-[1px] text-primary-gray dark:text-primary-black hover:text-primary-discord dark:hover:text-primary-discord hover:-translate-y-2 transition-all duration-300">
-            <BiLogoDiscordAlt/>
-          </span>
-        </a>
       </div>
       <div className="w-[2px] h-32 -mt-1 bg-primary-gray"/>
     </div>
