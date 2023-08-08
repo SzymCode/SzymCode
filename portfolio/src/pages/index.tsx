@@ -2,7 +2,7 @@ import Head from "next/head"
 import { motion } from "framer-motion"
 
 
-import { About, Archive, Banner, Contact, LeftSide, Navbar, RightSide } from "@/components"
+import { About, Archive, Banner, Contact, Footer, LeftSide, Navbar, RightSide } from "@/components"
 import { HandleChangeTheme } from "@/utils"
 
 
@@ -15,7 +15,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" /> {/* made with https://redketchup.io/favicon-generator :) */}
       </Head>
-      <main className="w-full h-screen bg-primary-white dark:bg-primary-darkest text-primary-black overflow-x-hidden overflow-y-auto dark:[color-scheme:dark]">
+      <main className="w-full h-screen bg-primary-white dark:bg-primary-darkest text-primary-black
+          overflow-x-hidden overflow-y-auto scrollbar scrollbar-track-primary-dark/20 scrollbar-thumb-primary-dark/40">
         <Navbar darkMode={darkMode} toggleChangeTheme={toggleChangeTheme} />
         <div className="w-full h-[88vh] xl:flex items-center gap-20 justify-between">
           <motion.div
@@ -30,6 +31,7 @@ export default function Home() {
             <About darkMode={darkMode}/>
             <Archive />
             <Contact />
+            <Footer />
           </div>
           <motion.div
               initial={{ opacity: 0 }}

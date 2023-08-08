@@ -1,12 +1,12 @@
+import { motion } from "framer-motion"
 import { TbBrandGithub } from "react-icons/tb"
-import { BiLogoGmail, BiLogoFacebook, BiLogoLinkedin, BiLogoDiscordAlt } from "react-icons/bi"
+import { SlSocialLinkedin, SlSocialFacebook, } from "react-icons/sl";
+import {BiLogoFacebook, BiLogoLinkedin} from "react-icons/bi";
 
-
-export default function LeftSide() {
+export default function Footer() {
   return (
-    <div className="w-full h-full flex flex-col items-center justify-end gap-4">
-      <div className="flex flex-col gap-4 items-center">
-        <a href="https://github.com/SzymCode" target="_blank">
+    <div className="hidden mdl:inline-flex xl:hidden items-center justify-center w-full py-12 gap-4">
+      <a href="https://github.com/SzymCode" target="_blank">
           <span className="w-14 h-14 text-4xl rounded-full inline-flex items-center justify-center cursor-pointer
               bg-primary-white dark:bg-primary-dark outline outline-[1px] text-primary-gray dark:text-primary-lightgray hover:text-black hover:-translate-y-2 transition-all duration-300">
             <TbBrandGithub/>
@@ -26,8 +26,6 @@ export default function LeftSide() {
             <BiLogoFacebook/>
           </span>
         </a>
-      </div>
-      <div className="w-[2px] h-32 -mt-1 bg-primary-gray"/>
     </div>
   )
 }
