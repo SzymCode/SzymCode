@@ -1,8 +1,9 @@
 import Link from "next/link"
 import { motion } from "framer-motion"
-import { useRef } from "react"
+import { useRef, useState } from "react"
+import { MdOutlineClose } from "react-icons/md"
 
-import { ChangeTheme } from "@/components"
+import { ChangeTheme, MobileMenu } from "@/components"
 import { HandleScroll } from "@/utils"
 
 interface NavbarProps {
@@ -58,12 +59,7 @@ export default function Navbar({ darkMode, toggleChangeTheme }: NavbarProps) {
             <ChangeTheme darkMode={darkMode} toggleChangeTheme={toggleChangeTheme} />
           </ul>
         </div>
-
-        <div className="w-5 h-5 -mr-3 flex flex-col justify-between items-center md:hidden text-4xl duration-300 cursor-pointer overflow-hidden group">
-          <span className="w-full h-[2px] bg-primary-black dark:bg-primary-lightgray inline-flex transform group-hover:translate-x-2 transition-all ease-in-out duration-300"/>
-          <span className="w-full h-[2px] bg-primary-black dark:bg-primary-lightgray inline-flex transform translate-x-3 group-hover:translate-x-0 transition-all ease-in-out duration-300"/>
-          <span className="w-full h-[2px] bg-primary-black dark:bg-primary-lightgray inline-flex transform translate-x-1 group-hover:translate-x-3 transition-all ease-in-out duration-300"/>
-        </div>
+        <MobileMenu />
       </div>
     </div>
   )

@@ -5,9 +5,9 @@ import { motion } from "framer-motion"
 import { About, Archive, Banner, Contact, Footer, LeftSide, Navbar, RightSide } from "@/components"
 import { HandleChangeTheme } from "@/utils"
 
-
 export default function Home() {
   const { darkMode, toggleChangeTheme } = HandleChangeTheme()
+
   return (
     <div>
       <Head>
