@@ -56,14 +56,14 @@ const archiveCardsData: ArchiveCardProps[] = [
   {
     title: "ContactBook",
     description:
-      "This website helps to store contacts data and share it with others. This website serves as my coding sandbox, where I can experiment with different coding techniques and refine my skills.",
+      "This website helps storage contacts data and share it with others. This repository serves as my coding sandbox, where I can experiment with different solutions and refine my skills.",
     listItem: ["React", "Django", "TypeScript", "Tailwind"],
     link: "https://github.com/SzymCode/ContactBook"
   },
   {
     title: "ECommerceTemplate",
     description:
-      "Store initialization template with all main functionalities. Includes essential features such as product listings, shopping cart, checkout processes connected with Stripe.",
+      "Store initialization template with all main functionalities. Includes essential features such as product listings, shopping cart and checkout processes connected with Stripe.",
     listItem: ["React", "Next.js", "Strapi", "Tailwind"],
     link: "https://github.com/SzymCode/ECommerceTemplate"
   },
@@ -88,7 +88,7 @@ const archiveCardsData: ArchiveCardProps[] = [
   },
   {
     title: "RecruitmentTasks",
-    description: "This Git repository contains my solutions for the recruitment tasks.",
+    description: "This repository contains my solutions for the recruitment tasks.",
     listItem: ["React", "Material UI", "TypeScript"],
     link: "https://github.com/SzymCode/RecruitmentTasks"
   },

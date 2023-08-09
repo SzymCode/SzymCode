@@ -121,12 +121,11 @@ export default function About({ darkMode }: AboutProps) {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.2, delay: 1 }}
           className="flex flex-col lgl:flex-row gap-16">
-        <div className="w-full text-base text-primary-black dark:text-primary-lightgray font-medium flex inline-flex flex-col gap-4">
-          Greetings! I am Szymon Radomski, a passionate web developer with a deep curiosity for technology and its possibilities.
-          Always seeking opportunities to expand my knowledge and stay up-to-date with the latest trends and best practices.
-          If you are looking for a passionate software developer who is committed to delivering high-quality solutions,
-          I would be delighted to collaborate on projects and contribute to your team. Feel free to reach out to me via the
-          contact information provided on my GitHub profile.
+        <div className="w-full text-base text-primary-black dark:text-primary-lightgray font-medium gap-4">
+          Greetings! I am Szymon Radomski, a <span className="text-primary"> passionate web developer </span> with a deep curiosity for
+          technology and its possibilities. Always seeking opportunities to expand my knowledge and stay up-to-date with the latest trends
+          and best practices. If you are looking for a passionate developer who is committed to delivering high-quality solutions, I would
+          be delighted to collaborate on projects and contribute to your team.
         </div>
       </motion.div>
       <motion.div
@@ -154,6 +153,7 @@ export default function About({ darkMode }: AboutProps) {
               <span className="p-1 md:p-2 relative -top-10 md:-top-12 left-2 md:left-6 rounded-md shadow-md text-primary-white dark:text-primary-lightgray bg-primary-dark text-[10px] md:text-xs font-bold invisible opacity-0 group-hover:opacity-100 group-hover:visible z-40 transition-all duration-300">
                 {tech.alt}
               </span>
+
             </motion.a>
           ))}
         </div>
