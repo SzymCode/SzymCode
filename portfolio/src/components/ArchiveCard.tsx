@@ -28,8 +28,8 @@ export default function ArchiveCard({ title, description, listItem, githubLink, 
           {description}
         </p>
       </div>
-      <div className="flex-grow"></div>
-      <ul className="text-xs mdl:text-sm text-primary-gray px-10 md:px-0 flex items-center text-center gap-6 mt-1">
+      <div className="flex-grow -mb-3"></div>
+      <ul className="text-xs mdl:text-sm text-primary-gray px-10 sm:px-0 flex items-center text-center gap-6 mt-1">
         {listItem.map((item, i) => (
           <li key={i}>
             {item}

@@ -79,6 +79,13 @@ const archiveCardsData: ArchiveCardProps[] = [
     link: "https://e-commerce-template-szymcode.vercel.app/"
   },
   {
+    title: "RecruitmentTasks",
+    description: "This repository contains my solutions for the recruitment tasks.",
+    listItem: ["React", "Material UI", "TypeScript"],
+    githubLink: "https://github.com/SzymCode/RecruitmentTasks",
+    link: "https://github.com/SzymCode/RecruitmentTasks"
+  },
+  {
     title: "TodoApp",
     description:
       "This repository contains todo apps built with different technologies. Each folder represents a unique implementation, using different frameworks and programming languages.",
@@ -99,13 +106,6 @@ const archiveCardsData: ArchiveCardProps[] = [
     listItem: ["JavaScript", "TypeScript", "Python", "C++"],
     githubLink: "https://github.com/SzymCode/TinyProjects",
     link: "https://github.com/SzymCode/TinyProjects"
-  },
-  {
-    title: "RecruitmentTasks",
-    description: "This repository contains my solutions for the recruitment tasks.",
-    listItem: ["React", "Material UI", "TypeScript"],
-    githubLink: "https://github.com/SzymCode/RecruitmentTasks",
-    link: "https://github.com/SzymCode/RecruitmentTasks"
   },
   {
     title: "SzymCode/Portfolio",
