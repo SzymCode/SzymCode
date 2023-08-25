@@ -66,7 +66,7 @@ const archiveCardsData: ArchiveCardProps[] = [
     title: "GiardDesign",
     description:
       "Fully responsive website with photo gallery, made for adRespect company recruitment process. Graphic design is their own.",
-    listItem: ["HTML", "Javascript", "Tailwind", "Bootstrap"],
+    listItem: ["HTML", "JavaScript", "Tailwind", "Bootstrap"],
     githubLink: "https://github.com/SzymCode/RecruitmentTasks/tree/giard-design",
     link: "https://szymcode.github.io/RecruitmentTasks/"
   },
@@ -77,6 +77,13 @@ const archiveCardsData: ArchiveCardProps[] = [
     listItem: ["React", "Next.js", "Strapi", "Tailwind"],
     githubLink: "https://github.com/SzymCode/ECommerceTemplate",
     link: "https://e-commerce-template-szymcode.vercel.app/"
+  },
+  {
+    title: "RecruitmentTasks",
+    description: "This repository contains my solutions for the recruitment tasks.",
+    listItem: ["React", "Material UI", "TypeScript"],
+    githubLink: "https://github.com/SzymCode/RecruitmentTasks",
+    link: "https://github.com/SzymCode/RecruitmentTasks"
   },
   {
     title: "TodoApp",
@@ -99,13 +106,6 @@ const archiveCardsData: ArchiveCardProps[] = [
     listItem: ["JavaScript", "TypeScript", "Python", "C++"],
     githubLink: "https://github.com/SzymCode/TinyProjects",
     link: "https://github.com/SzymCode/TinyProjects"
-  },
-  {
-    title: "RecruitmentTasks",
-    description: "This repository contains my solutions for the recruitment tasks.",
-    listItem: ["React", "Material UI", "TypeScript"],
-    githubLink: "https://github.com/SzymCode/RecruitmentTasks",
-    link: "https://github.com/SzymCode/RecruitmentTasks"
   },
   {
     title: "SzymCode/Portfolio",
