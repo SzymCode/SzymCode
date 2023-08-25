@@ -16,7 +16,7 @@ eggs/
 .eggs/
 lib/
 lib64/
-parts/cd
+parts/
 sdist/
 var/
 wheels/
@@ -180,5 +180,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-.idea
-next-env.d.ts
+django/media
+.next
