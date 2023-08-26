@@ -71,6 +71,13 @@ const archiveCardsData: ArchiveCardProps[] = [
     link: "https://szymcode.github.io/RecruitmentTasks/"
   },
   {
+    title: "RecruitmentTasks",
+    description: "This repository contains my solutions for the recruitment tasks.",
+    listItem: ["React", "Material UI", "TypeScript"],
+    githubLink: "https://github.com/SzymCode/RecruitmentTasks",
+    link: "https://github.com/SzymCode/RecruitmentTasks"
+  },
+  {
     title: "ECommerceTemplate",
     description:
       "Store initialization template with all main functionalities. Includes essential features such as product listings, shopping cart and checkout processes connected with Stripe.",
@@ -79,11 +86,11 @@ const archiveCardsData: ArchiveCardProps[] = [
     link: "https://e-commerce-template-szymcode.vercel.app/"
   },
   {
-    title: "RecruitmentTasks",
-    description: "This repository contains my solutions for the recruitment tasks.",
-    listItem: ["React", "Material UI", "TypeScript"],
-    githubLink: "https://github.com/SzymCode/RecruitmentTasks",
-    link: "https://github.com/SzymCode/RecruitmentTasks"
+    title: "DiscordClone",
+    description: "Discord clone built by following a step-by-step YouTube tutorial by Ali Codes.",
+    listItem: ["React", "Tailwind", "Firebase", "Redux"],
+    githubLink: "https://github.com/SzymCode/SzymCode/DiscordClone",
+    link: "https://discord-clone-szymcode.vercel.app"
   },
   {
     title: "TodoApp",
@@ -141,12 +148,5 @@ const archiveCardsData: ArchiveCardProps[] = [
     listItem: ["Python", "Tkinter", "Pytube"],
     githubLink: "https://github.com/SzymCode/YoutubeDownloader",
     link: "https://github.com/SzymCode/YoutubeDownloader"
-  },
-  {
-    title: "DiscordClone",
-    description: "Not finished yet.",
-    listItem: ["React", "Tailwind", "Firebase", "Redux"],
-    githubLink: "https://github.com/SzymCode/SzymCode/DiscordClone",
-    link: "https://github.com/SzymCode/SzymCode/DiscordClone"
   },
 ]
