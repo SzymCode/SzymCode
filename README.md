@@ -11,7 +11,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
 |:-|:-|
 | 🚀 **Exists on**| [![CodeWars](https://img.shields.io/badge/CodeWars-4%20KYU-1f5be7?logo=codewars&logoColor=white)](https://www.codewars.com/users/SzymCode) [![Sphere Judge](https://img.shields.io/badge/SPOJ-szymcode-blue?logo=spoj&logoColor=white)](https://www.spoj.com/users/szymcode)
 | 🔍 **Find me**| [![Gmail](https://img.shields.io/badge/-Gmail-informational?style=flat&logo=gmail&color=white)](mailto:s.radomski19@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/szymon-radomski/) [![Facebook](https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/s.radomski16) |
-| 📘 **Studying now**|<img src="https://img.shields.io/badge/Linux-000000?logo=linux&logoColor=white" /> <img src="https://img.shields.io/badge/Bash-4EAA25?logo=gnu-bash&logoColor=white" />
+| 📘 **Studying now**|<img src="https://img.shields.io/badge/Linux-000000?logo=linux&logoColor=white" /> <img src="https://img.shields.io/badge/Bash-4EAA25?logo=gnu-bash&logoColor=white" /> <img src="https://img.shields.io/badge/Flexbox%20%26%20Grid-FF6E4E?logo=css3&logoColor=white" />
 
 <br/>
 
