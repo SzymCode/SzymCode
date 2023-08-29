@@ -18,10 +18,10 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
 
 <details> <summary> <h2> 💡 Latest Projects  </summary>
 
-[![DiscordClone](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=szymcode&repo=discordclone)](https://github.com/szymcode/discordclone)
+[![RWDExercises](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=szymcode&repo=rwd-exercises)](https://github.com/szymcode/rwd-exercises)
 [![TinyProjects](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=szymcode&repo=tinyprojects)](https://github.com/szymcode/tinyprojects)
+[![DiscordClone](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=szymcode&repo=discordclone)](https://github.com/szymcode/discordclone)
 [![RecruitmentTasks](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=szymcode&repo=recruitmenttasks)](https://github.com/szymcode/recruitmenttasks)
-[![ContactBook](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=szymcode&repo=contactbook)](https://github.com/szymcode/contactbook)
 
 </details>    
 
