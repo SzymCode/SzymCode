@@ -101,6 +101,14 @@ const archiveCardsData: ArchiveCardProps[] = [
     link: "https://github.com/SzymCode/TodoApp"
   },
   {
+    title: "RWD - exercises",
+    description:
+      "Repository with Responsive Web Design exercises.",
+    listItem: ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
+    githubLink: "https://github.com/SzymCode/RWD-exercises",
+    link: "https://rwd-exercises-navbar.vercel.app/"
+  },
+  {
     title: "RegistrationDjango",
     description: "User registration and login template connected with database.",
     listItem: ["Django", "HTML5", "CSS3", "Bootstrap"],
