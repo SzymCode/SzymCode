@@ -66,9 +66,16 @@ const archiveCardsData: ArchiveCardProps[] = [
     title: "GiardDesign",
     description:
       "Fully responsive website with photo gallery, made for adRespect company recruitment process. Graphic design is their own.",
-    listItem: ["HTML", "Javascript", "Tailwind", "Bootstrap"],
+    listItem: ["HTML", "JavaScript", "Tailwind", "Bootstrap"],
     githubLink: "https://github.com/SzymCode/RecruitmentTasks/tree/giard-design",
     link: "https://szymcode.github.io/RecruitmentTasks/"
+  },
+  {
+    title: "RecruitmentTasks",
+    description: "This repository contains my solutions for the recruitment tasks.",
+    listItem: ["React", "Material UI", "TypeScript"],
+    githubLink: "https://github.com/SzymCode/RecruitmentTasks",
+    link: "https://github.com/SzymCode/RecruitmentTasks"
   },
   {
     title: "ECommerceTemplate",
@@ -79,11 +86,11 @@ const archiveCardsData: ArchiveCardProps[] = [
     link: "https://e-commerce-template-szymcode.vercel.app/"
   },
   {
-    title: "RecruitmentTasks",
-    description: "This repository contains my solutions for the recruitment tasks.",
-    listItem: ["React", "Material UI", "TypeScript"],
-    githubLink: "https://github.com/SzymCode/RecruitmentTasks",
-    link: "https://github.com/SzymCode/RecruitmentTasks"
+    title: "DiscordClone",
+    description: "Discord clone built by following a step-by-step YouTube tutorial by Ali Codes.",
+    listItem: ["React", "Tailwind", "Firebase", "Redux"],
+    githubLink: "https://github.com/SzymCode/SzymCode/DiscordClone",
+    link: "https://discord-clone-szymcode.vercel.app"
   },
   {
     title: "TodoApp",
@@ -92,6 +99,14 @@ const archiveCardsData: ArchiveCardProps[] = [
     listItem: ["Django", "React", "Redux", "Material UI"],
     githubLink: "https://github.com/SzymCode/TodoApp",
     link: "https://github.com/SzymCode/TodoApp"
+  },
+  {
+    title: "RWD - exercises",
+    description:
+      "Repository with Responsive Web Design exercises.",
+    listItem: ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
+    githubLink: "https://github.com/SzymCode/RWD-exercises",
+    link: "https://rwd-exercises-navbar.vercel.app/"
   },
   {
     title: "RegistrationDjango",
@@ -141,12 +156,5 @@ const archiveCardsData: ArchiveCardProps[] = [
     listItem: ["Python", "Tkinter", "Pytube"],
     githubLink: "https://github.com/SzymCode/YoutubeDownloader",
     link: "https://github.com/SzymCode/YoutubeDownloader"
-  },
-  {
-    title: "DiscordClone",
-    description: "Not finished yet.",
-    listItem: ["React", "Tailwind", "Firebase", "Redux"],
-    githubLink: "https://github.com/SzymCode/SzymCode/DiscordClone",
-    link: "https://github.com/SzymCode/SzymCode/DiscordClone"
   },
 ]

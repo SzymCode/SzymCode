@@ -1,5 +1,5 @@
 import { TbBrandGithub } from "react-icons/tb"
-import { BiLogoGmail, BiLogoFacebook, BiLogoLinkedin, BiLogoDiscordAlt } from "react-icons/bi"
+import { BiLogoGmail, BiLogoLinkedin, BiLogoDiscordAlt } from "react-icons/bi"
 
 
 export default function LeftSide() {
@@ -20,10 +20,10 @@ export default function LeftSide() {
           </span>
         </a>
 
-        <a href="https://www.facebook.com/s.radomski16" target="_blank">
+        <a href="mailto:s.radomski19@gmail.com" target="_blank">
           <span className="w-14 h-14 text-4xl rounded-full inline-flex items-center justify-center cursor-pointer
-              bg-primary-white dark:bg-primary-dark outline outline-[1px] text-primary-gray dark:text-primary-lightgray hover:text-primary-facebook dark:hover:text-primary-facebook hover:-translate-y-1.5 transition-all duration-300">
-            <BiLogoFacebook/>
+              bg-primary-white dark:bg-primary-dark outline outline-[1px] text-primary-gray dark:text-primary-lightgray hover:text-primary-gmail dark:hover:text-primary-gmail hover:-translate-y-1.5 transition-all duration-300">
+            <BiLogoGmail/>
           </span>
         </a>
       </div>

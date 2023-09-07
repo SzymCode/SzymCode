@@ -47,8 +47,8 @@ module.exports = {
           white: '#ffffff',
 
           linkedin: '#0072b1',
-          facebook: '#3b5998',
-          discord: '#5865F2'
+          discord: '#5865F2',
+          gmail: '#BB001B',
         }
       }
     },
