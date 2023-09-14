@@ -11,18 +11,17 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
 |:-|:-|
 | 🔍 **Find me**| [![Gmail](https://img.shields.io/badge/-Gmail-informational?style=flat&logo=gmail&color=white)](mailto:s.radomski19@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/szymon-radomski/)
 | 🚀 **Exists on**| [![CodeWars](https://img.shields.io/badge/CodeWars-4%20KYU-1f5be7?logo=codewars&logoColor=white)](https://www.codewars.com/users/SzymCode) [![Sphere Judge](https://img.shields.io/badge/SPOJ-szymcode-blue?logo=spoj&logoColor=white)](https://www.spoj.com/users/szymcode)
-| 📘 **Studying now** | [![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white)](https://angular.io/) [![Sass](https://img.shields.io/badge/Sass-CC6699?logo=sass&logoColor=white)](https://sass-lang.com/) ![PHP](https://img.shields.io/badge/PHP-%23777BB4.svg?style=flat&logo=php&logoColor=white)
-
+| 📘 **Studying now** | ![PHP](https://img.shields.io/badge/PHP-%23777BB4.svg?style=flat&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-%23FF2D20.svg?style=flat&logo=laravel&logoColor=white) ![Vue.js](https://img.shields.io/badge/Vue.js-%234FC08D.svg?style=flat&logo=vue.js&logoColor=white) [![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white)](https://angular.io/)
 <br/>
 
 
 
 <details> <summary> <h2> 💡 Latest Projects  </summary>
-
+  
+[![RecruitmentTasks](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=szymcode&repo=recruitmenttasks)](https://github.com/szymcode/recruitmenttasks)
+[![GoogleBrowser](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=szymcode&repo=googlebrowser)](https://github.com/szymcode/googlebrowser)
 [![RWDExercises](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=szymcode&repo=rwd-exercises)](https://github.com/szymcode/rwd-exercises)
 [![TinyProjects](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=szymcode&repo=tinyprojects)](https://github.com/szymcode/tinyprojects)
-[![DiscordClone](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=szymcode&repo=discordclone)](https://github.com/szymcode/discordclone)
-[![RecruitmentTasks](https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=szymcode&repo=recruitmenttasks)](https://github.com/szymcode/recruitmenttasks)
 
 </details>    
 
