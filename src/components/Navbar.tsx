@@ -19,12 +19,12 @@ export default function Navbar({ darkMode, toggleChangeTheme }: NavbarProps) {
   const ref = useRef<string | any>("")
 
   return (
-    <div className="nav">
-      <div className="container flex items-center justify-between h-16 md:h-24">
-        <img src={imageUrl} alt="" className="w-16 md:w-24 h-16 md:h-24 -ml-6 md:-ml-12"/>
+    <div className="navbar-container">
+      <div className="navbar">
+        <img src={imageUrl} alt="" className="navbar-logo"/>
         <div className="-mr-8">
-          <ul className="flex text-[16px] gap-7 invisible md:visible">
-            <Link href="#home" className="nav-link" onClick={ HandleScroll }>
+          <ul className="navbar-items">
+            <Link href="#home" className="navbar-link" onClick={ HandleScroll }>
               <motion.li
                   initial={{ y: -10, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
@@ -32,7 +32,7 @@ export default function Navbar({ darkMode, toggleChangeTheme }: NavbarProps) {
                 Home
               </motion.li>
             </Link>
-            <Link href="#about" className="nav-link" onClick={ HandleScroll }>
+            <Link href="#about" className="navbar-link" onClick={ HandleScroll }>
               <motion.li
                   initial={{ y: -10, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
@@ -40,7 +40,7 @@ export default function Navbar({ darkMode, toggleChangeTheme }: NavbarProps) {
                 About Me
               </motion.li>
             </Link>
-            <Link href="#projects" className="nav-link" onClick={ HandleScroll }>
+            <Link href="#projects" className="navbar-link" onClick={ HandleScroll }>
               <motion.li
                   initial={{ y: -10, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
@@ -48,7 +48,7 @@ export default function Navbar({ darkMode, toggleChangeTheme }: NavbarProps) {
                 Projects
               </motion.li>
             </Link>
-            <Link href="#contact" className="nav-link" onClick={ HandleScroll }>
+            <Link href="#contact" className="navbar-link" onClick={ HandleScroll }>
               <motion.li
                   initial={{ y: -10, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
