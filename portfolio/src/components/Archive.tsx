@@ -15,17 +15,17 @@ export default function Archive() {
         initial={{ y: 5, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.2, delay: 0.4 }}
-        className="max-w-container mx-auto py-10 md:py-32"
+        className="archive-container"
       >
-        <div className="w-full flex flex-col items-center">
-          <h2 className="text-3xl font-semibold">
+        <div className="archive-header">
+          <h2 className="archive-header-1">
             Some things I have built
           </h2>
-          <p className="mt-2 text-sm text-primary">
+          <p className="archive-header-2">
             view the archive
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mt-10 lgl:px-10">
+        <div className="archive-cards-container">
           {archiveCardsData.slice(0, visibleCardsCount).map((cardData, index) => (
             <motion.div
               key={index}
@@ -42,12 +42,11 @@ export default function Archive() {
             </motion.div>
           ))}
         </div>
-        <div className="mt-12 flex items-center justify-center">
-          <button onClick={ () => { handleShowMoreClick(archiveCardsData) } } className="w-36 h-12 rounded-md text-primary text-[13px] border border-primary hover:bg-primary-lightblue dark:hover:bg-primary-darker duration-300">
+        <div className="archive-button-container">
+          <button className="archive-button" onClick={ () => { handleShowMoreClick(archiveCardsData) } }>
             {visibleCardsCount < archiveCardsData.length ? "Show More" : "Show Less"}
           </button>
         </div>
-
       </motion.div>
     </section>
   )
@@ -61,6 +60,14 @@ const archiveCardsData: ArchiveCardProps[] = [
     listItem: ["React", "Django", "TypeScript", "Tailwind"],
     githubLink: "https://github.com/SzymCode/ContactBook",
     link: "https://contactbook-szymcode.herokuapp.com/lists"
+  },
+  {
+    title: "AdminPanel",
+    description:
+      "Responsive admin panel, made for ONX Center company recruitment process.",
+    listItem: ["PHP", "Laravel", "Vue", "Tailwind", "Bootstrap"],
+    githubLink: "https://github.com/SzymCode/RecruitmentTasks/tree/admin-panel",
+    link: "https://github.com/SzymCode/RecruitmentTasks/tree/admin-panel"
   },
   {
     title: "GiardDesign",
@@ -140,21 +147,21 @@ const archiveCardsData: ArchiveCardProps[] = [
     title: "Snake",
     description: "Classic snake game built with Pygame library.",
     listItem: ["Python", "Pygame"],
-    githubLink: "https://github.com/SzymCode/Snake",
-    link: "https://github.com/SzymCode/Snake"
+    githubLink: "https://github.com/SzymCode/TinyProjects/blob/main/Others/Python/snake.py",
+    link: "https://github.com/SzymCode/TinyProjects/blob/main/Others/Python/snake.py"
   },
   {
     title: "ClipboardManager",
     description: "Small and simple multi-line clipboard manager.",
     listItem: ["Python", "Tkinter", "Pyperclip"],
-    githubLink: "https://github.com/SzymCode/ClipboardManager",
-    link: "https://github.com/SzymCode/ClipboardManager"
+    githubLink: "https://github.com/SzymCode/TinyProjects/blob/main/Others/Python/clipboard_manager.py",
+    link: "https://github.com/SzymCode/TinyProjects/blob/main/Others/Python/clipboard_manager.py"
   },
   {
     title: "YoutubeDownloader",
     description: "Simple youtube downloader made with tkinter. You can choose file extension .mp3, .mp4 or .3gpp.",
     listItem: ["Python", "Tkinter", "Pytube"],
-    githubLink: "https://github.com/SzymCode/YoutubeDownloader",
-    link: "https://github.com/SzymCode/YoutubeDownloader"
+    githubLink: "https://github.com/SzymCode/TinyProjects/blob/main/Others/Python/youtube_downloader.py",
+    link: "https://github.com/SzymCode/TinyProjects/blob/main/Others/Python/youtube_downloader.py"
   },
 ]

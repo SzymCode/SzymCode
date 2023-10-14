@@ -1,5 +1,5 @@
 <h2 align="center">
-  Hi <img alt="hi" src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" width="36"/>, I'm Szymon
+  Hi, I'm Szymon
 </h2>
 
 As a self-taught developer, I'm actively seeking **challenging career opportunities**. I have a no-commerce mastery of **JavaScript** (**TypeScript**), **Python** and mostly use **React**, **Django** frameworks. Intermediate in creating a visually attractive and user-friendly frontend using **HTML5, CSS3**/**Tailwind** and **Material UI**.
@@ -11,7 +11,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
 |:-|:-|
 | 🔍 **Find me**| [![Gmail](https://img.shields.io/badge/-Gmail-informational?style=flat&logo=gmail&color=white)](mailto:s.radomski19@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/szymon-radomski/)
 | 🚀 **Exists on**| [![CodeWars](https://img.shields.io/badge/CodeWars-4%20KYU-1f5be7?logo=codewars&logoColor=white)](https://www.codewars.com/users/SzymCode) [![Sphere Judge](https://img.shields.io/badge/SPOJ-szymcode-blue?logo=spoj&logoColor=white)](https://www.spoj.com/users/szymcode)
-| 📘 **Studying now** | ![PHP](https://img.shields.io/badge/PHP-%23777BB4.svg?style=flat&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-%23FF2D20.svg?style=flat&logo=laravel&logoColor=white) ![Vue.js](https://img.shields.io/badge/Vue.js-%234FC08D.svg?style=flat&logo=vue.js&logoColor=white) [![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white)](https://angular.io/)
+| 📘 **Studying now** | ![PHP](https://img.shields.io/badge/PHP-%23777BB4.svg?style=flat&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-%23FF2D20.svg?style=flat&logo=laravel&logoColor=white) ![Vue.js](https://img.shields.io/badge/Vue.js-%234FC08D.svg?style=flat&logo=vue.js&logoColor=white) [![Sass](https://img.shields.io/badge/Sass-CC6699?logo=sass&logoColor=white)](https://sass-lang.com/)
 <br/>
 
 

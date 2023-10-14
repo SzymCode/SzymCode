@@ -10,15 +10,11 @@ interface ChangeThemeProps {
 
 export default function ChangeTheme({ darkMode, toggleChangeTheme }: ChangeThemeProps): JSX.Element {
   return (
-    <button className="invisible text-primary-black dark:text-primary-lightgray mt-0.5 md:mt-0 -ml-48 md:ml-0" onClick={toggleChangeTheme}>
+    <button className="change-theme-buttons" onClick={toggleChangeTheme}>
       {darkMode ? (
-        <div className="visible flex">
-          <BiSun className="text-2xl mr-2"/>
-        </div>
+        <BiSun className="change-theme-icon" />
       ) : (
-        <div className="visible flex">
-          <BiMoon className="text-2xl mr-2"/>
-        </div>
+        <BiMoon className="change-theme-icon" />
       )}
     </button>
   )
