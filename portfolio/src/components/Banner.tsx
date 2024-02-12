@@ -25,8 +25,8 @@ export default function Banner() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.9 }}
           className="banner-description">
-        As a self-taught developer, Im actively seeking challenging career opportunities. I have a no-commerce mastery of JavaScript (TypeScript),
-        Python and mostly use React, Django frameworks. Intermediate in creating a visually attractive and user-friendly frontend using HTML5, CSS3/Tailwind and MUI. <br/>
+          As a self-taught developer, I'm actively seeking challenging career opportunities. I have commercial experience of <b>JavaScript</b>, <b>PHP</b> and in my work I mostly use <b>Laravel</b> and <b>Vue.js</b> frameworks. Intermediate in creating a visually attractive and user-friendly frontend using HTML5, CSS3 and Tailwind. I also love writing tests in Pest, Nest.js and Cypress.
+          <br/>
         <a href="https://github.com/SzymCode/ContactBook" target="_blank">
          <span className="banner-project group">
            Check out my main project!

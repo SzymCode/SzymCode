@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 import { MdOutlineClose } from "react-icons/md"
 import Link from "next/link"
 import { TbBrandGithub } from "react-icons/tb"
-import { BiLogoGmail, BiLogoLinkedin } from "react-icons/bi"
+import { BiMenu, BiLogoGmail, BiLogoLinkedin } from "react-icons/bi"
 
 import { HandleScroll } from "@/utils"
 
@@ -14,10 +14,8 @@ export default function MobileMenu() {
 
   return (
     <>
-      <div onClick={() => { setShowMenu(true) }} className="mobile-menu-container group">
-        <span className="mobile-menu-icon mobile-menu-icon-line-1"/>
-        <span className="mobile-menu-icon mobile-menu-icon-line-2"/>
-        <span className="mobile-menu-icon mobile-menu-icon-line-3"/>
+      <div onClick={() => { setShowMenu(true) }} className="mobile-menu-container">
+          <BiMenu className="text-3xl" />
       </div>
       {showMenu && (
         <div ref={(node) => (ref.current = node)} className="mobile-menu">
@@ -32,7 +30,9 @@ export default function MobileMenu() {
                 <motion.li
                     initial={{ x: 10, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.2 }}>
+                    transition={{ duration: 0.2 }}
+                    className="mobile-menu-li"
+                >
                   Home
                 </motion.li>
               </Link>
@@ -40,7 +40,9 @@ export default function MobileMenu() {
                 <motion.li
                     initial={{ x: 10, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.2, delay: 0.2, ease: "easeOut" }}>
+                    transition={{ duration: 0.2, delay: 0.2, ease: "easeOut" }}
+                    className="mobile-menu-li"
+                >
                   About Me
                 </motion.li>
               </Link>
@@ -48,7 +50,9 @@ export default function MobileMenu() {
                 <motion.li
                     initial={{ x: 10, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.2, delay: 0.4, ease: "easeOut" }}>
+                    transition={{ duration: 0.2, delay: 0.4, ease: "easeOut" }}
+                    className="mobile-menu-li"
+                >
                   Projects
                 </motion.li>
               </Link>
@@ -56,7 +60,9 @@ export default function MobileMenu() {
                 <motion.li
                     initial={{ x: 10, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.2, delay: 0.6, ease: "easeOut" }}>
+                    transition={{ duration: 0.2, delay: 0.6, ease: "easeOut" }}
+                    className="mobile-menu-li"
+                >
                   Contact
                 </motion.li>
               </Link>
@@ -65,21 +71,21 @@ export default function MobileMenu() {
                 initial={{ y: 10, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.2, delay: 0.9, ease: "easeOut" }}
-                className="absolute right-12 bottom-12 text-center">
+                className="absolute right-12 bottom-20 text-center">
               <a href="https://github.com/SzymCode" target="_blank">
-                <span className="mobile-menu-icon hover:text-black">
+                <span className="mobile-menu-icon hover:text-black mr-2">
                   <TbBrandGithub/>
                 </span>
               </a>
 
               <a href="https://www.linkedin.com/in/szymon-radomski" target="_blank">
-                <span className="mobile-menu-icon hover:text-primary-linkedin dark:hover:text-primary-linkedin">
+                <span className="mobile-menu-icon hover:text-primary-linkedin dark:hover:text-primary-linkedin mr-2">
                   <BiLogoLinkedin/>
                 </span>
               </a>
 
               <a href="mailto:s.radomski19@gmail.com" target="_blank">
-                <span className="mobile-menu-icon hover:text-primary-gmail dark:hover:text-primary-gmail">
+                <span className="mobile-menu-icon hover:text-primary-gmail dark:hover:text-primary-gmail mr-2">
                   <BiLogoGmail/>
                 </span>
               </a>

@@ -173,7 +173,7 @@
 
   /* MobileMenu.tsx styles */
   .mobile-menu-container {
-    @apply w-5 h-5 -mr-3 flex flex-col justify-between items-center md:hidden text-4xl duration-300 cursor-pointer overflow-hidden
+    @apply -mr-3 flex flex-col justify-between dark:text-primary-white items-center md:hidden text-4xl cursor-pointer overflow-hidden
   }
   .mobile-menu-icon {
     @apply w-full h-[2px] bg-primary-black dark:bg-primary-lightgray inline-flex transform transition-all ease-in-out duration-300
@@ -198,6 +198,9 @@
   }
   .mobile-menu-ul {
     @apply flex flex-col text-base gap-7
+  }
+  .mobile-menu-li {
+    @apply text-primary-black dark:text-primary-white
   }
   .mobile-menu-icon {
     @apply w-10 h-10 text-2xl rounded-full inline-flex items-center justify-center cursor-pointer bg-primary-white dark:bg-primary-dark outline outline-[1px] text-primary-gray dark:text-primary-lightgray hover:-translate-y-2 transition-all duration-300
