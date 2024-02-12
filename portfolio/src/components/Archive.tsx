@@ -56,10 +56,26 @@ const archiveCardsData: ArchiveCardProps[] = [
   {
     title: "ContactBook",
     description:
+        "This website helps storage contacts data and share it with others.",
+    listItem: ["PHP", "TypeScript", "Laravel", "Vue.js", "Tailwind"],
+    githubLink: "https://github.com/SzymCode/ContactBook",
+    link: "https://github.com/SzymCode/ContactBook"
+  },
+  {
+    title: "ContactBook - sandbox",
+    description:
       "This website helps storage contacts data and share it with others. This repository serves as my coding sandbox, where I can experiment with different solutions and refine my skills.",
     listItem: ["React", "Django", "TypeScript", "Tailwind"],
-    githubLink: "https://github.com/SzymCode/ContactBook",
+    githubLink: "https://github.com/SzymCode/ContactBook-sandbox",
     link: "https://contactbook-szymcode.herokuapp.com/lists"
+  },
+  {
+    title: "SentrySubstitute",
+    description:
+        "Package intended to replace Sentry in daily work.",
+    listItem: ["PHP", "Laravel"],
+    githubLink: "https://github.com/SzymCode/SentrySubstitute",
+    link: "https://github.com/SzymCode/SentrySubstitute"
   },
   {
     title: "AdminPanel",
