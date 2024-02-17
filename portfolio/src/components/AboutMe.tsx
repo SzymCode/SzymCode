@@ -27,9 +27,24 @@ export default function AboutMe({ darkMode }: AboutProps) {
       link: "https://www.typescriptlang.org/"
     },
     {
+      alt: "php",
+      src: `https://skillicons.dev/icons?i=php`,
+      link: "https://www.python.org/"
+    },
+    {
       alt: "python",
       src: `https://skillicons.dev/icons?i=py&theme=${theme}`,
       link: "https://www.python.org/"
+    },
+    {
+      alt: "html",
+      src: `https://skillicons.dev/icons?i=html&theme=${theme}`,
+      link: "https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
+    },
+    {
+      alt: "css",
+      src: `https://skillicons.dev/icons?i=css&theme=${theme}`,
+      link: "https://developer.mozilla.org/en-US/docs/Glossary/CSS3"
     },
     {
       alt: "react",
@@ -45,16 +60,6 @@ export default function AboutMe({ darkMode }: AboutProps) {
       alt: "django",
       src: `https://skillicons.dev/icons?i=django&theme=${theme}`,
       link: "https://www.djangoproject.com/"
-    },
-    {
-      alt: "html",
-      src: `https://skillicons.dev/icons?i=html&theme=${theme}`,
-      link: "https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
-    },
-    {
-      alt: "css",
-      src: `https://skillicons.dev/icons?i=css&theme=${theme}`,
-      link: "https://developer.mozilla.org/en-US/docs/Glossary/CSS3"
     },
     {
       alt: "tailwind",
