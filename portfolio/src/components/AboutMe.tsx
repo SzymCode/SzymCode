@@ -1,5 +1,4 @@
 import { motion } from "framer-motion"
-import Image from "next/image"
 
 import { SectionTitle } from "@/components"
 
@@ -15,101 +14,46 @@ interface AboutProps {
 
 export default function AboutMe({ darkMode }: AboutProps) {
   const theme = darkMode ?  'dark' : 'light'
-  const techStack: Tech[] = [
+  const favouritesList: Tech[] = [
     {
-      alt: "javascript",
-      src: `https://skillicons.dev/icons?i=js&theme=${theme}`,
-      link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript?retiredLocale=pl"
+      alt: "laravel",
+      src: "https://cdn.simpleicons.org/laravel/FF2D20",
+      link: "https://laravel.com"
     },
     {
-      alt: "typescript",
-      src: `https://skillicons.dev/icons?i=ts&theme=${theme}`,
-      link: "https://www.typescriptlang.org/"
+      alt: "vue",
+      src: "https://cdn.simpleicons.org/vuedotjs/4FC08D",
+      link: "https://vuejs.org"
     },
     {
-      alt: "php",
-      src: `https://skillicons.dev/icons?i=php`,
-      link: "https://www.python.org/"
-    },
-    {
-      alt: "python",
-      src: `https://skillicons.dev/icons?i=py&theme=${theme}`,
-      link: "https://www.python.org/"
-    },
-    {
-      alt: "html",
-      src: `https://skillicons.dev/icons?i=html&theme=${theme}`,
-      link: "https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
-    },
-    {
-      alt: "css",
-      src: `https://skillicons.dev/icons?i=css&theme=${theme}`,
-      link: "https://developer.mozilla.org/en-US/docs/Glossary/CSS3"
+      alt: "nest",
+      src: "https://cdn.simpleicons.org/nestjs/E0234E",
+      link: "https://nestjs.com"
     },
     {
       alt: "react",
-      src: `https://skillicons.dev/icons?i=react&theme=${theme}`,
-      link: "https://www.python.org/"
-    },
-    {
-      alt: "redux",
-      src: `https://skillicons.dev/icons?i=redux&theme=${theme}`,
-      link: "https://redux.js.org/"
-    },
-    {
-      alt: "django",
-      src: `https://skillicons.dev/icons?i=django&theme=${theme}`,
-      link: "https://www.djangoproject.com/"
+      src: "https://cdn.simpleicons.org/react/61DAFB",
+      link: "https://react.dev"
     },
     {
       alt: "tailwind",
-      src: `https://skillicons.dev/icons?i=tailwind&theme=${theme}`,
-      link: "https://tailwindcss.com/"
+      src: "https://cdn.simpleicons.org/tailwindcss/06B6D4",
+      link: "https://tailwindcss.com"
     },
     {
-      alt: "bootstrap",
-      src: `https://skillicons.dev/icons?i=bootstrap&theme=${theme}`,
-      link: "https://getbootstrap.com/"
+      alt: "sass",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+      link: "https://sass-lang.com"
     },
     {
-      alt: "mui",
-      src: `https://skillicons.dev/icons?i=mui&theme=${theme}`,
-      link: "https://mui.com/material-ui/material-icons/"
+      alt: "pest",
+      src: "https://plugins.jetbrains.com/files/14636/423525/icon/pluginIcon.png",
+      link: "https://pestphp.com"
     },
     {
-      alt: "nodejs",
-      src: `https://skillicons.dev/icons?i=nodejs&theme=${theme}`,
-      link: "https://nodejs.org/en"
-    },
-    {
-      alt: "npm",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg",
-      link: "https://www.npmjs.com/"
-    },
-    {
-      alt: "nextjs",
-      src: `https://skillicons.dev/icons?i=nextjs&theme=${theme}`,
-      link: "https://nextjs.org/"
-    },
-    {
-      alt: "git",
-      src: `https://skillicons.dev/icons?i=git&theme=${theme}`,
-      link: "https://git-scm.com/"
-    },
-    {
-      alt: "docker",
-      src: `https://skillicons.dev/icons?i=docker&theme=${theme}`,
-      link: "https://www.docker.com/"
-    },
-    {
-      alt: "nginx",
-      src: `https://skillicons.dev/icons?i=nginx&theme=${theme}`,
-      link: "https://www.nginx.com/"
-    },
-    {
-      alt: "webpack",
-      src: `https://skillicons.dev/icons?i=webpack&theme=${theme}`,
-      link: "https://webpack.js.org/"
+      alt: "cypress",
+      src: "https://static-00.iconduck.com/assets.00/cypress-icon-512x511-29zvfts6.png",
+      link: "https://www.cypress.io"
     }
   ]
 
@@ -138,24 +82,25 @@ export default function AboutMe({ darkMode }: AboutProps) {
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.2, delay: 0.3 }}
           className="technologies-container">
-        Technologies:
-        <div className="technologies-list">
-          {techStack.map((tech, index) => (
-            <motion.a
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ duration: 0.7, delay: index * 0.125 }}
-              key={tech.alt}
-              href={tech.link}
-              className="group technology-link"
-            >
-              <img alt={tech.alt} src={tech.src} width={0} height={0} className="technology-icon"/>
-              <span className="technology-name">
-                {tech.alt}
-              </span>
-
-            </motion.a>
-          ))}
+        <div>
+          Favourite technologies
+          <div className="technologies-list">
+            {favouritesList.map((tech, index) => (
+              <motion.a
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 0.7, delay: index * 0.125 }}
+                key={tech.alt}
+                href={tech.link}
+                className="group technology-link"
+              >
+                <img alt={tech.alt} src={tech.src} width={0} height={0} className="technology-icon"/>
+                <span className="technology-name">
+                  {tech.alt}
+                </span>
+              </motion.a>
+            ))}
+          </div>
         </div>
       </motion.div>
     </section>
