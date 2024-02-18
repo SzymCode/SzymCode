@@ -3,11 +3,7 @@ import { motion } from "framer-motion"
 
 import { ChangeTheme, MobileMenu } from "@/components"
 import { HandleScroll } from "@/utils"
-
-interface NavbarProps {
-  darkMode: boolean
-  toggleChangeTheme: () => void
-}
+import { NavbarProps } from "@/utils/handleProps"
 
 export default function Navbar({ darkMode, toggleChangeTheme }: NavbarProps) {
   const imageUrl = darkMode

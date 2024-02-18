@@ -1,6 +1,4 @@
-import { HandleScrollProps } from "@/utils/handleProps"
-
-export default function HandleScroll({ event }: HandleScrollProps) {
+export default function HandleScroll(event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) {
   event.preventDefault()
 
   const href = event.currentTarget.href
