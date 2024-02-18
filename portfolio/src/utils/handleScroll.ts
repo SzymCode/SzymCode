@@ -1,8 +1,9 @@
+import { HandleScrollProps } from "@/utils/handleProps"
 
-export default function HandleScroll(e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) {
-  e.preventDefault()
+export default function HandleScroll({ event }: HandleScrollProps) {
+  event.preventDefault()
 
-  const href = e.currentTarget.href
+  const href = event.currentTarget.href
   const targetId = href.replace(/.*#/, "")
   const element = document.getElementById(targetId)
   const links = document.querySelectorAll(".nav-link")
@@ -12,5 +13,5 @@ export default function HandleScroll(e: React.MouseEvent<HTMLAnchorElement, Mous
     link.classList.remove("active")
   })
 
-  e.currentTarget.classList.add("active")
+  event.currentTarget.classList.add("active")
 }

@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-import { ArchiveCardProps } from "@/components/ArchiveCard"
+import { ArchiveCardProps } from "@/utils/handleProps"
 
 export default function HandleShowMore() {
   const [visibleCardsCount, setVisibleCardsCount] = useState(3)

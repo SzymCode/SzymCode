@@ -1,15 +1,10 @@
+import { motion } from "framer-motion"
+
 import { FaRegFolder } from "react-icons/fa"
 import { RxOpenInNewWindow } from "react-icons/rx"
+import { ArchiveCardProps } from "@/utils/handleProps";
 
-export interface ArchiveCardProps {
-  title: string
-  description: string
-  listItem: string[]
-  githubLink: string
-  link: string
-}
-
-export default function ArchiveCard({ title, description, listItem, githubLink, link }: ArchiveCardProps) {
+export default function ArchiveCard({ title, description, techItem, githubLink, link }: ArchiveCardProps) {
   return (
     <div className="archive-card-container">
       <div className="archive-card-icons group">
@@ -30,10 +25,20 @@ export default function ArchiveCard({ title, description, listItem, githubLink, 
       </div>
       <div className="flex-grow -mb-3"></div>
       <ul className="archive-card-technologies">
-        {listItem.map((item, i) => (
-          <li key={i}>
-            {item}
-          </li>
+        {techItem.map((tech, index) => (
+          <motion.a
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ duration: 0.7, delay: index * 0.125 }}
+              key={tech.alt}
+              href={tech.link}
+              className="group technology-link"
+          >
+             <img alt={tech.alt} src={tech.src} width={0} height={0} className="technology-icon" />
+             <span className="technology-name">
+               {tech.alt}
+             </span>
+          </motion.a>
         ))}
       </ul>
     </div>

@@ -1,11 +1,8 @@
 import { useState, useEffect } from 'react'
+import { HandleChangeThemeProps } from "@/utils/handleProps"
 
-interface HandleChangeThemeHook {
-  darkMode: boolean
-  toggleChangeTheme: () => void
-}
 
-export default function HandleChangeTheme(): HandleChangeThemeHook {
+export default function HandleChangeTheme(): HandleChangeThemeProps {
   const [darkMode, setDarkMode] = useState<boolean>(() => {
     if (typeof localStorage !== 'undefined') {
       if (localStorage.theme === 'dark' || !('theme' in localStorage)) {
@@ -18,7 +15,7 @@ export default function HandleChangeTheme(): HandleChangeThemeHook {
   useEffect(() => {
     setDarkMode(false)
   }, [])
-  
+
   function toggleChangeTheme() {
     setDarkMode((prevDarkMode) => {
       const newDarkMode = !prevDarkMode

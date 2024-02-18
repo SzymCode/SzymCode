@@ -1,7 +1,5 @@
-import { useEffect } from "react"
 import { BiMoon, BiSun } from "react-icons/bi"
 
-import { HandleChangeTheme } from "@/utils"
 
 interface ChangeThemeProps {
   darkMode: boolean

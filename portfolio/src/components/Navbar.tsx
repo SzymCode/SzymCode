@@ -1,7 +1,5 @@
 import Link from "next/link"
 import { motion } from "framer-motion"
-import { useRef, useState } from "react"
-import { MdOutlineClose } from "react-icons/md"
 
 import { ChangeTheme, MobileMenu } from "@/components"
 import { HandleScroll } from "@/utils"
@@ -15,8 +13,6 @@ export default function Navbar({ darkMode, toggleChangeTheme }: NavbarProps) {
   const imageUrl = darkMode
       ? 'https://en.gravatar.com/userimage/238510040/9ae62fa2d77e0c151046465752929d88.jpeg?size=256'
       : 'https://en.gravatar.com/userimage/238510040/faf1c514d46714163a51e876ee5eafc1.jpeg?size=256'
-
-  const ref = useRef<string | any>("")
 
   return (
     <div className="navbar-container">

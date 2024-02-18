@@ -5,6 +5,7 @@ import { motion } from "framer-motion"
 import { AboutMe, Archive, Banner, ContactMe, Footer, LeftSide, Navbar, RightSide } from "@/components"
 import { HandleChangeTheme } from "@/utils"
 
+
 export default function Home() {
   const { darkMode, toggleChangeTheme } = HandleChangeTheme()
 
@@ -27,7 +28,7 @@ export default function Home() {
           </motion.div>
           <div className="index-content">
             <Banner />
-            <AboutMe darkMode={darkMode}/>
+            <AboutMe />
             <Archive />
             <ContactMe />
             <Footer />

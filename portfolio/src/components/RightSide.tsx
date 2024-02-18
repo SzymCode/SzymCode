@@ -1,4 +1,3 @@
-
 export default function RightSide() {
   return (
     <div className="right-side-container">

@@ -2,19 +2,14 @@ import { motion } from "framer-motion"
 
 import { SectionTitle } from "@/components"
 
-interface Tech {
+export interface TechProps {
   alt: string
   src: string
   link?: string
 }
 
-interface AboutProps {
-  darkMode: boolean
-}
-
-export default function AboutMe({ darkMode }: AboutProps) {
-  const theme = darkMode ?  'dark' : 'light'
-  const favouritesList: Tech[] = [
+export default function AboutMe() {
+  const favouritesList: TechProps[] = [
     {
       alt: "laravel",
       src: "https://cdn.simpleicons.org/laravel/FF2D20",

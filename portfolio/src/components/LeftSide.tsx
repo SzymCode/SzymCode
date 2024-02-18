@@ -1,5 +1,5 @@
 import { TbBrandGithub } from "react-icons/tb"
-import { BiLogoGmail, BiLogoLinkedin, BiLogoDiscordAlt } from "react-icons/bi"
+import { BiLogoGmail, BiLogoLinkedin } from "react-icons/bi"
 
 
 export default function LeftSide() {

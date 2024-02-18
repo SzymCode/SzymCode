@@ -1,7 +1,5 @@
-import { motion } from "framer-motion"
 import { TbBrandGithub } from "react-icons/tb"
-import { SlSocialLinkedin, SlSocialFacebook } from "react-icons/sl"
-import {BiLogoFacebook, BiLogoGmail, BiLogoLinkedin} from "react-icons/bi"
+import {BiLogoGmail, BiLogoLinkedin} from "react-icons/bi"
 
 export default function Footer() {
   return (

@@ -1,4 +1,4 @@
-import {useState, RefObject, useRef} from "react"
+import {useState, useRef} from "react"
 import { motion } from "framer-motion"
 import { MdOutlineClose } from "react-icons/md"
 import Link from "next/link"
