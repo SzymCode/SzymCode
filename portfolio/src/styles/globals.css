@@ -32,12 +32,12 @@
     @apply hidden xl:inline-flex w-28 h-full fixed bottom-0
   }
   .index-content {
-    @apply h-[88vh] w-full mx-auto p-4 xl:p-0 pt-14 xl:pt-32
+    @apply h-[88vh] w-full mx-auto p-4 md:p-8 xl:p-0 pt-14 xl:pt-32
   }
 
   /* AboutMe.tsx styles */
   .about-me-section {
-    @apply max-w-containerSmall mx-auto py-10 md:py-32 flex flex-col gap-8 text-primary lg:px-5
+    @apply max-w-containerSmall mx-auto py-10 lg:py-32 flex flex-col gap-8 text-primary lg:px-5
   }
   .about-me-description-container {
     @apply flex flex-col lgl:flex-row gap-16
@@ -49,7 +49,7 @@
     @apply block text-center mx-auto mt-14 text-xl md:text-2xl
   }
   .technologies-list {
-    @apply flex py-4 gap-2 md:gap-3 mt-2 md:mt-5 justify-items-center
+    @apply flex py-4 gap-2 md:gap-3 mt-2 lg:mt-5 justify-items-center
   }
   .technology-link {
     @apply w-8 h-8
@@ -63,7 +63,7 @@
 
   /* Archive.tsx styles */
   .archive-container {
-    @apply max-w-container mx-auto py-10 md:py-32
+    @apply max-w-container mx-auto py-10 lg:py-32
   }
   .archive-div {
     @apply w-full flex flex-col items-center
@@ -109,16 +109,16 @@
 
   /* Banner.tsx styles */
   .banner-section {
-    @apply max-w-containerSmall mx-auto py-10 md:py-32 flex flex-col gap-4 lgl:gap-8
+    @apply max-w-containerSmall mx-auto py-10 md:py-20 md:pt-32 lg:py-32 flex flex-col gap-4 lgl:gap-8
   }
   .banner-h3 {
     @apply text-lg tracking-wide text-black dark:text-primary-white font-semibold
   }
   .banner-h1 {
-    @apply text-4xl lgl:text-6xl font-semibold flex flex-col text-primary -mt-3 text-primary dark:text-primary
+    @apply text-4xl lgl:text-6xl font-semibold flex flex-col text-primary -mt-3  dark:text-primary
   }
   .banner-span {
-    @apply text-primary-black mt-2 lgl:mt-4 text-black dark:text-primary-lightgray
+    @apply text-primary-black mt-2 lgl:mt-4 dark:text-primary-lightgray
   }
   .banner-description {
     @apply text-base md:max-w-[650px] font-medium text-black dark:text-primary-lightgray
@@ -229,7 +229,7 @@
     @apply flex text-[16px] gap-7 invisible md:visible
   }
   .navbar-link {
-    @apply flex items-center gap-1 font-medium text-primary-black transition text-primary-black dark:text-primary-white hover:text-primary dark:hover:text-primary duration-300
+    @apply flex items-center gap-1 font-medium text-primary-black transition dark:text-primary-white hover:text-primary dark:hover:text-primary duration-300
   }
 
   /* RightSide.tsx styles */
