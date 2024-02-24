@@ -1,5 +1,3 @@
-import {TechProps} from "@/components/AboutMe";
-
 export interface ArchiveCardProps {
     title: string
     description: string
@@ -8,13 +6,9 @@ export interface ArchiveCardProps {
     link: string
 }
 
-export interface HandleChangeThemeProps {
+export interface ChangeThemeProps {
     darkMode: boolean
     toggleChangeTheme: () => void
-}
-
-export interface HandleScrollProps {
-    event: React.MouseEvent<HTMLAnchorElement, MouseEvent>
 }
 
 export interface NavbarProps {
@@ -24,4 +18,10 @@ export interface NavbarProps {
 
 export interface SectionTitleProps {
     title: string
+}
+
+export interface TechProps {
+    alt: string
+    src: string
+    link?: string
 }

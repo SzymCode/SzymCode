@@ -1,12 +1,7 @@
 import { motion } from "framer-motion"
 
 import { SectionTitle } from "@/components"
-
-export interface TechProps {
-  alt: string
-  src: string
-  link?: string
-}
+import { TechProps } from "@/utils/handleProps"
 
 export default function AboutMe() {
   const favouritesList: TechProps[] = [
@@ -57,14 +52,16 @@ export default function AboutMe() {
       <motion.div
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.2, delay: 0.8 }}>
+          transition={{ duration: 0.2, delay: 0.8 }}
+      >
         <SectionTitle title="About Me" />
       </motion.div>
       <motion.div
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.2, delay: 1 }}
-          className="about-me-description-container">
+          className="about-me-description-container"
+      >
         <div className="about-me-description">
           Greetings! I am Szymon Radomski, a <span className="text-primary"> passionate web developer </span> with a deep curiosity for
           technology and its possibilities. Always seeking opportunities to expand my knowledge and stay up-to-date with the latest trends
@@ -76,7 +73,8 @@ export default function AboutMe() {
           initial={{ y: 5, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.2, delay: 0.3 }}
-          className="technologies-container">
+          className="technologies-container"
+      >
         <div>
           Favourite technologies
           <div className="technologies-list">

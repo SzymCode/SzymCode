@@ -1,10 +1,6 @@
 import { BiMoon, BiSun } from "react-icons/bi"
 
-
-interface ChangeThemeProps {
-  darkMode: boolean
-  toggleChangeTheme: () => void
-}
+import { ChangeThemeProps } from "@/utils/handleProps"
 
 export default function ChangeTheme({ darkMode, toggleChangeTheme }: ChangeThemeProps): JSX.Element {
   return (

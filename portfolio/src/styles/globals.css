@@ -37,7 +37,7 @@
 
   /* AboutMe.tsx styles */
   .about-me-section {
-    @apply max-w-containerSmall mx-auto py-10 md:py-32 flex flex-col gap-8 text-primary
+    @apply max-w-containerSmall mx-auto py-10 md:py-32 flex flex-col gap-8 text-primary lg:px-5
   }
   .about-me-description-container {
     @apply flex flex-col lgl:flex-row gap-16
@@ -65,7 +65,7 @@
   .archive-container {
     @apply max-w-container mx-auto py-10 md:py-32
   }
-  .archive-header {
+  .archive-div {
     @apply w-full flex flex-col items-center
   }
   .archive-header-1 {
@@ -75,13 +75,16 @@
     @apply mt-2 text-sm text-primary
   }
   .archive-cards-container {
-    @apply grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mt-10 lgl:px-10
+    @apply grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 md:gap-8 mt-10 lgl:px-10
+  }
+  .archive-card-flex-grow {
+    @apply flex-grow -mb-7
   }
   .archive-button-container {
     @apply mt-12 flex items-center justify-center
   }
   .archive-button {
-    @apply w-36 h-12 rounded-md text-primary text-[13px] border border-primary hover:bg-primary-lightblue dark:hover:bg-primary-darker duration-300
+    @apply w-36 h-12 rounded-md text-primary border border-primary hover:bg-primary-lightblue dark:hover:bg-primary-darker duration-300
   }
 
   /* ArchiveCard.tsx styles */
@@ -132,7 +135,7 @@
     @apply invisible text-primary-black dark:text-primary-lightgray mt-0.5 md:mt-0 -ml-48 md:ml-0
   }
   .change-theme-icon {
-    @apply visible flex text-2xl mr-2
+    @apply visible flex text-xl mr-2
   }
 
   /* ContactMe.tsx styles */
@@ -143,15 +146,15 @@
     @apply text-4xl text-primary font-bold flex items-center tracking-wide
   }
   .contact-me-description {
-    @apply max-w-[700px] text-center text-primary-black dark:text-primary-lightgray
+    @apply max-w-[700px] text-center text-primary-black dark:text-primary-lightgray mb-6
   }
-  .contact-me-button {
-    @apply w-36 h-12 border border-primary mt-6 text-sm text-primary tracking-wider rounded-md hover:bg-primary-lightblue dark:hover:bg-primary-darker duration-300
+  .my-button {
+    @apply w-36 h-12 rounded-md text-primary border border-primary hover:bg-primary-lightblue dark:hover:bg-primary-darker duration-300
   }
 
   /* Footer.tsx styles */
   .footer-container {
-    @apply inline-flex xl:hidden items-center justify-center w-full py-12 gap-4
+    @apply inline-flex xl:hidden items-center justify-center w-full pb-12 pt-6 gap-4
   }
   .footer-icon {
     @apply w-14 h-14 text-4xl rounded-full inline-flex items-center justify-center cursor-pointer bg-primary-white dark:bg-primary-dark outline outline-[1px] text-primary-gray dark:text-primary-lightgray  hover:-translate-y-2 transition-all duration-300
@@ -162,10 +165,19 @@
     @apply w-full h-full flex flex-col items-center justify-end gap-4
   }
   .left-side-icons {
-    @apply flex flex-col gap-4 items-center
+    @apply flex flex-col gap-3 items-center
   }
   .left-side-icon {
     @apply w-14 h-14 text-4xl rounded-full inline-flex items-center justify-center cursor-pointer bg-primary-white dark:bg-primary-dark outline outline-[1px] text-primary-gray dark:text-primary-lightgray hover:-translate-y-1.5 transition-all duration-300
+  }
+  .github-icon {
+    @apply hover:text-black dark:text-primary-lightgray
+  }
+  .linkedin-icon {
+    @apply hover:text-primary-linkedin dark:hover:text-primary-linkedin
+  }
+  .gmail-icon {
+    @apply hover:text-primary-gmail dark:hover:text-primary-gmail
   }
   .left-side-line {
     @apply w-[2px] h-32 -mt-1 bg-primary-gray
@@ -175,23 +187,17 @@
   .mobile-menu-container {
     @apply -mr-3 flex flex-col justify-between dark:text-primary-white items-center md:hidden text-4xl cursor-pointer overflow-hidden
   }
+  .mobile-menu-icons {
+    @apply absolute bottom-20 text-center flex gap-2
+  }
   .mobile-menu-icon {
     @apply w-full h-[2px] bg-primary-black dark:bg-primary-lightgray inline-flex transform transition-all ease-in-out duration-300
-  }
-  .mobile-menu-icon-line-1 {
-    @apply group-hover:translate-x-2
-  }
-  .mobile-menu-icon-line-2 {
-    @apply translate-x-3 group-hover:translate-x-0
-  }
-  .mobile-menu-icon-line-3 {
-    @apply translate-x-1 group-hover:translate-x-3
   }
   .mobile-menu {
     @apply absolute mdl:hidden top-0 right-0 w-full h-screen bg-black bg-opacity-50 flex flex-col items-end overflow-hidden
   }
   .mobile-menu-inner {
-    @apply w-[80%] h-full overflow-y-scroll bg-primary-white dark:bg-primary-darker flex flex-col items-center px-4 py-10 relative overflow-hidden
+    @apply w-[80%] h-full overflow-y-scroll bg-primary-white dark:bg-primary-darker flex flex-col items-center px-4 py-14 relative overflow-hidden
   }
   .mobile-menu-close {
     @apply text-3xl text-primary-black dark:text-primary-lightgray cursor-pointer hover:text-primary dark:hover:text-primary absolute top-4 right-4 duration-300
@@ -231,7 +237,7 @@
     @apply w-full h-full flex flex-col items-center justify-end gap-6
   }
   .right-side-gmail {
-    @apply rotate-90 w-96 tracking-wide text-primary-black dark:text-primary-lightgray hover:text-primary dark:hover:text-primary duration-300
+    @apply rotate-90 w-80 mb-3 tracking-wide text-primary-black dark:text-primary-lightgray hover:text-primary dark:hover:text-primary duration-300
   }
   .right-side-line {
     @apply w-[2px] h-32 mt-4 bg-primary-gray inline-flex

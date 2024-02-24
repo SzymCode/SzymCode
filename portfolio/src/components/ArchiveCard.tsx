@@ -8,10 +8,10 @@ export default function ArchiveCard({ title, description, techItem, githubLink, 
   return (
     <div className="archive-card-container">
       <div className="archive-card-icons group">
-        <a href={githubLink} target="_blank" rel="noopener noreferrer">
+        <a href={githubLink}>
           <FaRegFolder className="archive-card-icon" />
         </a>
-        <a href={link} target="_blank" rel="noopener noreferrer">
+        <a href={link}>
           <RxOpenInNewWindow className="archive-card-icon" />
         </a>
       </div>
@@ -23,7 +23,7 @@ export default function ArchiveCard({ title, description, techItem, githubLink, 
           {description}
         </p>
       </div>
-      <div className="flex-grow -mb-3"></div>
+      <div className="archive-card-flex-grow"></div>
       <ul className="archive-card-technologies">
         {techItem.map((tech, index) => (
           <motion.a

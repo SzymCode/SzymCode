@@ -16,7 +16,7 @@ export default function Archive() {
         transition={{ duration: 0.2, delay: 0.4 }}
         className="archive-container"
       >
-        <div className="archive-header">
+        <div className="archive-div">
           <h2 className="archive-header-1">
             Some things I have built
           </h2>
@@ -37,12 +37,13 @@ export default function Archive() {
                 description={cardData.description}
                 techItem={cardData.techItem}
                 githubLink={cardData.githubLink}
-                link={cardData.link}/>
+                link={cardData.link}
+              />
             </motion.div>
           ))}
         </div>
         <div className="archive-button-container">
-          <button className="archive-button" onClick={ () => { handleShowMoreClick(archiveCardsData) } }>
+          <button className="my-button" onClick={ () => { handleShowMoreClick(archiveCardsData) } }>
             {visibleCardsCount < archiveCardsData.length ? "Show More" : "Show Less"}
           </button>
         </div>

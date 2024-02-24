@@ -6,7 +6,8 @@ export default function ContactMe() {
         initial={{ y: 5, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.2, delay: 0.5 }}
-        id="contact" className="contact-me-section">
+        id="contact" className="contact-me-section"
+    >
       <p className="contact-me-header">
         Contact Me
       </p>
@@ -16,7 +17,7 @@ export default function ContactMe() {
         expertise to help achieve your goals. Please use the contact form below to get in touch.
       </p>
       <a href="mailto:s.radomski19@gmail.com">
-        <button className="contact-me-button">
+        <button className="my-button">
           Gmail
         </button>
       </a>
