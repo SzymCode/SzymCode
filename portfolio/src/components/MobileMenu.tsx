@@ -14,9 +14,14 @@ export default function MobileMenu() {
 
   return (
     <>
-      <div className="mobile-menu-container">
+      <motion.div
+          className="mobile-menu-container"
+          initial={{ y: -10, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.2, delay: 1 }}
+      >
           <BiMenu className="text-3xl" onClick={() => { setShowMenu(true) }} />
-      </div>
+      </motion.div>
       {showMenu && (
         <div ref={(node) => (ref.current = node)} className="mobile-menu">
           <motion.div
