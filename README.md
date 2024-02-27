@@ -3,7 +3,7 @@
 </h2>
 
 As a self-taught developer, I'm actively seeking **challenging career opportunities**. I have commercial experience of **JavaScript**, **PHP** and in my work I mostly use **Laravel** and **Vue.js** frameworks. Intermediate in creating a visually attractive and user-friendly frontend using **HTML5, CSS3** and **Tailwind**. I also love writing tests in Pest, Nest.js (Jest) and Cypress.
-<br/>
+<br>
 
 | 💻 Portfolio | [szymco.de](https://szymco.de) | 
 | :- | :- | 
@@ -13,12 +13,12 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
 
 
 
-<br/>
+<br>
 
 
 
-<details> <summary> <h2> 🔗 Previews </summary>
-
+<details> <summary> 🔗 Previews </summary>
+<br>
 <table>
   <th>
     Project
@@ -194,11 +194,12 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
 </table>
 
 </details>    
+<br>
 
 
+<details> <summary> 🛠️ Tech Stack  </summary>
 
-<details> <summary> <h2> 🛠️ Tech Stack  </summary>
-
+<br>
 <table>
   <tr>
     <td>
@@ -279,13 +280,13 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
 </table>
 
-
 </details>  
+<br>
 
 
-
-<details><summary> <h2> 💬 Some Things About Me  </summary> 
-
+<details><summary> 💬 Some Things About Me  </summary> 
+<br>
+  
 * 📓 I'm gaining knowledge from documentations in addition to books, courses and YouTube videos
 * 🏊 Really love swimming
 * ♟️ My favourite openings in chess are the Stafford and King's gambits
@@ -293,10 +294,11 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
 * 📚 Books that have impacted me: "Be Obsessed or Be Average" (G. Cardone), "The Power of Now" (E. Tolle), "The Development of Personality" (C. G. Jung) and "Civilization and Its Discontents" (S. Freud)
 
 </details>
+<br>
 
 
-
-<details><summary> <h2> 📊 GitHub Stats  </summary> 
+<details><summary> 📊 GitHub Stats  </summary> 
+<br>
 
 ![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=SzymCode&layout=compact)
 
