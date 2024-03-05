@@ -28,8 +28,8 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </th>
   <tr>
     <td>
-      <a href="https://contactbook-sc-0dd9929a94e1.herokuapp.com">
-        ContactBook
+      <a href="https://datamanager-sc-9f0092230dcb.herokuapp.com">
+        DataManager
       </a>
     </td>
     <td>
