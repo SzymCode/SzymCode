@@ -54,7 +54,7 @@ export default function Archive() {
 
 const archiveCardsData: ArchiveCardProps[] = [
   {
-    title: "ContactBook",
+    title: "DataManager",
     description: "This website helps storage contacts data and share it with others.",
     techItem: [
       {
@@ -66,6 +66,11 @@ const archiveCardsData: ArchiveCardProps[] = [
         alt: "vue",
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
         link: "https://vuejs.org"
+      },
+      {
+        alt: "sass",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+        link: "https://sass-lang.com"
       },
       {
         alt: "pest",
@@ -83,41 +88,8 @@ const archiveCardsData: ArchiveCardProps[] = [
         link: "https://www.docker.com"
       }
     ],
-    githubLink: "https://github.com/SzymCode/ContactBook",
-    link: "https://contactbook-sc-5acf4c038efe.herokuapp.com"
-  },
-  {
-    title: "ContactBook - sandbox",
-    description: "This repository serves as my coding sandbox, where I can experiment with different solutions and refine my skills.",
-    techItem: [
-      {
-        alt: "react",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-        link: "https://react.dev"
-      },
-      {
-        alt: "django",
-        src: "https://cdn.simpleicons.org/django/092E20",
-        link: "https://www.djangoproject.com"
-      },
-      {
-        alt: "tailwind",
-        src: "https://cdn.simpleicons.org/tailwindcss/06B6D4",
-        link: "https://tailwindcss.com"
-      },
-      {
-        alt: "mui",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
-        link: "https://mui.com/material-ui"
-      },
-      {
-        alt: "docker",
-        src: "https://cdn.simpleicons.org/docker/2496ED",
-        link: "https://www.docker.com"
-      }
-    ],
-    githubLink: "https://github.com/SzymCode/ContactBook-sandbox",
-    link: "https://contactbook-szymcode.herokuapp.com"
+    githubLink: "https://github.com/SzymCode/DataManager",
+    link: "https://datamanager-sc-9f0092230dcb.herokuapp.com"
   },
   {
     title: "AdminPanel",
@@ -146,6 +118,35 @@ const archiveCardsData: ArchiveCardProps[] = [
     ],
     githubLink: "https://github.com/SzymCode/RecruitmentTasks/tree/admin-panel",
     link: "https://admin-panel-sc-60b477b71887.herokuapp.com"
+  },
+
+  {
+    title: "ArticleSystem",
+    description: "Simple article system project for Online Venture company recruitment process.",
+    techItem: [
+      {
+        alt: "laravel",
+        src: "https://cdn.simpleicons.org/laravel/FF2D20",
+        link: "https://laravel.com"
+      },
+      {
+        alt: "sass",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+        link: "https://sass-lang.com"
+      },
+      {
+        alt: "pest",
+        src: "https://plugins.jetbrains.com/files/14636/423525/icon/pluginIcon.png",
+        link: "https://pestphp.com"
+      },
+      {
+        alt: "docker",
+        src: "https://cdn.simpleicons.org/docker/2496ED",
+        link: "https://www.docker.com"
+      }
+    ],
+    githubLink: "https://github.com/SzymCode/RecruitmentTasks/tree/article-system",
+    link: "https://article-system-sc-2f67032d1ea5.herokuapp.com"
   },
   {
     title: "GiardDesign",
@@ -204,6 +205,39 @@ const archiveCardsData: ArchiveCardProps[] = [
     link: "https://github.com/SzymCode/RecruitmentTasks"
   },
   {
+    title: "ContactBook - sandbox",
+    description: "This repository serves as my coding sandbox, where I can experiment with different solutions and refine my skills.",
+    techItem: [
+      {
+        alt: "react",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        link: "https://react.dev"
+      },
+      {
+        alt: "django",
+        src: "https://cdn.simpleicons.org/django/092E20",
+        link: "https://www.djangoproject.com"
+      },
+      {
+        alt: "tailwind",
+        src: "https://cdn.simpleicons.org/tailwindcss/06B6D4",
+        link: "https://tailwindcss.com"
+      },
+      {
+        alt: "mui",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
+        link: "https://mui.com/material-ui"
+      },
+      {
+        alt: "docker",
+        src: "https://cdn.simpleicons.org/docker/2496ED",
+        link: "https://www.docker.com"
+      }
+    ],
+    githubLink: "https://github.com/SzymCode/ContactBook-sandbox",
+    link: "https://contactbook-szymcode.herokuapp.com"
+  },
+  {
     title: "GoogleBrowser",
     description: "Google browser clone built using Google Search API.",
     techItem: [
@@ -233,7 +267,7 @@ const archiveCardsData: ArchiveCardProps[] = [
   },
   {
     title: "ECommerceTemplate",
-    description: "Store initialization template with all main functionalities. Includes essential features such as product listings, shopping cart and checkout processes connected with Stripe.",
+    description: "Store initialization template with all main functionalities such as product listings, shopping cart and checkout processes connected with Stripe.",
     techItem: [
       {
         alt: "react",
@@ -294,7 +328,7 @@ const archiveCardsData: ArchiveCardProps[] = [
   },
   {
     title: "TodoApp",
-    description: "This repository contains todo apps built with different technologies. Each folder represents a unique implementation, using different frameworks and programming languages.",
+    description: "This repository contains todo apps built with different technologies. Each folder is separate application.",
     techItem: [
       {
         alt: "django",
@@ -342,6 +376,57 @@ const archiveCardsData: ArchiveCardProps[] = [
     ],
     githubLink: "https://github.com/SzymCode/RWD-exercises",
     link: "https://rwd-exercises-navbar.vercel.app"
+  },
+  {
+    title: "SzymCode/Portfolio",
+    description: "This project is showcase of my programming skills to potential employers or clients.",
+    techItem: [
+      {
+        alt: "typescript",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        link: "https://www.typescriptlang.org"
+      },
+      {
+        alt: "react",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        link: "https://react.dev"
+      },
+      {
+        alt: "tailwind",
+        src: "https://cdn.simpleicons.org/tailwindcss/06B6D4",
+        link: "https://tailwindcss.com"
+      },
+      {
+        alt: "html5",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        link: "https://html.com"
+      },
+      {
+        alt: "next.js",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+        link: "https://nextjs.org"
+      }
+    ],
+    githubLink: "https://github.com/SzymCode/SzymCode/Portfolio",
+    link: "https://szymcode.vercel.app"
+  },
+  {
+    title: "SentrySubstitute",
+    description: "Package intended to replace Sentry in daily work.",
+    techItem: [
+      {
+        alt: "php",
+        src: "https://skillicons.dev/icons?i=php",
+        link: "https://www.php.net"
+      },
+      {
+        alt: "laravel",
+        src: "https://cdn.simpleicons.org/laravel/FF2D20",
+        link: "https://laravel.com"
+      },
+    ],
+    githubLink: "https://github.com/SzymCode/SentrySubstitute",
+    link: "https://github.com/SzymCode/SentrySubstitute"
   },
   {
     title: "RegistrationDjango",
@@ -403,57 +488,6 @@ const archiveCardsData: ArchiveCardProps[] = [
     ],
     githubLink: "https://github.com/SzymCode/TinyProjects",
     link: "https://github.com/SzymCode/TinyProjects"
-  },
-  {
-    title: "SzymCode/Portfolio",
-    description: "This project is showcase of my programming skills to potential employers or clients.",
-    techItem: [
-      {
-        alt: "typescript",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-        link: "https://www.typescriptlang.org"
-      },
-      {
-        alt: "react",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-        link: "https://react.dev"
-      },
-      {
-        alt: "tailwind",
-        src: "https://cdn.simpleicons.org/tailwindcss/06B6D4",
-        link: "https://tailwindcss.com"
-      },
-      {
-        alt: "html5",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-        link: "https://html.com"
-      },
-      {
-        alt: "next.js",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-        link: "https://nextjs.org"
-      }
-    ],
-    githubLink: "https://github.com/SzymCode/SzymCode/Portfolio",
-    link: "https://szymcode.vercel.app"
-  },
-  {
-    title: "SentrySubstitute",
-    description: "Package intended to replace Sentry in daily work.",
-    techItem: [
-      {
-        alt: "php",
-        src: "https://skillicons.dev/icons?i=php",
-        link: "https://www.php.net"
-      },
-      {
-        alt: "laravel",
-        src: "https://cdn.simpleicons.org/laravel/FF2D20",
-        link: "https://laravel.com"
-      },
-    ],
-    githubLink: "https://github.com/SzymCode/SentrySubstitute",
-    link: "https://github.com/SzymCode/SentrySubstitute"
   },
   {
     title: "ChessEngine",
