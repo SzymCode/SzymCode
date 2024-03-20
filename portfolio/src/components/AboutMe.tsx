@@ -16,14 +16,9 @@ export default function AboutMe() {
       link: "https://vuejs.org"
     },
     {
-      alt: "nest",
-      src: "https://cdn.simpleicons.org/nestjs/E0234E",
-      link: "https://nestjs.com"
-    },
-    {
-      alt: "react",
-      src: "https://cdn.simpleicons.org/react/61DAFB",
-      link: "https://react.dev"
+      alt: "primevue",
+      src: "https://www.primefaces.org/wp-content/uploads/2019/12/primevue-logo.png",
+      link: "https://primevue.org"
     },
     {
       alt: "tailwind",
@@ -44,6 +39,11 @@ export default function AboutMe() {
       alt: "cypress",
       src: "https://static-00.iconduck.com/assets.00/cypress-icon-512x511-29zvfts6.png",
       link: "https://www.cypress.io"
+    },
+    {
+      alt: "vite",
+      src: "https://vitejs.dev/logo-with-shadow.png",
+      link: "https://vitejs.dev"
     }
   ]
 
