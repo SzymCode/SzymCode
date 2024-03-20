@@ -13,7 +13,7 @@ export default function Footer() {
         <BiLogoLinkedin />
       </a>
 
-      <a href="mailto:s.radomski19@gmail.com" target="_blank" className="footer-icon gmail-icon">
+      <a href="mailto:szymon.radomski@yahoo.com" target="_blank" className="footer-icon gmail-icon">
         <BiLogoGmail />
       </a>
 

@@ -15,7 +15,7 @@ export default function LeftSide() {
           <BiLogoLinkedin />
         </a>
 
-        <a href="mailto:s.radomski19@gmail.com" className="left-side-icon gmail-icon">
+        <a href="mailto:szymon.radomski@yahoo.com" className="left-side-icon gmail-icon">
           <BiLogoGmail />
         </a>
 

@@ -237,7 +237,7 @@
     @apply w-full h-full flex flex-col items-center justify-end gap-6
   }
   .right-side-gmail {
-    @apply rotate-90 w-80 mb-3 tracking-wide text-primary-black dark:text-primary-lightgray hover:text-primary dark:hover:text-primary duration-300
+    @apply rotate-90 w-80 mb-14 tracking-wide text-primary-black dark:text-primary-lightgray hover:text-primary dark:hover:text-primary duration-300
   }
   .right-side-line {
     @apply w-[2px] h-32 mt-4 bg-primary-gray inline-flex

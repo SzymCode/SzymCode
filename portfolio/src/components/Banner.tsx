@@ -34,7 +34,7 @@ export default function Banner() {
           Intermediate in creating a visually attractive and user-friendly frontend using HTML5, CSS3 and Tailwind.
           I also love writing tests in Pest, Nest.js (Jest) and Cypress.
           <br/>
-        <a href="https://github.com/SzymCode/ContactBook">
+        <a href="https://datamanager-sc-9f0092230dcb.herokuapp.com">
          <span className="banner-project group">
            Check out my main project!
            <span className="banner-project-hover"/>

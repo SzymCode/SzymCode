@@ -88,7 +88,7 @@ export default function MobileMenu() {
                 <BiLogoLinkedin />
               </a>
 
-              <a href="mailto:s.radomski19@gmail.com" className="mobile-menu-icon gmail-icon">
+              <a href="mailto:szymon.radomski@yahoo.com" className="mobile-menu-icon gmail-icon">
                 <BiLogoGmail />
               </a>
 
