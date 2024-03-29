@@ -9,7 +9,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
 | :- | :- | 
 | 🔍 Find me | [![Gmail](https://img.shields.io/badge/-Gmail-informational?style=flat&logo=gmail&color=white)](mailto:szymon.radomski@yahoo.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/szymon-radomski/) |
 | 🚀 Exists on | [![CodeWars](https://img.shields.io/badge/CodeWars-4%20KYU-1f5be7?logo=codewars&logoColor=white)](https://www.codewars.com/users/SzymCode) |
-| 📘 Studying now | ![Symfony](https://img.shields.io/badge/Symfony-%23000000.svg?logo=symfony&logoColor=white) [![JQuery](https://img.shields.io/badge/jQuery-0769AD?logo=jquery&logoColor=white)](https://jquery.com)  [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
+| 📘 Studying now | [![Chakra UI](https://img.shields.io/badge/Chakra%20UI-319795?logo=chakra-ui&logoColor=white)](https://chakra-ui.com/) [![Redux](https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white)](https://redux.js.org) [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
 
 
 
@@ -238,8 +238,6 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://img.shields.io/badge/Django-%23092e20.svg?logo=django&logoColor=white" />
       <img src="https://img.shields.io/badge/Bootstrap-%237952b3.svg?logo=bootstrap&logoColor=white" />
       <img src="https://img.shields.io/badge/Material%20UI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white&style=plastic" />
-      <img src="https://img.shields.io/badge/Nest.js-E0234E?logo=nestjs&logoColor=white&color=%23FF2D20" />
-      <img src="https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=white" />
     </td>
   </tr>
   <tr>
@@ -247,11 +245,12 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Have experienced
     </td>
     <td>
-      <img src="https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white" />
-      <img src="https://img.shields.io/badge/Firebase-black?logo=firebase&logoColor=FFCA28e" />
+      <img src="https://img.shields.io/badge/Nest.js-E0234E?logo=nestjs&logoColor=white&color=%23FF2D20" />
+      <img src="https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=white" />
+      <img src="https://img.shields.io/badge/jQuery-0769AD?logo=jquery&logoColor=white" />
       <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" />
       <img src="https://img.shields.io/badge/Webpack-00599C?logo=webpack&logoColor=white" />
-      <img src="https://img.shields.io/badge/Composer-%234F5B93?logo=composer&logoColor=white" />
+      <img src="https://img.shields.io/badge/Symfony-%23000000.svg?logo=symfony&logoColor=white" />
     </td>
   </tr>
   <tr>
