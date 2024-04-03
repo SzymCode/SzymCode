@@ -28,7 +28,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </th>
   <tr>
     <td>
-      <a href="https://datamanager-sc-9f0092230dcb.herokuapp.com">
+      <a href="http://datamanager.szymco.de">
         DataManager
       </a>
     </td>
@@ -50,7 +50,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      <a href="https://admin-panel-sc-60b477b71887.herokuapp.com">
+      <a href="http://adminpanel.szymco.de">
         AdminPanel
       </a>
     </td>
@@ -71,7 +71,23 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      <a href="https://szymcode.github.io/RecruitmentTasks">
+      <a href="http://tagmanager.szymco.de">
+        TagManager
+      </a>
+    </td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=ts" height="26" />
+      <img src="https://skillicons.dev/icons?i=react" height="26" />
+      <img src="https://skillicons.dev/icons?i=redux" height="26" />
+      <img src="https://skillicons.dev/icons?i=html" height="26" />
+      <img src="https://www.crocoder.dev/assets/chakra-ui.46d212e4.png" height="26" />
+      <img src="https://skillicons.dev/icons?i=vite" height="26" />
+      <img src="https://skillicons.dev/icons?i=heroku" height="26" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://giard-design.szymco.de">
         GiardDesign
       </a>
     </td>
@@ -84,7 +100,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      <a href="https://la-mountains-szymcode.vercel.app">
+      <a href="https://la-mountains.szymco.de">
         LAMountains
       </a>
     </td>
@@ -97,7 +113,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      <a href="https://www.szymco.de">
+      <a href="https://szymco.de">
         Portfolio
       </a>
     </td>
@@ -111,7 +127,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      <a href="https://google-browser-sc.vercel.app">
+      <a href="https://google-browser.szymco.de">
         GoogleBrowser
       </a>
     </td>
@@ -124,7 +140,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      <a href="https://e-commerce-template-szymcode.vercel.app">
+      <a href="https://e-commerce.szymco.de">
         ECommerce
       </a>
     </td>
@@ -140,7 +156,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      <a href="https://discord-clone-szymcode.vercel.app">
+      <a href="https://discord-clone.szymco.de">
         DiscordClone
       </a>
     </td>
@@ -153,9 +169,9 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://skillicons.dev/icons?i=firebase" height="26" />
     </td>
   </tr>
-   <tr>
+  <tr>
     <td>
-      <a href="https://registration-django-sc-4b31f06e64f2.herokuapp.com">
+      <a href="http://registration-django.szymco.de">
         Registration
       </a>
     </td>
@@ -170,7 +186,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      <a href="https://rwd-exercises-navbar.vercel.app">
+      <a href="https://rwd-footer.szymco.de">
         RWD Navbar
       </a>
     </td>
@@ -182,7 +198,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      <a href="https://rwd-exercises-footer.vercel.app">
+      <a href="https://rwd-navbar.szymco.de">
         RWD Footer
       </a>
     </td>
