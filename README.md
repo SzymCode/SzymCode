@@ -71,6 +71,27 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
+      <a href="http://linkhouse-blog.szymco.de">
+        LinkhouseBlog
+      </a>
+    </td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=php" height="26" />
+      <img src="https://skillicons.dev/icons?i=ts" height="26" />
+      <img src="https://skillicons.dev/icons?i=laravel" height="26" />
+      <img src="https://skillicons.dev/icons?i=vue" height="26" />
+      <img src="https://www.primefaces.org/wp-content/uploads/2019/12/primevue-logo.png" height="26" />
+      <img src="https://skillicons.dev/icons?i=html" height="26" />
+      <img src="https://skillicons.dev/icons?i=sass" height="26" />
+      <img src="https://skillicons.dev/icons?i=docker" height="26" />
+      <img src="https://skillicons.dev/icons?i=heroku" height="26" />
+      <img src="https://skillicons.dev/icons?i=vite" height="26" />
+      <img src="https://skillicons.dev/icons?i=mysql" height="26" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/ced20949-7b32-407b-a249-2dd9b117f5b2" height="25" />
+    </td>
+  </tr>
+  <tr>
+    <td>
       <a href="http://tagmanager.szymco.de">
         TagManager
       </a>
@@ -85,6 +106,25 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://skillicons.dev/icons?i=heroku" height="26" />
     </td>
   </tr>
+    <tr>
+    <td>
+      <a href="http://www.article-system.szymco.de">
+        ArticleSystem
+      </a>
+    </td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=php" height="26" />
+      <img src="https://skillicons.dev/icons?i=js" height="26" />
+      <img src="https://skillicons.dev/icons?i=laravel" height="26" />
+      <img src="https://skillicons.dev/icons?i=vue" height="26" />
+      <img src="https://skillicons.dev/icons?i=html" height="26" />
+      <img src="https://skillicons.dev/icons?i=sass" height="26" />
+      <img src="https://skillicons.dev/icons?i=vite" height="26" />
+      <img src="https://skillicons.dev/icons?i=heroku" height="26" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/ced20949-7b32-407b-a249-2dd9b117f5b2" height="25" />
+    </td>
+  </tr>
+
   <tr>
     <td>
       <a href="https://giard-design.szymco.de">
