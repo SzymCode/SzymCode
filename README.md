@@ -102,6 +102,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://skillicons.dev/icons?i=redux" height="26" />
       <img src="https://skillicons.dev/icons?i=html" height="26" />
       <img src="https://www.crocoder.dev/assets/chakra-ui.46d212e4.png" height="26" />
+      <img src="https://icons.veryicon.com/png/o/business/vscode-program-item-icon/storybook.png" height="26" />
       <img src="https://skillicons.dev/icons?i=vite" height="26" />
       <img src="https://skillicons.dev/icons?i=heroku" height="26" />
     </td>
@@ -226,7 +227,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      <a href="https://rwd-footer.szymco.de">
+      <a href="https://rwd-navbar.szymco.de">
         RWD Navbar
       </a>
     </td>
@@ -238,7 +239,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      <a href="https://rwd-navbar.szymco.de">
+      <a href="https://rwd-footer.szymco.de">
         RWD Footer
       </a>
     </td>
@@ -351,8 +352,8 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
 
 <details><summary> 💬 Some Things About Me  </summary> 
 <br>
-  
-* 📓 I'm gaining knowledge from documentations in addition to books, courses and YouTube videos
+
+* 📓 I'm gaining knowledge mainly from documentations, forums and courses
 * 🏊 Really love swimming
 * ♟️ My favourite openings in chess are the Stafford and King's gambits
 * 🧠 Rubik's Cube CFOP sub 20 & Blindfold Old Pochmann 5 min with memorize
