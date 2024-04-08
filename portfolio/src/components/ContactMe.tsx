@@ -16,7 +16,7 @@ export default function ContactMe() {
         to join your team? I would love to be part of your organization and contribute my skills and
         expertise to help achieve your goals. Please use the contact form below to get in touch.
       </p>
-      <a href="mailto:s.radomski19@gmail.com">
+      <a href="mailto:szymon.radomski@yahoo.com">
         <button className="my-button">
           Gmail
         </button>
