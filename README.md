@@ -9,7 +9,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
 | :- | :- | 
 | 🔍 Find me | [![Gmail](https://img.shields.io/badge/-Gmail-informational?style=flat&logo=gmail&color=white)](mailto:szymon.radomski@yahoo.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/szymon-radomski/) |
 | 🚀 Exists on | [![CodeWars](https://img.shields.io/badge/CodeWars-4%20KYU-1f5be7?logo=codewars&logoColor=white)](https://www.codewars.com/users/SzymCode) |
-| 📘 Studying now | [![Chakra UI](https://img.shields.io/badge/Chakra%20UI-319795?logo=chakra-ui&logoColor=white)](https://chakra-ui.com/) [![Redux](https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white)](https://redux.js.org) [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
+| 📘 Studying now | [![PrestaShop](https://img.shields.io/badge/PrestaShop-DF0067?logo=prestashop&logoColor=white)](https://pl.prestashop.com/) [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
 
 
 
@@ -103,8 +103,8 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://skillicons.dev/icons?i=html" height="26" />
       <img src="https://www.crocoder.dev/assets/chakra-ui.46d212e4.png" height="26" />
       <img src="https://icons.veryicon.com/png/o/business/vscode-program-item-icon/storybook.png" height="26" />
-      <img src="https://skillicons.dev/icons?i=vite" height="26" />
       <img src="https://skillicons.dev/icons?i=heroku" height="26" />
+      <img src="https://skillicons.dev/icons?i=vite" height="26" />
     </td>
   </tr>
     <tr>
@@ -120,8 +120,8 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://skillicons.dev/icons?i=vue" height="26" />
       <img src="https://skillicons.dev/icons?i=html" height="26" />
       <img src="https://skillicons.dev/icons?i=sass" height="26" />
-      <img src="https://skillicons.dev/icons?i=vite" height="26" />
       <img src="https://skillicons.dev/icons?i=heroku" height="26" />
+      <img src="https://skillicons.dev/icons?i=vite" height="26" />
       <img src="https://github.com/SzymCode/SzymCode/assets/107359025/ced20949-7b32-407b-a249-2dd9b117f5b2" height="25" />
     </td>
   </tr>
@@ -295,6 +295,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://img.shields.io/badge/Django-%23092e20.svg?logo=django&logoColor=white" />
       <img src="https://img.shields.io/badge/Bootstrap-%237952b3.svg?logo=bootstrap&logoColor=white" />
       <img src="https://img.shields.io/badge/Material%20UI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white&style=plastic" />
+      <img src="https://img.shields.io/badge/Chakra%20UI-319795?logo=chakra-ui&logoColor=white" />
     </td>
   </tr>
   <tr>
@@ -305,6 +306,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://img.shields.io/badge/Nest.js-E0234E?logo=nestjs&logoColor=white&color=%23FF2D20" />
       <img src="https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=white" />
       <img src="https://img.shields.io/badge/jQuery-0769AD?logo=jquery&logoColor=white" />
+      <img src="https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white" />
       <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" />
       <img src="https://img.shields.io/badge/Webpack-00599C?logo=webpack&logoColor=white" />
       <img src="https://img.shields.io/badge/Symfony-%23000000.svg?logo=symfony&logoColor=white" />
@@ -357,7 +359,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
 * 🏊 Really love swimming
 * ♟️ My favourite openings in chess are the Stafford and King's gambits
 * 🧠 Rubik's Cube CFOP sub 20 & Blindfold Old Pochmann 5 min with memorize
-* 📚 Books that have impacted me: "Be Obsessed or Be Average" (G. Cardone), "The Power of Now" (E. Tolle), "The Development of Personality" (C. G. Jung) and "Civilization and Its Discontents" (S. Freud)
+* 📚 Books that have impacted me: "Be Obsessed or Be Average" (G. Cardone), "The Power of Now" (E. Tolle), "The Development of Personality" (C. G. Jung), "Civilization and Its Discontents" and "Beyond the Pleasure Principle" (S. Freud)
 
 </details>
 <br>
