@@ -58,7 +58,7 @@
     @apply w-8 h-8 group-hover:-translate-y-1.5 transition-all duration-300 ease-in-out z-0 mb-0 rounded-md
   }
   .technology-name {
-    @apply min-w-min p-1 md:p-2 relative -top-10 md:-top-12 left-2 md:left-6 rounded-md shadow-md text-primary-white dark:text-primary-lightgray bg-primary-dark text-[10px] md:text-xs font-bold invisible opacity-0 group-hover:opacity-100 group-hover:visible z-40 transition-all duration-300
+    @apply whitespace-nowrap min-w-max p-1 md:p-2 relative -top-10 md:-top-12 left-2 md:left-6 rounded-md shadow-md text-primary-white dark:text-primary-lightgray bg-primary-dark text-[10px] md:text-xs font-bold invisible opacity-0 group-hover:opacity-100 group-hover:visible z-40 transition-all duration-300
   }
 
   /* Archive.tsx styles */

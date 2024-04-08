@@ -55,7 +55,7 @@ export default function Archive() {
 const archiveCardsData: ArchiveCardProps[] = [
   {
     title: "DataManager",
-    description: "This website helps storage contacts data and share it with others.",
+    description: "This website helps storage various data types and share it with others.",
     techItem: [
       {
         alt: "laravel",
@@ -89,7 +89,7 @@ const archiveCardsData: ArchiveCardProps[] = [
       }
     ],
     githubLink: "https://github.com/SzymCode/DataManager",
-    link: "https://datamanager-sc-9f0092230dcb.herokuapp.com"
+    link: "http://datamanager.szymco.de"
   },
   {
     title: "AdminPanel",
@@ -106,6 +106,11 @@ const archiveCardsData: ArchiveCardProps[] = [
         link: "https://vuejs.org"
       },
       {
+        alt: "css3",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+        link: "https://css3.com"
+      },
+      {
         alt: "bootstrap",
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
         link: "https://getbootstrap.com"
@@ -117,9 +122,69 @@ const archiveCardsData: ArchiveCardProps[] = [
       }
     ],
     githubLink: "https://github.com/SzymCode/RecruitmentTasks/tree/admin-panel",
-    link: "https://admin-panel-sc-60b477b71887.herokuapp.com"
+    link: "http://adminpanel.szymco.de"
   },
-
+  {
+    title: "LinkhouseBlog",
+    description: "This is a recruitment task project for Linkhouse company.",
+    techItem: [
+      {
+        alt: "laravel",
+        src: "https://cdn.simpleicons.org/laravel/FF2D20",
+        link: "https://laravel.com"
+      },
+      {
+        alt: "vue",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
+        link: "https://vuejs.org"
+      },
+      {
+        alt: "sass",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+        link: "https://sass-lang.com"
+      },
+      {
+        alt: "pest",
+        src: "https://plugins.jetbrains.com/files/14636/423525/icon/pluginIcon.png",
+        link: "https://pestphp.com"
+      },
+      {
+        alt: "docker",
+        src: "https://cdn.simpleicons.org/docker/2496ED",
+        link: "https://www.docker.com"
+      }
+    ],
+    githubLink: "https://github.com/SzymCode/RecruitmentTasks/tree/linkhouse-blog",
+    link: "http://linkhouse-blog.szymco.de"
+  },
+  {
+    title: "TagManager",
+    description: "This website helps storage various data types and share it with others.",
+    techItem: [
+      {
+        alt: "typescript",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        link: "https://www.typescriptlang.org"
+      },
+      {
+        alt: "react",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        link: "https://react.dev"
+      },
+      {
+        alt: "redux",
+        src: "https://cdn.simpleicons.org/redux/764ABC",
+        link: "https://redux.js.org"
+      },
+      {
+        alt: "chakra ui",
+        src: "https://www.crocoder.dev/assets/chakra-ui.46d212e4.png",
+        link: "https://chakra-ui.com"
+      }
+    ],
+    githubLink: "https://github.com/SzymCode/RecruitmentTasks/tree/tag-manager",
+    link: "http://tagmanager.szymco.de"
+  },
   {
     title: "ArticleSystem",
     description: "Simple article system project for Online Venture company recruitment process.",
@@ -146,11 +211,34 @@ const archiveCardsData: ArchiveCardProps[] = [
       }
     ],
     githubLink: "https://github.com/SzymCode/RecruitmentTasks/tree/article-system",
-    link: "https://article-system-sc-2f67032d1ea5.herokuapp.com"
+    link: "http://article-system.szymco.de"
   },
   {
     title: "GiardDesign",
     description: "Fully responsive website with photo gallery, made for adRespect company recruitment process. Graphic design is their own.",
+    techItem: [
+      {
+        alt: "javascript",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        link: "https://www.javascript.com"
+      },
+      {
+        alt: "html5",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        link: "https://html.com"
+      },
+      {
+        alt: "tailwind",
+        src: "https://cdn.simpleicons.org/tailwindcss/06B6D4",
+        link: "https://tailwindcss.com"
+      }
+    ],
+    githubLink: "https://github.com/SzymCode/RecruitmentTasks/tree/giard-design",
+    link: "http://giard-design.szymco.de"
+  },
+  {
+    title: "LAMountains",
+    description: "This is a recruitment task project for Coalition Technologies company. Graphic design is their own.",
     techItem: [
       {
         alt: "javascript",
@@ -168,8 +256,8 @@ const archiveCardsData: ArchiveCardProps[] = [
         link: "https://css3.com"
       }
     ],
-    githubLink: "https://github.com/SzymCode/RecruitmentTasks/tree/giard-design",
-    link: "https://szymcode.github.io/RecruitmentTasks"
+    githubLink: "https://github.com/SzymCode/RecruitmentTasks/tree/la-mountains",
+    link: "http://la-mountains.szymco.de"
   },
   {
     title: "RecruitmentTasks",
@@ -191,6 +279,11 @@ const archiveCardsData: ArchiveCardProps[] = [
         link: "https://react.dev"
       },
       {
+        alt: "redux",
+        src: "https://cdn.simpleicons.org/redux/764ABC",
+        link: "https://redux.js.org"
+      },
+      {
         alt: "django",
         src: "https://cdn.simpleicons.org/django/092E20",
         link: "https://www.djangoproject.com"
@@ -203,39 +296,6 @@ const archiveCardsData: ArchiveCardProps[] = [
     ],
     githubLink: "https://github.com/SzymCode/RecruitmentTasks",
     link: "https://github.com/SzymCode/RecruitmentTasks"
-  },
-  {
-    title: "ContactBook - sandbox",
-    description: "This repository serves as my coding sandbox, where I can experiment with different solutions and refine my skills.",
-    techItem: [
-      {
-        alt: "react",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-        link: "https://react.dev"
-      },
-      {
-        alt: "django",
-        src: "https://cdn.simpleicons.org/django/092E20",
-        link: "https://www.djangoproject.com"
-      },
-      {
-        alt: "tailwind",
-        src: "https://cdn.simpleicons.org/tailwindcss/06B6D4",
-        link: "https://tailwindcss.com"
-      },
-      {
-        alt: "mui",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
-        link: "https://mui.com/material-ui"
-      },
-      {
-        alt: "docker",
-        src: "https://cdn.simpleicons.org/docker/2496ED",
-        link: "https://www.docker.com"
-      }
-    ],
-    githubLink: "https://github.com/SzymCode/ContactBook-sandbox",
-    link: "https://contactbook-szymcode.herokuapp.com"
   },
   {
     title: "GoogleBrowser",
@@ -255,15 +315,10 @@ const archiveCardsData: ArchiveCardProps[] = [
         alt: "tailwind",
         src: "https://cdn.simpleicons.org/tailwindcss/06B6D4",
         link: "https://tailwindcss.com"
-      },
-      {
-        alt: "html5",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-        link: "https://html.com"
-      },
+      }
     ],
     githubLink: "https://github.com/SzymCode/GoogleBrowser",
-    link: "https://google-browser-sc.vercel.app"
+    link: "https://google-browser.szymco.de"
   },
   {
     title: "ECommerceTemplate",
@@ -296,7 +351,7 @@ const archiveCardsData: ArchiveCardProps[] = [
       }
     ],
     githubLink: "https://github.com/SzymCode/ECommerceTemplate",
-    link: "https://e-commerce-template-szymcode.vercel.app"
+    link: "https://e-commerce.szymco.de"
   },
   {
     title: "DiscordClone",
@@ -321,10 +376,10 @@ const archiveCardsData: ArchiveCardProps[] = [
         alt: "tailwind",
         src: "https://cdn.simpleicons.org/tailwindcss/06B6D4",
         link: "https://tailwindcss.com"
-      },
+      }
     ],
     githubLink: "https://github.com/SzymCode/SzymCode/DiscordClone",
-    link: "https://discord-clone-szymcode.vercel.app"
+    link: "https://discord-clone.szymco.de"
   },
   {
     title: "TodoApp",
@@ -375,7 +430,7 @@ const archiveCardsData: ArchiveCardProps[] = [
       }
     ],
     githubLink: "https://github.com/SzymCode/RWD-exercises",
-    link: "https://rwd-exercises-navbar.vercel.app"
+    link: "https://rwd-footer.szymco.de"
   },
   {
     title: "SzymCode/Portfolio",
@@ -408,7 +463,7 @@ const archiveCardsData: ArchiveCardProps[] = [
       }
     ],
     githubLink: "https://github.com/SzymCode/SzymCode/Portfolio",
-    link: "https://szymcode.vercel.app"
+    link: "https://szymco.de"
   },
   {
     title: "SentrySubstitute",
@@ -423,7 +478,7 @@ const archiveCardsData: ArchiveCardProps[] = [
         alt: "laravel",
         src: "https://cdn.simpleicons.org/laravel/FF2D20",
         link: "https://laravel.com"
-      },
+      }
     ],
     githubLink: "https://github.com/SzymCode/SentrySubstitute",
     link: "https://github.com/SzymCode/SentrySubstitute"
@@ -454,7 +509,7 @@ const archiveCardsData: ArchiveCardProps[] = [
       }
     ],
     githubLink: "https://github.com/SzymCode/RegistrationDjango",
-    link: "https://registration-django-sc-4b31f06e64f2.herokuapp.com/login/?next=/"
+    link: "http://registration-django.szymco.de"
   },
   {
     title: "TinyProjects",
@@ -502,7 +557,7 @@ const archiveCardsData: ArchiveCardProps[] = [
         alt: "pygame",
         src: "https://user-images.githubusercontent.com/46412508/170405943-e75458ec-6cb4-462e-91ba-43c861a3d6cf.png",
         link: "https://www.pygame.org/docs"
-      },
+      }
     ],
     githubLink: "https://github.com/SzymCode/ChessEngine",
     link: "https://github.com/SzymCode/ChessEngine"
@@ -520,7 +575,7 @@ const archiveCardsData: ArchiveCardProps[] = [
         alt: "pygame",
         src: "https://user-images.githubusercontent.com/46412508/170405943-e75458ec-6cb4-462e-91ba-43c861a3d6cf.png",
         link: "https://www.pygame.org/docs"
-      },
+      }
     ],
     githubLink: "https://github.com/SzymCode/TinyProjects/blob/main/Others/Python/snake.py",
     link: "https://github.com/SzymCode/TinyProjects/blob/main/Others/Python/snake.py"
@@ -533,7 +588,7 @@ const archiveCardsData: ArchiveCardProps[] = [
         alt: "python",
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
         link: "https://www.python.org"
-      },
+      }
     ],
     githubLink: "https://github.com/SzymCode/TinyProjects/blob/main/Others/Python/clipboard_manager.py",
     link: "https://github.com/SzymCode/TinyProjects/blob/main/Others/Python/clipboard_manager.py"
@@ -551,7 +606,7 @@ const archiveCardsData: ArchiveCardProps[] = [
         alt: "pytube",
         src: "https://avatars.githubusercontent.com/u/16789089?v=4&s=400",
         link: "https://pytube.io/en/latest/"
-      },
+      }
     ],
     githubLink: "https://github.com/SzymCode/TinyProjects/blob/main/Others/Python/youtube_downloader.py",
     link: "https://github.com/SzymCode/TinyProjects/blob/main/Others/Python/youtube_downloader.py"
