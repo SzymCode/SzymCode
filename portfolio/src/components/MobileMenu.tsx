@@ -38,6 +38,7 @@ export default function MobileMenu() {
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 0.2 }}
                     className="mobile-menu-li"
+                    onClick={() => { setShowMenu(false) }}
                 >
                   Home
                 </motion.li>
@@ -48,6 +49,7 @@ export default function MobileMenu() {
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 0.2, delay: 0.2 }}
                     className="mobile-menu-li"
+                    onClick={() => { setShowMenu(false) }}
                 >
                   About Me
                 </motion.li>
@@ -58,6 +60,7 @@ export default function MobileMenu() {
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 0.2, delay: 0.4 }}
                     className="mobile-menu-li"
+                    onClick={() => { setShowMenu(false) }}
                 >
                   Projects
                 </motion.li>
@@ -68,6 +71,7 @@ export default function MobileMenu() {
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 0.2, delay: 0.6 }}
                     className="mobile-menu-li"
+                    onClick={() => { setShowMenu(false) }}
                 >
                   Contact
                 </motion.li>
