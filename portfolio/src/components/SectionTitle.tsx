@@ -1,10 +1,14 @@
-import { SectionTitleProps } from "@/utils/handleProps";
+import { ReactElement } from 'react'
 
-export default function SectionTitle({ title }: SectionTitleProps) {
+import { SectionTitleInterface } from '@/types'
+
+export default function SectionTitle({
+  title
+}: SectionTitleInterface): ReactElement {
   return (
     <div className="section-title-container">
-        { title }
-       <span className="section-title-line"></span>
+      {title}
+      <span className="section-title-line"></span>
     </div>
   )
 }

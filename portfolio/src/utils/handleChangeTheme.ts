@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react'
-import { ChangeThemeProps } from "@/utils/handleProps"
 
+import { ChangeThemeInterface, DarkModeType } from '@/types'
 
-export default function HandleChangeTheme(): ChangeThemeProps {
-  const [darkMode, setDarkMode] = useState<boolean>(() => {
+export default function HandleChangeTheme(): ChangeThemeInterface {
+  const [darkMode, setDarkMode] = useState<DarkModeType>((): DarkModeType => {
     if (typeof localStorage !== 'undefined') {
       if (localStorage.theme === 'dark' || !('theme' in localStorage)) {
         return true

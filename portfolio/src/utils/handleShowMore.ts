@@ -1,18 +1,25 @@
-import { useState } from "react"
+import { useState } from 'react'
 
-import { ArchiveCardProps } from "@/utils/handleProps"
+import {
+  ArchiveCardInterface,
+  HandleShowMoreClickFunctionType,
+  HandleShowMoreInterface,
+  VisibleCardsType
+} from '@/types'
 
-export default function HandleShowMore() {
-  const [visibleCardsCount, setVisibleCardsCount] = useState(3)
+export default function HandleShowMore(): HandleShowMoreInterface {
+  const [visibleCardsCount, setVisibleCardsCount] =
+    useState<VisibleCardsType>(3)
 
-  function handleShowMoreClick(archiveCardsData: ArchiveCardProps[]) {
+  function handleShowMoreClick(
+    archiveCardsData: ArchiveCardInterface[]
+  ): HandleShowMoreClickFunctionType {
     if (visibleCardsCount < archiveCardsData.length) {
       setVisibleCardsCount(visibleCardsCount + 3)
-    }
-
-    else {
+    } else {
       setVisibleCardsCount(3)
     }
   }
+
   return { visibleCardsCount, handleShowMoreClick }
 }
