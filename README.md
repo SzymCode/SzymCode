@@ -92,23 +92,6 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      <a href="http://tagmanager.szymco.de">
-        TagManager
-      </a>
-    </td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=ts" height="26" />
-      <img src="https://skillicons.dev/icons?i=react" height="26" />
-      <img src="https://skillicons.dev/icons?i=redux" height="26" />
-      <img src="https://skillicons.dev/icons?i=html" height="26" />
-      <img src="https://www.crocoder.dev/assets/chakra-ui.46d212e4.png" height="26" />
-      <img src="https://icons.veryicon.com/png/o/business/vscode-program-item-icon/storybook.png" height="26" />
-      <img src="https://skillicons.dev/icons?i=heroku" height="26" />
-      <img src="https://skillicons.dev/icons?i=vite" height="26" />
-    </td>
-  </tr>
-    <tr>
-    <td>
       <a href="http://www.article-system.szymco.de">
         ArticleSystem
       </a>
@@ -125,7 +108,52 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://github.com/SzymCode/SzymCode/assets/107359025/ced20949-7b32-407b-a249-2dd9b117f5b2" height="25" />
     </td>
   </tr>
-
+  <tr>
+    <td>
+      <a href="http://tagmanager.szymco.de">
+        TagManager
+      </a>
+    </td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=ts" height="26" />
+      <img src="https://skillicons.dev/icons?i=react" height="26" />
+      <img src="https://skillicons.dev/icons?i=redux" height="26" />
+      <img src="https://skillicons.dev/icons?i=html" height="26" />
+      <img src="https://www.crocoder.dev/assets/chakra-ui.46d212e4.png" height="26" />
+      <img src="https://icons.veryicon.com/png/o/business/vscode-program-item-icon/storybook.png" height="26" />
+      <img src="https://skillicons.dev/icons?i=heroku" height="26" />
+      <img src="https://skillicons.dev/icons?i=vite" height="26" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://szymco.de">
+        Portfolio
+      </a>
+    </td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=ts" height="26" />
+      <img src="https://skillicons.dev/icons?i=react" height="26" />
+      <img src="https://skillicons.dev/icons?i=html" height="26" />
+      <img src="https://skillicons.dev/icons?i=tailwind" height="26" />
+      <img src="https://skillicons.dev/icons?i=nextjs" height="26" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://aircraft-mechanics.vercel.app">
+        AircraftMechanics
+      </a>
+    </td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=ts" height="26" />
+      <img src="https://skillicons.dev/icons?i=vue" height="26" />
+      <img src="https://www.primefaces.org/wp-content/uploads/2019/12/primevue-logo.png" height="26" />
+      <img src="https://skillicons.dev/icons?i=html" height="26" />
+      <img src="https://skillicons.dev/icons?i=css" height="26" />
+      <img src="https://skillicons.dev/icons?i=vite" height="26" />
+    </td>
+  </tr>
   <tr>
     <td>
       <a href="https://giard-design.szymco.de">
@@ -150,20 +178,6 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://skillicons.dev/icons?i=html" height="26" />
       <img src="https://skillicons.dev/icons?i=css" height="26" />
       <img src="https://skillicons.dev/icons?i=bootstrap" height="26" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://szymco.de">
-        Portfolio
-      </a>
-    </td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=ts" height="26" />
-      <img src="https://skillicons.dev/icons?i=react" height="26" />
-      <img src="https://skillicons.dev/icons?i=html" height="26" />
-      <img src="https://skillicons.dev/icons?i=tailwind" height="26" />
-      <img src="https://skillicons.dev/icons?i=nextjs" height="26" />
     </td>
   </tr>
   <tr>
@@ -359,7 +373,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
 * 🏊 Really love swimming
 * ♟️ My favourite openings in chess are the Stafford and King's gambits
 * 🧠 Rubik's Cube CFOP sub 20 & Blindfold Old Pochmann 5 min with memorize
-* 📚 Books that have impacted me: "Be Obsessed or Be Average" (G. Cardone), "The Power of Now" (E. Tolle), "The Development of Personality" (C. G. Jung), "Civilization and Its Discontents" and "Beyond the Pleasure Principle" (S. Freud)
+* 📚 Books that have impacted me: "Words of Life" (Bo Yin Ra), "The Power of Now" (E. Tolle), "The Development of Personality" (C. G. Jung), "Civilization and Its Discontents", "The Future of an Illusion" and "Beyond the Pleasure Principle" (S. Freud)
 
 </details>
 <br>
