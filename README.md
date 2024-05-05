@@ -2,13 +2,13 @@
   Hi, I'm Szymon
 </h2>
 
-As a self-taught developer, I'm actively seeking **challenging career opportunities**. I have commercial experience of **JavaScript**, **PHP** and in my work I mostly use **Laravel** and **Vue.js**. My favourite CSS frameworks are PrimeVue and Tailwind. I also love writing tests in Pest, Nest.js (Jest) and Cypress.
+As a self-taught developer, I'm actively seeking **challenging career opportunities**. I have commercial experience of **JavaScript**, **PHP** and in my work I mostly use **Laravel** and **Vue.js**. Currently I work with Prestashop e-commerce platform. My favourite CSS frameworks are PrimeVue and Tailwind. I also love writing tests in Pest, Nest.js (Jest) and Cypress.
 <br>
 
 | 💻 Portfolio | [szymco.de](https://szymco.de) | 
 | :- | :- | 
 | 🔍 Find me | [![Gmail](https://img.shields.io/badge/-Gmail-informational?style=flat&logo=gmail&color=white)](mailto:szymon.radomski@yahoo.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/szymon-radomski/) |
-| 🚀 Exists on | [![CodeWars](https://img.shields.io/badge/CodeWars-4%20KYU-1f5be7?logo=codewars&logoColor=white)](https://www.codewars.com/users/SzymCode) |
+| 🚀 Exists on | [![CodeWars](https://img.shields.io/badge/CodeWars-4%20KYU-1f5be7?logo=codewars&logoColor=white)](https://www.codewars.com/users/SzymCode) [![Lichess](https://img.shields.io/badge/Lichess-000000?logo=lichess&logoColor=white)](https://lichess.org/@/S1CChess) |
 | 📘 Studying now | [![PrestaShop](https://img.shields.io/badge/PrestaShop-DF0067?logo=prestashop&logoColor=white)](https://pl.prestashop.com/) [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
 
 
@@ -371,7 +371,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
 
 * 📓 I'm gaining knowledge mainly from documentations, forums and courses
 * 🏊 Really love swimming
-* ♟️ My favourite openings in chess are the Stafford and King's gambits
+* ♟️ My favourite openings in chess are the Stafford and King's gambits, also love Atomic Chess
 * 🧠 Rubik's Cube CFOP sub 20 & Blindfold Old Pochmann 5 min with memorize
 * 📚 Books that have impacted me: "Words of Life" (Bo Yin Ra), "The Power of Now" (E. Tolle), "The Development of Personality" (C. G. Jung), "Civilization and Its Discontents", "The Future of an Illusion" and "Beyond the Pleasure Principle" (S. Freud)
 
