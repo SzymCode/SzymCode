@@ -141,6 +141,21 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
+      <a href="https://timeless-books.site">
+        TimelessBooks
+      </a>
+    </td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=ts" height="26" />
+      <img src="https://skillicons.dev/icons?i=vue" height="26" />
+      <img src="https://www.primefaces.org/wp-content/uploads/2019/12/primevue-logo.png" height="26" />
+      <img src="https://skillicons.dev/icons?i=html" height="26" />
+      <img src="https://skillicons.dev/icons?i=css" height="26" />
+      <img src="https://skillicons.dev/icons?i=vite" height="26" />
+    </td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://aircraft-mechanics.vercel.app">
         AircraftMechanics
       </a>
@@ -373,7 +388,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
 * 🏊 Really love swimming
 * ♟️ My favourite openings in chess are the Stafford and King's gambits, also love Atomic Chess
 * 🧠 Rubik's Cube CFOP sub 20 & Blindfold Old Pochmann 5 min with memorize
-* 📚 Books that have impacted me: "Words of Life" (Bo Yin Ra), "The Power of Now" (E. Tolle), "The Development of Personality" (C. G. Jung), "Civilization and Its Discontents", "The Future of an Illusion" and "Beyond the Pleasure Principle" (S. Freud)
+* 📚 Books that have impacted me listed here: [TimelessBooks](https://www.timeless-books.site/)
 
 </details>
 <br>
