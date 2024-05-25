@@ -46,6 +46,9 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://skillicons.dev/icons?i=mysql" height="26" />
       <img src="https://github.com/SzymCode/SzymCode/assets/107359025/ced20949-7b32-407b-a249-2dd9b117f5b2" height="25" />
       <img src="https://static-00.iconduck.com/assets.00/cypress-icon-512x511-29zvfts6.png" height="26" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="26" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/a983a634-3e81-4a11-9281-0ef0bacfd187" height="26" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="26" />
     </td>
   </tr>
   <tr>
@@ -67,6 +70,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://skillicons.dev/icons?i=vite" height="26" />
       <img src="https://skillicons.dev/icons?i=mysql" height="26" />
       <img src="https://github.com/SzymCode/SzymCode/assets/107359025/9487a27c-36e8-4e2c-9ac6-4931fb8a5686" height="26" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="26" />
     </td>
   </tr>
   <tr>
@@ -88,6 +92,9 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://skillicons.dev/icons?i=vite" height="26" />
       <img src="https://skillicons.dev/icons?i=mysql" height="26" />
       <img src="https://github.com/SzymCode/SzymCode/assets/107359025/ced20949-7b32-407b-a249-2dd9b117f5b2" height="25" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="26" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/a983a634-3e81-4a11-9281-0ef0bacfd187" height="26" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="26" />
     </td>
   </tr>
   <tr>
@@ -123,6 +130,9 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://icons.veryicon.com/png/o/business/vscode-program-item-icon/storybook.png" height="26" />
       <img src="https://skillicons.dev/icons?i=heroku" height="26" />
       <img src="https://skillicons.dev/icons?i=vite" height="26" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="26" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/a983a634-3e81-4a11-9281-0ef0bacfd187" height="26" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="26" />
     </td>
   </tr>
   <tr>
@@ -137,6 +147,8 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://skillicons.dev/icons?i=html" height="26" />
       <img src="https://skillicons.dev/icons?i=tailwind" height="26" />
       <img src="https://skillicons.dev/icons?i=nextjs" height="26" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="26" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="26" />
     </td>
   </tr>
   <tr>
@@ -152,6 +164,9 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://skillicons.dev/icons?i=html" height="26" />
       <img src="https://skillicons.dev/icons?i=css" height="26" />
       <img src="https://skillicons.dev/icons?i=vite" height="26" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="26" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/a983a634-3e81-4a11-9281-0ef0bacfd187" height="26" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="26" />
     </td>
   </tr>
   <tr>
@@ -167,6 +182,8 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://skillicons.dev/icons?i=html" height="26" />
       <img src="https://skillicons.dev/icons?i=css" height="26" />
       <img src="https://skillicons.dev/icons?i=vite" height="26" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/a983a634-3e81-4a11-9281-0ef0bacfd187" height="26" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="26" />
     </td>
   </tr>
   <tr>
@@ -222,6 +239,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://skillicons.dev/icons?i=tailwind" height="26" />
       <img src="https://skillicons.dev/icons?i=nextjs" height="26" />
       <img src="https://github.com/SzymCode/SzymCode/assets/107359025/7ebffcad-0363-41ee-8d03-e7e351c44962" height="26" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="26" />
     </td>
   </tr>
   <tr>
