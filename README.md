@@ -29,6 +29,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   <tr>
     <td>
       <a href="https://www.data-manager.szymco.de">
+        <img src="https://github.com/SzymCode/SzymCode/assets/107359025/8454470d-3f70-484a-b12e-b902530cb9ba" height="16" >
         DataManager
       </a>
     </td>
