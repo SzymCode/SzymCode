@@ -28,7 +28,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </th>
   <tr>
     <td>
-      <a href="http://datamanager.szymco.de">
+      <a href="https://www.data-manager.szymco.de">
         DataManager
       </a>
     </td>
@@ -53,7 +53,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      <a href="http://adminpanel.szymco.de">
+      <a href="https://www.admin-panel.szymco.de">
         AdminPanel
       </a>
     </td>
@@ -75,7 +75,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      <a href="http://linkhouse-blog.szymco.de">
+      <a href="https://www.linkhouse-blog.szymco.de">
         LinkhouseBlog
       </a>
     </td>
@@ -99,7 +99,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      <a href="http://www.article-system.szymco.de">
+      <a href="https://www.article-system.szymco.de">
         ArticleSystem
       </a>
     </td>
@@ -117,7 +117,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      <a href="http://tagmanager.szymco.de">
+      <a href="https://www.tag-manager.szymco.de">
         TagManager
       </a>
     </td>
@@ -137,7 +137,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      <a href="https://szymco.de">
+      <a href="https://www.szymco.de">
         Portfolio
       </a>
     </td>
@@ -153,7 +153,46 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      <a href="https://timeless-books.site">
+      <a href="https://www.giard-design.szymco.de">
+        GiardDesign
+      </a>
+    </td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=js" height="26" />
+      <img src="https://skillicons.dev/icons?i=html" height="26" />
+      <img src="https://skillicons.dev/icons?i=bootstrap" height="26" />
+      <img src="https://skillicons.dev/icons?i=tailwind" height="26" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.la-mountains.szymco.de">
+        LAMountains
+      </a>
+    </td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=js" height="26" />
+      <img src="https://skillicons.dev/icons?i=html" height="26" />
+      <img src="https://skillicons.dev/icons?i=css" height="26" />
+      <img src="https://skillicons.dev/icons?i=bootstrap" height="26" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.google-browser.szymco.de">
+        GoogleBrowser
+      </a>
+    </td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=ts" height="26" />
+      <img src="https://skillicons.dev/icons?i=react" height="26" />
+      <img src="https://skillicons.dev/icons?i=html" height="26" />
+      <img src="https://skillicons.dev/icons?i=tailwind" height="26" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.timeless-books.site">
         TimelessBooks
       </a>
     </td>
@@ -188,46 +227,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      <a href="https://giard-design.szymco.de">
-        GiardDesign
-      </a>
-    </td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=js" height="26" />
-      <img src="https://skillicons.dev/icons?i=html" height="26" />
-      <img src="https://skillicons.dev/icons?i=bootstrap" height="26" />
-      <img src="https://skillicons.dev/icons?i=tailwind" height="26" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://la-mountains.szymco.de">
-        LAMountains
-      </a>
-    </td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=js" height="26" />
-      <img src="https://skillicons.dev/icons?i=html" height="26" />
-      <img src="https://skillicons.dev/icons?i=css" height="26" />
-      <img src="https://skillicons.dev/icons?i=bootstrap" height="26" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://google-browser.szymco.de">
-        GoogleBrowser
-      </a>
-    </td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=ts" height="26" />
-      <img src="https://skillicons.dev/icons?i=react" height="26" />
-      <img src="https://skillicons.dev/icons?i=html" height="26" />
-      <img src="https://skillicons.dev/icons?i=tailwind" height="26" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://e-commerce.szymco.de">
+      <a href="https://www.e-commerce.szymco.de">
         ECommerce
       </a>
     </td>
@@ -244,7 +244,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      <a href="https://discord-clone.szymco.de">
+      <a href="https://www.discord-clone.szymco.de">
         DiscordClone
       </a>
     </td>
@@ -259,7 +259,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      <a href="http://registration-django.szymco.de">
+      <a href="https://www.registration-django.szymco.de">
         Registration
       </a>
     </td>
@@ -274,7 +274,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      <a href="https://rwd-navbar.szymco.de">
+      <a href="https://www.rwd-navbar.szymco.de">
         RWD Navbar
       </a>
     </td>
@@ -286,7 +286,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      <a href="https://rwd-footer.szymco.de">
+      <a href="https://www.rwd-footer.szymco.de">
         RWD Footer
       </a>
     </td>
