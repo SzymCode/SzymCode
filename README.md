@@ -39,15 +39,18 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://skillicons.dev/icons?i=laravel" height="26" />
       <img src="https://skillicons.dev/icons?i=vue" height="26" />
       <img src="https://www.primefaces.org/wp-content/uploads/2019/12/primevue-logo.png" height="26" />
-      <img src="https://skillicons.dev/icons?i=html" height="26" />
       <img src="https://skillicons.dev/icons?i=sass" height="26" />
+      <img src="https://skillicons.dev/icons?i=bootstrap" height="26" />
+      <img src="https://skillicons.dev/icons?i=html" height="26" />
       <img src="https://skillicons.dev/icons?i=docker" height="26" />
       <img src="https://skillicons.dev/icons?i=heroku" height="26" />
-      <img src="https://skillicons.dev/icons?i=vite" height="26" />
       <img src="https://skillicons.dev/icons?i=mysql" height="26" />
+      <img src="https://skillicons.dev/icons?i=vite" height="26" />
+      <img src="https://skillicons.dev/icons?i=vitest" height="26" />
       <img src="https://github.com/SzymCode/SzymCode/assets/107359025/ced20949-7b32-407b-a249-2dd9b117f5b2" height="25" />
       <img src="https://icons.veryicon.com/png/o/business/vscode-program-item-icon/storybook.png" height="26" />
       <img src="https://static-00.iconduck.com/assets.00/cypress-icon-512x511-29zvfts6.png" height="26" />
+      <img src="https://github.com/user-attachments/assets/9032d586-f623-4446-89be-b2ab6a2e615e" height="26"
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="26" />
       <img src="https://github.com/SzymCode/SzymCode/assets/107359025/a983a634-3e81-4a11-9281-0ef0bacfd187" height="26" />
       <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="26" />
@@ -64,9 +67,9 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://skillicons.dev/icons?i=js" height="26" />
       <img src="https://skillicons.dev/icons?i=laravel" height="26" />
       <img src="https://skillicons.dev/icons?i=vue" height="26" />
-      <img src="https://skillicons.dev/icons?i=html" height="26" />
       <img src="https://skillicons.dev/icons?i=css" height="26" />
       <img src="https://skillicons.dev/icons?i=bootstrap" height="26" />
+      <img src="https://skillicons.dev/icons?i=html" height="26" />
       <img src="https://skillicons.dev/icons?i=docker" height="26" />
       <img src="https://skillicons.dev/icons?i=heroku" height="26" />
       <img src="https://skillicons.dev/icons?i=vite" height="26" />
@@ -333,6 +336,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://img.shields.io/badge/-Tailwind-38B2AC?logo=tailwind-css&logoColor=white" />
       <img src="https://img.shields.io/badge/Cypress-17202C?logo=cypress&logoColor=white" />
       <img src="https://img.shields.io/badge/Vite-%232C3A42?logo=vite&logoColor=white" />
+      <img src="https://img.shields.io/badge/Vitest-17202C?logo=vitest&logoColor=FCC72B" />
       <img src="https://img.shields.io/badge/MySQL-%234479A1?logo=mysql&logoColor=white" />
     </td>
   </tr>
