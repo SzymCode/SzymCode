@@ -2,7 +2,7 @@
   Hi, I'm Szymon
 </h2>
 
-As a self-taught developer, I'm actively seeking **challenging career opportunities**. I have commercial experience of **JavaScript**, **PHP** and in my work I mostly use **Laravel** and **Vue.js**. Currently I work with Prestashop e-commerce platform. My favourite CSS frameworks are PrimeVue and Tailwind. I also love writing tests in Pest, Jest and Cypress.
+As a self-taught developer, I'm actively seeking **challenging career opportunities**. I have commercial experience of **JavaScript**, **PHP** and in my work I mostly use **Laravel** and **Vue.js**. Currently I work with Prestashop e-commerce platform. My favourite CSS frameworks are PrimeVue and Tailwind. I also love writing tests in Pest, Jest, Vitest and Cypress.
 <br>
 
 | 💻 Portfolio | [szymco.de](https://szymco.de) | 
@@ -416,6 +416,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Deployment
     </td>
     <td>
+      <img src="https://img.shields.io/badge/Pages-181717?logo=github&logoColor=white" />
       <img src="https://img.shields.io/badge/Heroku-430098?logo=heroku&logoColor=white" />
       <img src="https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white" />
     </td>
