@@ -2,15 +2,14 @@
   Hi, I'm Szymon
 </h2>
 
-As a self-taught developer, I'm actively seeking **challenging career opportunities**. I have commercial experience of **JavaScript**, **PHP** and in my work I mostly use **Laravel** and **Vue.js**. Currently I work with Prestashop e-commerce platform. My favourite CSS frameworks are PrimeVue and Tailwind. I also love writing tests in Pest, Jest, Vitest and Cypress.
+As a self-taught developer, I'm actively seeking **challenging career opportunities**. Currently I work with **Prestashop** e-commerce platform. My favourite CSS tools are **PrimeVue**, **Sass** and **Chart.js**. I also love writing tests in **PHPUnit**, **Pest**, **Jest**, **Vitest** and **Cypress**.
 <br>
 
 | 💻 Portfolio | [szymco.de](https://szymco.de) | 
 | :- | :- | 
-| 🔍 Find me | [![Gmail](https://img.shields.io/badge/-Gmail-informational?style=flat&logo=gmail&color=white)](mailto:szymon.radomski@yahoo.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/szymon-radomski/) |
+| ⭐ Project | <img src="https://github.com/SzymCode/SzymCode/assets/107359025/8454470d-3f70-484a-b12e-b902530cb9ba" height="12" > [DataManager](https://data-manager.szymco.de) |
+| 🔍 Find me | [![Yahoo](https://img.shields.io/badge/Yahoo!-410093?logo=yahoo&logoColor=white)](mailto:szymon.radomski@yahoo.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/szymon-radomski/) |
 | 🚀 Exists on | [![CodeWars](https://img.shields.io/badge/CodeWars-4%20KYU-1f5be7?logo=codewars&logoColor=white)](https://www.codewars.com/users/SzymCode) [![Lichess](https://img.shields.io/badge/Lichess-000000?logo=lichess&logoColor=white)](https://lichess.org/@/S1CChess) |
-| 📘 Studying now | [![PrestaShop](https://img.shields.io/badge/PrestaShop-DF0067?logo=prestashop&logoColor=white)](https://pl.prestashop.com/) [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
-
 
 
 <br>
@@ -29,7 +28,6 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   <tr>
     <td>
       <a href="https://www.data-manager.szymco.de">
-        <img src="https://github.com/SzymCode/SzymCode/assets/107359025/8454470d-3f70-484a-b12e-b902530cb9ba" height="16" >
         DataManager
       </a>
     </td>
@@ -50,10 +48,11 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://github.com/SzymCode/SzymCode/assets/107359025/ced20949-7b32-407b-a249-2dd9b117f5b2" height="25" />
       <img src="https://icons.veryicon.com/png/o/business/vscode-program-item-icon/storybook.png" height="26" />
       <img src="https://static-00.iconduck.com/assets.00/cypress-icon-512x511-29zvfts6.png" height="26" />
-      <img src="https://github.com/user-attachments/assets/9032d586-f623-4446-89be-b2ab6a2e615e" height="26"
+      <img src="https://github.com/user-attachments/assets/9032d586-f623-4446-89be-b2ab6a2e615e" height="26" />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="26" />
-      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/a983a634-3e81-4a11-9281-0ef0bacfd187" height="26" />
+      <img src="https://github.com/user-attachments/assets/ea4a5462-085b-4dd6-bf35-9f76cbcf3c35" height="26" />
       <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="26" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/a983a634-3e81-4a11-9281-0ef0bacfd187" height="26" />
     </td>
   </tr>
   <tr>
@@ -330,14 +329,14 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
      <b> Main </b>
     </td>
     <td>
+      <img src="https://img.shields.io/badge/PrestaShop-DF0067?logo=prestashop&logoColor=white" />
       <img src="https://img.shields.io/badge/Laravel-%23FF2D20.svg?style=flat&logo=laravel&logoColor=white" />
       <img src="https://img.shields.io/badge/Vue.js-%234FC08D.svg?style=flat&logo=vue.js&logoColor=white" />
       <img src="https://img.shields.io/badge/Sass-CC6699?logo=sass&logoColor=white" />
-      <img src="https://img.shields.io/badge/-Tailwind-38B2AC?logo=tailwind-css&logoColor=white" />
-      <img src="https://img.shields.io/badge/Cypress-17202C?logo=cypress&logoColor=white" />
       <img src="https://img.shields.io/badge/Vite-%232C3A42?logo=vite&logoColor=white" />
       <img src="https://img.shields.io/badge/Vitest-17202C?logo=vitest&logoColor=FCC72B" />
-      <img src="https://img.shields.io/badge/MySQL-%234479A1?logo=mysql&logoColor=white" />
+      <img src="https://img.shields.io/badge/Cypress-17202C?logo=cypress&logoColor=white" />
+      <img src="https://img.shields.io/badge/Storybook-FF4785?logo=storybook&logoColor=white" />
     </td>
   </tr>
   <tr>
@@ -345,9 +344,10 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Intermediate
     </td>
     <td>
-      <img src="https://img.shields.io/badge/jQuery-0769AD?logo=jquery&logoColor=white" />
+      <img src="https://img.shields.io/badge/shadcn-000000?logo=shadcn&logoColor=white" />
+      <img src="https://img.shields.io/badge/-Tailwind-38B2AC?logo=tailwind-css&logoColor=white" />
       <img src="https://img.shields.io/badge/Bootstrap-%237952b3.svg?logo=bootstrap&logoColor=white" />
-      <img src="https://img.shields.io/badge/Storybook-FF4785?logo=storybook&logoColor=white" />
+      <img src="https://img.shields.io/badge/jQuery-0769AD?logo=jquery&logoColor=white" />
       <img src="https://img.shields.io/badge/Chakra%20UI-319795?logo=chakra-ui&logoColor=white" />
       <img src="https://shields.io/badge/React-black?logo=react" />
       <img src="https://img.shields.io/badge/Django-%23092e20.svg?logo=django&logoColor=white" />
@@ -358,13 +358,23 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Have experienced
     </td>
     <td>
+      <img src="https://img.shields.io/badge/Quasar-1976D2?logo=quasar&logoColor=white" />
       <img src="https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=white" />
       <img src="https://img.shields.io/badge/Nest.js-E0234E?logo=nestjs&logoColor=white&color=%23FF2D20" />
       <img src="https://img.shields.io/badge/Symfony-%23000000.svg?logo=symfony&logoColor=white" />
       <img src="https://img.shields.io/badge/MUI-%230081CB.svg?logo=mui&logoColor=white" />
       <img src="https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white" />
-      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" />
       <img src="https://img.shields.io/badge/Webpack-00599C?logo=webpack&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Databases
+    </td>
+    <td>
+      <img src="https://img.shields.io/badge/MySQL-%234479A1?logo=mysql&logoColor=white" />
+      <img src="https://img.shields.io/badge/MariaDB-003545?logo=mariadb&logoColor=white" />
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" />
     </td>
   </tr>
   <tr>
@@ -388,6 +398,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://img.shields.io/badge/XAMPP-%23FB7A24.svg?style=flat&logo=xampp&logoColor=white" />
       <img src="https://img.shields.io/badge/Figma-000000?logo=figma&logoColor=white" />
       <img src="https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white&color=000000" />
+      <img src="https://img.shields.io/badge/ShareX-1A1A1A?logo=sharex&logoColor=white" />
     </td>
   </tr>
   <tr>
@@ -396,6 +407,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
     </td>
     <td>
       <img src="https://img.shields.io/badge/Actions-181717?logo=github&logoColor=white" />
+      <img src="https://img.shields.io/badge/Husky-1A2C34?logo=husky&logoColor=white" />
       <img src="https://img.shields.io/badge/Bitbucket-0052CC?logo=bitbucket&logoColor=white&color=0052CC" />
       <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws&logoColor=white" />
     </td>
@@ -427,6 +439,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
     </td>
     <td>
       <img src="https://img.shields.io/badge/ESLint-3A33D1?logo=eslint&logoColor=white" />
+      <img src="https://img.shields.io/badge/Stylelint-263238?logo=stylelint&logoColor=white" />
       <img src="https://img.shields.io/badge/Prettier-1A2C34?logo=prettier&logoColor=F7BA3E" />
     </td>
   </tr>
