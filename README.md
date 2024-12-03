@@ -7,7 +7,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
 
 | 💻 Portfolio | [szymco.de](https://szymco.de) | 
 | :- | :- | 
-| ⭐ Project | <img src="https://github.com/SzymCode/SzymCode/assets/107359025/8454470d-3f70-484a-b12e-b902530cb9ba" height="12" > [DataManager](https://data-manager.szymco.de) |
+| ⭐ Project | <img src="https://github.com/SzymCode/SzymCode/assets/107359025/8454470d-3f70-484a-b12e-b902530cb9ba" height="12" > [DataManager](https://datamanager.szymco.de) |
 | 🔍 Find me | [![Yahoo](https://img.shields.io/badge/Yahoo!-410093?logo=yahoo&logoColor=white)](mailto:szymon.radomski@yahoo.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/szymon-radomski/) |
 | 🚀 Exists on | [![CodeWars](https://img.shields.io/badge/CodeWars-4%20KYU-1f5be7?logo=codewars&logoColor=white)](https://www.codewars.com/users/SzymCode) [![Lichess](https://img.shields.io/badge/Lichess-000000?logo=lichess&logoColor=white)](https://lichess.org/@/S1CChess) |
 
@@ -27,7 +27,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </th>
   <tr>
     <td>
-      <a href="https://www.data-manager.szymco.de">
+      <a href="https://www.datamanager.szymco.de">
         DataManager
       </a>
     </td>
