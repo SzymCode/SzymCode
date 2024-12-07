@@ -447,7 +447,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      Linters
+      Linter
     </td>
     <td>
       <img src="https://img.shields.io/badge/ESLint-3A33D1?logo=eslint&logoColor=white" />
