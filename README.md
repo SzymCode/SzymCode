@@ -369,7 +369,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      Databases
+      Database
     </td>
     <td>
       <img src="https://img.shields.io/badge/MySQL-%234479A1?logo=mysql&logoColor=white" />
@@ -383,7 +383,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
     </td>
     <td>
       <img src="https://img.shields.io/badge/PhpStorm-%23000000.svg?style=flat&logo=phpstorm&logoColor=white" />
-      <img src="https://img.shields.io/badge/Visual%20Studio-007ACC?logo=visual-studio&logoColor=white" />
+      <img src="https://img.shields.io/badge/Visual%20Studio-007ACC?logo=code&logoColor=white" />
       <img src="https://img.shields.io/badge/PyCharm-black?logo=pycharm&logoColor=green" />
       <img src="https://img.shields.io/badge/Jupyter-%23FA0F00.svg?style=flat&logo=jupyter&logoColor=white" />
     </td>
@@ -400,6 +400,18 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white&color=000000" />
       <img src="https://img.shields.io/badge/ShareX-1A1A1A?logo=sharex&logoColor=white" />
     </td>
+  </tr>
+  <tr>
+    <td>
+      Package Manager
+    </td>
+    <td>
+      <img src="https://img.shields.io/badge/Composer-885630?logo=composer&logoColor=white" />
+      <img src="https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white" />
+      <img src="https://img.shields.io/badge/Yarn-2C8EBB?logo=yarn&logoColor=white" />
+      <img src="https://img.shields.io/badge/AUR-0078D6?logo=archlinux&logoColor=white" />
+      <img src="https://img.shields.io/badge/Pacman-0078D6?logo=archlinux&logoColor=white" />
+      <img src="https://img.shields.io/badge/Pamac-34BE5B?logo=manjaro&logoColor=white" />
   </tr>
   <tr>
     <td>
@@ -448,6 +460,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       OS
     </td>
     <td>
+      <img src="https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=white" />
       <img src="https://img.shields.io/badge/Manjaro-34BE5B?logo=manjaro&logoColor=white" />
       <img src="https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white" />
       <img src="https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white" />
