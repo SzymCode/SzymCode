@@ -8,9 +8,9 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
 | 💻 Portfolio | [szymco.de](https://szymco.de) | 
 | :- | :- | 
 | ⭐ Project | <img src="https://github.com/SzymCode/SzymCode/assets/107359025/8454470d-3f70-484a-b12e-b902530cb9ba" height="12" > [DataManager](https://datamanager.szymco.de) |
-| 🔍 Find me | [![Yahoo](https://img.shields.io/badge/Yahoo!-410093?logo=yahoo&logoColor=white)](mailto:szymon.radomski@yahoo.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/szymon-radomski/) |
+| 🔍 Find me | [![Yahoo](https://img.shields.io/badge/Yahoo!-410093?logo=yahoo&logoColor=white)](mailto:szymon.radomski@yahoo.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/szymon-radomski/) [![CEIDG](https://img.shields.io/badge/CEIDG-BB0A30)](https://aplikacja.ceidg.gov.pl/ceidg/ceidg.public.ui/SearchDetails.aspx?Id=177fdeed-09b6-45a4-b255-78fb8ea8db16) |
 | 🚀 Exists on | [![CodeWars](https://img.shields.io/badge/CodeWars-4%20KYU-1f5be7?logo=codewars&logoColor=white)](https://www.codewars.com/users/SzymCode) [![Lichess](https://img.shields.io/badge/Lichess-000000?logo=lichess&logoColor=white)](https://lichess.org/@/S1CChess) |
-
+| 📘 Studying now | [![Nuxt](https://img.shields.io/badge/Nuxt-black?logo=nuxt.js&logoColor=00C58E)]([https://pl.prestashop.com/](https://nuxt.com/)) [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
 
 <br>
 
@@ -45,19 +45,41 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://skillicons.dev/icons?i=mysql" height="26" />
       <img src="https://skillicons.dev/icons?i=vite" height="26" />
       <img src="https://skillicons.dev/icons?i=vitest" height="26" />
-      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/ced20949-7b32-407b-a249-2dd9b117f5b2" height="25" />
-      <img src="https://icons.veryicon.com/png/o/business/vscode-program-item-icon/storybook.png" height="26" />
-      <img src="https://static-00.iconduck.com/assets.00/cypress-icon-512x511-29zvfts6.png" height="26" />
+      <img src="https://skillicons.dev/icons?i=github" height="26" />
       <img src="https://github.com/user-attachments/assets/9032d586-f623-4446-89be-b2ab6a2e615e" height="26" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/a983a634-3e81-4a11-9281-0ef0bacfd187" height="26" />
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="26" />
       <img src="https://github.com/user-attachments/assets/ea4a5462-085b-4dd6-bf35-9f76cbcf3c35" height="26" />
       <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="26" />
-      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/a983a634-3e81-4a11-9281-0ef0bacfd187" height="26" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/ced20949-7b32-407b-a249-2dd9b117f5b2" height="25" />
+      <img src="https://icons.veryicon.com/png/o/business/vscode-program-item-icon/storybook.png" height="26" />
+      <img src="https://static-00.iconduck.com/assets.00/cypress-icon-512x511-29zvfts6.png" height="26" />
     </td>
   </tr>
   <tr>
     <td>
-      <a href="https://www.admin-panel.szymco.de">
+      <a href="https://github.com/Atomic-IT/NuxtStarter">
+        NuxtStarter
+      </a>
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/f444bbc9-e1fd-4333-b174-4206ff19dac4" height="26" />
+      <img src="https://skillicons.dev/icons?i=nuxtjs" height="26" />
+      <img src="https://skillicons.dev/icons?i=vue" height="26" />
+      <img src="https://skillicons.dev/icons?i=ts" height="26" />
+      <img src="https://skillicons.dev/icons?i=sass" height="26" />
+      <img src="https://skillicons.dev/icons?i=docker" height="26" />
+      <img src="https://skillicons.dev/icons?i=vitest" height="26" />
+      <img src="https://skillicons.dev/icons?i=github" height="26" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/a983a634-3e81-4a11-9281-0ef0bacfd187" height="26" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="26" />
+      <img src="https://github.com/user-attachments/assets/ea4a5462-085b-4dd6-bf35-9f76cbcf3c35" height="26" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="26" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/SzymCode/RecruitmentTasks/tree/admin-panel">
         AdminPanel
       </a>
     </td>
@@ -79,7 +101,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      <a href="https://www.linkhouse-blog.szymco.de">
+      <a href="https://github.com/SzymCode/RecruitmentTasks/tree/linkhouse-blog">
         LinkhouseBlog
       </a>
     </td>
@@ -103,7 +125,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      <a href="https://www.article-system.szymco.de">
+      <a href="https://github.com/SzymCode/RecruitmentTasks/tree/article-system">
         ArticleSystem
       </a>
     </td>
@@ -157,6 +179,24 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
+      <a href="https://www.timeless-books.site">
+        TimelessBooks
+      </a>
+    </td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=ts" height="26" />
+      <img src="https://skillicons.dev/icons?i=vue" height="26" />
+      <img src="https://www.primefaces.org/wp-content/uploads/2019/12/primevue-logo.png" height="26" />
+      <img src="https://skillicons.dev/icons?i=html" height="26" />
+      <img src="https://skillicons.dev/icons?i=css" height="26" />
+      <img src="https://skillicons.dev/icons?i=vite" height="26" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="26" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/a983a634-3e81-4a11-9281-0ef0bacfd187" height="26" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="26" />
+    </td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://www.giard-design.szymco.de">
         GiardDesign
       </a>
@@ -192,24 +232,6 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://skillicons.dev/icons?i=react" height="26" />
       <img src="https://skillicons.dev/icons?i=html" height="26" />
       <img src="https://skillicons.dev/icons?i=tailwind" height="26" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://www.timeless-books.site">
-        TimelessBooks
-      </a>
-    </td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=ts" height="26" />
-      <img src="https://skillicons.dev/icons?i=vue" height="26" />
-      <img src="https://www.primefaces.org/wp-content/uploads/2019/12/primevue-logo.png" height="26" />
-      <img src="https://skillicons.dev/icons?i=html" height="26" />
-      <img src="https://skillicons.dev/icons?i=css" height="26" />
-      <img src="https://skillicons.dev/icons?i=vite" height="26" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="26" />
-      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/a983a634-3e81-4a11-9281-0ef0bacfd187" height="26" />
-      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="26" />
     </td>
   </tr>
   <tr>
@@ -263,7 +285,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      <a href="https://www.registration-django.szymco.de">
+      <a href="https://github.com/SzymCode/RegistrationDjango">
         Registration
       </a>
     </td>
@@ -311,7 +333,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
 <table>
   <tr>
     <td>
-      <b> Languages </b>
+      <b> Language </b>
     </td>
     <td>
       <img src="https://img.shields.io/badge/PHP-%23777BB4.svg?logo=php&logoColor=white" />
@@ -344,6 +366,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Intermediate
     </td>
     <td>
+      <img src="https://img.shields.io/badge/Nuxt-black?logo=nuxt.js&logoColor=00C58E" />
       <img src="https://img.shields.io/badge/shadcn-000000?logo=shadcn&logoColor=white" />
       <img src="https://img.shields.io/badge/-Tailwind-38B2AC?logo=tailwind-css&logoColor=white" />
       <img src="https://img.shields.io/badge/Bootstrap-%237952b3.svg?logo=bootstrap&logoColor=white" />
@@ -375,6 +398,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://img.shields.io/badge/MySQL-%234479A1?logo=mysql&logoColor=white" />
       <img src="https://img.shields.io/badge/MariaDB-003545?logo=mariadb&logoColor=white" />
       <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" />
+      <img src="https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white" />
     </td>
   </tr>
   <tr>
@@ -390,7 +414,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      Tools
+      Tool
     </td>
     <td>
       <img src="https://img.shields.io/badge/Git-%23d22128.svg?logo=git&logoColor=white" />
@@ -412,6 +436,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://img.shields.io/badge/AUR-0078D6?logo=archlinux&logoColor=white" />
       <img src="https://img.shields.io/badge/Pacman-0078D6?logo=archlinux&logoColor=white" />
       <img src="https://img.shields.io/badge/Pamac-34BE5B?logo=manjaro&logoColor=white" />
+      <img src="https://img.shields.io/badge/Snapcraft-E95420?logo=snapcraft&logoColor=white" />
   </tr>
   <tr>
     <td>
@@ -443,6 +468,8 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://img.shields.io/badge/Pages-181717?logo=github&logoColor=white" />
       <img src="https://img.shields.io/badge/Heroku-430098?logo=heroku&logoColor=white" />
       <img src="https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white" />
+      <img src="https://img.shields.io/badge/NuxtHub-black?logo=nuxt.js&logoColor=00C58E" />
+      <img src="https://img.shields.io/badge/Netlify-black?logo=netlify&logoColor=00C7B7" />
     </td>
   </tr>
   <tr>
@@ -468,9 +495,20 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
+      Desktop Environment
+    </td>
+    <td>
+      <img src="https://img.shields.io/badge/Hyprland-3FC5F0?logo=wayland&logoColor=white" />
+      <img src="https://img.shields.io/badge/KDE%20Plasma-1D99F3?logo=kde&logoColor=white" />
+      <img src="https://img.shields.io/badge/Gnome-black?logo=gnome&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td>
       Virtualization
     </td>
     <td>
+      <img src="https://img.shields.io/badge/Boxes-black?logo=gnome&logoColor=white" />
       <img src="https://img.shields.io/badge/VirtualBox-183A61?logo=virtualbox&logoColor=white" />
       <img src="https://img.shields.io/badge/VMware-607078" />
       <img src="https://img.shields.io/badge/Hyper--V-0078D4?logo=microsoft&logoColor=white" />
@@ -487,9 +525,8 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
 <br>
 
 * 🤖 I also worked as a CNC programmer & machinist
-* 📓 I'm gaining knowledge mainly from documentations, forums and collegues
-* 🏊 Really love swimming
-* ♟️ My favourite openings in chess are the Stafford and King's gambits, also love Atomic Chess
+* 📓 I'm gaining knowledge mainly from documentations, forums, collegues and my personal experience
+* ♟️ My favourite openings in chess are the Scotch Game, Stafford and King's gambits, also love Atomic Chess
 * 🧠 Rubik's Cube CFOP sub 20 & Blindfold Old Pochmann 5 min with memorize
 * 📚 Books that have impacted me listed here: [TimelessBooks](https://www.timeless-books.site/)
 
