@@ -10,7 +10,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
 | ⭐ Project | <img src="https://github.com/SzymCode/SzymCode/assets/107359025/8454470d-3f70-484a-b12e-b902530cb9ba" height="12" > [DataManager](https://datamanager.szymco.de) |
 | 🔍 Find me | [![Yahoo](https://img.shields.io/badge/Yahoo!-410093?logo=yahoo&logoColor=white)](mailto:szymon.radomski@yahoo.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/szymon-radomski/) [![CEIDG](https://img.shields.io/badge/CEIDG-BB0A30)](https://aplikacja.ceidg.gov.pl/ceidg/ceidg.public.ui/SearchDetails.aspx?Id=177fdeed-09b6-45a4-b255-78fb8ea8db16) |
 | 🚀 Exists on | [![CodeWars](https://img.shields.io/badge/CodeWars-4%20KYU-1f5be7?logo=codewars&logoColor=white)](https://www.codewars.com/users/SzymCode) [![Lichess](https://img.shields.io/badge/Lichess-000000?logo=lichess&logoColor=white)](https://lichess.org/@/S1CChess) |
-| 📘 Studying now | [![Nuxt](https://img.shields.io/badge/Nuxt-black?logo=nuxt.js&logoColor=00C58E)]([https://pl.prestashop.com/](https://nuxt.com/)) [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
+| 📘 Studying now | [![Nuxt](https://img.shields.io/badge/Nuxt-black?logo=nuxt&logoColor=00C58E)]([https://pl.prestashop.com/](https://nuxt.com/)) [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
 
 <br>
 
@@ -366,7 +366,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Intermediate
     </td>
     <td>
-      <img src="https://img.shields.io/badge/Nuxt-black?logo=nuxt.js&logoColor=00C58E" />
+      <img src="https://img.shields.io/badge/Nuxt-black?logo=nuxt&logoColor=00C58E" />
       <img src="https://img.shields.io/badge/shadcn-000000?logo=shadcn&logoColor=white" />
       <img src="https://img.shields.io/badge/-Tailwind-38B2AC?logo=tailwind-css&logoColor=white" />
       <img src="https://img.shields.io/badge/Bootstrap-%237952b3.svg?logo=bootstrap&logoColor=white" />
@@ -407,7 +407,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
     </td>
     <td>
       <img src="https://img.shields.io/badge/PhpStorm-%23000000.svg?style=flat&logo=phpstorm&logoColor=white" />
-      <img src="https://img.shields.io/badge/Visual%20Studio-007ACC?logo=code&logoColor=white" />
+      <img src="https://img.shields.io/badge/Visual%20Studio-007ACC?logo=visualstudio&logoColor=white" />
       <img src="https://img.shields.io/badge/PyCharm-black?logo=pycharm&logoColor=green" />
       <img src="https://img.shields.io/badge/Jupyter-%23FA0F00.svg?style=flat&logo=jupyter&logoColor=white" />
     </td>
@@ -468,7 +468,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://img.shields.io/badge/Pages-181717?logo=github&logoColor=white" />
       <img src="https://img.shields.io/badge/Heroku-430098?logo=heroku&logoColor=white" />
       <img src="https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white" />
-      <img src="https://img.shields.io/badge/NuxtHub-black?logo=nuxt.js&logoColor=00C58E" />
+      <img src="https://img.shields.io/badge/NuxtHub-black?logo=nuxt&logoColor=00C58E" />
       <img src="https://img.shields.io/badge/Netlify-black?logo=netlify&logoColor=00C7B7" />
     </td>
   </tr>
