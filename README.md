@@ -2,7 +2,9 @@
   Hi, I'm Szymon
 </h2>
 
-As a self-taught developer, I'm actively seeking **challenging career opportunities**. Currently I work with **Prestashop** e-commerce platform. My favourite CSS tools are **PrimeVue**, **Sass** and **Chart.js**. I also love writing tests in **PHPUnit**, **Pest**, **Jest**, **Vitest** and **Cypress**.
+
+As a self-taught developer, I'm actively seeking **challenging career opportunities**. I quickly adapt to new technologies, including **Prestashop**, **Laravel**, **Vue**, **Nuxt**, React, Django, Wordpress, which have become my tools in my daily work. For styling, I mostly use CSS3/SCSS, PrimeVue and Tailwind. I also love writing tests in PHPUnit, Pest, Jest, Vitest and Cypress.
+
 <br>
 
 | 💻 Portfolio | [szymco.de](https://szymco.de) | 
@@ -366,14 +368,14 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Intermediate
     </td>
     <td>
+      <img src="https://img.shields.io/badge/Symfony-%23000000.svg?logo=symfony&logoColor=white" />
       <img src="https://img.shields.io/badge/Nuxt-black?logo=nuxt&logoColor=00C58E" />
-      <img src="https://img.shields.io/badge/shadcn-000000?logo=shadcn&logoColor=white" />
       <img src="https://img.shields.io/badge/-Tailwind-38B2AC?logo=tailwind-css&logoColor=white" />
       <img src="https://img.shields.io/badge/Bootstrap-%237952b3.svg?logo=bootstrap&logoColor=white" />
       <img src="https://img.shields.io/badge/jQuery-0769AD?logo=jquery&logoColor=white" />
-      <img src="https://img.shields.io/badge/Chakra%20UI-319795?logo=chakra-ui&logoColor=white" />
       <img src="https://shields.io/badge/React-black?logo=react" />
       <img src="https://img.shields.io/badge/Django-%23092e20.svg?logo=django&logoColor=white" />
+      <img src="https://img.shields.io/badge/WordPress-21759B?logo=wordpress&logoColor=white" />
     </td>
   </tr>
   <tr>
@@ -381,10 +383,11 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Have experienced
     </td>
     <td>
-      <img src="https://img.shields.io/badge/Quasar-1976D2?logo=quasar&logoColor=white" />
+      <img src="https://img.shields.io/badge/shadcn-000000?logo=shadcn&logoColor=white" />
       <img src="https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=white" />
       <img src="https://img.shields.io/badge/Nest.js-E0234E?logo=nestjs&logoColor=white&color=%23FF2D20" />
-      <img src="https://img.shields.io/badge/Symfony-%23000000.svg?logo=symfony&logoColor=white" />
+      <img src="https://img.shields.io/badge/Chakra%20UI-319795?logo=chakra-ui&logoColor=white" />
+      <img src="https://img.shields.io/badge/Quasar-1976D2?logo=quasar&logoColor=white" />
       <img src="https://img.shields.io/badge/MUI-%230081CB.svg?logo=mui&logoColor=white" />
       <img src="https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white" />
       <img src="https://img.shields.io/badge/Webpack-00599C?logo=webpack&logoColor=white" />
@@ -419,10 +422,12 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
     <td>
       <img src="https://img.shields.io/badge/Git-%23d22128.svg?logo=git&logoColor=white" />
       <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" />
+      <img src="https://img.shields.io/badge/Neovim-57A143?logo=neovim&logoColor=white" />
+      <img src="https://img.shields.io/badge/Nano-2B9F8D?logo=nano&logoColor=white" />
       <img src="https://img.shields.io/badge/XAMPP-%23FB7A24.svg?style=flat&logo=xampp&logoColor=white" />
+      <img src="https://img.shields.io/badge/FileZilla-FF6600?logo=filezilla&logoColor=white" />
       <img src="https://img.shields.io/badge/Figma-000000?logo=figma&logoColor=white" />
       <img src="https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white&color=000000" />
-      <img src="https://img.shields.io/badge/ShareX-1A1A1A?logo=sharex&logoColor=white" />
     </td>
   </tr>
   <tr>
@@ -431,6 +436,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
     </td>
     <td>
       <img src="https://img.shields.io/badge/Composer-885630?logo=composer&logoColor=white" />
+      <img src="https://img.shields.io/badge/pnpm-F69220?logo=pnpm&logoColor=white" />
       <img src="https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white" />
       <img src="https://img.shields.io/badge/Yarn-2C8EBB?logo=yarn&logoColor=white" />
       <img src="https://img.shields.io/badge/AUR-0078D6?logo=archlinux&logoColor=white" />
@@ -446,7 +452,6 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://img.shields.io/badge/Actions-181717?logo=github&logoColor=white" />
       <img src="https://img.shields.io/badge/Husky-1A2C34?logo=husky&logoColor=white" />
       <img src="https://img.shields.io/badge/Bitbucket-0052CC?logo=bitbucket&logoColor=white&color=0052CC" />
-      <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws&logoColor=white" />
     </td>
   </tr>
   <tr>
@@ -489,6 +494,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
     <td>
       <img src="https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=white" />
       <img src="https://img.shields.io/badge/Manjaro-34BE5B?logo=manjaro&logoColor=white" />
+      <img src="https://img.shields.io/badge/Kubuntu-0079C1?logo=kubuntu&logoColor=white" />
       <img src="https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white" />
       <img src="https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white" />
     </td>
@@ -500,6 +506,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
     <td>
       <img src="https://img.shields.io/badge/Hyprland-3FC5F0?logo=wayland&logoColor=white" />
       <img src="https://img.shields.io/badge/KDE%20Plasma-1D99F3?logo=kde&logoColor=white" />
+      <img src="https://img.shields.io/badge/XFCE-2284F2?logo=xfce&logoColor=white" />
       <img src="https://img.shields.io/badge/Gnome-black?logo=gnome&logoColor=white" />
     </td>
   </tr>
