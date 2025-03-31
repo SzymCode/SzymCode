@@ -440,6 +440,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white" />
       <img src="https://img.shields.io/badge/Yarn-2C8EBB?logo=yarn&logoColor=white" />
       <img src="https://img.shields.io/badge/AUR-0078D6?logo=archlinux&logoColor=white" />
+      <img src="https://img.shields.io/badge/YAY-0078D6?logo=archlinux&logoColor=white" />
       <img src="https://img.shields.io/badge/Pacman-0078D6?logo=archlinux&logoColor=white" />
       <img src="https://img.shields.io/badge/Pamac-34BE5B?logo=manjaro&logoColor=white" />
       <img src="https://img.shields.io/badge/Snapcraft-E95420?logo=snapcraft&logoColor=white" />
@@ -493,7 +494,9 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
     </td>
     <td>
       <img src="https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=white" />
+      <img src="https://img.shields.io/badge/CachyOS-009e81?logo=arch-linux&logoColor=white" />
       <img src="https://img.shields.io/badge/Manjaro-34BE5B?logo=manjaro&logoColor=white" />
+      <img src="https://img.shields.io/badge/Garuda-84305b?logo=arch-linux&logoColor=white" />
       <img src="https://img.shields.io/badge/Kubuntu-0079C1?logo=kubuntu&logoColor=white" />
       <img src="https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white" />
       <img src="https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white" />
