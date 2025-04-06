@@ -60,6 +60,27 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
+      <a href="https://atomic-it.org/">
+        Atomic IT
+      </a>
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/f444bbc9-e1fd-4333-b174-4206ff19dac4" height="26" />
+      <img src="https://skillicons.dev/icons?i=nuxtjs" height="26" />
+      <img src="https://skillicons.dev/icons?i=vue" height="26" />
+      <img src="https://skillicons.dev/icons?i=ts" height="26" />
+      <img src="https://skillicons.dev/icons?i=sass" height="26" />
+      <img src="https://skillicons.dev/icons?i=docker" height="26" />
+      <img src="https://skillicons.dev/icons?i=vitest" height="26" />
+      <img src="https://skillicons.dev/icons?i=github" height="26" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/a983a634-3e81-4a11-9281-0ef0bacfd187" height="26" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="26" />
+      <img src="https://github.com/user-attachments/assets/ea4a5462-085b-4dd6-bf35-9f76cbcf3c35" height="26" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="26" />
+    </td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/Atomic-IT/NuxtStarter">
         NuxtStarter
       </a>
@@ -234,23 +255,6 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://skillicons.dev/icons?i=react" height="26" />
       <img src="https://skillicons.dev/icons?i=html" height="26" />
       <img src="https://skillicons.dev/icons?i=tailwind" height="26" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://aircraft-mechanics.vercel.app">
-        AircraftMechanics
-      </a>
-    </td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=ts" height="26" />
-      <img src="https://skillicons.dev/icons?i=vue" height="26" />
-      <img src="https://www.primefaces.org/wp-content/uploads/2019/12/primevue-logo.png" height="26" />
-      <img src="https://skillicons.dev/icons?i=html" height="26" />
-      <img src="https://skillicons.dev/icons?i=css" height="26" />
-      <img src="https://skillicons.dev/icons?i=vite" height="26" />
-      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/a983a634-3e81-4a11-9281-0ef0bacfd187" height="26" />
-      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="26" />
     </td>
   </tr>
   <tr>
@@ -480,12 +484,16 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      Linter
+      Code Maintenance
     </td>
     <td>
+      <img src="https://img.shields.io/badge/Pint-%23FF2D20.svg?style=flat&logo=laravel&logoColor=white" />
+      <img src="https://img.shields.io/badge/TSC-3178C6?logo=typescript&logoColor=white" />
       <img src="https://img.shields.io/badge/ESLint-3A33D1?logo=eslint&logoColor=white" />
       <img src="https://img.shields.io/badge/Stylelint-263238?logo=stylelint&logoColor=white" />
       <img src="https://img.shields.io/badge/Prettier-1A2C34?logo=prettier&logoColor=F7BA3E" />
+      <img src="https://img.shields.io/badge/Sentry-362D59?logo=sentry&logoColor=white" />
+      <img src="https://img.shields.io/badge/SonarCloud-F3702A?logo=sonarcloud&logoColor=white" />
     </td>
   </tr>
   <tr>
