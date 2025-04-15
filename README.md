@@ -543,7 +543,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
 <br>
 
 * :electron: My favourite workspace setup is [CachyOS](https://cachyos.org/) with [Hyprland](https://hyprland.org/) and [HyDe](https://github.com/HyDE-Project/HyDE) dotfiles
-* 🤖 I also worked as a CNC programmer & machinist
+* 🤖 Previosly worked as a CNC programmer & machinist - still enjoy it as a 3018 owner
 * 📓 I'm gaining knowledge mainly from documentations, forums, collegues and my personal experience
 * ♟️ My favourite openings in chess are the Scotch Game, Stafford and King's gambits, also love Atomic Chess - [play with me](https://lichess.org/@/S1CChess)
 * 🧠 Rubik's Cube CFOP sub 20 & Blindfold Old Pochmann 5 min with memorize
