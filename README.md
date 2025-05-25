@@ -3,13 +3,13 @@
 </h2>
 
 
-As a self-taught developer, I'm actively seeking **challenging career opportunities**. I quickly adapt to new technologies, including **Prestashop**, **Laravel**, **Vue**, **Nuxt**, React, Django, Wordpress, which have become my tools in my daily work. For styling, I mostly use CSS3/SCSS, PrimeVue and Tailwind. I also love writing tests in PHPUnit, Pest, Jest, Vitest and Cypress.
+As a self-taught developer, I'm actively seeking **challenging career opportunities**. I quickly adapt to new technologies, including **Prestashop**, **Laravel**, **Vue**, **Nuxt**, React, Django, Wordpress, which have become my tools in my daily work. For styling, I mostly use CSS3/SCSS, PrimeVue and Tailwind. I also love writing tests in PHPUnit, Pest, Jest, Vitest, Cypress and Storybook.
 
 <br>
 
 | 💻 Portfolio | [szymco.de](https://szymco.de) | 
 | :- | :- | 
-| ⭐ Project | <img src="https://github.com/SzymCode/SzymCode/assets/107359025/8454470d-3f70-484a-b12e-b902530cb9ba" height="12" > [DataManager](https://datamanager.szymco.de) |
+| ⭐ Project | <img src="https://github.com/SzymCode/SzymCode/assets/107359025/8454470d-3f70-484a-b12e-b902530cb9ba" height="12" > [DataManager](https://datamanager.atomic-it.org) |
 | 🔍 Find me | [![Yahoo](https://img.shields.io/badge/Yahoo!-410093?logo=yahoo&logoColor=white)](mailto:szymon.radomski@yahoo.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/szymon-radomski/) [![CEIDG](https://img.shields.io/badge/CEIDG-BB0A30)](https://aplikacja.ceidg.gov.pl/ceidg/ceidg.public.ui/SearchDetails.aspx?Id=177fdeed-09b6-45a4-b255-78fb8ea8db16) |
 | 🚀 Exists on | [![CodeWars](https://img.shields.io/badge/CodeWars-4%20KYU-1f5be7?logo=codewars&logoColor=white)](https://www.codewars.com/users/SzymCode) [![Lichess](https://img.shields.io/badge/Lichess-000000?logo=lichess&logoColor=white)](https://lichess.org/@/S1CChess) |
 | 📘 Studying now | [![Nuxt](https://img.shields.io/badge/Nuxt-black?logo=nuxt&logoColor=00C58E)]([https://pl.prestashop.com/](https://nuxt.com/)) [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
@@ -29,7 +29,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </th>
   <tr>
     <td>
-      <a href="https://www.datamanager.szymco.de">
+      <a href="https://datamanager.atomic-it.org">
         DataManager
       </a>
     </td>
@@ -37,10 +37,10 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://skillicons.dev/icons?i=php" height="26" />
       <img src="https://skillicons.dev/icons?i=ts" height="26" />
       <img src="https://skillicons.dev/icons?i=laravel" height="26" />
+      <img src="https://skillicons.dev/icons?i=nuxtjs" height="26" />
       <img src="https://skillicons.dev/icons?i=vue" height="26" />
       <img src="https://www.primefaces.org/wp-content/uploads/2019/12/primevue-logo.png" height="26" />
       <img src="https://skillicons.dev/icons?i=sass" height="26" />
-      <img src="https://skillicons.dev/icons?i=bootstrap" height="26" />
       <img src="https://skillicons.dev/icons?i=html" height="26" />
       <img src="https://skillicons.dev/icons?i=docker" height="26" />
       <img src="https://skillicons.dev/icons?i=heroku" height="26" />
