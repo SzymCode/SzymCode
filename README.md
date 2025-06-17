@@ -203,7 +203,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      <a href="https://www.timeless-books.site">
+      <a href="https://www.timeless-books.com">
         TimelessBooks
       </a>
     </td>
@@ -548,7 +548,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
 * 📓 I'm gaining knowledge mainly from documentations, forums, collegues and my personal experience
 * ♟️ My favourite openings in chess are the Scotch Game, Stafford and King's gambits, also love Atomic Chess - [play with me](https://lichess.org/@/S1CChess)
 * 🧠 Rubik's Cube CFOP sub 20 & Blindfold Old Pochmann 5 min with memorize
-* 📚 Books that have impacted me listed here: [TimelessBooks](https://www.timeless-books.site/)
+* 📚 Books that have impacted me listed here: [TimelessBooks](https://www.timeless-books.com/)
 
 </details>
 <br>
