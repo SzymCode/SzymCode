@@ -348,10 +348,11 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://shields.io/badge/JavaScript-black?logo=JavaScript&logoColor=F7DF1E" />
       <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" />
       <img src="https://img.shields.io/badge/HTML5-%23e34f26.svg?logo=html5&logoColor=white" />
-      <img src="https://img.shields.io/badge/CSS3-%231572b6.svg?logo=css3&logoColor=white" />
+      <img src="https://img.shields.io/badge/CSS3-639?logo=css&logoColor=fff" />
       <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
       <img src="https://img.shields.io/badge/G--code-193142" />
       <img src="https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white" />
+      <img src="https://img.shields.io/badge/MD-%23000000.svg?logo=markdown&logoColor=white" />
     </td>
   </tr>
   <tr>
@@ -428,7 +429,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
     </td>
     <td>
       <img src="https://img.shields.io/badge/PhpStorm-%23000000.svg?style=flat&logo=phpstorm&logoColor=white" />
-      <img src="https://img.shields.io/badge/Visual%20Studio-007ACC?logo=visualstudio&logoColor=white" />
+      <img src="https://custom-icon-badges.demolab.com/badge/Visual%20Studio-0078d7.svg?logo=vsc&logoColor=white" />
       <img src="https://img.shields.io/badge/PyCharm-black?logo=pycharm&logoColor=green" />
       <img src="https://img.shields.io/badge/Jupyter-%23FA0F00.svg?style=flat&logo=jupyter&logoColor=white" />
     </td>
@@ -446,6 +447,17 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://img.shields.io/badge/FileZilla-FF6600?logo=filezilla&logoColor=white" />
       <img src="https://img.shields.io/badge/Figma-000000?logo=figma&logoColor=white" />
       <img src="https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white&color=000000" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Terminal
+    </td>
+    <td>
+      <img src="https://img.shields.io/badge/Fish-blue?logo=fish-shell&logoColor=fff" />
+      <img src="https://img.shields.io/badge/Zsh-F15A24?logo=zsh&logoColor=fff" />
+      <img src="https://img.shields.io/badge/Bash-121011?logo=gnu-bash&logoColor=white" />
+      <img src="https://custom-icon-badges.demolab.com/badge/PowerShell-0078D6?logo=windows11&logoColor=white" />
     </td>
   </tr>
   <tr>
@@ -545,7 +557,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="https://img.shields.io/badge/Boxes-black?logo=gnome&logoColor=white" />
       <img src="https://img.shields.io/badge/VirtualBox-183A61?logo=virtualbox&logoColor=white" />
       <img src="https://img.shields.io/badge/VMware-607078" />
-      <img src="https://img.shields.io/badge/Hyper--V-0078D4?logo=microsoft&logoColor=white" />
+      <img src="https://custom-icon-badges.demolab.com/badge/Hyper--V-0078D6?logo=windows11&logoColor=white" />
     </td>
   </tr>
 </table>
