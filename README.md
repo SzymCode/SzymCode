@@ -8,13 +8,12 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
 
 <br>
 
-
 | 💻 Portfolio | [szymco.de](https://szymco.de) | 
 | :- | :- | 
 | ⭐ Project | <img src="https://github.com/SzymCode/SzymCode/assets/107359025/8454470d-3f70-484a-b12e-b902530cb9ba" height="12" > [DataManager](https://datamanager.atomic-it.org) |
-| 🔍 Find me | [![Yahoo](https://img.shields.io/badge/Yahoo!-410093?logo=yahoo&logoColor=white)](mailto:szymon.radomski@yahoo.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/szymon-radomski/) [![CEIDG](https://img.shields.io/badge/CEIDG-BB0A30)](https://aplikacja.ceidg.gov.pl/ceidg/ceidg.public.ui/SearchDetails.aspx?Id=177fdeed-09b6-45a4-b255-78fb8ea8db16) |
+| 🔍 Find me | [![Yahoo](https://img.shields.io/badge/Yahoo!-410093?logo=yahoo&logoColor=white)](mailto:szymon.radomski@yahoo.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/szymon-radomski/) [![CEIDG](https://img.shields.io/badge/CEIDG-BB0A30)](https://aplikacja.ceidg.gov.pl/ceidg/ceidg.public.ui/SearchDetails.aspx?Id=177fdeed-09b6-45a4-b255-78fb8ea8db16) [![KRS](https://img.shields.io/badge/KRS-0052a5)](https://wyszukiwarka-krs.ms.gov.pl/dane-szczegolowe-podmiotu;numerKRS=8956EYQf1XWH0%2FMfEQTuJA%3D%3D;typ=P)|
 | 🚀 Exists on | [![Hack The Box](https://img.shields.io/badge/HTB-111927?logo=hackthebox&logoColor=9FEF00)](https://app.hackthebox.com/profile/2421667) [![CodeWars](https://img.shields.io/badge/CodeWars-4%20KYU-1f5be7?logo=codewars&logoColor=white)](https://www.codewars.com/users/SzymCode) [![Lichess](https://img.shields.io/badge/Lichess-000000?logo=lichess&logoColor=white)](https://lichess.org/@/S1CChess) |
-| 📘 Studying now | [![Nuxt](https://img.shields.io/badge/Nuxt-black?logo=nuxt&logoColor=00C58E)]([https://pl.prestashop.com/](https://nuxt.com/)) [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
+| 📘 Mastering now | [![Prestashop](https://img.shields.io/badge/PrestaShop-DF0067?logo=prestashop&logoColor=white)](https://pl.prestashop.com/) [![Nuxt](https://img.shields.io/badge/Nuxt-black?logo=nuxt&logoColor=00C58E)](https://nuxt.com/) [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
 
 <br>
 
@@ -377,11 +376,11 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
     <td>
       <img src="https://img.shields.io/badge/Symfony-%23000000.svg?logo=symfony&logoColor=white" />
       <img src="https://img.shields.io/badge/Vite-%232C3A42?logo=vite&logoColor=white" />
+      <img src="https://shields.io/badge/React-black?logo=react" />
       <img src="https://img.shields.io/badge/Cypress-17202C?logo=cypress&logoColor=white" />
       <img src="https://img.shields.io/badge/-Tailwind-38B2AC?logo=tailwind-css&logoColor=white" />
       <img src="https://img.shields.io/badge/Bootstrap-%237952b3.svg?logo=bootstrap&logoColor=white" />
       <img src="https://img.shields.io/badge/jQuery-0769AD?logo=jquery&logoColor=white" />
-      <img src="https://shields.io/badge/React-black?logo=react" />
       <img src="https://img.shields.io/badge/Django-%23092e20.svg?logo=django&logoColor=white" />
     </td>
   </tr>
@@ -390,6 +389,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Have experienced
     </td>
     <td>
+      <img src="https://img.shields.io/badge/Next-000000?logo=next.js&logoColor=white" />
       <img src="https://img.shields.io/badge/shadcn-000000?logo=shadcn&logoColor=white" />
       <img src="https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=white" />
       <img src="https://img.shields.io/badge/Nest.js-E0234E?logo=nestjs&logoColor=white&color=%23FF2D20" />
@@ -406,9 +406,12 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
     </td>
     <td>
       <img src="https://img.shields.io/badge/useState-black?logo=nuxt&logoColor=00C58E" />
+      <img src="https://img.shields.io/badge/useCookie-black?logo=nuxt&logoColor=00C58E" />
       <img src="https://img.shields.io/badge/Pinia-%234FC08D.svg?style=flat&logo=vue.js&logoColor=white" />
       <img src="https://shields.io/badge/useState-black?logo=react" />
       <img src="https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white" />
+      <img src="https://shields.io/badge/localStorage-black?logo=JavaScript&logoColor=F7DF1E" />
+      <img src="https://shields.io/badge/sessionStorage-black?logo=JavaScript&logoColor=F7DF1E" />
     </td>
   </tr>
   <tr>
@@ -454,6 +457,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Terminal
     </td>
     <td>
+      <img src="https://img.shields.io/badge/Kitty-121011?logo=gnu-bash&logoColor=fff" />
       <img src="https://img.shields.io/badge/Fish-blue?logo=fish-shell&logoColor=fff" />
       <img src="https://img.shields.io/badge/Zsh-F15A24?logo=zsh&logoColor=fff" />
       <img src="https://img.shields.io/badge/Bash-121011?logo=gnu-bash&logoColor=white" />
