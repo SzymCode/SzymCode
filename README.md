@@ -2,7 +2,7 @@
   Hi, I'm Szymon
 </h2>
 
-As a self-taught developer, I'm actively seeking **challenging career opportunities**. I quickly adapt to new technologies, including **Prestashop**, **Laravel**, **Vue**, **Nuxt**, React, Django, Wordpress, which have become my tools in my daily work. For styling, I mostly use CSS3/SCSS, PrimeVue, GSAP and Tailwind. I also love writing tests in PHPUnit, Pest, Jest, Vitest, Cypress and Storybook. I'm also passionate about cybersecurity especially pentesting.
+As a self-taught developer, I'm actively seeking **challenging career opportunities**. I quickly adapt to new technologies, including **Prestashop**, **Laravel**, **Vue**, **Nuxt**, **Next**, **React**, Django, Wordpress, which have become my tools in my daily work. For styling, I mostly use CSS3/SCSS, PrimeVue, GSAP and Material UI. I also love writing tests in PHPUnit, Pest, Jest, Vitest, Cypress and Storybook. I'm also passionate about cybersecurity especially security and penetration testing.
 
 
 
@@ -35,29 +35,29 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="https://skillicons.dev/icons?i=php" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=ts" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=laravel" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=nuxtjs" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=vue" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=pinia" height="24" width="24" />
-      <img src="https://www.primefaces.org/wp-content/uploads/2019/12/primevue-logo.png" height="24" width="24" />
-      <img src="https://github.com/user-attachments/assets/163ea1cb-93a3-4e78-bb90-a1fc522386ee" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=sass" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=html" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=docker" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=heroku" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=mysql" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=vitest" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=github" height="24" width="24" />
-      <img src="https://github.com/user-attachments/assets/9032d586-f623-4446-89be-b2ab6a2e615e" height="24" width="24" />
-      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/a983a634-3e81-4a11-9281-0ef0bacfd187" height="24" width="24" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="24" width="24" />
-      <img src="https://github.com/user-attachments/assets/ea4a5462-085b-4dd6-bf35-9f76cbcf3c35" height="24" width="24" />
-      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="24" width="24" />
-      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/ced20949-7b32-407b-a249-2dd9b117f5b2" height="23" width="23" />
-      <img src="https://icons.veryicon.com/png/o/business/vscode-program-item-icon/storybook.png" height="24" width="24" />
-      <img src="https://static-00.iconduck.com/assets.00/cypress-icon-512x511-29zvfts6.png" height="24" width="24" />
+      <img src="https://skillicons.dev/icons?i=php" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=ts" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=laravel" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=nuxtjs" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=vue" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=pinia" height="25" width="25" />
+      <img src="https://www.primefaces.org/wp-content/uploads/2019/12/primevue-logo.png" height="25" width="25" />
+      <img src="https://github.com/user-attachments/assets/163ea1cb-93a3-4e78-bb90-a1fc522386ee" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=sass" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=html" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=docker" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=heroku" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=mysql" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=vitest" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=github" height="25" width="25" />
+      <img src="https://github.com/user-attachments/assets/9032d586-f623-4446-89be-b2ab6a2e615e" height="25" width="25" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/a983a634-3e81-4a11-9281-0ef0bacfd187" height="25" width="25" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="25" width="25" />
+      <img src="https://github.com/user-attachments/assets/ea4a5462-085b-4dd6-bf35-9f76cbcf3c35" height="25" width="25" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="25" width="25" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/ced20949-7b32-407b-a249-2dd9b117f5b2" height="24" width="24" />
+      <img src="https://icons.veryicon.com/png/o/business/vscode-program-item-icon/storybook.png" height="25" width="25" />
+      <img src="https://cdn.worldvectorlogo.com/logos/cypress-1.svg" height="25" width="25" />
     </td>
   </tr>
   <tr>
@@ -67,18 +67,18 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/f444bbc9-e1fd-4333-b174-4206ff19dac4" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=nuxtjs" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=vue" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=ts" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=sass" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=docker" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=vitest" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=github" height="24" width="24" />
-      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/a983a634-3e81-4a11-9281-0ef0bacfd187" height="24" width="24" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="24" width="24" />
-      <img src="https://github.com/user-attachments/assets/ea4a5462-085b-4dd6-bf35-9f76cbcf3c35" height="24" width="24" />
-      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="24" width="24" />
+      <img src="https://github.com/user-attachments/assets/f444bbc9-e1fd-4333-b174-4206ff19dac4" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=nuxtjs" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=vue" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=ts" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=sass" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=docker" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=vitest" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=github" height="25" width="25" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/a983a634-3e81-4a11-9281-0ef0bacfd187" height="25" width="25" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="25" width="25" />
+      <img src="https://github.com/user-attachments/assets/ea4a5462-085b-4dd6-bf35-9f76cbcf3c35" height="25" width="25" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="25" width="25" />
     </td>
   </tr>
   <tr>
@@ -88,18 +88,18 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/f444bbc9-e1fd-4333-b174-4206ff19dac4" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=nuxtjs" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=vue" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=ts" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=sass" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=docker" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=vitest" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=github" height="24" width="24" />
-      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/a983a634-3e81-4a11-9281-0ef0bacfd187" height="24" width="24" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="24" width="24" />
-      <img src="https://github.com/user-attachments/assets/ea4a5462-085b-4dd6-bf35-9f76cbcf3c35" height="24" width="24" />
-      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="24" width="24" />
+      <img src="https://github.com/user-attachments/assets/f444bbc9-e1fd-4333-b174-4206ff19dac4" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=nuxtjs" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=vue" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=ts" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=sass" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=docker" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=vitest" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=github" height="25" width="25" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/a983a634-3e81-4a11-9281-0ef0bacfd187" height="25" width="25" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="25" width="25" />
+      <img src="https://github.com/user-attachments/assets/ea4a5462-085b-4dd6-bf35-9f76cbcf3c35" height="25" width="25" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="25" width="25" />
     </td>
   </tr>
   <tr>
@@ -109,19 +109,19 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="https://skillicons.dev/icons?i=php" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=js" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=laravel" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=vue" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=css" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=bootstrap" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=html" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=docker" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=heroku" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=vite" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=mysql" height="24" width="24" />
-      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/9487a27c-36e8-4e2c-9ac6-4931fb8a5686" height="24" width="24" />
-      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="24" width="24" />
+      <img src="https://skillicons.dev/icons?i=php" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=js" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=laravel" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=vue" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=css" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=bootstrap" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=html" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=docker" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=heroku" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=vite" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=mysql" height="25" width="25" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/9487a27c-36e8-4e2c-9ac6-4931fb8a5686" height="25" width="25" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="25" width="25" />
     </td>
   </tr>
   <tr>
@@ -131,21 +131,21 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="https://skillicons.dev/icons?i=php" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=ts" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=laravel" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=vue" height="24" width="24" />
-      <img src="https://www.primefaces.org/wp-content/uploads/2019/12/primevue-logo.png" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=html" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=sass" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=docker" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=heroku" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=vite" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=mysql" height="24" width="24" />
-      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/ced20949-7b32-407b-a249-2dd9b117f5b2" height="23" width="23" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="24" width="24" />
-      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/a983a634-3e81-4a11-9281-0ef0bacfd187" height="24" width="24" />
-      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="24" width="24" />
+      <img src="https://skillicons.dev/icons?i=php" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=ts" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=laravel" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=vue" height="25" width="25" />
+      <img src="https://www.primefaces.org/wp-content/uploads/2019/12/primevue-logo.png" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=html" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=sass" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=docker" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=heroku" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=vite" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=mysql" height="25" width="25" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/ced20949-7b32-407b-a249-2dd9b117f5b2" height="24" width="24" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="25" width="25" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/a983a634-3e81-4a11-9281-0ef0bacfd187" height="25" width="25" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="25" width="25" />
     </td>
   </tr>
   <tr>
@@ -155,15 +155,15 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="https://skillicons.dev/icons?i=php" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=js" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=laravel" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=vue" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=html" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=sass" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=heroku" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=vite" height="24" width="24" />
-      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/ced20949-7b32-407b-a249-2dd9b117f5b2" height="23" width="23" />
+      <img src="https://skillicons.dev/icons?i=php" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=js" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=laravel" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=vue" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=html" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=sass" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=heroku" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=vite" height="25" width="25" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/ced20949-7b32-407b-a249-2dd9b117f5b2" height="24" width="24" />
     </td>
   </tr>
   <tr>
@@ -173,17 +173,17 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="https://skillicons.dev/icons?i=ts" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=react" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=redux" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=html" height="24" width="24" />
-      <img src="https://www.crocoder.dev/assets/chakra-ui.46d212e4.png" height="24" width="24" />
-      <img src="https://icons.veryicon.com/png/o/business/vscode-program-item-icon/storybook.png" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=heroku" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=vite" height="24" width="24" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="24" width="24" />
-      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/a983a634-3e81-4a11-9281-0ef0bacfd187" height="24" width="24" />
-      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="24" width="24" />
+      <img src="https://skillicons.dev/icons?i=ts" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=react" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=redux" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=html" height="25" width="25" />
+      <img src="https://img.icons8.com/?size=512&id=r9QJ0VFFrn7T&format=png" height="25" width="25" />
+      <img src="https://icons.veryicon.com/png/o/business/vscode-program-item-icon/storybook.png" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=heroku" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=vite" height="25" width="25" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="25" width="25" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/a983a634-3e81-4a11-9281-0ef0bacfd187" height="25" width="25" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="25" width="25" />
     </td>
   </tr>
   <tr>
@@ -193,13 +193,13 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="https://skillicons.dev/icons?i=ts" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=react" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=html" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=tailwind" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=nextjs" height="24" width="24" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="24" width="24" />
-      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="24" width="24" />
+      <img src="https://skillicons.dev/icons?i=ts" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=react" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=html" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=tailwind" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=nextjs" height="25" width="25" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="25" width="25" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="25" width="25" />
     </td>
   </tr>
   <tr>
@@ -209,15 +209,15 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="https://skillicons.dev/icons?i=ts" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=vue" height="24" width="24" />
-      <img src="https://www.primefaces.org/wp-content/uploads/2019/12/primevue-logo.png" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=html" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=css" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=vite" height="24" width="24" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="24" width="24" />
-      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/a983a634-3e81-4a11-9281-0ef0bacfd187" height="24" width="24" />
-      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="24" width="24" />
+      <img src="https://skillicons.dev/icons?i=ts" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=vue" height="25" width="25" />
+      <img src="https://www.primefaces.org/wp-content/uploads/2019/12/primevue-logo.png" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=html" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=css" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=vite" height="25" width="25" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="25" width="25" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/a983a634-3e81-4a11-9281-0ef0bacfd187" height="25" width="25" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="25" width="25" />
     </td>
   </tr>
   <tr>
@@ -227,10 +227,10 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="https://skillicons.dev/icons?i=js" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=html" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=bootstrap" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=tailwind" height="24" width="24" />
+      <img src="https://skillicons.dev/icons?i=js" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=html" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=bootstrap" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=tailwind" height="25" width="25" />
     </td>
   </tr>
   <tr>
@@ -240,10 +240,10 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="https://skillicons.dev/icons?i=js" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=html" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=css" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=bootstrap" height="24" width="24" />
+      <img src="https://skillicons.dev/icons?i=js" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=html" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=css" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=bootstrap" height="25" width="25" />
     </td>
   </tr>
   <tr>
@@ -253,10 +253,10 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="https://skillicons.dev/icons?i=ts" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=react" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=html" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=tailwind" height="24" width="24" />
+      <img src="https://skillicons.dev/icons?i=ts" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=react" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=html" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=tailwind" height="25" width="25" />
     </td>
   </tr>
   <tr>
@@ -266,14 +266,14 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="https://skillicons.dev/icons?i=js" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=react" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=redux" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=html" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=tailwind" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=nextjs" height="24" width="24" />
-      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/7ebffcad-0363-41ee-8d03-e7e351c44962" height="24" width="24" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="24" width="24" />
+      <img src="https://skillicons.dev/icons?i=js" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=react" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=redux" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=html" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=tailwind" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=nextjs" height="25" width="25" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/7ebffcad-0363-41ee-8d03-e7e351c44962" height="25" width="25" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="25" width="25" />
     </td>
   </tr>
   <tr>
@@ -283,12 +283,12 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="https://skillicons.dev/icons?i=js" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=react" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=redux" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=html" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=tailwind" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=firebase" height="24" width="24" />
+      <img src="https://skillicons.dev/icons?i=js" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=react" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=redux" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=html" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=tailwind" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=firebase" height="25" width="25" />
     </td>
   </tr>
   <tr>
@@ -298,12 +298,12 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="https://skillicons.dev/icons?i=python" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=django" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=html" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=css" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=docker" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=heroku" height="24" width="24" />
+      <img src="https://skillicons.dev/icons?i=python" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=django" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=html" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=css" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=docker" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=heroku" height="25" width="25" />
     </td>
   </tr>
   <tr>
@@ -313,9 +313,9 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="https://skillicons.dev/icons?i=js" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=html" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=css" height="24" width="24" />
+      <img src="https://skillicons.dev/icons?i=js" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=html" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=css" height="25" width="25" />
     </td>
   </tr>
   <tr>
@@ -325,8 +325,8 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="https://skillicons.dev/icons?i=html" height="24" width="24" />
-      <img src="https://skillicons.dev/icons?i=css" height="24" width="24" />
+      <img src="https://skillicons.dev/icons?i=html" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=css" height="25" width="25" />
     </td>
   </tr>
 </table>
@@ -519,13 +519,13 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Code Maintenance
     </td>
     <td>
+      <img src="https://img.shields.io/badge/Biome-2E9AFE?logo=biome&logoColor=white" />
       <img src="https://img.shields.io/badge/Pint-%23FF2D20.svg?style=flat&logo=laravel&logoColor=white" />
       <img src="https://img.shields.io/badge/TSC-3178C6?logo=typescript&logoColor=white" />
       <img src="https://img.shields.io/badge/ESLint-3A33D1?logo=eslint&logoColor=white" />
       <img src="https://img.shields.io/badge/Stylelint-263238?logo=stylelint&logoColor=white" />
       <img src="https://img.shields.io/badge/Prettier-1A2C34?logo=prettier&logoColor=F7BA3E" />
       <img src="https://img.shields.io/badge/Sentry-362D59?logo=sentry&logoColor=white" />
-      <img src="https://img.shields.io/badge/SonarCloud-F3702A?logo=sonarcloud&logoColor=white" />
     </td>
   </tr>
   <tr>
@@ -568,19 +568,22 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
 </table>
 
 
-</details>  
+</details>
 <br>
-
 
 <details><summary> 💬 Some Things About Me  </summary> 
 <br>
 
 * :electron: My favourite workspace setup is [CachyOS](https://cachyos.org/) with [Hyprland](https://hyprland.org/) and [HyDe](https://github.com/HyDE-Project/HyDE) dotfiles
 * 🤖 Previosly worked as a CNC programmer & machinist - still enjoy it as a 3018 owner
-* 📓 I'm gaining knowledge mainly from documentations, forums, collegues and my personal experience
+* 📓 I'm gaining knowledge mainly from documentation, forums, collegues and my personal experience
 * ♟️ My favourite openings in chess are the Scotch Game, Stafford and King's gambits, also love Atomic Chess - [play with me](https://lichess.org/@/S1CChess)
 * 🧠 Rubik's Cube CFOP sub 20 & Blindfold Old Pochmann 5 min with memorize
 * 📚 Books that have impacted me listed here: [TimelessBooks](https://www.timeless-books.com/)
+* 🏆 Few favourite quotes:
+  - *"This man of little learning grows old like an ox; only his flesh grows but not his wisdom"* ~ Siddhartha Gautama
+  - *"He who has a why to live can bear almost any how"* ~ Friedrich Nietzsche
+  - *"Fear has not yet reached its highest goal"* ~ Bô Yin Râ
 
 </details>
 <br>
