@@ -104,6 +104,22 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
+      <a href="https://vue-charts-sc.vercel.app/">
+        VueCharts
+      </a>
+    </td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=ts" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=vue" height="25" width="25" />
+      <img src="https://www.primefaces.org/wp-content/uploads/2019/12/primevue-logo.png" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=html" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=css" height="25" width="25" />
+      <img src="https://skillicons.dev/icons?i=vite" height="25" width="25" />
+      <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="25" width="25" />
+    </td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/SzymCode/RecruitmentTasks/tree/admin-panel">
         AdminPanel
       </a>
@@ -168,7 +184,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      <a href="https://www.tag-manager.szymco.de">
+      <a href="https://github.com/SzymCode/RecruitmentTasks/tree/tag-manager">
         TagManager
       </a>
     </td>
@@ -278,7 +294,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </tr>
   <tr>
     <td>
-      <a href="https://www.discord-clone.szymco.de">
+      <a href="https://github.com/SzymCode/DiscordClone">
         DiscordClone
       </a>
     </td>
@@ -583,7 +599,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
 * 🏆 Few favourite quotes:
   - *"This man of little learning grows old like an ox; only his flesh grows but not his wisdom"* ~ Siddhartha Gautama
   - *"He who has a why to live can bear almost any how"* ~ Friedrich Nietzsche
-  - *"Fear has not yet reached its highest goal"* ~ Bô Yin Râ
+  - *"Fear has never reached the highest goal"* ~ Bô Yin Râ
 
 </details>
 <br>
