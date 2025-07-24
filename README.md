@@ -2,7 +2,7 @@
   Hi, I'm Szymon
 </h2>
 
-As a self-taught developer, I'm actively seeking **challenging career opportunities**. I quickly adapt to new technologies, including **Prestashop**, **Laravel**, **Vue**, **Nuxt**, **Next**, **React**, Django, Wordpress, which have become my tools in my daily work. For styling, I mostly use CSS3/SCSS, PrimeVue, GSAP and Material UI. I also love writing tests in PHPUnit, Pest, Jest, Vitest, Cypress and Storybook. I'm also passionate about cybersecurity especially security and penetration testing.
+As a self-taught developer, I'm actively seeking **challenging career opportunities**. I quickly adapt to new technologies, including **Prestashop**, **Laravel**, **Vue**, **Nuxt**, **Next**, **React**, Django, Wordpress, which have become my tools in my daily work. For styling, I mostly use CSS3/SCSS, PrimeVue, GSAP and Material UI. I also love writing tests in Pest, PHPUnit, Jest, Vitest, Cypress and Storybook. I'm also passionate about cybersecurity especially security and penetration testing.
 
 
 
@@ -10,7 +10,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
 
 | 💻 Portfolio | [szymco.de](https://szymco.de) | 
 | :- | :- | 
-| ⭐ Project | <img src="https://github.com/SzymCode/SzymCode/assets/107359025/8454470d-3f70-484a-b12e-b902530cb9ba" height="12" > [DataManager](https://datamanager.atomic-it.org) |
+| ⭐ Project | <img src="https://github.com/SzymCode/SzymCode/assets/107359025/8454470d-3f70-484a-b12e-b902530cb9ba" height="12" > [DataManager](https://data-manager.atomic-it.org) |
 | 🔍 Find me | [![Yahoo](https://img.shields.io/badge/Yahoo!-410093?logo=yahoo&logoColor=white)](mailto:szymon.radomski@yahoo.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/szymon-radomski/) [![CEIDG](https://img.shields.io/badge/CEIDG-BB0A30)](https://aplikacja.ceidg.gov.pl/ceidg/ceidg.public.ui/SearchDetails.aspx?Id=177fdeed-09b6-45a4-b255-78fb8ea8db16) [![KRS](https://img.shields.io/badge/KRS-0052a5)](https://wyszukiwarka-krs.ms.gov.pl/dane-szczegolowe-podmiotu;numerKRS=8956EYQf1XWH0%2FMfEQTuJA%3D%3D;typ=P)|
 | 🚀 Exists on | [![Hack The Box](https://img.shields.io/badge/HTB-111927?logo=hackthebox&logoColor=9FEF00)](https://app.hackthebox.com/profile/2421667) [![CodeWars](https://img.shields.io/badge/CodeWars-4%20KYU-1f5be7?logo=codewars&logoColor=white)](https://www.codewars.com/users/SzymCode) [![Lichess](https://img.shields.io/badge/Lichess-000000?logo=lichess&logoColor=white)](https://lichess.org/@/S1CChess) |
 | 📘 Mastering now | [![Prestashop](https://img.shields.io/badge/PrestaShop-DF0067?logo=prestashop&logoColor=white)](https://pl.prestashop.com/) [![Nuxt](https://img.shields.io/badge/Nuxt-black?logo=nuxt&logoColor=00C58E)](https://nuxt.com/) [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
@@ -30,7 +30,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </th>
   <tr>
     <td>
-      <a href="https://datamanager.atomic-it.org">
+      <a href="https://data-manager.atomic-it.org">
         DataManager
       </a>
     </td>
