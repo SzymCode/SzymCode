@@ -35,28 +35,28 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/typescript.svg" height="25" width="25" />
-      <img src="/img/technologies/php.svg" height="25" width="25" />
-      <img src="/img/technologies/laravel.svg" height="25" width="25" />
-      <img src="/img/technologies/nuxt.svg" height="25" width="25" />
-      <img src="/img/technologies/vue.svg" height="25" width="25" />
-      <img src="/img/technologies/pinia.svg" height="25" width="25" />
-      <img src="/img/technologies/primevue.svg" height="25" width="25" />
-      <img src="/img/technologies/gsap.svg" height="25" width="25" />
-      <img src="/img/technologies/sass.svg" height="25" width="25" />
-      <img src="/img/technologies/html5.svg" height="25" width="25" />
-      <img src="/img/technologies/docker.svg" height="25" width="25" />
-      <img src="/img/technologies/heroku.svg" height="25" width="25" />
-      <img src="/img/technologies/mysql.svg" height="25" width="25" />
-      <img src="/img/technologies/pest.svg" height="24" width="24" />
-      <img src="/img/technologies/vitest.svg" height="25" width="25" />
-      <img src="/img/technologies/storybook.svg" height="25" width="25" />
-      <img src="/img/technologies/cypress.svg" height="25" width="25" />
-      <img src="/img/technologies/biome.svg" height="25" width="25" />
-      <img src="/img/technologies/stylelint.svg" height="25" width="25" />
-      <img src="/img/technologies/github.svg" height="25" width="25" />
-      <img src="/img/technologies/husky.svg" height="25" width="25" />
-      <img src="/img/technologies/sonarcloud.svg" height="25" width="25" />
+      <img src="/img/technologies/typescript.svg" height="25" width="25" alt="TypeScript" />
+      <img src="/img/technologies/php.svg" height="25" width="25" alt="PHP" />
+      <img src="/img/technologies/laravel.svg" height="25" width="25" alt="Laravel" />
+      <img src="/img/technologies/typescript.svg" height="25" width="25" alt="Nuxt" />
+      <img src="/img/technologies/vue.svg" height="25" width="25" alt="Vue" />
+      <img src="/img/technologies/pinia.svg" height="25" width="25" alt="Pinia" />
+      <img src="/img/technologies/primevue.svg" height="25" width="25" alt="PrimeVue" />
+      <img src="/img/technologies/gsap.svg" height="25" width="25" alt="GSAP" />
+      <img src="/img/technologies/sass.svg" height="25" width="25" alt="Sass" />
+      <img src="/img/technologies/html5.svg" height="25" width="25" alt="HTML5" />
+      <img src="/img/technologies/docker.svg" height="25" width="25" alt="Docker" />
+      <img src="/img/technologies/heroku.svg" height="25" width="25" alt="Heroku" />
+      <img src="/img/technologies/mysql.svg" height="25" width="25" alt="MySQL" />
+      <img src="/img/technologies/pest.svg" height="24" width="24" alt="PestPHP" />
+      <img src="/img/technologies/vitest.svg" height="25" width="25" alt="Vitest" />
+      <img src="/img/technologies/storybook.svg" height="25" width="25" alt="Storybook" />
+      <img src="/img/technologies/cypress.svg" height="25" width="25" alt="Cypress" />
+      <img src="/img/technologies/biome.svg" height="25" width="25" alt="Biome" />
+      <img src="/img/technologies/stylelint.svg" height="25" width="25" alt="Stylelint" />
+      <img src="/img/technologies/github.svg" height="25" width="25" alt="Github Actions" />
+      <img src="/img/technologies/husky.svg" height="25" width="25" alt="Husky" />
+      <img src="/img/technologies/sonarcloud.svg" height="25" width="25" alt="SonarCloud" />
     </td>
   </tr>
   <tr>
@@ -66,19 +66,19 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/typescript.svg" height="25" width="25" />
-      <img src="/img/technologies/nuxthub.svg" height="25" width="25" />
-      <img src="/img/technologies/nuxt.svg" height="25" width="25" />
-      <img src="/img/technologies/vue.svg" height="25" width="25" />
-      <img src="/img/technologies/sass.svg" height="25" width="25" />
-      <img src="/img/technologies/html5.svg" height="25" width="25" />
-      <img src="/img/technologies/docker.svg" height="25" width="25" />
-      <img src="/img/technologies/vitest.svg" height="25" width="25" />
-      <img src="/img/technologies/github.svg" height="25" width="25" />
-      <img src="/img/technologies/husky.svg" height="25" width="25" />
-      <img src="/img/technologies/stylelint.svg" height="25" width="25" />
-      <img src="/img/technologies/eslint.svg" height="25" width="25" />
-      <img src="/img/technologies/prettier.svg" height="25" width="25" />
+      <img src="/img/technologies/typescript.svg" height="25" width="25" alt="TypeScript" />
+      <img src="/img/technologies/nuxthub.svg" height="25" width="25" alt="NuxtHub" />
+      <img src="/img/technologies/typescript.svg" height="25" width="25" alt="Nuxt" />
+      <img src="/img/technologies/vue.svg" height="25" width="25" alt="Vue" />
+      <img src="/img/technologies/sass.svg" height="25" width="25" alt="Sass" />
+      <img src="/img/technologies/html5.svg" height="25" width="25" alt="HTML5" />
+      <img src="/img/technologies/docker.svg" height="25" width="25" alt="Docker" />
+      <img src="/img/technologies/vitest.svg" height="25" width="25" alt="Vitest" />
+      <img src="/img/technologies/github.svg" height="25" width="25" alt="Github Actions" />
+      <img src="/img/technologies/husky.svg" height="25" width="25" alt="Husky" />
+      <img src="/img/technologies/stylelint.svg" height="25" width="25" alt="Stylelint" />
+      <img src="/img/technologies/eslint.svg" height="25" width="25" alt="ESLint" />
+      <img src="/img/technologies/prettier.svg" height="25" width="25" alt="Prettier" />
     </td>
   </tr>
   <tr>
@@ -88,19 +88,19 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/typescript.svg" height="25" width="25" />
-      <img src="/img/technologies/nuxthub.svg" height="25" width="25" />
-      <img src="/img/technologies/nuxt.svg" height="25" width="25" />
-      <img src="/img/technologies/vue.svg" height="25" width="25" />
-      <img src="/img/technologies/sass.svg" height="25" width="25" />
-      <img src="/img/technologies/html5.svg" height="25" width="25" />
-      <img src="/img/technologies/docker.svg" height="25" width="25" />
-      <img src="/img/technologies/vitest.svg" height="25" width="25" />
-      <img src="/img/technologies/github.svg" height="25" width="25" />
-      <img src="/img/technologies/husky.svg" height="25" width="25" />
-      <img src="/img/technologies/stylelint.svg" height="25" width="25" />
-      <img src="/img/technologies/eslint.svg" height="25" width="25" />
-      <img src="/img/technologies/prettier.svg" height="25" width="25" />
+      <img src="/img/technologies/typescript.svg" height="25" width="25" alt="TypeScript" />
+      <img src="/img/technologies/nuxthub.svg" height="25" width="25" alt="NuxtHub" />
+      <img src="/img/technologies/typescript.svg" height="25" width="25" alt="Nuxt" />
+      <img src="/img/technologies/vue.svg" height="25" width="25" alt="Vue" />
+      <img src="/img/technologies/sass.svg" height="25" width="25" alt="Sass" />
+      <img src="/img/technologies/html5.svg" height="25" width="25" alt="HTML5" />
+      <img src="/img/technologies/docker.svg" height="25" width="25" alt="Docker" />
+      <img src="/img/technologies/vitest.svg" height="25" width="25" alt="Vitest" />
+      <img src="/img/technologies/github.svg" height="25" width="25" alt="Github Actions" />
+      <img src="/img/technologies/husky.svg" height="25" width="25" alt="Husky" />
+      <img src="/img/technologies/stylelint.svg" height="25" width="25" alt="Stylelint" />
+      <img src="/img/technologies/eslint.svg" height="25" width="25" alt="ESLint" />
+      <img src="/img/technologies/prettier.svg" height="25" width="25" alt="Prettier" />
     </td>
   </tr>
   <tr>
@@ -110,13 +110,13 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/typescript.svg" height="25" width="25" />
-      <img src="/img/technologies/vue.svg" height="25" width="25" />
-      <img src="/img/technologies/primevue.svg" height="25" width="25" />
-      <img src="/img/technologies/html5.svg" height="25" width="25" />
-      <img src="/img/technologies/css3.svg" height="25" width="25" />
-      <img src="/img/technologies/vite.svg" height="25" width="25" />
-      <img src="/img/technologies/prettier.svg" height="25" width="25" />
+      <img src="/img/technologies/typescript.svg" height="25" width="25" alt="TypeScript" />
+      <img src="/img/technologies/vue.svg" height="25" width="25" alt="Vue" />
+      <img src="/img/technologies/primevue.svg" height="25" width="25" alt="PrimeVue" />
+      <img src="/img/technologies/html5.svg" height="25" width="25" alt="HTML5" />
+      <img src="/img/technologies/css3.svg" height="25" width="25" alt="CSS3" />
+      <img src="/img/technologies/vite.svg" height="25" width="25" alt="Vite" />
+      <img src="/img/technologies/prettier.svg" height="25" width="25" alt="Prettier" />
     </td>
   </tr>
   <tr>
@@ -126,19 +126,19 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/typescript.svg" height="25" width="25" />
-      <img src="/img/technologies/php.svg" height="25" width="25" />
-      <img src="/img/technologies/laravel.svg" height="25" width="25" />
-      <img src="/img/technologies/vue.svg" height="25" width="25" />
-      <img src="/img/technologies/bootstrap.svg" height="25" width="25" />
-      <img src="/img/technologies/css3.svg" height="25" width="25" />
-      <img src="/img/technologies/html5.svg" height="25" width="25" />
-      <img src="/img/technologies/docker.svg" height="25" width="25" />
-      <img src="/img/technologies/heroku.svg" height="25" width="25" />
-      <img src="/img/technologies/vite.svg" height="25" width="25" />
-      <img src="/img/technologies/mysql.svg" height="25" width="25" />
-      <img src="/img/technologies/phpunit.svg" height="25" width="25" />
-      <img src="/img/technologies/prettier.svg" height="25" width="25" />
+      <img src="/img/technologies/typescript.svg" height="25" width="25" alt="TypeScript" />
+      <img src="/img/technologies/php.svg" height="25" width="25" alt="PHP" />
+      <img src="/img/technologies/laravel.svg" height="25" width="25" alt="Laravel" />
+      <img src="/img/technologies/vue.svg" height="25" width="25" alt="Vue" />
+      <img src="/img/technologies/bootstrap.svg" height="25" width="25" alt="Bootstrap" />
+      <img src="/img/technologies/css3.svg" height="25" width="25" alt="CSS3" />
+      <img src="/img/technologies/html5.svg" height="25" width="25" alt="HTML5" />
+      <img src="/img/technologies/docker.svg" height="25" width="25" alt="Docker" />
+      <img src="/img/technologies/heroku.svg" height="25" width="25" alt="Heroku" />
+      <img src="/img/technologies/vite.svg" height="25" width="25" alt="Vite" />
+      <img src="/img/technologies/mysql.svg" height="25" width="25" alt="MySQL" />
+      <img src="/img/technologies/phpunit.svg" height="25" width="25" alt="PHPUnit" />
+      <img src="/img/technologies/prettier.svg" height="25" width="25" alt="Prettier" />
     </td>
   </tr>
   <tr>
@@ -148,22 +148,22 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/typescript.svg" height="25" width="25" />
-      <img src="/img/technologies/php.svg" height="25" width="25" />
-      <img src="/img/technologies/laravel.svg" height="25" width="25" />
-      <img src="/img/technologies/vue.svg" height="25" width="25" />
-      <img src="/img/technologies/bootstrap.svg" height="25" width="25" />
-      <img src="/img/technologies/css3.svg" height="25" width="25" />
-      <img src="/img/technologies/html5.svg" height="25" width="25" />
-      <img src="/img/technologies/docker.svg" height="25" width="25" />
-      <img src="/img/technologies/heroku.svg" height="25" width="25" />
-      <img src="/img/technologies/vite.svg" height="25" width="25" />
-      <img src="/img/technologies/mysql.svg" height="25" width="25" />
-      <img src="/img/technologies/pest.svg" height="25" width="25" />
-      <img src="/img/technologies/github.svg" height="25" width="25" />
-      <img src="/img/technologies/husky.svg" height="25" width="25" />
-      <img src="/img/technologies/eslint.svg" height="25" width="25" />
-      <img src="/img/technologies/prettier.svg" height="25" width="25" />
+      <img src="/img/technologies/typescript.svg" height="25" width="25" alt="TypeScript" />
+      <img src="/img/technologies/php.svg" height="25" width="25" alt="PHP" />
+      <img src="/img/technologies/laravel.svg" height="25" width="25" alt="Laravel" />
+      <img src="/img/technologies/vue.svg" height="25" width="25" alt="Vue" />
+      <img src="/img/technologies/bootstrap.svg" height="25" width="25" alt="Bootstrap" />
+      <img src="/img/technologies/css3.svg" height="25" width="25" alt="CSS3" />
+      <img src="/img/technologies/html5.svg" height="25" width="25" alt="HTML5" />
+      <img src="/img/technologies/docker.svg" height="25" width="25" alt="Docker" />
+      <img src="/img/technologies/heroku.svg" height="25" width="25" alt="Heroku" />
+      <img src="/img/technologies/vite.svg" height="25" width="25" alt="Vite" />
+      <img src="/img/technologies/mysql.svg" height="25" width="25" alt="MySQL" />
+      <img src="/img/technologies/pest.svg" height="25" width="25" alt="Pest" />
+      <img src="/img/technologies/github.svg" height="25" width="25" alt="Github Actions" />
+      <img src="/img/technologies/husky.svg" height="25" width="25" alt="Husky" />
+      <img src="/img/technologies/eslint.svg" height="25" width="25" alt="ESLint" />
+      <img src="/img/technologies/prettier.svg" height="25" width="25" alt="Prettier" />
     </td>
   </tr>
   <tr>
@@ -173,20 +173,20 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/javascript.svg" height="25" width="25" />
-      <img src="/img/technologies/php.svg" height="25" width="25" />
-      <img src="/img/technologies/laravel.svg" height="25" width="25" />
-      <img src="/img/technologies/vue.svg" height="25" width="25" />
-      <img src="/img/technologies/sass.svg" height="25" width="25" />
-      <img src="/img/technologies/html5.svg" height="25" width="25" />
-      <img src="/img/technologies/heroku.svg" height="25" width="25" />
-      <img src="/img/technologies/vite.svg" height="25" width="25" />
-      <img src="/img/technologies/mysql.svg" height="25" width="25" />
-      <img src="/img/technologies/pest.svg" height="25" width="25" />
-      <img src="/img/technologies/github.svg" height="25" width="25" />
-      <img src="/img/technologies/husky.svg" height="25" width="25" />
-      <img src="/img/technologies/eslint.svg" height="25" width="25" />
-      <img src="/img/technologies/prettier.svg" height="25" width="25" />
+      <img src="/img/technologies/javascript.svg" height="25" width="25" alt="JavaScript" />
+      <img src="/img/technologies/php.svg" height="25" width="25" alt="PHP" />
+      <img src="/img/technologies/laravel.svg" height="25" width="25" alt="Laravel" />
+      <img src="/img/technologies/vue.svg" height="25" width="25" alt="Vue" />
+      <img src="/img/technologies/sass.svg" height="25" width="25" alt="Sass" />
+      <img src="/img/technologies/html5.svg" height="25" width="25" alt="HTML5" />
+      <img src="/img/technologies/heroku.svg" height="25" width="25" alt="Heroku" />
+      <img src="/img/technologies/vite.svg" height="25" width="25" alt="Vite" />
+      <img src="/img/technologies/mysql.svg" height="25" width="25" alt="MySQL" />
+      <img src="/img/technologies/pest.svg" height="25" width="25" alt="Pest" />
+      <img src="/img/technologies/github.svg" height="25" width="25" alt="Github Actions" />
+      <img src="/img/technologies/husky.svg" height="25" width="25" alt="Husky" />
+      <img src="/img/technologies/eslint.svg" height="25" width="25" alt="ESLint" />
+      <img src="/img/technologies/prettier.svg" height="25" width="25" alt="Prettier" />
     </td>
   </tr>
   <tr>
@@ -196,17 +196,17 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/typescript.svg" height="25" width="25" />
-      <img src="/img/technologies/react.svg" height="25" width="25" />
-      <img src="/img/technologies/redux.svg" height="25" width="25" />
-      <img src="/img/technologies/html5.svg" height="25" width="25" />
-      <img src="/img/technologies/chakra-ui.svg" height="25" width="25" />
-      <img src="/img/technologies/storybook.svg" height="25" width="25" />
-      <img src="/img/technologies/heroku.svg" height="25" width="25" />
-      <img src="/img/technologies/vite.svg" height="25" width="25" />
-      <img src="/img/technologies/husky.svg" height="25" width="25" />
-      <img src="/img/technologies/eslint.svg" height="25" width="25" />
-      <img src="/img/technologies/prettier.svg" height="25" width="25" />
+      <img src="/img/technologies/typescript.svg" height="25" width="25" alt="TypeScript" />
+      <img src="/img/technologies/react.svg" height="25" width="25" alt="React" />
+      <img src="/img/technologies/redux.svg" height="25" width="25" alt="Redux" />
+      <img src="/img/technologies/html5.svg" height="25" width="25" alt="HTML5" />
+      <img src="/img/technologies/chakra-ui.svg" height="25" width="25" alt="Chakra UI" />
+      <img src="/img/technologies/storybook.svg" height="25" width="25" alt="Storybook" />
+      <img src="/img/technologies/heroku.svg" height="25" width="25" alt="Heroku" />
+      <img src="/img/technologies/vite.svg" height="25" width="25" alt="Vite" />
+      <img src="/img/technologies/husky.svg" height="25" width="25" alt="Husky" />
+      <img src="/img/technologies/eslint.svg" height="25" width="25" alt="ESLint" />
+      <img src="/img/technologies/prettier.svg" height="25" width="25" alt="Prettier" />
     </td>
   </tr>
   <tr>
@@ -216,13 +216,13 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/typescript.svg" height="25" width="25" />
-      <img src="/img/technologies/next.svg" height="25" width="25" />
-      <img src="/img/technologies/react.svg" height="25" width="25" />
-      <img src="/img/technologies/tailwind.svg" height="25" width="25" />
-      <img src="/img/technologies/html5.svg" height="25" width="25" />
-      <img src="/img/technologies/eslint.svg" height="25" width="25" />
-      <img src="/img/technologies/prettier.svg" height="25" width="25" />
+      <img src="/img/technologies/typescript.svg" height="25" width="25" alt="TypeScript" />
+      <img src="/img/technologies/next.svg" height="25" width="25" alt="Next" />
+      <img src="/img/technologies/react.svg" height="25" width="25" alt="React" />
+      <img src="/img/technologies/tailwind.svg" height="25" width="25" alt="Tailwind" />
+      <img src="/img/technologies/html5.svg" height="25" width="25" alt="HTML5" />
+      <img src="/img/technologies/eslint.svg" height="25" width="25" alt="ESLint" />
+      <img src="/img/technologies/prettier.svg" height="25" width="25" alt="Prettier" />
     </td>
   </tr>
   <tr>
@@ -232,15 +232,15 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/typescript.svg" height="25" width="25" />
-      <img src="/img/technologies/vue.svg" height="25" width="25" />
-      <img src="/img/technologies/primevue.svg" height="25" width="25" />
-      <img src="/img/technologies/html5.svg" height="25" width="25" />
-      <img src="/img/technologies/css3.svg" height="25" width="25" />
-      <img src="/img/technologies/vite.svg" height="25" width="25" />
-      <img src="/img/technologies/husky.svg" height="25" width="25" />
-      <img src="/img/technologies/eslint.svg" height="25" width="25" />
-      <img src="/img/technologies/prettier.svg" height="25" width="25" />
+      <img src="/img/technologies/typescript.svg" height="25" width="25" alt="TypeScript" />
+      <img src="/img/technologies/vue.svg" height="25" width="25" alt="Vue" />
+      <img src="/img/technologies/primevue.svg" height="25" width="25" alt="PrimeVue" />
+      <img src="/img/technologies/html5.svg" height="25" width="25" alt="HTML5" />
+      <img src="/img/technologies/css3.svg" height="25" width="25" alt="CSS3" />
+      <img src="/img/technologies/vite.svg" height="25" width="25" alt="Vite" />
+      <img src="/img/technologies/husky.svg" height="25" width="25" alt="Husky" />
+      <img src="/img/technologies/eslint.svg" height="25" width="25" alt="ESLint" />
+      <img src="/img/technologies/prettier.svg" height="25" width="25" alt="Prettier" />
     </td>
   </tr>
   <tr>
@@ -250,10 +250,10 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/javascript.svg" height="25" width="25" />
-      <img src="/img/technologies/bootstrap.svg" height="25" width="25" />
-      <img src="/img/technologies/tailwind.svg" height="25" width="25" />
-      <img src="/img/technologies/html5.svg" height="25" width="25" />
+      <img src="/img/technologies/javascript.svg" height="25" width="25" alt="JavaScript" />
+      <img src="/img/technologies/bootstrap.svg" height="25" width="25" alt="Bootstrap" />
+      <img src="/img/technologies/tailwind.svg" height="25" width="25" alt="Tailwind" />
+      <img src="/img/technologies/html5.svg" height="25" width="25" alt="HTML5" />
     </td>
   </tr>
   <tr>
@@ -263,10 +263,10 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/javascript.svg" height="25" width="25" />
-      <img src="/img/technologies/bootstrap.svg" height="25" width="25" />
-      <img src="/img/technologies/css3.svg" height="25" width="25" />
-      <img src="/img/technologies/html5.svg" height="25" width="25" />
+      <img src="/img/technologies/javascript.svg" height="25" width="25" alt="JavaScript" />
+      <img src="/img/technologies/bootstrap.svg" height="25" width="25" alt="Bootstrap" />
+      <img src="/img/technologies/css3.svg" height="25" width="25" alt="CSS3" />
+      <img src="/img/technologies/html5.svg" height="25" width="25" alt="HTML5" />
     </td>
   </tr>
   <tr>
@@ -276,10 +276,10 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/typescript.svg" height="25" width="25" />
-      <img src="/img/technologies/react.svg" height="25" width="25" />
-      <img src="/img/technologies/tailwind.svg" height="25" width="25" />
-      <img src="/img/technologies/html5.svg" height="25" width="25" />
+      <img src="/img/technologies/typescript.svg" height="25" width="25" alt="TypeScript" />
+      <img src="/img/technologies/react.svg" height="25" width="25" alt="React" />
+      <img src="/img/technologies/tailwind.svg" height="25" width="25" alt="Tailwind" />
+      <img src="/img/technologies/html5.svg" height="25" width="25" alt="HTML5" />
     </td>
   </tr>
   <tr>
@@ -289,14 +289,14 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/javascript.svg" height="25" width="25" />
-      <img src="/img/technologies/next.svg" height="25" width="25" />
-      <img src="/img/technologies/react.svg" height="25" width="25" />
-      <img src="/img/technologies/redux.svg" height="25" width="25" />
-      <img src="/img/technologies/tailwind.svg" height="25" width="25" />
-      <img src="/img/technologies/html5.svg" height="25" width="25" />
-      <img src="/img/technologies/strapi.svg" height="25" width="25" />
-      <img src="/img/technologies/eslint.svg" height="25" width="25" />
+      <img src="/img/technologies/javascript.svg" height="25" width="25" alt="JavaScript" />
+      <img src="/img/technologies/next.svg" height="25" width="25" alt="Next" />
+      <img src="/img/technologies/react.svg" height="25" width="25" alt="React" />
+      <img src="/img/technologies/redux.svg" height="25" width="25" alt="Redux" />
+      <img src="/img/technologies/tailwind.svg" height="25" width="25" alt="Tailwind" />
+      <img src="/img/technologies/html5.svg" height="25" width="25" alt="HTML5" />
+      <img src="/img/technologies/strapi.svg" height="25" width="25" alt="Strapi" />
+      <img src="/img/technologies/eslint.svg" height="25" width="25" alt="ESLint" />
     </td>
   </tr>
   <tr>
@@ -306,12 +306,12 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/javascript.svg" height="25" width="25" />
-      <img src="/img/technologies/react.svg" height="25" width="25" />
-      <img src="/img/technologies/redux.svg" height="25" width="25" />
-      <img src="/img/technologies/tailwind.svg" height="25" width="25" />
-      <img src="/img/technologies/html5.svg" height="25" width="25" />
-      <img src="/img/technologies/firebase.svg" height="25" width="25" />
+      <img src="/img/technologies/javascript.svg" height="25" width="25" alt="JavaScript" />
+      <img src="/img/technologies/react.svg" height="25" width="25" alt="React" />
+      <img src="/img/technologies/redux.svg" height="25" width="25" alt="Redux" />
+      <img src="/img/technologies/tailwind.svg" height="25" width="25" alt="Tailwind" />
+      <img src="/img/technologies/html5.svg" height="25" width="25" alt="HTML5" />
+      <img src="/img/technologies/firebase.svg" height="25" width="25" alt="Firebase" />
     </td>
   </tr>
   <tr>
@@ -321,13 +321,13 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/python.svg" height="25" width="25" />
-      <img src="/img/technologies/django.svg" height="25" width="25" />
-      <img src="/img/technologies/css3.svg" height="25" width="25" />
-      <img src="/img/technologies/tailwind.svg" height="25" width="25" />
-      <img src="/img/technologies/html5.svg" height="25" width="25" />
-      <img src="/img/technologies/docker.svg" height="25" width="25" />
-      <img src="/img/technologies/heroku.svg" height="25" width="25" />
+      <img src="/img/technologies/python.svg" height="25" width="25" alt="Python" />
+      <img src="/img/technologies/django.svg" height="25" width="25" alt="Django" />
+      <img src="/img/technologies/css3.svg" height="25" width="25" alt="CSS3" />
+      <img src="/img/technologies/tailwind.svg" height="25" width="25" alt="Tailwind" />
+      <img src="/img/technologies/html5.svg" height="25" width="25" alt="HTML5" />
+      <img src="/img/technologies/docker.svg" height="25" width="25" alt="Docker" />
+      <img src="/img/technologies/heroku.svg" height="25" width="25" alt="Heroku" />
     </td>
   </tr>
   <tr>
@@ -337,9 +337,9 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/javascript.svg" height="25" width="25" />
-      <img src="/img/technologies/css3.svg" height="25" width="25" />
-      <img src="/img/technologies/html5.svg" height="25" width="25" />
+      <img src="/img/technologies/javascript.svg" height="25" width="25" alt="JavaScript" />
+      <img src="/img/technologies/css3.svg" height="25" width="25" alt="CSS3" />
+      <img src="/img/technologies/html5.svg" height="25" width="25" alt="HTML5" />
     </td>
   </tr>
   <tr>
@@ -349,8 +349,8 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/css3.svg" height="25" width="25" />
-      <img src="/img/technologies/html5.svg" height="25" width="25" />
+      <img src="/img/technologies/css3.svg" height="25" width="25" alt="CSS3" />
+      <img src="/img/technologies/html5.svg" height="25" width="25" alt="HTML5" />
     </td>
   </tr>
 </table>
