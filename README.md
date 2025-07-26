@@ -404,15 +404,15 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <b> Language </b>
     </td>
     <td>
-      <img src="/img/technologies/badge/php.svg" alt="PHP badge" />
-      <img src="/img/technologies/badge/typescript.svg" alt="TypeScript badge" />
-      <img src="/img/technologies/badge/javascript.svg" alt="JavaScript badge" />
-      <img src="/img/technologies/badge/html5.svg" alt="HTML5 badge" />
-      <img src="/img/technologies/badge/css3.svg" alt="CSS3 badge" />
-      <img src="/img/technologies/badge/python.svg" alt="Python badge" />
-      <img src="/img/technologies/badge/g-code.svg" alt="G-code badge" />
-      <img src="/img/technologies/badge/c++.svg" alt="C++ badge" />
-      <img src="/img/technologies/badge/markdown.svg" alt="MarkDown badge" />
+      <a href="https://www.php.net/"><img src="/img/technologies/badge/php.svg" alt="PHP badge" /></a>
+      <a href="https://www.typescriptlang.org/"><img src="/img/technologies/badge/typescript.svg" alt="TypeScript badge" /></a>
+      <a href="https://www.javascript.com/"><img src="/img/technologies/badge/javascript.svg" alt="JavaScript badge" /></a>
+      <a href="https://html.com/"><img src="/img/technologies/badge/html5.svg" alt="HTML5 badge" /></a>
+      <a href="https://www.w3.org/Style/CSS/Overview.en.html"><img src="/img/technologies/badge/css3.svg" alt="CSS3 badge" /></a>
+      <a href="https://www.python.org/"><img src="/img/technologies/badge/python.svg" alt="Python badge" /></a>
+      <a href="https://www.gcode.org/"><img src="/img/technologies/badge/g-code.svg" alt="G-code badge" /></a>
+      <a href="https://www.cplusplus.com/"><img src="/img/technologies/badge/c++.svg" alt="C++ badge" /></a>
+      <a href="https://www.markdownguide.org/"><img src="/img/technologies/badge/markdown.svg" alt="MarkDown badge" /></a>
     </td>
   </tr>
   <tr>
@@ -420,14 +420,14 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
      <b> Main </b>
     </td>
     <td>
-      <img src="/img/technologies/badge/prestashop.svg" alt="PrestaShop badge" />
-      <img src="/img/technologies/badge/laravel.svg" alt="Laravel badge" />
-      <img src="/img/technologies/badge/nuxt.svg" alt="Nuxt badge" />
-      <img src="/img/technologies/badge/vue.svg" alt="Vue badge" />
-      <img src="/img/technologies/badge/sass.svg" alt="Sass badge" />
-      <img src="/img/technologies/badge/chart-js.svg" alt="Chart.js badge" />
-      <img src="/img/technologies/badge/storybook.svg" alt="Storybook badge" />
-      <img src="/img/technologies/badge/vitest.svg" alt="Vitest badge" />
+      <a href="https://www.prestashop.com/"><img src="/img/technologies/badge/prestashop.svg" alt="PrestaShop badge" /></a>
+      <a href="https://laravel.com/"><img src="/img/technologies/badge/laravel.svg" alt="Laravel badge" /></a>
+      <a href="https://nuxt.com/"><img src="/img/technologies/badge/nuxt.svg" alt="Nuxt badge" /></a>
+      <a href="https://vuejs.org/"><img src="/img/technologies/badge/vue.svg" alt="Vue badge" /></a>
+      <a href="https://sass-lang.com/"><img src="/img/technologies/badge/sass.svg" alt="Sass badge" /></a>
+      <a href="https://www.chartjs.org/"><img src="/img/technologies/badge/chart-js.svg" alt="Chart.js badge" /></a>
+      <a href="https://storybook.js.org/"><img src="/img/technologies/badge/storybook.svg" alt="Storybook badge" /></a>
+      <a href="https://vitest.dev/"><img src="/img/technologies/badge/vitest.svg" alt="Vitest badge" /></a>
     </td>
   </tr>
   <tr>
@@ -435,14 +435,14 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Intermediate
     </td>
     <td>
-      <img src="/img/technologies/badge/symfony.svg" alt="Symfony badge" />
-      <img src="/img/technologies/badge/vite.svg" alt="Vite badge" />
-      <img src="/img/technologies/badge/react.svg" alt="React badge" />
-      <img src="/img/technologies/badge/cypress.svg" alt="Cypress badge" />
-      <img src="/img/technologies/badge/tailwind.svg" alt="Tailwind badge" />
-      <img src="/img/technologies/badge/bootstrap.svg" alt="Bootstrap badge" />
-      <img src="/img/technologies/badge/jquery.svg" alt="jQuery badge" />
-      <img src="/img/technologies/badge/django.svg" alt="Django badge" />
+      <a href="https://symfony.com/"><img src="/img/technologies/badge/symfony.svg" alt="Symfony badge" /></a>
+      <a href="https://vite.dev/"><img src="/img/technologies/badge/vite.svg" alt="Vite badge" /></a>
+      <a href="https://react.dev/"><img src="/img/technologies/badge/react.svg" alt="React badge" /></a>
+      <a href="https://www.cypress.io/"><img src="/img/technologies/badge/cypress.svg" alt="Cypress badge" /></a>
+      <a href="https://tailwindcss.com/"><img src="/img/technologies/badge/tailwind.svg" alt="Tailwind badge" /></a>
+      <a href="https://getbootstrap.com/"><img src="/img/technologies/badge/bootstrap.svg" alt="Bootstrap badge" /></a>
+      <a href="https://jquery.com/"><img src="/img/technologies/badge/jquery.svg" alt="jQuery badge" /></a>
+      <a href="https://www.djangoproject.com/"><img src="/img/technologies/badge/django.svg" alt="Django badge" /></a>
     </td>
   </tr>
   <tr>
@@ -450,15 +450,15 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Have experienced
     </td>
     <td>
-      <img src="/img/technologies/badge/next.svg" alt="Next badge" />
-      <img src="/img/technologies/badge/shadcn.svg" alt="shadcn badge" />
-      <img src="/img/technologies/badge/jest.svg" alt="Jest badge" />
-      <img src="/img/technologies/badge/nest-js.svg" alt="Nest.js badge" />
-      <img src="/img/technologies/badge/chakra-ui.svg" alt="Chakra UI badge" />
-      <img src="/img/technologies/badge/quasar.svg" alt="Quasar badge" />
-      <img src="/img/technologies/badge/mui.svg" alt="Material UI badge" />
-      <img src="/img/technologies/badge/webpack.svg" alt="Webpack badge" />
-      <img src="/img/technologies/badge/wordpress.svg" alt="WordPress badge" />
+      <a href="https://nextjs.org/"><img src="/img/technologies/badge/next.svg" alt="Next badge" /></a>
+      <a href="https://ui.shadcn.com/"><img src="/img/technologies/badge/shadcn.svg" alt="shadcn badge" /></a>
+      <a href="https://jestjs.io/"><img src="/img/technologies/badge/jest.svg" alt="Jest badge" /></a>
+      <a href="https://nestjs.com/"><img src="/img/technologies/badge/nest-js.svg" alt="Nest.js badge" /></a>
+      <a href="https://chakra-ui.com/"><img src="/img/technologies/badge/chakra-ui.svg" alt="Chakra UI badge" /></a>
+      <a href="https://quasar.dev/"><img src="/img/technologies/badge/quasar.svg" alt="Quasar badge" /></a>
+      <a href="https://mui.com/"><img src="/img/technologies/badge/mui.svg" alt="Material UI badge" /></a>
+      <a href="https://webpack.js.org/"><img src="/img/technologies/badge/webpack.svg" alt="Webpack badge" /></a>
+      <a href="https://wordpress.org/"><img src="/img/technologies/badge/wordpress.svg" alt="WordPress badge" /></a>
     </td>
   </tr>
   <tr>
@@ -466,13 +466,13 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       State Management
     </td>
     <td>
-      <img src="/img/technologies/badge/nuxt-use-state.svg" alt="Nuxt useState badge" />
-      <img src="/img/technologies/badge/nuxt-use-cookie.svg" alt="Nuxt useCookie badge" />
-      <img src="/img/technologies/badge/pinia.svg" alt="Pinia badge" />
-      <img src="/img/technologies/badge/react-use-state.svg" alt="React useState badge" />
-      <img src="/img/technologies/badge/redux.svg" alt="Redux badge" />
-      <img src="/img/technologies/badge/local-storage.svg" alt="localStorage badge" />
-      <img src="/img/technologies/badge/session-storage.svg" alt="sessionStorage badge" />
+      <a href="https://nuxt.com/docs/4.x/api/composables/use-state"><img src="/img/technologies/badge/nuxt-use-state.svg" alt="Nuxt useState badge" /></a>
+      <a href="https://nuxt.com/docs/4.x/api/composables/use-cookie"><img src="/img/technologies/badge/nuxt-use-cookie.svg" alt="Nuxt useCookie badge" /></a>
+      <a href="https://pinia.vuejs.org/"><img src="/img/technologies/badge/pinia.svg" alt="Pinia badge" /></a>
+      <a href="https://react.dev/reference/react/useState"><img src="/img/technologies/badge/react-use-state.svg" alt="React useState badge" /></a>
+      <a href="https://redux.js.org/"><img src="/img/technologies/badge/redux.svg" alt="Redux badge" /></a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage"><img src="/img/technologies/badge/local-storage.svg" alt="localStorage badge" /></a>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage"><img src="/img/technologies/badge/session-storage.svg" alt="sessionStorage badge" /></a>
     </td>
   </tr>
   <tr>
@@ -480,11 +480,11 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Database
     </td>
     <td>
-      <img src="/img/technologies/badge/mysql.svg" alt="MySQL badge" />
-      <img src="/img/technologies/badge/mariadb.svg" alt="MariaDB badge" />
-      <img src="/img/technologies/badge/sqlite.svg" alt="SQLite badge" />
-      <img src="/img/technologies/badge/postgresql.svg" alt="PostgreSQL badge" />
-      <img src="/img/technologies/badge/redis.svg" alt="Redis badge" />
+      <a href="https://www.mysql.com/"><img src="/img/technologies/badge/mysql.svg" alt="MySQL badge" /></a>
+      <a href="https://mariadb.org/"><img src="/img/technologies/badge/mariadb.svg" alt="MariaDB badge" /></a>
+      <a href="https://www.sqlite.org/index.html"><img src="/img/technologies/badge/sqlite.svg" alt="SQLite badge" /></a>
+      <a href="https://www.postgresql.org/"><img src="/img/technologies/badge/postgresql.svg" alt="PostgreSQL badge" /></a>
+      <a href="https://redis.io/"><img src="/img/technologies/badge/redis.svg" alt="Redis badge" /></a>
     </td>
   </tr>
   <tr>
@@ -492,10 +492,10 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       IDE
     </td>
     <td>
-      <img src="/img/technologies/badge/phpstorm.svg" alt="PhpStorm badge" />
-      <img src="/img/technologies/badge/vs-code.svg" alt="Visual Studio Code badge" />
-      <img src="/img/technologies/badge/pycharm.svg" alt="PyCharm badge" />
-      <img src="/img/technologies/badge/jupyter.svg" alt="Jupyter badge" />
+      <a href="https://www.jetbrains.com/phpstorm/"><img src="/img/technologies/badge/phpstorm.svg" alt="PhpStorm badge" /></a>
+      <a href="https://code.visualstudio.com/"><img src="/img/technologies/badge/vs-code.svg" alt="Visual Studio Code badge" /></a>
+      <a href="https://www.jetbrains.com/pycharm/"><img src="/img/technologies/badge/pycharm.svg" alt="PyCharm badge" /></a>
+      <a href="https://jupyter.org/"><img src="/img/technologies/badge/jupyter.svg" alt="Jupyter badge" /></a>
     </td>
   </tr>
   <tr>
@@ -503,14 +503,14 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Tool
     </td>
     <td>
-      <img src="/img/technologies/badge/git.svg" alt="Git badge" />
-      <img src="/img/technologies/badge/docker.svg" alt="Docker badge" />
-      <img src="/img/technologies/badge/neovim.svg" alt="Neovim badge" />
-      <img src="/img/technologies/badge/nano.svg" alt="Nano badge" />
-      <img src="/img/technologies/badge/xampp.svg" alt="XAMPP badge" />
-      <img src="/img/technologies/badge/filezilla.svg" alt="FileZilla badge" />
-      <img src="/img/technologies/badge/figma.svg" alt="Figma badge" />
-      <img src="/img/technologies/badge/postman.svg" alt="Postman badge" />
+      <a href="https://git-scm.com/"><img src="/img/technologies/badge/git.svg" alt="Git badge" /></a>
+      <a href="https://www.docker.com/"><img src="/img/technologies/badge/docker.svg" alt="Docker badge" /></a>
+      <a href="https://neovim.io/"><img src="/img/technologies/badge/neovim.svg" alt="Neovim badge" /></a>
+      <a href="https://nano-editor.org/"><img src="/img/technologies/badge/nano.svg" alt="Nano badge" /></a>
+      <a href="https://www.apachefriends.org/"><img src="/img/technologies/badge/xampp.svg" alt="XAMPP badge" /></a>
+      <a href="https://filezilla-project.org/"><img src="/img/technologies/badge/filezilla.svg" alt="FileZilla badge" /></a>
+      <a href="https://www.figma.com/"><img src="/img/technologies/badge/figma.svg" alt="Figma badge" /></a>
+      <a href="https://www.postman.com/"><img src="/img/technologies/badge/postman.svg" alt="Postman badge" /></a>
     </td>
   </tr>
   <tr>
@@ -518,11 +518,11 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Terminal
     </td>
     <td>
-      <img src="/img/technologies/badge/kitty.svg" alt="Kitty badge" />
-      <img src="/img/technologies/badge/fish.svg" alt="Fish badge" />
-      <img src="/img/technologies/badge/zsh.svg" alt="Zsh badge" />
-      <img src="/img/technologies/badge/bash.svg" alt="Bash badge" />
-      <img src="/img/technologies/badge/powershell.svg" alt="PowerShell badge" />
+      <a href="https://sw.kovidgoyal.net/kitty/"><img src="/img/technologies/badge/kitty.svg" alt="Kitty badge" /></a>
+      <a href="https://fishshell.com/"><img src="/img/technologies/badge/fish.svg" alt="Fish badge" /></a>
+      <a href="https://zsh.sourceforge.io/"><img src="/img/technologies/badge/zsh.svg" alt="Zsh badge" /></a>
+      <a href="https://www.gnu.org/software/bash/"><img src="/img/technologies/badge/bash.svg" alt="Bash badge" /></a>
+      <a href="https://learn.microsoft.com/en-us/powershell/"><img src="/img/technologies/badge/powershell.svg" alt="PowerShell badge" /></a>
     </td>
   </tr>
   <tr>
@@ -530,23 +530,24 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Package Manager
     </td>
     <td>
-      <img src="/img/technologies/badge/composer.svg" alt="Composer badge" />
-      <img src="/img/technologies/badge/pnpm.svg" alt="pnpm badge" />
-      <img src="/img/technologies/badge/yarn.svg" alt="Yarn badge" />
-      <img src="/img/technologies/badge/aur.svg" alt="AUR badge" />
-      <img src="/img/technologies/badge/yay.svg" alt="YAY badge" />
-      <img src="/img/technologies/badge/pacman.svg" alt="Pacman badge" />
-      <img src="/img/technologies/badge/pamac.svg" alt="Pacman badge" />
-      <img src="/img/technologies/badge/snapcraft.svg" alt="Snapcraft badge" />
+      <a href="https://getcomposer.org/"><img src="/img/technologies/badge/composer.svg" alt="Composer badge" /></a>
+      <a href="https://pnpm.io/"><img src="/img/technologies/badge/pnpm.svg" alt="pnpm badge" /></a>
+      <a href="https://yarnpkg.com/"><img src="/img/technologies/badge/yarn.svg" alt="Yarn badge" /></a>
+      <a href="https://aur.archlinux.org/"><img src="/img/technologies/badge/aur.svg" alt="AUR badge" /></a>
+      <a href="https://github.com/Jguer/yay"><img src="/img/technologies/badge/yay.svg" alt="YAY badge" /></a>
+      <a href="https://archlinux.org/packages/core/x86_64/pacman/"><img src="/img/technologies/badge/pacman.svg" alt="Pacman badge" /></a>
+      <a href="https://archlinux.org/packages/extra/x86_64/pamac-manager/"><img src="/img/technologies/badge/pamac.svg" alt="Pacman badge" /></a>
+      <a href="https://snapcraft.io/"><img src="/img/technologies/badge/snapcraft.svg" alt="Snapcraft badge" /></a>
+    </td>
   </tr>
   <tr>
     <td>
       CI/CD
     </td>
     <td>
-      <img src="/img/technologies/badge/github-actions.svg" alt="Github Actions badge" />
-      <img src="/img/technologies/badge/husky.svg" alt="Husky badge" />
-      <img src="/img/technologies/badge/bitbucket.svg" alt="Bitbucket badge" />
+      <a href="https://docs.github.com/en/actions"><img src="/img/technologies/badge/github-actions.svg" alt="Github Actions badge" /></a>
+      <a href="https://typicode.github.io/husky/#/"><img src="/img/technologies/badge/husky.svg" alt="Husky badge" /></a>
+      <a href="https://support.atlassian.com/bitbucket-cloud/docs/get-started-with-bitbucket-pipelines/"><img src="/img/technologies/badge/bitbucket.svg" alt="Bitbucket badge" /></a>
     </td>
   </tr>
   <tr>
@@ -554,10 +555,10 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Project Management
     </td>
     <td>
-      <img src="/img/technologies/badge/github-projects.svg" alt="Github Projects badge" />
-      <img src="/img/technologies/badge/asana.svg" alt="Asana badge" />
-      <img src="/img/technologies/badge/jira.svg" alt="Jira badge" />
-      <img src="/img/technologies/badge/trello.svg" alt="Trello badge" />
+      <a href="https://docs.github.com/en/issues/organizing-your-work-with-project-boards"><img src="/img/technologies/badge/github-projects.svg" alt="Github Projects badge" /></a>
+      <a href="https://asana.com/"><img src="/img/technologies/badge/asana.svg" alt="Asana badge" /></a>
+      <a href="https://www.atlassian.com/software/jira"><img src="/img/technologies/badge/jira.svg" alt="Jira badge" /></a>
+      <a href="https://trello.com/"><img src="/img/technologies/badge/trello.svg" alt="Trello badge" /></a>
     </td>
   </tr>
   <tr>
@@ -565,12 +566,12 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Deployment
     </td>
     <td>
-      <img src="/img/technologies/badge/github-pages.svg" alt="GitHub Pages badge" />
-      <img src="/img/technologies/badge/cloudflare.svg" alt="Cloudflare badge" />
-      <img src="/img/technologies/badge/heroku.svg" alt="Heroku badge" />
-      <img src="/img/technologies/badge/vercel.svg" alt="Vercel badge" />
-      <img src="/img/technologies/badge/nuxthub.svg" alt="NuxtHub badge" />
-      <img src="/img/technologies/badge/netlify.svg" alt="Netlify badge" />
+      <a href="https://pages.github.com/"><img src="/img/technologies/badge/github-pages.svg" alt="GitHub Pages badge" /></a>
+      <a href="https://www.cloudflare.com/"><img src="/img/technologies/badge/cloudflare.svg" alt="Cloudflare badge" /></a>
+      <a href="https://www.heroku.com/"><img src="/img/technologies/badge/heroku.svg" alt="Heroku badge" /></a>
+      <a href="https://vercel.com/"><img src="/img/technologies/badge/vercel.svg" alt="Vercel badge" /></a>
+      <a href="https://hub.nuxt.com/"><img src="/img/technologies/badge/nuxthub.svg" alt="NuxtHub badge" /></a>
+      <a href="https://www.netlify.com/"><img src="/img/technologies/badge/netlify.svg" alt="Netlify badge" /></a>
     </td>
   </tr>
   <tr>
@@ -578,13 +579,13 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Code Maintenance
     </td>
     <td>
-      <img src="/img/technologies/badge/biome.svg" alt="Biome badge" />
-      <img src="/img/technologies/badge/pint.svg" alt="Pint badge" />
-      <img src="/img/technologies/badge/tsc.svg" alt="TSC badge" />
-      <img src="/img/technologies/badge/eslint.svg" alt="ESLint badge" />
-      <img src="/img/technologies/badge/stylelint.svg" alt="Stylelint badge" />
-      <img src="/img/technologies/badge/prettier.svg" alt="Prettier badge" />
-      <img src="/img/technologies/badge/sentry.svg" alt="Sentry badge" />
+      <a href="https://biomejs.dev/"><img src="/img/technologies/badge/biome.svg" alt="Biome badge" /></a>
+      <a href="https://pint.dev/"><img src="/img/technologies/badge/pint.svg" alt="Pint badge" /></a>
+      <a href="https://www.typescriptlang.org/"><img src="/img/technologies/badge/tsc.svg" alt="TSC badge" /></a>
+      <a href="https://eslint.org/"><img src="/img/technologies/badge/eslint.svg" alt="ESLint badge" /></a>
+      <a href="https://stylelint.io/"><img src="/img/technologies/badge/stylelint.svg" alt="Stylelint badge" /></a>
+      <a href="https://prettier.io/"><img src="/img/technologies/badge/prettier.svg" alt="Prettier badge" /></a>
+      <a href="https://sentry.io/"><img src="/img/technologies/badge/sentry.svg" alt="Sentry badge" /></a>
     </td>
   </tr>
   <tr>
@@ -592,14 +593,14 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       OS
     </td>
     <td>
-      <img src="/img/technologies/badge/arch.svg" alt="Arch badge" />
-      <img src="/img/technologies/badge/cachyos.svg" alt="CachyOS badge" />
-      <img src="/img/technologies/badge/blackarch.svg" alt="BlackArch badge" />
-      <img src="/img/technologies/badge/manjaro.svg" alt="Manjaro badge" />
-      <img src="/img/technologies/badge/garuda.svg" alt="Garuda badge" />
-      <img src="/img/technologies/badge/kubuntu.svg" alt="Kubuntu badge" />
-      <img src="/img/technologies/badge/ubuntu.svg" alt="Ubuntu badge" />
-      <img src="/img/technologies/badge/windows.svg" alt="Windows badge" />
+      <a href="https://archlinux.org/"><img src="/img/technologies/badge/arch.svg" alt="Arch badge" /></a>
+      <a href="https://cachyos.org/"><img src="/img/technologies/badge/cachyos.svg" alt="CachyOS badge" /></a>
+      <a href="https://blackarch.org/"><img src="/img/technologies/badge/blackarch.svg" alt="BlackArch badge" /></a>
+      <a href="https://manjaro.org/"><img src="/img/technologies/badge/manjaro.svg" alt="Manjaro badge" /></a>
+      <a href="https://garudalinux.org/"><img src="/img/technologies/badge/garuda.svg" alt="Garuda badge" /></a>
+      <a href="https://kubuntu.org/"><img src="/img/technologies/badge/kubuntu.svg" alt="Kubuntu badge" /></a>
+      <a href="https://ubuntu.com/"><img src="/img/technologies/badge/ubuntu.svg" alt="Ubuntu badge" /></a>
+      <a href="https://www.microsoft.com/en-us/windows"><img src="/img/technologies/badge/windows.svg" alt="Windows badge" /></a>
     </td>
   </tr>
   <tr>
@@ -607,10 +608,10 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Desktop Environment
     </td>
     <td>
-      <img src="/img/technologies/badge/hyprland.svg" alt="Hyprland badge" />
-      <img src="/img/technologies/badge/kde-plasma.svg" alt="KDE Plasma badge" />
-      <img src="/img/technologies/badge/xfce.svg" alt="XFCE badge" />
-      <img src="/img/technologies/badge/gnome.svg" alt="Gnome badge" />
+      <a href="https://hyprland.org/"><img src="/img/technologies/badge/hyprland.svg" alt="Hyprland badge" /></a>
+      <a href="https://kde.org/"><img src="/img/technologies/badge/kde-plasma.svg" alt="KDE Plasma badge" /></a>
+      <a href="https://xfce.org/"><img src="/img/technologies/badge/xfce.svg" alt="XFCE badge" /></a>
+      <a href="https://www.gnome.org/"><img src="/img/technologies/badge/gnome.svg" alt="Gnome badge" /></a>
     </td>
   </tr>
   <tr>
@@ -618,10 +619,10 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Virtualization
     </td>
     <td>
-      <img src="/img/technologies/badge/boxes.svg" alt="Boxes badge" />
-      <img src="/img/technologies/badge/virtualbox.svg" alt="VirtualBox badge" />
-      <img src="/img/technologies/badge/vmware.svg" alt="VMware badge" />
-      <img src="/img/technologies/badge/hyper-v.svg" alt="Hyper-V badge" />
+      <a href="https://apps.gnome.org/Boxes/"><img src="/img/technologies/badge/boxes.svg" alt="Boxes badge" /></a>
+      <a href="https://www.virtualbox.org/"><img src="/img/technologies/badge/virtualbox.svg" alt="VirtualBox badge" /></a>
+      <a href="https://www.vmware.com/"><img src="/img/technologies/badge/vmware.svg" alt="VMware badge" /></a>
+      <a href="https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/"><img src="/img/technologies/badge/hyper-v.svg" alt="Hyper-V badge" /></a>
     </td>
   </tr>
 </table>
