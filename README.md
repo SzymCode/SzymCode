@@ -641,9 +641,10 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
 * 🧠 Rubik's Cube CFOP sub 20 & Blindfold Old Pochmann 5 min with memorize
 * 📚 Books that have impacted me listed here: [TimelessBooks](https://www.timeless-books.com/)
 * 🏆 Few favourite quotes:
-  - *"This man of little learning grows old like an ox; only his flesh grows but not his wisdom"* ~ Siddhartha Gautama
-  - *"He who has a why to live can bear almost any how"* ~ Friedrich Nietzsche
-  - *"Fear has never reached the highest goal"* ~ Bô Yin Râ
+  - *"This man of little learning grows old like an ox; only his flesh grows but not his wisdom."* ~ Siddhartha Gautama
+  - *"He who has a why to live can bear almost any how."* ~ Friedrich Nietzsche
+  - *"Fear has never reached the highest goal."* ~ Bô Yin Râ
+  - *"Don't wish it was easier. Wish you were better."* ~ Jim Rohn
 
 </details>
 <br>
