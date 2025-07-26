@@ -38,7 +38,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="TypeScript logo" />
       <img src="/img/technologies/logo/php.svg" height="25" width="25" alt="PHP logo" />
       <img src="/img/technologies/logo/laravel.svg" height="25" width="25" alt="Laravel logo" />
-      <img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="Nuxt logo" />
+      <img src="/img/technologies/logo/nuxt.svg" height="25" width="25" alt="Nuxt logo" />
       <img src="/img/technologies/logo/vue.svg" height="25" width="25" alt="Vue logo" />
       <img src="/img/technologies/logo/pinia.svg" height="25" width="25" alt="Pinia logo" />
       <img src="/img/technologies/logo/primevue.svg" height="25" width="25" alt="PrimeVue logo" />
@@ -68,7 +68,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
     <td>
       <img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="TypeScript logo" />
       <img src="/img/technologies/logo/nuxthub.svg" height="25" width="25" alt="NuxtHub logo" />
-      <img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="Nuxt logo" />
+      <img src="/img/technologies/logo/nuxt.svg" height="25" width="25" alt="Nuxt logo" />
       <img src="/img/technologies/logo/vue.svg" height="25" width="25" alt="Vue logo" />
       <img src="/img/technologies/logo/sass.svg" height="25" width="25" alt="Sass logo" />
       <img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5 logo" />
@@ -90,7 +90,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
     <td>
       <img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="TypeScript logo" />
       <img src="/img/technologies/logo/nuxthub.svg" height="25" width="25" alt="NuxtHub logo" />
-      <img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="Nuxt logo" />
+      <img src="/img/technologies/logo/nuxt.svg" height="25" width="25" alt="Nuxt logo" />
       <img src="/img/technologies/logo/vue.svg" height="25" width="25" alt="Vue logo" />
       <img src="/img/technologies/logo/sass.svg" height="25" width="25" alt="Sass logo" />
       <img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5 logo" />
