@@ -368,15 +368,15 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <b> Language </b>
     </td>
     <td>
-      <img src="/img/technologies/badge/php.svg" alt="PHP" />
-      <img src="/img/technologies/badge/typescript.svg" alt="TypeScript" />
-      <img src="/img/technologies/badge/javascript.svg" alt="JavaScript" />
-      <img src="/img/technologies/badge/html5.svg" alt="HTML5" />
-      <img src="/img/technologies/badge/css3.svg" alt="CSS3" />
-      <img src="/img/technologies/badge/python.svg" alt="Python" />
-      <img src="/img/technologies/badge/g-code.svg" alt="G-code" />
-      <img src="/img/technologies/badge/c++.svg" alt="C++" />
-      <img src="/img/technologies/badge/markdown.svg" alt="MarkDown" />
+      <img src="/img/technologies/badge/php.svg" alt="PHP badge" />
+      <img src="/img/technologies/badge/typescript.svg" alt="TypeScript badge" />
+      <img src="/img/technologies/badge/javascript.svg" alt="JavaScript badge" />
+      <img src="/img/technologies/badge/html5.svg" alt="HTML5 badge" />
+      <img src="/img/technologies/badge/css3.svg" alt="CSS3 badge" />
+      <img src="/img/technologies/badge/python.svg" alt="Python badge" />
+      <img src="/img/technologies/badge/g-code.svg" alt="G-code badge" />
+      <img src="/img/technologies/badge/c++.svg" alt="C++ badge" />
+      <img src="/img/technologies/badge/markdown.svg" alt="MarkDown badge" />
     </td>
   </tr>
   <tr>
@@ -384,14 +384,14 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
      <b> Main </b>
     </td>
     <td>
-      <img src="/img/technologies/badge/prestashop.svg" alt="PrestaShop" />
-      <img src="/img/technologies/badge/laravel.svg" alt="Laravel" />
-      <img src="/img/technologies/badge/nuxt.svg" alt="Nuxt" />
-      <img src="/img/technologies/badge/vue.svg" alt="Vue" />
-      <img src="/img/technologies/badge/sass.svg" alt="Sass" />
-      <img src="/img/technologies/badge/chart-js.svg" alt="Chart.js" />
-      <img src="/img/technologies/badge/storybook.svg" alt="Storybook" />
-      <img src="/img/technologies/badge/vitest.svg" alt="Vitest" />
+      <img src="/img/technologies/badge/prestashop.svg" alt="PrestaShop badge" />
+      <img src="/img/technologies/badge/laravel.svg" alt="Laravel badge" />
+      <img src="/img/technologies/badge/nuxt.svg" alt="Nuxt badge" />
+      <img src="/img/technologies/badge/vue.svg" alt="Vue badge" />
+      <img src="/img/technologies/badge/sass.svg" alt="Sass badge" />
+      <img src="/img/technologies/badge/chart-js.svg" alt="Chart.js badge" />
+      <img src="/img/technologies/badge/storybook.svg" alt="Storybook badge" />
+      <img src="/img/technologies/badge/vitest.svg" alt="Vitest badge" />
     </td>
   </tr>
   <tr>
@@ -399,14 +399,14 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Intermediate
     </td>
     <td>
-      <img src="/img/technologies/badge/symfony.svg" alt="Symfony" />
-      <img src="/img/technologies/badge/vite.svg" alt="Vite" />
-      <img src="/img/technologies/badge/react.svg" alt="React" />
-      <img src="/img/technologies/badge/cypress.svg" alt="Cypress" />
-      <img src="/img/technologies/badge/tailwind.svg" alt="Tailwind" />
-      <img src="/img/technologies/badge/bootstrap.svg" alt="Bootstrap" />
-      <img src="/img/technologies/badge/jquery.svg" alt="jQuery" />
-      <img src="/img/technologies/badge/django.svg" alt="Django" />
+      <img src="/img/technologies/badge/symfony.svg" alt="Symfony badge" />
+      <img src="/img/technologies/badge/vite.svg" alt="Vite badge" />
+      <img src="/img/technologies/badge/react.svg" alt="React badge" />
+      <img src="/img/technologies/badge/cypress.svg" alt="Cypress badge" />
+      <img src="/img/technologies/badge/tailwind.svg" alt="Tailwind badge" />
+      <img src="/img/technologies/badge/bootstrap.svg" alt="Bootstrap badge" />
+      <img src="/img/technologies/badge/jquery.svg" alt="jQuery badge" />
+      <img src="/img/technologies/badge/django.svg" alt="Django badge" />
     </td>
   </tr>
   <tr>
@@ -414,15 +414,15 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Have experienced
     </td>
     <td>
-      <img src="/img/technologies/badge/next.svg" alt="Next" />
-      <img src="/img/technologies/badge/shadcn.svg" alt="shadcn" />
-      <img src="/img/technologies/badge/jest.svg" alt="Jest" />
-      <img src="/img/technologies/badge/nest-js.svg" alt="Nest.js" />
-      <img src="/img/technologies/badge/chakra-ui.svg" alt="Chakra UI" />
-      <img src="/img/technologies/badge/quasar.svg" alt="Quasar" />
-      <img src="/img/technologies/badge/mui.svg" alt="Material UI" />
-      <img src="/img/technologies/badge/webpack.svg" alt="Webpack" />
-      <img src="/img/technologies/badge/wordpress.svg" alt="WordPress" />
+      <img src="/img/technologies/badge/next.svg" alt="Next badge" />
+      <img src="/img/technologies/badge/shadcn.svg" alt="shadcn badge" />
+      <img src="/img/technologies/badge/jest.svg" alt="Jest badge" />
+      <img src="/img/technologies/badge/nest-js.svg" alt="Nest.js badge" />
+      <img src="/img/technologies/badge/chakra-ui.svg" alt="Chakra UI badge" />
+      <img src="/img/technologies/badge/quasar.svg" alt="Quasar badge" />
+      <img src="/img/technologies/badge/mui.svg" alt="Material UI badge" />
+      <img src="/img/technologies/badge/webpack.svg" alt="Webpack badge" />
+      <img src="/img/technologies/badge/wordpress.svg" alt="WordPress badge" />
     </td>
   </tr>
   <tr>
@@ -430,13 +430,13 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       State Management
     </td>
     <td>
-      <img src="/img/technologies/badge/nuxt-use-state.svg" alt="Nuxt useState" />
-      <img src="/img/technologies/badge/nuxt-use-cookie.svg" alt="Nuxt useCookie" />
-      <img src="/img/technologies/badge/pinia.svg" alt="Pinia" />
-      <img src="/img/technologies/badge/react-use-state.svg" alt="useState" />
-      <img src="/img/technologies/badge/redux.svg" alt="Redux" />
-      <img src="/img/technologies/badge/local-storage.svg" alt="localStorage" />
-      <img src="/img/technologies/badge/session-storage.svg" alt="sessionStorage" />
+      <img src="/img/technologies/badge/nuxt-use-state.svg" alt="Nuxt useState badge" />
+      <img src="/img/technologies/badge/nuxt-use-cookie.svg" alt="Nuxt useCookie badge" />
+      <img src="/img/technologies/badge/pinia.svg" alt="Pinia badge" />
+      <img src="/img/technologies/badge/react-use-state.svg" alt="React useState badge" />
+      <img src="/img/technologies/badge/redux.svg" alt="Redux badge" />
+      <img src="/img/technologies/badge/local-storage.svg" alt="localStorage badge" />
+      <img src="/img/technologies/badge/session-storage.svg" alt="sessionStorage badge" />
     </td>
   </tr>
   <tr>
@@ -444,11 +444,11 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Database
     </td>
     <td>
-      <img src="/img/technologies/badge/mysql.svg" alt="MySQL" />
-      <img src="/img/technologies/badge/mariadb.svg" alt="MariaDB" />
-      <img src="/img/technologies/badge/sqlite.svg" alt="SQLite" />
-      <img src="/img/technologies/badge/postgresql.svg" alt="PostgreSQL" />
-      <img src="/img/technologies/badge/redis.svg" alt="Redis" />
+      <img src="/img/technologies/badge/mysql.svg" alt="MySQL badge" />
+      <img src="/img/technologies/badge/mariadb.svg" alt="MariaDB badge" />
+      <img src="/img/technologies/badge/sqlite.svg" alt="SQLite badge" />
+      <img src="/img/technologies/badge/postgresql.svg" alt="PostgreSQL badge" />
+      <img src="/img/technologies/badge/redis.svg" alt="Redis badge" />
     </td>
   </tr>
   <tr>
@@ -456,10 +456,10 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       IDE
     </td>
     <td>
-      <img src="/img/technologies/badge/phpstorm.svg" alt="PhpStorm" />
-      <img src="/img/technologies/badge/vs-code.svg" alt="Visual Studio Code" />
-      <img src="/img/technologies/badge/pycharm.svg" alt="PyCharm" />
-      <img src="/img/technologies/badge/jupyter.svg" alt="Jupyter" />
+      <img src="/img/technologies/badge/phpstorm.svg" alt="PhpStorm badge" />
+      <img src="/img/technologies/badge/vs-code.svg" alt="Visual Studio Code badge" />
+      <img src="/img/technologies/badge/pycharm.svg" alt="PyCharm badge" />
+      <img src="/img/technologies/badge/jupyter.svg" alt="Jupyter badge" />
     </td>
   </tr>
   <tr>
@@ -467,14 +467,14 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Tool
     </td>
     <td>
-      <img src="/img/technologies/badge/git.svg" alt="Git" />
-      <img src="/img/technologies/badge/docker.svg" alt="Docker" />
-      <img src="/img/technologies/badge/neovim.svg" alt="Neovim" />
-      <img src="/img/technologies/badge/nano.svg" alt="Nano" />
-      <img src="/img/technologies/badge/xampp.svg" alt="XAMPP" />
-      <img src="/img/technologies/badge/filezilla.svg" alt="FileZilla" />
-      <img src="/img/technologies/badge/figma.svg" alt="Figma" />
-      <img src="/img/technologies/badge/postman.svg" alt="Postman" />
+      <img src="/img/technologies/badge/git.svg" alt="Git badge" />
+      <img src="/img/technologies/badge/docker.svg" alt="Docker badge" />
+      <img src="/img/technologies/badge/neovim.svg" alt="Neovim badge" />
+      <img src="/img/technologies/badge/nano.svg" alt="Nano badge" />
+      <img src="/img/technologies/badge/xampp.svg" alt="XAMPP badge" />
+      <img src="/img/technologies/badge/filezilla.svg" alt="FileZilla badge" />
+      <img src="/img/technologies/badge/figma.svg" alt="Figma badge" />
+      <img src="/img/technologies/badge/postman.svg" alt="Postman badge" />
     </td>
   </tr>
   <tr>
@@ -482,11 +482,11 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Terminal
     </td>
     <td>
-      <img src="/img/technologies/badge/kitty.svg" alt="Kitty" />
-      <img src="/img/technologies/badge/fish.svg" alt="Fish" />
-      <img src="/img/technologies/badge/zsh.svg" alt="Zsh" />
-      <img src="/img/technologies/badge/bash.svg" alt="Bash" />
-      <img src="/img/technologies/badge/powershell.svg" alt="PowerShell" />
+      <img src="/img/technologies/badge/kitty.svg" alt="Kitty badge" />
+      <img src="/img/technologies/badge/fish.svg" alt="Fish badge" />
+      <img src="/img/technologies/badge/zsh.svg" alt="Zsh badge" />
+      <img src="/img/technologies/badge/bash.svg" alt="Bash badge" />
+      <img src="/img/technologies/badge/powershell.svg" alt="PowerShell badge" />
     </td>
   </tr>
   <tr>
@@ -494,23 +494,23 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Package Manager
     </td>
     <td>
-      <img src="/img/technologies/badge/composer.svg" alt="Composer" />
-      <img src="/img/technologies/badge/pnpm.svg" alt="pnpm" />
-      <img src="/img/technologies/badge/yarn.svg" alt="Yarn" />
-      <img src="/img/technologies/badge/aur.svg" alt="AUR" />
-      <img src="/img/technologies/badge/yay.svg" alt="YAY" />
-      <img src="/img/technologies/badge/pacman.svg" alt="Pacman" />
-      <img src="/img/technologies/badge/pamac.svg" alt="Pacman" />
-      <img src="/img/technologies/badge/snapcraft.svg" alt="Snapcraft" />
+      <img src="/img/technologies/badge/composer.svg" alt="Composer badge" />
+      <img src="/img/technologies/badge/pnpm.svg" alt="pnpm badge" />
+      <img src="/img/technologies/badge/yarn.svg" alt="Yarn badge" />
+      <img src="/img/technologies/badge/aur.svg" alt="AUR badge" />
+      <img src="/img/technologies/badge/yay.svg" alt="YAY badge" />
+      <img src="/img/technologies/badge/pacman.svg" alt="Pacman badge" />
+      <img src="/img/technologies/badge/pamac.svg" alt="Pacman badge" />
+      <img src="/img/technologies/badge/snapcraft.svg" alt="Snapcraft badge" />
   </tr>
   <tr>
     <td>
       CI/CD
     </td>
     <td>
-      <img src="/img/technologies/badge/github-actions.svg" alt="Github Actions" />
-      <img src="/img/technologies/badge/husky.svg" alt="Husky" />
-      <img src="/img/technologies/badge/bitbucket.svg" alt="Bitbucket" />
+      <img src="/img/technologies/badge/github-actions.svg" alt="Github Actions badge" />
+      <img src="/img/technologies/badge/husky.svg" alt="Husky badge" />
+      <img src="/img/technologies/badge/bitbucket.svg" alt="Bitbucket badge" />
     </td>
   </tr>
   <tr>
@@ -518,10 +518,10 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Project Management
     </td>
     <td>
-      <img src="/img/technologies/badge/github-projects.svg" alt="Github Projects" />
-      <img src="/img/technologies/badge/asana.svg" alt="Asana" />
-      <img src="/img/technologies/badge/jira.svg" alt="Jira" />
-      <img src="/img/technologies/badge/trello.svg" alt="Trello" />
+      <img src="/img/technologies/badge/github-projects.svg" alt="Github Projects badge" />
+      <img src="/img/technologies/badge/asana.svg" alt="Asana badge" />
+      <img src="/img/technologies/badge/jira.svg" alt="Jira badge" />
+      <img src="/img/technologies/badge/trello.svg" alt="Trello badge" />
     </td>
   </tr>
   <tr>
@@ -529,12 +529,12 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Deployment
     </td>
     <td>
-      <img src="/img/technologies/badge/github-pages.svg" alt="GitHub Pages" />
-      <img src="/img/technologies/badge/cloudflare.svg" alt="Cloudflare" />
-      <img src="/img/technologies/badge/heroku.svg" alt="Heroku" />
-      <img src="/img/technologies/badge/vercel.svg" alt="Vercel" />
-      <img src="/img/technologies/badge/nuxthub.svg" alt="NuxtHub" />
-      <img src="/img/technologies/badge/netlify.svg" alt="Netlify" />
+      <img src="/img/technologies/badge/github-pages.svg" alt="GitHub Pages badge" />
+      <img src="/img/technologies/badge/cloudflare.svg" alt="Cloudflare badge" />
+      <img src="/img/technologies/badge/heroku.svg" alt="Heroku badge" />
+      <img src="/img/technologies/badge/vercel.svg" alt="Vercel badge" />
+      <img src="/img/technologies/badge/nuxthub.svg" alt="NuxtHub badge" />
+      <img src="/img/technologies/badge/netlify.svg" alt="Netlify badge" />
     </td>
   </tr>
   <tr>
@@ -542,13 +542,13 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Code Maintenance
     </td>
     <td>
-      <img src="/img/technologies/badge/biome.svg" alt="Biome" />
-      <img src="/img/technologies/badge/pint.svg" alt="Pint" />
-      <img src="/img/technologies/badge/tsc.svg" alt="TSC" />
-      <img src="/img/technologies/badge/eslint.svg" alt="ESLint" />
-      <img src="/img/technologies/badge/stylelint.svg" alt="Stylelint" />
-      <img src="/img/technologies/badge/prettier.svg" alt="Prettier" />
-      <img src="/img/technologies/badge/sentry.svg" alt="Sentry" />
+      <img src="/img/technologies/badge/biome.svg" alt="Biome badge" />
+      <img src="/img/technologies/badge/pint.svg" alt="Pint badge" />
+      <img src="/img/technologies/badge/tsc.svg" alt="TSC badge" />
+      <img src="/img/technologies/badge/eslint.svg" alt="ESLint badge" />
+      <img src="/img/technologies/badge/stylelint.svg" alt="Stylelint badge" />
+      <img src="/img/technologies/badge/prettier.svg" alt="Prettier badge" />
+      <img src="/img/technologies/badge/sentry.svg" alt="Sentry badge" />
     </td>
   </tr>
   <tr>
@@ -556,14 +556,14 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       OS
     </td>
     <td>
-      <img src="/img/technologies/badge/arch.svg" alt="Arch" />
-      <img src="/img/technologies/badge/cachyos.svg" alt="CachyOS" />
-      <img src="/img/technologies/badge/blackarch.svg" alt="BlackArch" />
-      <img src="/img/technologies/badge/manjaro.svg" alt="Manjaro" />
-      <img src="/img/technologies/badge/garuda.svg" alt="Garuda" />
-      <img src="/img/technologies/badge/kubuntu.svg" alt="Kubuntu" />
-      <img src="/img/technologies/badge/ubuntu.svg" alt="Ubuntu" />
-      <img src="/img/technologies/badge/windows.svg" alt="Windows" />
+      <img src="/img/technologies/badge/arch.svg" alt="Arch badge" />
+      <img src="/img/technologies/badge/cachyos.svg" alt="CachyOS badge" />
+      <img src="/img/technologies/badge/blackarch.svg" alt="BlackArch badge" />
+      <img src="/img/technologies/badge/manjaro.svg" alt="Manjaro badge" />
+      <img src="/img/technologies/badge/garuda.svg" alt="Garuda badge" />
+      <img src="/img/technologies/badge/kubuntu.svg" alt="Kubuntu badge" />
+      <img src="/img/technologies/badge/ubuntu.svg" alt="Ubuntu badge" />
+      <img src="/img/technologies/badge/windows.svg" alt="Windows badge" />
     </td>
   </tr>
   <tr>
@@ -571,10 +571,10 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Desktop Environment
     </td>
     <td>
-      <img src="/img/technologies/badge/hyprland.svg" alt="Hyprland" />
-      <img src="/img/technologies/badge/kde-plasma.svg" alt="KDE Plasma" />
-      <img src="/img/technologies/badge/xfce.svg" alt="XFCE" />
-      <img src="/img/technologies/badge/gnome.svg" alt="Gnome" />
+      <img src="/img/technologies/badge/hyprland.svg" alt="Hyprland badge" />
+      <img src="/img/technologies/badge/kde-plasma.svg" alt="KDE Plasma badge" />
+      <img src="/img/technologies/badge/xfce.svg" alt="XFCE badge" />
+      <img src="/img/technologies/badge/gnome.svg" alt="Gnome badge" />
     </td>
   </tr>
   <tr>
@@ -582,10 +582,10 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Virtualization
     </td>
     <td>
-      <img src="/img/technologies/badge/boxes.svg" alt="Boxes" />
-      <img src="/img/technologies/badge/virtualbox.svg" alt="VirtualBox" />
-      <img src="/img/technologies/badge/vmware.svg" alt="VMware" />
-      <img src="/img/technologies/badge/hyper-v.svg" alt="Hyper-V" />
+      <img src="/img/technologies/badge/boxes.svg" alt="Boxes badge" />
+      <img src="/img/technologies/badge/virtualbox.svg" alt="VirtualBox badge" />
+      <img src="/img/technologies/badge/vmware.svg" alt="VMware badge" />
+      <img src="/img/technologies/badge/hyper-v.svg" alt="Hyper-V badge" />
     </td>
   </tr>
 </table>
