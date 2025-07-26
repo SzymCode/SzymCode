@@ -368,15 +368,15 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <b> Language </b>
     </td>
     <td>
-      <img src="https://img.shields.io/badge/PHP-%23777BB4.svg?logo=php&logoColor=white" />
-      <img src="https://shields.io/badge/JavaScript-black?logo=JavaScript&logoColor=F7DF1E" />
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" />
-      <img src="https://img.shields.io/badge/HTML5-%23e34f26.svg?logo=html5&logoColor=white" />
-      <img src="https://img.shields.io/badge/CSS3-639?logo=css&logoColor=fff" />
-      <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
-      <img src="https://img.shields.io/badge/G--code-193142" />
-      <img src="https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white" />
-      <img src="https://img.shields.io/badge/MD-%23000000.svg?logo=markdown&logoColor=white" />
+      <img src="/img/technologies/badge/php.svg" alt="PHP" />
+      <img src="/img/technologies/badge/typescript.svg" alt="TypeScript" />
+      <img src="/img/technologies/badge/javascript.svg" alt="JavaScript" />
+      <img src="/img/technologies/badge/html5.svg" alt="HTML5" />
+      <img src="/img/technologies/badge/css3.svg" alt="CSS3" />
+      <img src="/img/technologies/badge/python.svg" alt="Python" />
+      <img src="/img/technologies/badge/g-code.svg" alt="G-code" />
+      <img src="/img/technologies/badge/c++.svg" alt="C++" />
+      <img src="/img/technologies/badge/markdown.svg" alt="MarkDown" />
     </td>
   </tr>
   <tr>
@@ -384,14 +384,14 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
      <b> Main </b>
     </td>
     <td>
-      <img src="https://img.shields.io/badge/PrestaShop-DF0067?logo=prestashop&logoColor=white" />
-      <img src="https://img.shields.io/badge/Laravel-%23FF2D20.svg?style=flat&logo=laravel&logoColor=white" />
-      <img src="https://img.shields.io/badge/Nuxt-black?logo=nuxt&logoColor=00C58E" />
-      <img src="https://img.shields.io/badge/Vue.js-%234FC08D.svg?style=flat&logo=vue.js&logoColor=white" />
-      <img src="https://img.shields.io/badge/Sass-CC6699?logo=sass&logoColor=white" />
-      <img src="https://img.shields.io/badge/Chart.js-FF6384?logo=chartdotjs&logoColor=fff" />
-      <img src="https://img.shields.io/badge/Storybook-FF4785?logo=storybook&logoColor=white" />
-      <img src="https://img.shields.io/badge/Vitest-17202C?logo=vitest&logoColor=FCC72B" />
+      <img src="/img/technologies/badge/prestashop.svg" alt="PrestaShop" />
+      <img src="/img/technologies/badge/laravel.svg" alt="Laravel" />
+      <img src="/img/technologies/badge/nuxt.svg" alt="Nuxt" />
+      <img src="/img/technologies/badge/vue.svg" alt="Vue" />
+      <img src="/img/technologies/badge/sass.svg" alt="Sass" />
+      <img src="/img/technologies/badge/chart-js.svg" alt="Chart.js" />
+      <img src="/img/technologies/badge/storybook.svg" alt="Storybook" />
+      <img src="/img/technologies/badge/vitest.svg" alt="Vitest" />
     </td>
   </tr>
   <tr>
@@ -399,14 +399,14 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Intermediate
     </td>
     <td>
-      <img src="https://img.shields.io/badge/Symfony-%23000000.svg?logo=symfony&logoColor=white" />
-      <img src="https://img.shields.io/badge/Vite-%232C3A42?logo=vite&logoColor=white" />
-      <img src="https://shields.io/badge/React-black?logo=react" />
-      <img src="https://img.shields.io/badge/Cypress-17202C?logo=cypress&logoColor=white" />
-      <img src="https://img.shields.io/badge/-Tailwind-38B2AC?logo=tailwind-css&logoColor=white" />
-      <img src="https://img.shields.io/badge/Bootstrap-%237952b3.svg?logo=bootstrap&logoColor=white" />
-      <img src="https://img.shields.io/badge/jQuery-0769AD?logo=jquery&logoColor=white" />
-      <img src="https://img.shields.io/badge/Django-%23092e20.svg?logo=django&logoColor=white" />
+      <img src="/img/technologies/badge/symfony.svg" alt="Symfony" />
+      <img src="/img/technologies/badge/vite.svg" alt="Vite" />
+      <img src="/img/technologies/badge/react.svg" alt="React" />
+      <img src="/img/technologies/badge/cypress.svg" alt="Cypress" />
+      <img src="/img/technologies/badge/tailwind.svg" alt="Tailwind" />
+      <img src="/img/technologies/badge/bootstrap.svg" alt="Bootstrap" />
+      <img src="/img/technologies/badge/jquery.svg" alt="jQuery" />
+      <img src="/img/technologies/badge/django.svg" alt="Django" />
     </td>
   </tr>
   <tr>
@@ -414,15 +414,15 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Have experienced
     </td>
     <td>
-      <img src="https://img.shields.io/badge/Next-000000?logo=next.js&logoColor=white" />
-      <img src="https://img.shields.io/badge/shadcn-000000?logo=shadcn&logoColor=white" />
-      <img src="https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=white" />
-      <img src="https://img.shields.io/badge/Nest.js-E0234E?logo=nestjs&logoColor=white&color=%23FF2D20" />
-      <img src="https://img.shields.io/badge/Chakra%20UI-319795?logo=chakra-ui&logoColor=white" />
-      <img src="https://img.shields.io/badge/Quasar-1976D2?logo=quasar&logoColor=white" />
-      <img src="https://img.shields.io/badge/MUI-%230081CB.svg?logo=mui&logoColor=white" />
-      <img src="https://img.shields.io/badge/Webpack-00599C?logo=webpack&logoColor=white" />
-      <img src="https://img.shields.io/badge/WordPress-21759B?logo=wordpress&logoColor=white" />
+      <img src="/img/technologies/badge/next.svg" alt="Next" />
+      <img src="/img/technologies/badge/shadcn.svg" alt="shadcn" />
+      <img src="/img/technologies/badge/jest.svg" alt="Jest" />
+      <img src="/img/technologies/badge/nest-js.svg" alt="Nest.js" />
+      <img src="/img/technologies/badge/chakra-ui.svg" alt="Chakra UI" />
+      <img src="/img/technologies/badge/quasar.svg" alt="Quasar" />
+      <img src="/img/technologies/badge/mui.svg" alt="Material UI" />
+      <img src="/img/technologies/badge/webpack.svg" alt="Webpack" />
+      <img src="/img/technologies/badge/wordpress.svg" alt="WordPress" />
     </td>
   </tr>
   <tr>
@@ -430,13 +430,13 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       State Management
     </td>
     <td>
-      <img src="https://img.shields.io/badge/useState-black?logo=nuxt&logoColor=00C58E" />
-      <img src="https://img.shields.io/badge/useCookie-black?logo=nuxt&logoColor=00C58E" />
-      <img src="https://img.shields.io/badge/Pinia-%234FC08D.svg?style=flat&logo=vue.js&logoColor=white" />
-      <img src="https://shields.io/badge/useState-black?logo=react" />
-      <img src="https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white" />
-      <img src="https://shields.io/badge/localStorage-black?logo=JavaScript&logoColor=F7DF1E" />
-      <img src="https://shields.io/badge/sessionStorage-black?logo=JavaScript&logoColor=F7DF1E" />
+      <img src="/img/technologies/badge/nuxt-use-state.svg" alt="Nuxt useState" />
+      <img src="/img/technologies/badge/nuxt-use-cookie.svg" alt="Nuxt useCookie" />
+      <img src="/img/technologies/badge/pinia.svg" alt="Pinia" />
+      <img src="/img/technologies/badge/react-use-state.svg" alt="useState" />
+      <img src="/img/technologies/badge/redux.svg" alt="Redux" />
+      <img src="/img/technologies/badge/local-storage.svg" alt="localStorage" />
+      <img src="/img/technologies/badge/session-storage.svg" alt="sessionStorage" />
     </td>
   </tr>
   <tr>
@@ -444,11 +444,11 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Database
     </td>
     <td>
-      <img src="https://img.shields.io/badge/MySQL-%234479A1?logo=mysql&logoColor=white" />
-      <img src="https://img.shields.io/badge/MariaDB-003545?logo=mariadb&logoColor=white" />
-      <img src="https://img.shields.io/badge/SQLite-%2307405e.svg?logo=sqlite&logoColor=white" />
-      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" />
-      <img src="https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white" />
+      <img src="/img/technologies/badge/mysql.svg" alt="MySQL" />
+      <img src="/img/technologies/badge/mariadb.svg" alt="MariaDB" />
+      <img src="/img/technologies/badge/sqlite.svg" alt="SQLite" />
+      <img src="/img/technologies/badge/postgresql.svg" alt="PostgreSQL" />
+      <img src="/img/technologies/badge/redis.svg" alt="Redis" />
     </td>
   </tr>
   <tr>
@@ -456,10 +456,10 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       IDE
     </td>
     <td>
-      <img src="https://img.shields.io/badge/PhpStorm-%23000000.svg?style=flat&logo=phpstorm&logoColor=white" />
-      <img src="https://custom-icon-badges.demolab.com/badge/Visual%20Studio-0078d7.svg?logo=vsc&logoColor=white" />
-      <img src="https://img.shields.io/badge/PyCharm-black?logo=pycharm&logoColor=green" />
-      <img src="https://img.shields.io/badge/Jupyter-%23FA0F00.svg?style=flat&logo=jupyter&logoColor=white" />
+      <img src="/img/technologies/badge/phpstorm.svg" alt="PhpStorm" />
+      <img src="/img/technologies/badge/vs-code.svg" alt="Visual Studio Code" />
+      <img src="/img/technologies/badge/pycharm.svg" alt="PyCharm" />
+      <img src="/img/technologies/badge/jupyter.svg" alt="Jupyter" />
     </td>
   </tr>
   <tr>
@@ -467,14 +467,14 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Tool
     </td>
     <td>
-      <img src="https://img.shields.io/badge/Git-%23d22128.svg?logo=git&logoColor=white" />
-      <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" />
-      <img src="https://img.shields.io/badge/Neovim-57A143?logo=neovim&logoColor=white" />
-      <img src="https://img.shields.io/badge/Nano-2B9F8D?logo=nano&logoColor=white" />
-      <img src="https://img.shields.io/badge/XAMPP-%23FB7A24.svg?style=flat&logo=xampp&logoColor=white" />
-      <img src="https://img.shields.io/badge/FileZilla-FF6600?logo=filezilla&logoColor=white" />
-      <img src="https://img.shields.io/badge/Figma-000000?logo=figma&logoColor=white" />
-      <img src="https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white&color=000000" />
+      <img src="/img/technologies/badge/git.svg" alt="Git" />
+      <img src="/img/technologies/badge/docker.svg" alt="Docker" />
+      <img src="/img/technologies/badge/neovim.svg" alt="Neovim" />
+      <img src="/img/technologies/badge/nano.svg" alt="Nano" />
+      <img src="/img/technologies/badge/xampp.svg" alt="XAMPP" />
+      <img src="/img/technologies/badge/filezilla.svg" alt="FileZilla" />
+      <img src="/img/technologies/badge/figma.svg" alt="Figma" />
+      <img src="/img/technologies/badge/postman.svg" alt="Postman" />
     </td>
   </tr>
   <tr>
@@ -482,11 +482,11 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Terminal
     </td>
     <td>
-      <img src="https://img.shields.io/badge/Kitty-121011?logo=gnu-bash&logoColor=fff" />
-      <img src="https://img.shields.io/badge/Fish-blue?logo=fish-shell&logoColor=fff" />
-      <img src="https://img.shields.io/badge/Zsh-F15A24?logo=zsh&logoColor=fff" />
-      <img src="https://img.shields.io/badge/Bash-121011?logo=gnu-bash&logoColor=white" />
-      <img src="https://custom-icon-badges.demolab.com/badge/PowerShell-0078D6?logo=windows11&logoColor=white" />
+      <img src="/img/technologies/badge/kitty.svg" alt="Kitty" />
+      <img src="/img/technologies/badge/fish.svg" alt="Fish" />
+      <img src="/img/technologies/badge/zsh.svg" alt="Zsh" />
+      <img src="/img/technologies/badge/bash.svg" alt="Bash" />
+      <img src="/img/technologies/badge/powershell.svg" alt="PowerShell" />
     </td>
   </tr>
   <tr>
@@ -494,24 +494,23 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Package Manager
     </td>
     <td>
-      <img src="https://img.shields.io/badge/Composer-885630?logo=composer&logoColor=white" />
-      <img src="https://img.shields.io/badge/pnpm-F69220?logo=pnpm&logoColor=white" />
-      <img src="https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white" />
-      <img src="https://img.shields.io/badge/Yarn-2C8EBB?logo=yarn&logoColor=white" />
-      <img src="https://img.shields.io/badge/AUR-0078D6?logo=archlinux&logoColor=white" />
-      <img src="https://img.shields.io/badge/YAY-0078D6?logo=archlinux&logoColor=white" />
-      <img src="https://img.shields.io/badge/Pacman-0078D6?logo=archlinux&logoColor=white" />
-      <img src="https://img.shields.io/badge/Pamac-34BE5B?logo=manjaro&logoColor=white" />
-      <img src="https://img.shields.io/badge/Snapcraft-E95420?logo=snapcraft&logoColor=white" />
+      <img src="/img/technologies/badge/composer.svg" alt="Composer" />
+      <img src="/img/technologies/badge/pnpm.svg" alt="pnpm" />
+      <img src="/img/technologies/badge/yarn.svg" alt="Yarn" />
+      <img src="/img/technologies/badge/aur.svg" alt="AUR" />
+      <img src="/img/technologies/badge/yay.svg" alt="YAY" />
+      <img src="/img/technologies/badge/pacman.svg" alt="Pacman" />
+      <img src="/img/technologies/badge/pamac.svg" alt="Pacman" />
+      <img src="/img/technologies/badge/snapcraft.svg" alt="Snapcraft" />
   </tr>
   <tr>
     <td>
       CI/CD
     </td>
     <td>
-      <img src="https://img.shields.io/badge/Actions-181717?logo=github&logoColor=white" />
-      <img src="https://img.shields.io/badge/Husky-1A2C34?logo=husky&logoColor=white" />
-      <img src="https://img.shields.io/badge/Bitbucket-0052CC?logo=bitbucket&logoColor=white&color=0052CC" />
+      <img src="/img/technologies/badge/github-actions.svg" alt="Github Actions" />
+      <img src="/img/technologies/badge/husky.svg" alt="Husky" />
+      <img src="/img/technologies/badge/bitbucket.svg" alt="Bitbucket" />
     </td>
   </tr>
   <tr>
@@ -519,10 +518,10 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Project Management
     </td>
     <td>
-      <img src="https://img.shields.io/badge/Projects-181717?logo=github&logoColor=white" />
-      <img src="https://img.shields.io/badge/Asana-F06A6A?logo=asana&logoColor=white" />
-      <img src="https://img.shields.io/badge/Jira-0052CC?logo=jira&logoColor=white&color=0052CC" />
-      <img src="https://img.shields.io/badge/Trello-0052CC?logo=trello&logoColor=white" />
+      <img src="/img/technologies/badge/github-projects.svg" alt="Github Projects" />
+      <img src="/img/technologies/badge/asana.svg" alt="Asana" />
+      <img src="/img/technologies/badge/jira.svg" alt="Jira" />
+      <img src="/img/technologies/badge/trello.svg" alt="Trello" />
     </td>
   </tr>
   <tr>
@@ -530,12 +529,12 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Deployment
     </td>
     <td>
-      <img src="https://img.shields.io/badge/Pages-181717?logo=github&logoColor=white" />
-      <img src="https://img.shields.io/badge/Cloudflare-F38020?logo=Cloudflare&logoColor=white" />
-      <img src="https://img.shields.io/badge/Heroku-430098?logo=heroku&logoColor=white" />
-      <img src="https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white" />
-      <img src="https://img.shields.io/badge/NuxtHub-black?logo=nuxt&logoColor=00C58E" />
-      <img src="https://img.shields.io/badge/Netlify-black?logo=netlify&logoColor=00C7B7" />
+      <img src="/img/technologies/badge/github-pages.svg" alt="GitHub Pages" />
+      <img src="/img/technologies/badge/cloudflare.svg" alt="Cloudflare" />
+      <img src="/img/technologies/badge/heroku.svg" alt="Heroku" />
+      <img src="/img/technologies/badge/vercel.svg" alt="Vercel" />
+      <img src="/img/technologies/badge/nuxthub.svg" alt="NuxtHub" />
+      <img src="/img/technologies/badge/netlify.svg" alt="Netlify" />
     </td>
   </tr>
   <tr>
@@ -543,13 +542,13 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Code Maintenance
     </td>
     <td>
-      <img src="https://img.shields.io/badge/Biome-2E9AFE?logo=biome&logoColor=white" />
-      <img src="https://img.shields.io/badge/Pint-%23FF2D20.svg?style=flat&logo=laravel&logoColor=white" />
-      <img src="https://img.shields.io/badge/TSC-3178C6?logo=typescript&logoColor=white" />
-      <img src="https://img.shields.io/badge/ESLint-3A33D1?logo=eslint&logoColor=white" />
-      <img src="https://img.shields.io/badge/Stylelint-263238?logo=stylelint&logoColor=white" />
-      <img src="https://img.shields.io/badge/Prettier-1A2C34?logo=prettier&logoColor=F7BA3E" />
-      <img src="https://img.shields.io/badge/Sentry-362D59?logo=sentry&logoColor=white" />
+      <img src="/img/technologies/badge/biome.svg" alt="Biome" />
+      <img src="/img/technologies/badge/pint.svg" alt="Pint" />
+      <img src="/img/technologies/badge/tsc.svg" alt="TSC" />
+      <img src="/img/technologies/badge/eslint.svg" alt="ESLint" />
+      <img src="/img/technologies/badge/stylelint.svg" alt="Stylelint" />
+      <img src="/img/technologies/badge/prettier.svg" alt="Prettier" />
+      <img src="/img/technologies/badge/sentry.svg" alt="Sentry" />
     </td>
   </tr>
   <tr>
@@ -557,14 +556,14 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       OS
     </td>
     <td>
-      <img src="https://img.shields.io/badge/Arch-1793D1?logo=arch-linux&logoColor=white" />
-      <img src="https://img.shields.io/badge/CachyOS-009e81?logo=arch-linux&logoColor=white" />
-      <img src="https://img.shields.io/badge/BlackArch-black?logo=arch-linux&logoColor=red" />
-      <img src="https://img.shields.io/badge/Manjaro-34BE5B?logo=manjaro&logoColor=white" />
-      <img src="https://img.shields.io/badge/Garuda-84305b?logo=arch-linux&logoColor=white" />
-      <img src="https://img.shields.io/badge/Kubuntu-0079C1?logo=kubuntu&logoColor=white" />
-      <img src="https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white" />
-      <img src="https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white" />
+      <img src="/img/technologies/badge/arch.svg" alt="Arch" />
+      <img src="/img/technologies/badge/cachyos.svg" alt="CachyOS" />
+      <img src="/img/technologies/badge/blackarch.svg" alt="BlackArch" />
+      <img src="/img/technologies/badge/manjaro.svg" alt="Manjaro" />
+      <img src="/img/technologies/badge/garuda.svg" alt="Garuda" />
+      <img src="/img/technologies/badge/kubuntu.svg" alt="Kubuntu" />
+      <img src="/img/technologies/badge/ubuntu.svg" alt="Ubuntu" />
+      <img src="/img/technologies/badge/windows.svg" alt="Windows" />
     </td>
   </tr>
   <tr>
@@ -572,10 +571,10 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Desktop Environment
     </td>
     <td>
-      <img src="https://img.shields.io/badge/Hyprland-3FC5F0?logo=wayland&logoColor=white" />
-      <img src="https://img.shields.io/badge/KDE%20Plasma-1D99F3?logo=kde&logoColor=white" />
-      <img src="https://img.shields.io/badge/XFCE-2284F2?logo=xfce&logoColor=white" />
-      <img src="https://img.shields.io/badge/Gnome-black?logo=gnome&logoColor=white" />
+      <img src="/img/technologies/badge/hyprland.svg" alt="Hyprland" />
+      <img src="/img/technologies/badge/kde-plasma.svg" alt="KDE Plasma" />
+      <img src="/img/technologies/badge/xfce.svg" alt="XFCE" />
+      <img src="/img/technologies/badge/gnome.svg" alt="Gnome" />
     </td>
   </tr>
   <tr>
@@ -583,10 +582,10 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       Virtualization
     </td>
     <td>
-      <img src="https://img.shields.io/badge/Boxes-black?logo=gnome&logoColor=white" />
-      <img src="https://img.shields.io/badge/VirtualBox-183A61?logo=virtualbox&logoColor=white" />
-      <img src="https://img.shields.io/badge/VMware-607078" />
-      <img src="https://custom-icon-badges.demolab.com/badge/Hyper--V-0078D6?logo=windows11&logoColor=white" />
+      <img src="/img/technologies/badge/boxes.svg" alt="Boxes" />
+      <img src="/img/technologies/badge/virtualbox.svg" alt="VirtualBox" />
+      <img src="/img/technologies/badge/vmware.svg" alt="VMware" />
+      <img src="/img/technologies/badge/hyper-v.svg" alt="Hyper-V" />
     </td>
   </tr>
 </table>
