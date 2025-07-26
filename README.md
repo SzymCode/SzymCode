@@ -67,28 +67,29 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="TypeScript logo" />
-      <img src="/img/technologies/logo/php.svg" height="25" width="25" alt="PHP logo" />
-      <img src="/img/technologies/logo/laravel.svg" height="25" width="25" alt="Laravel logo" />
-      <img src="/img/technologies/logo/nuxt.svg" height="25" width="25" alt="Nuxt logo" />
-      <img src="/img/technologies/logo/vue.svg" height="25" width="25" alt="Vue logo" />
-      <img src="/img/technologies/logo/pinia.svg" height="25" width="25" alt="Pinia logo" />
-      <img src="/img/technologies/logo/primevue.svg" height="25" width="25" alt="PrimeVue logo" />
-      <img src="/img/technologies/logo/gsap.svg" height="25" width="25" alt="GSAP logo" />
-      <img src="/img/technologies/logo/sass.svg" height="25" width="25" alt="Sass logo" />
-      <img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5 logo" />
-      <img src="/img/technologies/logo/docker.svg" height="25" width="25" alt="Docker logo" />
-      <img src="/img/technologies/logo/heroku.svg" height="25" width="25" alt="Heroku logo" />
-      <img src="/img/technologies/logo/mysql.svg" height="25" width="25" alt="MySQL logo" />
-      <img src="/img/technologies/logo/pest.svg" height="24" width="24" alt="PestPHP logo" />
-      <img src="/img/technologies/logo/vitest.svg" height="25" width="25" alt="Vitest logo" />
-      <img src="/img/technologies/logo/storybook.svg" height="25" width="25" alt="Storybook logo" />
-      <img src="/img/technologies/logo/cypress.svg" height="25" width="25" alt="Cypress logo" />
-      <img src="/img/technologies/logo/biome.svg" height="25" width="25" alt="Biome logo" />
-      <img src="/img/technologies/logo/stylelint.svg" height="25" width="25" alt="Stylelint logo" />
-      <img src="/img/technologies/logo/github.svg" height="25" width="25" alt="Github Actions logo" />
-      <img src="/img/technologies/logo/husky.svg" height="25" width="25" alt="Husky logo" />
-      <img src="/img/technologies/logo/sonarcloud.svg" height="25" width="25" alt="SonarCloud logo" />
+      <a href="https://www.typescriptlang.org/"><img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="TypeScript" /></a>
+      <a href="https://www.php.net/"><img src="/img/technologies/logo/php.svg" height="25" width="25" alt="PHP" /></a>
+      <a href="https://laravel.com/"><img src="/img/technologies/logo/laravel.svg" height="25" width="25" alt="Laravel" /></a>
+      <a href="https://nuxt.com/"><img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="Nuxt" /></a>
+      <a href="https://vuejs.org/"><img src="/img/technologies/logo/vue.svg" height="25" width="25" alt="Vue" /></a>
+      <a href="https://pinia.vuejs.org/"><img src="/img/technologies/logo/pinia.svg" height="25" width="25" alt="Pinia" /></a>
+      <a href="https://primevue.org/"><img src="/img/technologies/logo/primevue.svg" height="25" width="25" alt="PrimeVue" /></a>
+      <a href="https://www.chartjs.org/"><img src="/img/technologies/logo/chart-js.svg" height="25" width="25" alt="Chart.js" /></a>
+      <a href="https://greensock.com/gsap/"><img src="/img/technologies/logo/gsap.svg" height="25" width="25" alt="GSAP" /></a>
+      <a href="https://sass-lang.com/"><img src="/img/technologies/logo/sass.svg" height="25" width="25" alt="Sass" /></a>
+      <a href="https://html.com/"><img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5" /></a>
+      <a href="https://www.docker.com/"><img src="/img/technologies/logo/docker.svg" height="25" width="25" alt="Docker" /></a>
+      <a href="https://www.heroku.com/"><img src="/img/technologies/logo/heroku.svg" height="25" width="25" alt="Heroku" /></a>
+      <a href="https://www.mysql.com/"><img src="/img/technologies/logo/mysql.svg" height="25" width="25" alt="MySQL" /></a>
+      <a href="https://pestphp.com/"><img src="/img/technologies/logo/pest.svg" height="24" width="24" alt="PestPHP" /></a>
+      <a href="https://vitest.dev/"><img src="/img/technologies/logo/vitest.svg" height="25" width="25" alt="Vitest" /></a>
+      <a href="https://storybook.js.org/"><img src="/img/technologies/logo/storybook.svg" height="25" width="25" alt="Storybook" /></a>
+      <a href="https://www.cypress.io/"><img src="/img/technologies/logo/cypress.svg" height="25" width="25" alt="Cypress" /></a>
+      <a href="https://biomejs.dev/"><img src="/img/technologies/logo/biome.svg" height="25" width="25" alt="Biome" /></a>
+      <a href="https://stylelint.io/"><img src="/img/technologies/logo/stylelint.svg" height="25" width="25" alt="Stylelint" /></a>
+      <a href="https://github.com/features/actions"><img src="/img/technologies/logo/github.svg" height="25" width="25" alt="Github Actions" /></a>
+      <a href="https://typicode.github.io/husky/"><img src="/img/technologies/logo/husky.svg" height="25" width="25" alt="Husky" /></a>
+      <a href="https://sonarcloud.io/"><img src="/img/technologies/logo/sonarcloud.svg" height="25" width="25" alt="SonarCloud" /></a>
     </td>
   </tr>
   <tr>
@@ -98,19 +99,21 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="TypeScript logo" />
-      <img src="/img/technologies/logo/nuxthub.svg" height="25" width="25" alt="NuxtHub logo" />
-      <img src="/img/technologies/logo/nuxt.svg" height="25" width="25" alt="Nuxt logo" />
-      <img src="/img/technologies/logo/vue.svg" height="25" width="25" alt="Vue logo" />
-      <img src="/img/technologies/logo/sass.svg" height="25" width="25" alt="Sass logo" />
-      <img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5 logo" />
-      <img src="/img/technologies/logo/docker.svg" height="25" width="25" alt="Docker logo" />
-      <img src="/img/technologies/logo/vitest.svg" height="25" width="25" alt="Vitest logo" />
-      <img src="/img/technologies/logo/github.svg" height="25" width="25" alt="Github Actions logo" />
-      <img src="/img/technologies/logo/husky.svg" height="25" width="25" alt="Husky logo" />
-      <img src="/img/technologies/logo/stylelint.svg" height="25" width="25" alt="Stylelint logo" />
-      <img src="/img/technologies/logo/eslint.svg" height="25" width="25" alt="ESLint logo" />
-      <img src="/img/technologies/logo/prettier.svg" height="25" width="25" alt="Prettier logo" />
+      <a href="https://www.typescriptlang.org/"><img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="TypeScript" /></a>
+      <a href="https://hub.nuxt.com/"><img src="/img/technologies/logo/nuxthub.svg" height="25" width="25" alt="NuxtHub" /></a>
+      <a href="https://nuxt.com/"><img src="/img/technologies/logo/nuxt.svg" height="25" width="25" alt="Nuxt" /></a>
+      <a href="https://vuejs.org/"><img src="/img/technologies/logo/vue.svg" height="25" width="25" alt="Vue" /></a>
+      <a href="https://primevue.org/"><img src="/img/technologies/logo/primevue.svg" height="25" width="25" alt="PrimeVue" /></a>
+      <a href="https://www.chartjs.org/"><img src="/img/technologies/logo/chart-js.svg" height="25" width="25" alt="Chart.js" /></a>
+      <a href="https://sass-lang.com/"><img src="/img/technologies/logo/sass.svg" height="25" width="25" alt="Sass" /></a>
+      <a href="https://html.com/"><img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5" /></a>
+      <a href="https://www.docker.com/"><img src="/img/technologies/logo/docker.svg" height="25" width="25" alt="Docker" /></a>
+      <a href="https://vitest.dev/"><img src="/img/technologies/logo/vitest.svg" height="25" width="25" alt="Vitest" /></a>
+      <a href="https://github.com/features/actions"><img src="/img/technologies/logo/github.svg" height="25" width="25" alt="Github Actions" /></a>
+      <a href="https://typicode.github.io/husky/"><img src="/img/technologies/logo/husky.svg" height="25" width="25" alt="Husky" /></a>
+      <a href="https://stylelint.io/"><img src="/img/technologies/logo/stylelint.svg" height="25" width="25" alt="Stylelint" /></a>
+      <a href="https://eslint.org/"><img src="/img/technologies/logo/eslint.svg" height="25" width="25" alt="ESLint" /></a>
+      <a href="https://prettier.io/"><img src="/img/technologies/logo/prettier.svg" height="25" width="25" alt="Prettier" /></a>
     </td>
   </tr>
   <tr>
@@ -120,19 +123,19 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="TypeScript logo" />
-      <img src="/img/technologies/logo/nuxthub.svg" height="25" width="25" alt="NuxtHub logo" />
-      <img src="/img/technologies/logo/nuxt.svg" height="25" width="25" alt="Nuxt logo" />
-      <img src="/img/technologies/logo/vue.svg" height="25" width="25" alt="Vue logo" />
-      <img src="/img/technologies/logo/sass.svg" height="25" width="25" alt="Sass logo" />
-      <img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5 logo" />
-      <img src="/img/technologies/logo/docker.svg" height="25" width="25" alt="Docker logo" />
-      <img src="/img/technologies/logo/vitest.svg" height="25" width="25" alt="Vitest logo" />
-      <img src="/img/technologies/logo/github.svg" height="25" width="25" alt="Github Actions logo" />
-      <img src="/img/technologies/logo/husky.svg" height="25" width="25" alt="Husky logo" />
-      <img src="/img/technologies/logo/stylelint.svg" height="25" width="25" alt="Stylelint logo" />
-      <img src="/img/technologies/logo/eslint.svg" height="25" width="25" alt="ESLint logo" />
-      <img src="/img/technologies/logo/prettier.svg" height="25" width="25" alt="Prettier logo" />
+      <a href="https://www.typescriptlang.org/"><img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="TypeScript" /></a>
+      <a href="https://hub.nuxt.com/"><img src="/img/technologies/logo/nuxthub.svg" height="25" width="25" alt="NuxtHub" /></a>
+      <a href="https://nuxt.com/"><img src="/img/technologies/logo/nuxt.svg" height="25" width="25" alt="Nuxt" /></a>
+      <a href="https://vuejs.org/"><img src="/img/technologies/logo/vue.svg" height="25" width="25" alt="Vue" /></a>
+      <a href="https://sass-lang.com/"><img src="/img/technologies/logo/sass.svg" height="25" width="25" alt="Sass" /></a>
+      <a href="https://html.com/"><img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5" /></a>
+      <a href="https://www.docker.com/"><img src="/img/technologies/logo/docker.svg" height="25" width="25" alt="Docker" /></a>
+      <a href="https://vitest.dev/"><img src="/img/technologies/logo/vitest.svg" height="25" width="25" alt="Vitest" /></a>
+      <a href="https://github.com/features/actions"><img src="/img/technologies/logo/github.svg" height="25" width="25" alt="Github Actions" /></a>
+      <a href="https://typicode.github.io/husky/"><img src="/img/technologies/logo/husky.svg" height="25" width="25" alt="Husky" /></a>
+      <a href="https://stylelint.io/"><img src="/img/technologies/logo/stylelint.svg" height="25" width="25" alt="Stylelint" /></a>
+      <a href="https://eslint.org/"><img src="/img/technologies/logo/eslint.svg" height="25" width="25" alt="ESLint" /></a>
+      <a href="https://prettier.io/"><img src="/img/technologies/logo/prettier.svg" height="25" width="25" alt="Prettier" /></a>
     </td>
   </tr>
   <tr>
@@ -142,13 +145,14 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="TypeScript logo" />
-      <img src="/img/technologies/logo/vue.svg" height="25" width="25" alt="Vue logo" />
-      <img src="/img/technologies/logo/primevue.svg" height="25" width="25" alt="PrimeVue logo" />
-      <img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5 logo" />
-      <img src="/img/technologies/logo/css3.svg" height="25" width="25" alt="CSS3 logo" />
-      <img src="/img/technologies/logo/vite.svg" height="25" width="25" alt="Vite logo" />
-      <img src="/img/technologies/logo/prettier.svg" height="25" width="25" alt="Prettier logo" />
+      <a href="https://www.typescriptlang.org/"><img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="TypeScript" /></a>
+      <a href="https://vuejs.org/"><img src="/img/technologies/logo/vue.svg" height="25" width="25" alt="Vue" /></a>
+      <a href="https://primevue.org/"><img src="/img/technologies/logo/primevue.svg" height="25" width="25" alt="PrimeVue" /></a>
+      <a href="https://www.chartjs.org/"><img src="/img/technologies/logo/chart-js.svg" height="25" width="25" alt="Chart.js" /></a>
+      <a href="https://html.com/"><img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5" /></a>
+      <a href="https://www.w3.org/Style/CSS/Overview.en.html"><img src="/img/technologies/logo/css3.svg" height="25" width="25" alt="CSS3" /></a>
+      <a href="https://vite.dev/"><img src="/img/technologies/logo/vite.svg" height="25" width="25" alt="Vite" /></a>
+      <a href="https://prettier.io/"><img src="/img/technologies/logo/prettier.svg" height="25" width="25" alt="Prettier" /></a>
     </td>
   </tr>
   <tr>
@@ -158,19 +162,19 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="TypeScript logo" />
-      <img src="/img/technologies/logo/php.svg" height="25" width="25" alt="PHP logo" />
-      <img src="/img/technologies/logo/laravel.svg" height="25" width="25" alt="Laravel logo" />
-      <img src="/img/technologies/logo/vue.svg" height="25" width="25" alt="Vue logo" />
-      <img src="/img/technologies/logo/bootstrap.svg" height="25" width="25" alt="Bootstrap logo" />
-      <img src="/img/technologies/logo/css3.svg" height="25" width="25" alt="CSS3 logo" />
-      <img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5 logo" />
-      <img src="/img/technologies/logo/docker.svg" height="25" width="25" alt="Docker logo" />
-      <img src="/img/technologies/logo/heroku.svg" height="25" width="25" alt="Heroku logo" />
-      <img src="/img/technologies/logo/vite.svg" height="25" width="25" alt="Vite logo" />
-      <img src="/img/technologies/logo/mysql.svg" height="25" width="25" alt="MySQL logo" />
-      <img src="/img/technologies/logo/phpunit.svg" height="25" width="25" alt="PHPUnit logo" />
-      <img src="/img/technologies/logo/prettier.svg" height="25" width="25" alt="Prettier logo" />
+      <a href="https://www.typescriptlang.org/"><img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="TypeScript" /></a>
+      <a href="https://www.php.net/"><img src="/img/technologies/logo/php.svg" height="25" width="25" alt="PHP" /></a>
+      <a href="https://laravel.com/"><img src="/img/technologies/logo/laravel.svg" height="25" width="25" alt="Laravel" /></a>
+      <a href="https://vuejs.org/"><img src="/img/technologies/logo/vue.svg" height="25" width="25" alt="Vue" /></a>
+      <a href="https://getbootstrap.com/"><img src="/img/technologies/logo/bootstrap.svg" height="25" width="25" alt="Bootstrap" /></a>
+      <a href="https://www.w3.org/Style/CSS/Overview.en.html"><img src="/img/technologies/logo/css3.svg" height="25" width="25" alt="CSS3" /></a>
+      <a href="https://html.com/"><img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5" /></a>
+      <a href="https://www.docker.com/"><img src="/img/technologies/logo/docker.svg" height="25" width="25" alt="Docker" /></a>
+      <a href="https://www.heroku.com/"><img src="/img/technologies/logo/heroku.svg" height="25" width="25" alt="Heroku" /></a>
+      <a href="https://vite.dev/"><img src="/img/technologies/logo/vite.svg" height="25" width="25" alt="Vite" /></a>
+      <a href="https://www.mysql.com/"><img src="/img/technologies/logo/mysql.svg" height="25" width="25" alt="MySQL" /></a>
+      <a href="https://phpunit.de/"><img src="/img/technologies/logo/phpunit.svg" height="25" width="25" alt="PHPUnit" /></a>
+      <a href="https://prettier.io/"><img src="/img/technologies/logo/prettier.svg" height="25" width="25" alt="Prettier" /></a>
     </td>
   </tr>
   <tr>
@@ -180,22 +184,22 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="TypeScript logo" />
-      <img src="/img/technologies/logo/php.svg" height="25" width="25" alt="PHP logo" />
-      <img src="/img/technologies/logo/laravel.svg" height="25" width="25" alt="Laravel logo" />
-      <img src="/img/technologies/logo/vue.svg" height="25" width="25" alt="Vue logo" />
-      <img src="/img/technologies/logo/bootstrap.svg" height="25" width="25" alt="Bootstrap logo" />
-      <img src="/img/technologies/logo/css3.svg" height="25" width="25" alt="CSS3 logo" />
-      <img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5 logo" />
-      <img src="/img/technologies/logo/docker.svg" height="25" width="25" alt="Docker logo" />
-      <img src="/img/technologies/logo/heroku.svg" height="25" width="25" alt="Heroku logo" />
-      <img src="/img/technologies/logo/vite.svg" height="25" width="25" alt="Vite logo" />
-      <img src="/img/technologies/logo/mysql.svg" height="25" width="25" alt="MySQL logo" />
-      <img src="/img/technologies/logo/pest.svg" height="25" width="25" alt="Pest logo" />
-      <img src="/img/technologies/logo/github.svg" height="25" width="25" alt="Github Actions logo" />
-      <img src="/img/technologies/logo/husky.svg" height="25" width="25" alt="Husky logo" />
-      <img src="/img/technologies/logo/eslint.svg" height="25" width="25" alt="ESLint logo" />
-      <img src="/img/technologies/logo/prettier.svg" height="25" width="25" alt="Prettier logo" />
+      <a href="https://www.typescriptlang.org/"><img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="TypeScript" /></a>
+      <a href="https://www.php.net/"><img src="/img/technologies/logo/php.svg" height="25" width="25" alt="PHP" /></a>
+      <a href="https://laravel.com/"><img src="/img/technologies/logo/laravel.svg" height="25" width="25" alt="Laravel" /></a>
+      <a href="https://vuejs.org/"><img src="/img/technologies/logo/vue.svg" height="25" width="25" alt="Vue" /></a>
+      <a href="https://getbootstrap.com/"><img src="/img/technologies/logo/bootstrap.svg" height="25" width="25" alt="Bootstrap" /></a>
+      <a href="https://www.w3.org/Style/CSS/Overview.en.html"><img src="/img/technologies/logo/css3.svg" height="25" width="25" alt="CSS3" /></a>
+      <a href="https://html.com/"><img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5" /></a>
+      <a href="https://www.docker.com/"><img src="/img/technologies/logo/docker.svg" height="25" width="25" alt="Docker" /></a>
+      <a href="https://www.heroku.com/"><img src="/img/technologies/logo/heroku.svg" height="25" width="25" alt="Heroku" /></a>
+      <a href="https://vite.dev/"><img src="/img/technologies/logo/vite.svg" height="25" width="25" alt="Vite" /></a>
+      <a href="https://www.mysql.com/"><img src="/img/technologies/logo/mysql.svg" height="25" width="25" alt="MySQL" /></a>
+      <a href="https://pestphp.com/"><img src="/img/technologies/logo/pest.svg" height="25" width="25" alt="Pest" /></a>
+      <a href="https://github.com/features/actions"><img src="/img/technologies/logo/github.svg" height="25" width="25" alt="Github Actions" /></a>
+      <a href="https://typicode.github.io/husky/"><img src="/img/technologies/logo/husky.svg" height="25" width="25" alt="Husky" /></a>
+      <a href="https://eslint.org/"><img src="/img/technologies/logo/eslint.svg" height="25" width="25" alt="ESLint" /></a>
+      <a href="https://prettier.io/"><img src="/img/technologies/logo/prettier.svg" height="25" width="25" alt="Prettier" /></a>
     </td>
   </tr>
   <tr>
@@ -205,20 +209,20 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/logo/javascript.svg" height="25" width="25" alt="JavaScript logo" />
-      <img src="/img/technologies/logo/php.svg" height="25" width="25" alt="PHP logo" />
-      <img src="/img/technologies/logo/laravel.svg" height="25" width="25" alt="Laravel logo" />
-      <img src="/img/technologies/logo/vue.svg" height="25" width="25" alt="Vue logo" />
-      <img src="/img/technologies/logo/sass.svg" height="25" width="25" alt="Sass logo" />
-      <img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5 logo" />
-      <img src="/img/technologies/logo/heroku.svg" height="25" width="25" alt="Heroku logo" />
-      <img src="/img/technologies/logo/vite.svg" height="25" width="25" alt="Vite logo" />
-      <img src="/img/technologies/logo/mysql.svg" height="25" width="25" alt="MySQL logo" />
-      <img src="/img/technologies/logo/pest.svg" height="25" width="25" alt="Pest logo" />
-      <img src="/img/technologies/logo/github.svg" height="25" width="25" alt="Github Actions logo" />
-      <img src="/img/technologies/logo/husky.svg" height="25" width="25" alt="Husky logo" />
-      <img src="/img/technologies/logo/eslint.svg" height="25" width="25" alt="ESLint logo" />
-      <img src="/img/technologies/logo/prettier.svg" height="25" width="25" alt="Prettier logo" />
+      <a href="https://www.javascript.com/"><img src="/img/technologies/logo/javascript.svg" height="25" width="25" alt="JavaScript" /></a>
+      <a href="https://www.php.net/"><img src="/img/technologies/logo/php.svg" height="25" width="25" alt="PHP" /></a>
+      <a href="https://laravel.com/"><img src="/img/technologies/logo/laravel.svg" height="25" width="25" alt="Laravel" /></a>
+      <a href="https://vuejs.org/"><img src="/img/technologies/logo/vue.svg" height="25" width="25" alt="Vue" /></a>
+      <a href="https://sass-lang.com/"><img src="/img/technologies/logo/sass.svg" height="25" width="25" alt="Sass" /></a>
+      <a href="https://html.com/"><img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5" /></a>
+      <a href="https://www.heroku.com/"><img src="/img/technologies/logo/heroku.svg" height="25" width="25" alt="Heroku" /></a>
+      <a href="https://vite.dev/"><img src="/img/technologies/logo/vite.svg" height="25" width="25" alt="Vite" /></a>
+      <a href="https://www.mysql.com/"><img src="/img/technologies/logo/mysql.svg" height="25" width="25" alt="MySQL" /></a>
+      <a href="https://pestphp.com/"><img src="/img/technologies/logo/pest.svg" height="25" width="25" alt="Pest" /></a>
+      <a href="https://github.com/features/actions"><img src="/img/technologies/logo/github.svg" height="25" width="25" alt="Github Actions" /></a>
+      <a href="https://typicode.github.io/husky/"><img src="/img/technologies/logo/husky.svg" height="25" width="25" alt="Husky" /></a>
+      <a href="https://eslint.org/"><img src="/img/technologies/logo/eslint.svg" height="25" width="25" alt="ESLint" /></a>
+      <a href="https://prettier.io/"><img src="/img/technologies/logo/prettier.svg" height="25" width="25" alt="Prettier" /></a>
     </td>
   </tr>
   <tr>
@@ -228,17 +232,17 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="TypeScript logo" />
-      <img src="/img/technologies/logo/react.svg" height="25" width="25" alt="React logo" />
-      <img src="/img/technologies/logo/redux.svg" height="25" width="25" alt="Redux logo" />
-      <img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5 logo" />
-      <img src="/img/technologies/logo/chakra-ui.svg" height="25" width="25" alt="Chakra UI logo" />
-      <img src="/img/technologies/logo/storybook.svg" height="25" width="25" alt="Storybook logo" />
-      <img src="/img/technologies/logo/heroku.svg" height="25" width="25" alt="Heroku logo" />
-      <img src="/img/technologies/logo/vite.svg" height="25" width="25" alt="Vite logo" />
-      <img src="/img/technologies/logo/husky.svg" height="25" width="25" alt="Husky logo" />
-      <img src="/img/technologies/logo/eslint.svg" height="25" width="25" alt="ESLint logo" />
-      <img src="/img/technologies/logo/prettier.svg" height="25" width="25" alt="Prettier logo" />
+      <a href="https://www.typescriptlang.org/"><img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="TypeScript" /></a>
+      <a href="https://react.dev/"><img src="/img/technologies/logo/react.svg" height="25" width="25" alt="React" /></a>
+      <a href="https://redux.js.org/"><img src="/img/technologies/logo/redux.svg" height="25" width="25" alt="Redux" /></a>
+      <a href="https://html.com/"><img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5" /></a>
+      <a href="https://chakra-ui.com/"><img src="/img/technologies/logo/chakra-ui.svg" height="25" width="25" alt="Chakra UI" /></a>
+      <a href="https://storybook.js.org/"><img src="/img/technologies/logo/storybook.svg" height="25" width="25" alt="Storybook" /></a>
+      <a href="https://www.heroku.com/"><img src="/img/technologies/logo/heroku.svg" height="25" width="25" alt="Heroku" /></a>
+      <a href="https://vite.dev/"><img src="/img/technologies/logo/vite.svg" height="25" width="25" alt="Vite" /></a>
+      <a href="https://typicode.github.io/husky/"><img src="/img/technologies/logo/husky.svg" height="25" width="25" alt="Husky" /></a>
+      <a href="https://eslint.org/"><img src="/img/technologies/logo/eslint.svg" height="25" width="25" alt="ESLint" /></a>
+      <a href="https://prettier.io/"><img src="/img/technologies/logo/prettier.svg" height="25" width="25" alt="Prettier" /></a>
     </td>
   </tr>
   <tr>
@@ -248,13 +252,13 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="TypeScript logo" />
-      <img src="/img/technologies/logo/next.svg" height="25" width="25" alt="Next logo" />
-      <img src="/img/technologies/logo/react.svg" height="25" width="25" alt="React logo" />
-      <img src="/img/technologies/logo/tailwind.svg" height="25" width="25" alt="Tailwind logo" />
-      <img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5 logo" />
-      <img src="/img/technologies/logo/eslint.svg" height="25" width="25" alt="ESLint logo" />
-      <img src="/img/technologies/logo/prettier.svg" height="25" width="25" alt="Prettier logo" />
+      <a href="https://www.typescriptlang.org/"><img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="TypeScript" /></a>
+      <a href="https://nextjs.org/"><img src="/img/technologies/logo/next.svg" height="25" width="25" alt="Next" /></a>
+      <a href="https://react.dev/"><img src="/img/technologies/logo/react.svg" height="25" width="25" alt="React" /></a>
+      <a href="https://tailwindcss.com/"><img src="/img/technologies/logo/tailwind.svg" height="25" width="25" alt="Tailwind" /></a>
+      <a href="https://html.com/"><img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5" /></a>
+      <a href="https://eslint.org/"><img src="/img/technologies/logo/eslint.svg" height="25" width="25" alt="ESLint" /></a>
+      <a href="https://prettier.io/"><img src="/img/technologies/logo/prettier.svg" height="25" width="25" alt="Prettier" /></a>
     </td>
   </tr>
   <tr>
@@ -264,15 +268,15 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="TypeScript logo" />
-      <img src="/img/technologies/logo/vue.svg" height="25" width="25" alt="Vue logo" />
-      <img src="/img/technologies/logo/primevue.svg" height="25" width="25" alt="PrimeVue logo" />
-      <img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5 logo" />
-      <img src="/img/technologies/logo/css3.svg" height="25" width="25" alt="CSS3 logo" />
-      <img src="/img/technologies/logo/vite.svg" height="25" width="25" alt="Vite logo" />
-      <img src="/img/technologies/logo/husky.svg" height="25" width="25" alt="Husky logo" />
-      <img src="/img/technologies/logo/eslint.svg" height="25" width="25" alt="ESLint logo" />
-      <img src="/img/technologies/logo/prettier.svg" height="25" width="25" alt="Prettier logo" />
+      <a href="https://www.typescriptlang.org/"><img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="TypeScript" /></a>
+      <a href="https://vuejs.org/"><img src="/img/technologies/logo/vue.svg" height="25" width="25" alt="Vue" /></a>
+      <a href="https://primevue.org/"><img src="/img/technologies/logo/primevue.svg" height="25" width="25" alt="PrimeVue" /></a>
+      <a href="https://html.com/"><img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5" /></a>
+      <a href="https://www.w3.org/Style/CSS/Overview.en.html"><img src="/img/technologies/logo/css3.svg" height="25" width="25" alt="CSS3" /></a>
+      <a href="https://vite.dev/"><img src="/img/technologies/logo/vite.svg" height="25" width="25" alt="Vite" /></a>
+      <a href="https://typicode.github.io/husky/"><img src="/img/technologies/logo/husky.svg" height="25" width="25" alt="Husky" /></a>
+      <a href="https://eslint.org/"><img src="/img/technologies/logo/eslint.svg" height="25" width="25" alt="ESLint" /></a>
+      <a href="https://prettier.io/"><img src="/img/technologies/logo/prettier.svg" height="25" width="25" alt="Prettier" /></a>
     </td>
   </tr>
   <tr>
@@ -282,10 +286,10 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/logo/javascript.svg" height="25" width="25" alt="JavaScript logo" />
-      <img src="/img/technologies/logo/bootstrap.svg" height="25" width="25" alt="Bootstrap logo" />
-      <img src="/img/technologies/logo/tailwind.svg" height="25" width="25" alt="Tailwind logo" />
-      <img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5 logo" />
+      <a href="https://www.javascript.com/"><img src="/img/technologies/logo/javascript.svg" height="25" width="25" alt="JavaScript" /></a>
+      <a href="https://getbootstrap.com/"><img src="/img/technologies/logo/bootstrap.svg" height="25" width="25" alt="Bootstrap" /></a>
+      <a href="https://tailwindcss.com/"><img src="/img/technologies/logo/tailwind.svg" height="25" width="25" alt="Tailwind" /></a>
+      <a href="https://html.com/"><img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5" /></a>
     </td>
   </tr>
   <tr>
@@ -295,10 +299,10 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/logo/javascript.svg" height="25" width="25" alt="JavaScript logo" />
-      <img src="/img/technologies/logo/bootstrap.svg" height="25" width="25" alt="Bootstrap logo" />
-      <img src="/img/technologies/logo/css3.svg" height="25" width="25" alt="CSS3 logo" />
-      <img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5 logo" />
+      <a href="https://www.javascript.com/"><img src="/img/technologies/logo/javascript.svg" height="25" width="25" alt="JavaScript" /></a>
+      <a href="https://getbootstrap.com/"><img src="/img/technologies/logo/bootstrap.svg" height="25" width="25" alt="Bootstrap" /></a>
+      <a href="https://www.w3.org/Style/CSS/Overview.en.html"><img src="/img/technologies/logo/css3.svg" height="25" width="25" alt="CSS3" /></a>
+      <a href="https://html.com/"><img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5" /></a>
     </td>
   </tr>
   <tr>
@@ -308,10 +312,10 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="TypeScript logo" />
-      <img src="/img/technologies/logo/react.svg" height="25" width="25" alt="React logo" />
-      <img src="/img/technologies/logo/tailwind.svg" height="25" width="25" alt="Tailwind logo" />
-      <img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5 logo" />
+      <a href="https://www.typescriptlang.org/"><img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="TypeScript" /></a>
+      <a href="https://react.dev/"><img src="/img/technologies/logo/react.svg" height="25" width="25" alt="React" /></a>
+      <a href="https://tailwindcss.com/"><img src="/img/technologies/logo/tailwind.svg" height="25" width="25" alt="Tailwind" /></a>
+      <a href="https://html.com/"><img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5" /></a>
     </td>
   </tr>
   <tr>
@@ -321,14 +325,14 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/logo/javascript.svg" height="25" width="25" alt="JavaScript logo" />
-      <img src="/img/technologies/logo/next.svg" height="25" width="25" alt="Next logo" />
-      <img src="/img/technologies/logo/react.svg" height="25" width="25" alt="React logo" />
-      <img src="/img/technologies/logo/redux.svg" height="25" width="25" alt="Redux logo" />
-      <img src="/img/technologies/logo/tailwind.svg" height="25" width="25" alt="Tailwind logo" />
-      <img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5 logo" />
-      <img src="/img/technologies/logo/strapi.svg" height="25" width="25" alt="Strapi logo" />
-      <img src="/img/technologies/logo/eslint.svg" height="25" width="25" alt="ESLint logo" />
+      <a href="https://www.javascript.com/"><img src="/img/technologies/logo/javascript.svg" height="25" width="25" alt="JavaScript" /></a>
+      <a href="https://nextjs.org/"><img src="/img/technologies/logo/next.svg" height="25" width="25" alt="Next" /></a>
+      <a href="https://react.dev/"><img src="/img/technologies/logo/react.svg" height="25" width="25" alt="React" /></a>
+      <a href="https://redux.js.org/"><img src="/img/technologies/logo/redux.svg" height="25" width="25" alt="Redux" /></a>
+      <a href="https://tailwindcss.com/"><img src="/img/technologies/logo/tailwind.svg" height="25" width="25" alt="Tailwind" /></a>
+      <a href="https://html.com/"><img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5" /></a>
+      <a href="https://strapi.io/"><img src="/img/technologies/logo/strapi.svg" height="25" width="25" alt="Strapi" /></a>
+      <a href="https://eslint.org/"><img src="/img/technologies/logo/eslint.svg" height="25" width="25" alt="ESLint" /></a>
     </td>
   </tr>
   <tr>
@@ -338,12 +342,12 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/logo/javascript.svg" height="25" width="25" alt="JavaScript logo" />
-      <img src="/img/technologies/logo/react.svg" height="25" width="25" alt="React logo" />
-      <img src="/img/technologies/logo/redux.svg" height="25" width="25" alt="Redux logo" />
-      <img src="/img/technologies/logo/tailwind.svg" height="25" width="25" alt="Tailwind logo" />
-      <img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5 logo" />
-      <img src="/img/technologies/logo/firebase.svg" height="25" width="25" alt="Firebase logo" />
+      <a href="https://www.javascript.com/"><img src="/img/technologies/logo/javascript.svg" height="25" width="25" alt="JavaScript" /></a>
+      <a href="https://react.dev/"><img src="/img/technologies/logo/react.svg" height="25" width="25" alt="React" /></a>
+      <a href="https://redux.js.org/"><img src="/img/technologies/logo/redux.svg" height="25" width="25" alt="Redux" /></a>
+      <a href="https://tailwindcss.com/"><img src="/img/technologies/logo/tailwind.svg" height="25" width="25" alt="Tailwind" /></a>
+      <a href="https://html.com/"><img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5" /></a>
+      <a href="https://firebase.google.com/"><img src="/img/technologies/logo/firebase.svg" height="25" width="25" alt="Firebase" /></a>
     </td>
   </tr>
   <tr>
@@ -353,13 +357,13 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/logo/python.svg" height="25" width="25" alt="Python logo" />
-      <img src="/img/technologies/logo/django.svg" height="25" width="25" alt="Django logo" />
-      <img src="/img/technologies/logo/css3.svg" height="25" width="25" alt="CSS3 logo" />
-      <img src="/img/technologies/logo/tailwind.svg" height="25" width="25" alt="Tailwind logo" />
-      <img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5 logo" />
-      <img src="/img/technologies/logo/docker.svg" height="25" width="25" alt="Docker logo" />
-      <img src="/img/technologies/logo/heroku.svg" height="25" width="25" alt="Heroku logo" />
+      <a href="https://www.python.org/"><img src="/img/technologies/logo/python.svg" height="25" width="25" alt="Python" /></a>
+      <a href="https://www.djangoproject.com/"><img src="/img/technologies/logo/django.svg" height="25" width="25" alt="Django" /></a>
+      <a href="https://www.w3.org/Style/CSS/Overview.en.html"><img src="/img/technologies/logo/css3.svg" height="25" width="25" alt="CSS3" /></a>
+      <a href="https://tailwindcss.com/"><img src="/img/technologies/logo/tailwind.svg" height="25" width="25" alt="Tailwind" /></a>
+      <a href="https://html.com/"><img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5" /></a>
+      <a href="https://www.docker.com/"><img src="/img/technologies/logo/docker.svg" height="25" width="25" alt="Docker" /></a>
+      <a href="https://www.heroku.com/"><img src="/img/technologies/logo/heroku.svg" height="25" width="25" alt="Heroku" /></a>
     </td>
   </tr>
   <tr>
@@ -369,9 +373,9 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/logo/javascript.svg" height="25" width="25" alt="JavaScript logo" />
-      <img src="/img/technologies/logo/css3.svg" height="25" width="25" alt="CSS3 logo" />
-      <img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5 logo" />
+      <a href="https://www.javascript.com/"><img src="/img/technologies/logo/javascript.svg" height="25" width="25" alt="JavaScript" /></a>
+      <a href="https://www.w3.org/Style/CSS/Overview.en.html"><img src="/img/technologies/logo/css3.svg" height="25" width="25" alt="CSS3" /></a>
+      <a href="https://html.com/"><img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5" /></a>
     </td>
   </tr>
   <tr>
@@ -381,8 +385,8 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       </a>
     </td>
     <td>
-      <img src="/img/technologies/logo/css3.svg" height="25" width="25" alt="CSS3 logo" />
-      <img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5 logo" />
+      <a href="https://www.w3.org/Style/CSS/Overview.en.html"><img src="/img/technologies/logo/css3.svg" height="25" width="25" alt="CSS3" /></a>
+      <a href="https://html.com/"><img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5" /></a>
     </td>
   </tr>
 </table>
