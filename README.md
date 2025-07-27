@@ -655,5 +655,6 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
 
 ![Profile Details](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SzymCode&theme=transparent)
 ![Productive Time](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=SzymCode&theme=transparent&utcOffset=+1)
+![Productive Time](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SzymCode&theme=transparent&utcOffset=+1)
 
 </details>  
