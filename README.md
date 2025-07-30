@@ -31,8 +31,8 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   <tr>
     <td>🚀 Exists on</td>
     <td>
-      <a href="https://app.hackthebox.com/profile/2421667" target="_blank"><img src="https://img.shields.io/badge/HTB-111927?logo=hackthebox&logoColor=9FEF00" alt="Hack The Box" /></a>
       <a href="https://www.codewars.com/users/SzymCode" target="_blank"><img src="https://img.shields.io/badge/CodeWars-4%20KYU-1f5be7?logo=codewars&logoColor=white" alt="CodeWars" /></a>
+      <a href="https://app.hackthebox.com/profile/2421667" target="_blank"><img src="https://img.shields.io/badge/HTB-111927?logo=hackthebox&logoColor=9FEF00" alt="Hack The Box" /></a>
       <a href="https://lichess.org/@/S1CChess" target="_blank"><img src="https://img.shields.io/badge/Lichess-000000?logo=lichess&logoColor=white" alt="Lichess" /></a>
     </td>
   </tr>
@@ -70,7 +70,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <a href="https://www.typescriptlang.org/" target="_blank"><img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="TypeScript" /></a>
       <a href="https://www.php.net/" target="_blank"><img src="/img/technologies/logo/php.svg" height="25" width="25" alt="PHP" /></a>
       <a href="https://laravel.com/" target="_blank"><img src="/img/technologies/logo/laravel.svg" height="25" width="25" alt="Laravel" /></a>
-      <a href="https://nuxt.com/" target="_blank"><img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="Nuxt" /></a>
+      <a href="https://nuxt.com/" target="_blank"><img src="/img/technologies/logo/nuxt.svg" height="25" width="25" alt="Nuxt" /></a>
       <a href="https://vuejs.org/" target="_blank"><img src="/img/technologies/logo/vue.svg" height="25" width="25" alt="Vue" /></a>
       <a href="https://pinia.vuejs.org/" target="_blank"><img src="/img/technologies/logo/pinia.svg" height="25" width="25" alt="Pinia" /></a>
       <a href="https://primevue.org/" target="_blank"><img src="/img/technologies/logo/primevue.svg" height="25" width="25" alt="PrimeVue" /></a>
