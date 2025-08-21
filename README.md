@@ -2,9 +2,9 @@
   Hi, I'm Szymon
 </h2>
 
-As a self-taught developer, I'm actively seeking **challenging career opportunities**. I quickly adapt to new technologies, including **Prestashop**, **Laravel**, **Vue**, **Nuxt**, **Next**, **React**, Django, Wordpress, which have become my tools in my daily work. For styling, I mostly use CSS3/SCSS, PrimeVue, GSAP and Material UI. I also love writing tests in Pest, PHPUnit, Jest, Vitest, Cypress and Storybook. I'm also passionate about cybersecurity especially security and penetration testing.
+As a self-taught developer, I’m actively seeking challenging career opportunities where I can grow and contribute. Every day, I work with technologies like **Prestashop**, **Laravel**, **Nuxt**, **Vue**, **Next**, **React**, Django, and WordPress, crafting user-friendly interfaces with CSS3/SCSS, PrimeVue, GSAP, and Material UI.
 
-
+I’m dedicated to writing reliable, maintainable code, and I enjoy testing with tools such as Pest, PHPUnit, Jest, Vitest, Cypress, and Storybook to ensure high quality. Beyond development, I’m experienced in DevOps, Docker, CI/CD, and passionate about cybersecurity.
 
 <br>
 
@@ -12,7 +12,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   <tr>
     <td>⭐ Portfolio</td>
     <td>
-      <a href="https://data-manager.atomic-it.org" target="_blank"><img src="https://github.com/SzymCode/SzymCode/assets/107359025/8454470d-3f70-484a-b12e-b902530cb9ba" height="12"> DataManager</a>
+      <a href="https://datamanager.atomic-it.org" target="_blank"><img src="https://github.com/SzymCode/SzymCode/assets/107359025/8454470d-3f70-484a-b12e-b902530cb9ba" height="12"> DataManager</a>
     </td>
   </tr>
   <tr>
@@ -58,7 +58,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
   </th>
   <tr>
     <td>
-      <a href="https://data-manager.atomic-it.org" target="_blank">
+      <a href="https://datamanager.atomic-it.org" target="_blank">
         DataManager
       </a>
     </td>
