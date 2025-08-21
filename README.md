@@ -10,11 +10,7 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
 
 <table>
   <tr>
-    <td>💻 Portfolio</td>
-    <td><a href="https://szymco.de" target="_blank">szymco.de</a></td>
-  </tr>
-  <tr>
-    <td>⭐ Project</td>
+    <td>⭐ Portfolio</td>
     <td>
       <a href="https://data-manager.atomic-it.org" target="_blank"><img src="https://github.com/SzymCode/SzymCode/assets/107359025/8454470d-3f70-484a-b12e-b902530cb9ba" height="12"> DataManager</a>
     </td>
@@ -153,6 +149,29 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
       <a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank"><img src="/img/technologies/logo/css3.svg" height="25" width="25" alt="CSS3" /></a>
       <a href="https://vite.dev/" target="_blank"><img src="/img/technologies/logo/vite.svg" height="25" width="25" alt="Vite" /></a>
       <a href="https://prettier.io/" target="_blank"><img src="/img/technologies/logo/prettier.svg" height="25" width="25" alt="Prettier" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/SzymCode/RecruitmentTasks/tree/patient-manager" target="_blank">
+        PatientManager
+      </a>
+    </td>
+    <td>
+      <a href="https://www.typescriptlang.org/" target="_blank"><img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="TypeScript" /></a>
+      <a href="https://www.php.net/" target="_blank"><img src="/img/technologies/logo/php.svg" height="25" width="25" alt="PHP" /></a>
+      <a href="https://laravel.com/" target="_blank"><img src="/img/technologies/logo/laravel.svg" height="25" width="25" alt="Laravel" /></a>
+      <a href="https://nuxt.com/" target="_blank"><img src="/img/technologies/logo/nuxt.svg" height="25" width="25" alt="Nuxt" /></a>
+      <a href="https://vuejs.org/" target="_blank"><img src="/img/technologies/logo/vue.svg" height="25" width="25" alt="Vue" /></a>
+      <a href="https://primevue.org/" target="_blank"><img src="/img/technologies/logo/primevue.svg" height="25" width="25" alt="PrimeVue" /></a>
+      <a href="https://sass-lang.com/" target="_blank"><img src="/img/technologies/logo/sass.svg" height="25" width="25" alt="Sass" /></a>
+      <a href="https://html.com/" target="_blank"><img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5" /></a>
+      <a href="https://www.docker.com/" target="_blank"><img src="/img/technologies/logo/docker.svg" height="25" width="25" alt="Docker" /></a>
+      <a href="https://www.mysql.com/" target="_blank"><img src="/img/technologies/logo/mysql.svg" height="25" width="25" alt="MySQL" /></a>
+      <a href="https://pestphp.com/" target="_blank"><img src="/img/technologies/logo/pest.svg" height="24" width="24" alt="PestPHP" /></a>
+      <a href="https://biomejs.dev/" target="_blank"><img src="/img/technologies/logo/biome.svg" height="25" width="25" alt="Biome" /></a>
+      <a href="https://github.com/features/actions" target="_blank"><img src="/img/technologies/logo/github.svg" height="25" width="25" alt="Github Actions" /></a>
+      <a href="https://typicode.github.io/husky/" target="_blank"><img src="/img/technologies/logo/husky.svg" height="25" width="25" alt="Husky" /></a>
     </td>
   </tr>
   <tr>
@@ -635,12 +654,12 @@ As a self-taught developer, I'm actively seeking **challenging career opportunit
 <br>
 
 * :electron: My favourite workspace setup is [CachyOS](https://cachyos.org/) with [Hyprland](https://hyprland.org/) and [HyDe](https://github.com/HyDE-Project/HyDE) dotfiles
-* 🤖 Previosly worked as a CNC programmer & machinist - still enjoy it as a 3018 owner
-* 📓 I'm gaining knowledge mainly from documentation, forums, collegues and my personal experience
-* ♟️ My favourite openings in chess are the Scotch Game, Stafford and King's gambits, also love Atomic Chess - [play with me](https://lichess.org/@/S1CChess)
-* 🧠 Rubik's Cube CFOP sub 20 & Blindfold Old Pochmann 5 min with memorize
-* 📚 Books that have impacted me listed here: [TimelessBooks](https://www.timeless-books.com/)
-* 🏆 Few favourite quotes:
+* 🤖 I previously worked as a CNC programmer & machinist - still enjoy it as a 3018 owner
+* 📓 I gain knowledge mainly from documentation, forums, colleagues, and personal experience
+* ♟️ My favourite openings in chess are the Scotch Game, Stafford, and King's Gambit; I also love Atomic Chess - [play with me](https://lichess.org/@/S1CChess)
+* 🧠 Rubik's Cube CFOP sub-20 & Blindfold Old Pochmann 5 min including memorization
+* 📚 Books that have impacted me are listed here: [TimelessBooks](https://www.timeless-books.com/)
+* 🏆 A few favourite quotes:
   - *"This man of little learning grows old like an ox; only his flesh grows but not his wisdom."* ~ Siddhartha Gautama
   - *"He who has a why to live can bear almost any how."* ~ Friedrich Nietzsche
   - *"Fear has never reached the highest goal."* ~ Bô Yin Râ
