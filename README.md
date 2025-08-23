@@ -455,13 +455,14 @@ I’m dedicated to writing reliable, maintainable code, and I enjoy testing with
     </td>
     <td>
       <a href="https://symfony.com/" target="_blank"><img src="/img/technologies/badge/symfony.svg" alt="Symfony badge" /></a>
-      <a href="https://vite.dev/" target="_blank"><img src="/img/technologies/badge/vite.svg" alt="Vite badge" /></a>
+      <a href="https://nextjs.org/" target="_blank"><img src="/img/technologies/badge/next.svg" alt="Next badge" /></a>
       <a href="https://react.dev/" target="_blank"><img src="/img/technologies/badge/react.svg" alt="React badge" /></a>
-      <a href="https://www.cypress.io/" target="_blank"><img src="/img/technologies/badge/cypress.svg" alt="Cypress badge" /></a>
-      <a href="https://tailwindcss.com/" target="_blank"><img src="/img/technologies/badge/tailwind.svg" alt="Tailwind badge" /></a>
-      <a href="https://getbootstrap.com/" target="_blank"><img src="/img/technologies/badge/bootstrap.svg" alt="Bootstrap badge" /></a>
-      <a href="https://jquery.com/" target="_blank"><img src="/img/technologies/badge/jquery.svg" alt="jQuery badge" /></a>
       <a href="https://www.djangoproject.com/" target="_blank"><img src="/img/technologies/badge/django.svg" alt="Django badge" /></a>
+      <a href="https://ui.shadcn.com/" target="_blank"><img src="/img/technologies/badge/shadcn.svg" alt="shadcn badge" /></a>
+      <a href="https://tailwindcss.com/" target="_blank"><img src="/img/technologies/badge/tailwind.svg" alt="Tailwind badge" /></a>
+      <a href="https://jquery.com/" target="_blank"><img src="/img/technologies/badge/jquery.svg" alt="jQuery badge" /></a>
+      <a href="https://vite.dev/" target="_blank"><img src="/img/technologies/badge/vite.svg" alt="Vite badge" /></a>
+      <a href="https://www.cypress.io/" target="_blank"><img src="/img/technologies/badge/cypress.svg" alt="Cypress badge" /></a>
     </td>
   </tr>
   <tr>
@@ -469,15 +470,14 @@ I’m dedicated to writing reliable, maintainable code, and I enjoy testing with
       Have experienced
     </td>
     <td>
-      <a href="https://nextjs.org/" target="_blank"><img src="/img/technologies/badge/next.svg" alt="Next badge" /></a>
-      <a href="https://ui.shadcn.com/" target="_blank"><img src="/img/technologies/badge/shadcn.svg" alt="shadcn badge" /></a>
+      <a href="https://getbootstrap.com/" target="_blank"><img src="/img/technologies/badge/bootstrap.svg" alt="Bootstrap badge" /></a>
+      <a href="https://mui.com/" target="_blank"><img src="/img/technologies/badge/mui.svg" alt="Material UI badge" /></a>
+      <a href="https://quasar.dev/" target="_blank"><img src="/img/technologies/badge/quasar.svg" alt="Quasar badge" /></a>
+      <a href="https://chakra-ui.com/" target="_blank"><img src="/img/technologies/badge/chakra-ui.svg" alt="Chakra UI badge" /></a>
+      <a href="https://wordpress.org/" target="_blank"><img src="/img/technologies/badge/wordpress.svg" alt="WordPress badge" /></a>
       <a href="https://jestjs.io/" target="_blank"><img src="/img/technologies/badge/jest.svg" alt="Jest badge" /></a>
       <a href="https://nestjs.com/" target="_blank"><img src="/img/technologies/badge/nest-js.svg" alt="Nest.js badge" /></a>
-      <a href="https://chakra-ui.com/" target="_blank"><img src="/img/technologies/badge/chakra-ui.svg" alt="Chakra UI badge" /></a>
-      <a href="https://quasar.dev/" target="_blank"><img src="/img/technologies/badge/quasar.svg" alt="Quasar badge" /></a>
-      <a href="https://mui.com/" target="_blank"><img src="/img/technologies/badge/mui.svg" alt="Material UI badge" /></a>
       <a href="https://webpack.js.org/" target="_blank"><img src="/img/technologies/badge/webpack.svg" alt="Webpack badge" /></a>
-      <a href="https://wordpress.org/" target="_blank"><img src="/img/technologies/badge/wordpress.svg" alt="WordPress badge" /></a>
     </td>
   </tr>
   <tr>
@@ -550,6 +550,7 @@ I’m dedicated to writing reliable, maintainable code, and I enjoy testing with
     </td>
     <td>
       <a href="https://getcomposer.org/" target="_blank"><img src="/img/technologies/badge/composer.svg" alt="Composer badge" /></a>
+      <a href="https://www.npmjs.com/" target="_blank"><img src="/img/technologies/badge/npm.svg" alt="NPM badge" /></a>
       <a href="https://pnpm.io/" target="_blank"><img src="/img/technologies/badge/pnpm.svg" alt="pnpm badge" /></a>
       <a href="https://yarnpkg.com/" target="_blank"><img src="/img/technologies/badge/yarn.svg" alt="Yarn badge" /></a>
       <a href="https://aur.archlinux.org/" target="_blank"><img src="/img/technologies/badge/aur.svg" alt="AUR badge" /></a>
