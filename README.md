@@ -665,7 +665,8 @@ I’m dedicated to writing reliable, maintainable code, and I enjoy testing with
   - *"He who has a why to live can bear almost any how."* ~ Friedrich Nietzsche
   - *"Fear has never reached the highest goal."* ~ Bô Yin Râ
   - *"Don't wish it was easier. Wish you were better."* ~ Jim Rohn
-
+  - *"Even the idea of resting aggravates my mind."*
+    
 </details>
 <br>
 
