@@ -2,7 +2,7 @@
   Hi, I'm Szymon
 </h2>
 
-As a self-taught developer, I’m actively seeking challenging career opportunities where I can grow and contribute. Every day, I work with technologies like **Prestashop**, **Laravel**, **Nuxt**, **Vue**, **Next**, **React**, Django, and WordPress, crafting user-friendly interfaces with CSS3/SCSS, PrimeVue, GSAP, and Material UI.
+As a self-taught developer, I’m actively seeking challenging career opportunities where I can grow and contribute. Every day, I work with technologies like **Laravel**, **Nuxt**, **Vue**, **Next**, **React**, **Symfony**, Django, Prestashop and WordPress, crafting user-friendly interfaces with CSS3/SCSS, PrimeVue, GSAP, and Material UI.
 
 I’m dedicated to writing reliable, maintainable code, and I enjoy testing with tools such as Pest, PHPUnit, Jest, Vitest, Cypress, and Storybook to ensure high quality. Beyond development, I’m experienced in DevOps, Docker, CI/CD, and passionate about cybersecurity.
 
@@ -654,7 +654,7 @@ I’m dedicated to writing reliable, maintainable code, and I enjoy testing with
 <details><summary> 💬 Some Things About Me  </summary> 
 <br>
 
-* :electron: My favourite workspace setup is [CachyOS](https://cachyos.org/) with [Hyprland](https://hyprland.org/) and [HyDe](https://github.com/HyDE-Project/HyDE) dotfiles
+* :electron: My favourite workspace setup is [CachyOS](https://cachyos.org/) with [Hyprland](https://hyprland.org/) and [ML4W](https://mylinuxforwork.github.io/dotfiles/) or [HyDe](https://github.com/HyDE-Project/HyDE) dotfiles
 * 🤖 I previously worked as a CNC programmer & machinist - still enjoy it as a 3018 owner
 * 📓 I gain knowledge mainly from documentation, forums, colleagues, and personal experience
 * ♟️ My favourite openings in chess are the Scotch Game, Stafford, and King's Gambit; I also love Atomic Chess - [play with me](https://lichess.org/@/S1CChess)
