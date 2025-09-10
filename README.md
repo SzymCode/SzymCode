@@ -33,11 +33,20 @@ I’m dedicated to writing reliable, maintainable code, and I enjoy testing with
     </td>
   </tr>
   <tr>
-    <td>📘 Mastering now</td>
+    <td>🏆 Mastering now</td>
     <td>
-      <a href="https://pl.prestashop.com/" target="_blank"><img src="https://img.shields.io/badge/PrestaShop-DF0067?logo=prestashop&logoColor=white" alt="PrestaShop" /></a>
-      <a href="https://nuxt.com/" target="_blank"><img src="https://img.shields.io/badge/Nuxt-black?logo=nuxt&logoColor=00C58E" alt="Nuxt" /></a>
+      <a href="https://nuxt.com/" target="_blank"><img src="/img/technologies/badge/nuxt.svg" alt="Nuxt badge" /></a>
+      <a href="https://laravel.com/" target="_blank"><img src="/img/technologies/badge/laravel.svg" alt="Laravel badge" /></a>
       <a href="https://www.docker.com/" target="_blank"><img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" alt="Docker" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td>📘 Studying now</td>
+    <td>
+      <a href="https://nextjs.org/" target="_blank"><img src="/img/technologies/badge/next.svg" alt="Next badge" /></a>
+      <a href="https://react.dev/" target="_blank"><img src="/img/technologies/badge/react.svg" alt="React badge" /></a>
+      <a href="https://symfony.com/" target="_blank"><img src="/img/technologies/badge/symfony.svg" alt="Symfony badge" /></a>
+      <a href="https://kubernetes.io/" target="_blank"><img src="https://img.shields.io/badge/K8s-326CE5?&logo=kubernetes&logoColor=white" /></a>
     </td>
   </tr>
 </table>
