@@ -2,7 +2,7 @@
   Hi, I'm Szymon
 </h2>
 
-As a self-taught developer, I’m actively seeking challenging career opportunities where I can grow and contribute. Every day, I work with technologies like **Laravel**, **Nuxt**, **Vue**, **Next**, **React**, **Symfony**, Django, Prestashop and WordPress, crafting user-friendly interfaces with CSS3/SCSS, PrimeVue, GSAP, and Material UI.
+As a self-taught developer, I’m actively seeking challenging career opportunities where I can grow and contribute. Every day, I work with technologies like **Laravel**, **Nuxt**, **Vue**, **Next**, **React**, **Symfony**, Django, Prestashop and WordPress, crafting user-friendly interfaces with CSS3/SCSS, PrimeVue, GSAP, Tailwind and Material UI.
 
 I’m dedicated to writing reliable, maintainable code, and I enjoy testing with tools such as Pest, PHPUnit, Jest, Vitest, Cypress, and Storybook to ensure high quality. Beyond development, I’m experienced in DevOps, Docker, CI/CD, and passionate about cybersecurity.
 
@@ -33,7 +33,7 @@ I’m dedicated to writing reliable, maintainable code, and I enjoy testing with
     </td>
   </tr>
   <tr>
-    <td>🏆 Mastering now</td>
+    <td>🏆 Mastering</td>
     <td>
       <a href="https://nuxt.com/" target="_blank"><img src="/img/technologies/badge/nuxt.svg" alt="Nuxt badge" /></a>
       <a href="https://laravel.com/" target="_blank"><img src="/img/technologies/badge/laravel.svg" alt="Laravel badge" /></a>
@@ -41,7 +41,7 @@ I’m dedicated to writing reliable, maintainable code, and I enjoy testing with
     </td>
   </tr>
   <tr>
-    <td>📘 Studying now</td>
+    <td>📘 Studying</td>
     <td>
       <a href="https://nextjs.org/" target="_blank"><img src="/img/technologies/badge/next.svg" alt="Next badge" /></a>
       <a href="https://react.dev/" target="_blank"><img src="/img/technologies/badge/react.svg" alt="React badge" /></a>
@@ -56,14 +56,14 @@ I’m dedicated to writing reliable, maintainable code, and I enjoy testing with
 
 
 
-<details> <summary> 🔗 Previews </summary>
+<details> <summary> 🔗 Projects </summary>
 <br>
 <table>
   <th>
-    Project
+    Name
   </th>  
   <th>
-    Tech stack
+    Technologies
   </th>
   <tr>
     <td>
