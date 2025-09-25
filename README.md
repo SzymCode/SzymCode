@@ -546,7 +546,17 @@ I’m dedicated to writing reliable, maintainable code, and I enjoy testing with
       Terminal
     </td>
     <td>
+      <a href="https://warp.dev/" target="_blank"><img src="/img/technologies/badge/warp.svg" alt="Warp badge" /></a>
       <a href="https://sw.kovidgoyal.net/kitty/" target="_blank"><img src="/img/technologies/badge/kitty.svg" alt="Kitty badge" /></a>
+      <a href="https://konsole.kde.org/" target="_blank"><img src="/img/technologies/badge/konsole.svg" alt="Konsole badge" /></a>
+      <a href="https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cmd" target="_blank"><img src="/img/technologies/badge/cmd.svg" alt="CMD badge" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Shell
+    </td>
+    <td>
       <a href="https://fishshell.com/" target="_blank"><img src="/img/technologies/badge/fish.svg" alt="Fish badge" /></a>
       <a href="https://zsh.sourceforge.io/" target="_blank"><img src="/img/technologies/badge/zsh.svg" alt="Zsh badge" /></a>
       <a href="https://www.gnu.org/software/bash/" target="_blank"><img src="/img/technologies/badge/bash.svg" alt="Bash badge" /></a>
@@ -575,6 +585,7 @@ I’m dedicated to writing reliable, maintainable code, and I enjoy testing with
     </td>
     <td>
       <a href="https://docs.github.com/en/actions" target="_blank"><img src="/img/technologies/badge/github-actions.svg" alt="Github Actions badge" /></a>
+      <a href="https://gitlab.com/" target="_blank"><img src="/img/technologies/badge/gitlab-ci-cd.svg" alt="GitLab CI/CD badge" /></a>
       <a href="https://typicode.github.io/husky/#/" target="_blank"><img src="/img/technologies/badge/husky.svg" alt="Husky badge" /></a>
       <a href="https://support.atlassian.com/bitbucket-cloud/docs/get-started-with-bitbucket-pipelines/" target="_blank"><img src="/img/technologies/badge/bitbucket.svg" alt="Bitbucket badge" /></a>
     </td>
