@@ -18,18 +18,18 @@ I’m dedicated to writing reliable, maintainable code, and I enjoy testing with
   <tr>
     <td>🔍 Find me</td>
     <td>
-      <a href="mailto:szymon.radomski@yahoo.com" target="_blank"><img src="https://img.shields.io/badge/Yahoo!-410093?logo=yahoo&logoColor=white" alt="Yahoo" /></a>
-      <a href="https://www.linkedin.com/in/szymon-radomski/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-      <a href="https://aplikacja.ceidg.gov.pl/ceidg/ceidg.public.ui/SearchDetails.aspx?Id=177fdeed-09b6-45a4-b255-78fb8ea8db16" target="_blank"><img src="https://img.shields.io/badge/CEIDG-BB0A30" alt="CEIDG" /></a>
-      <a href="https://wyszukiwarka-krs.ms.gov.pl/dane-szczegolowe-podmiotu;numerKRS=8956EYQf1XWH0%2FMfEQTuJA%3D%3D;typ=P" target="_blank"><img src="https://img.shields.io/badge/KRS-0052a5" alt="KRS" /></a>
+      <a href="https://www.linkedin.com/in/szymon-radomski/" target="_blank"><img src="/img/socials/badge/linkedin.svg" alt="LinkedIn badge" /></a>
+      <a href="mailto:szymon.radomski@yahoo.com" target="_blank"><img src="/img/socials/badge/mail.svg" alt="Gmail badge" /></a>
+      <a href="https://aplikacja.ceidg.gov.pl/ceidg/ceidg.public.ui/SearchDetails.aspx?Id=177fdeed-09b6-45a4-b255-78fb8ea8db16" target="_blank"><img src="/img/socials/badge/ceidg.svg" alt="CEIDG badge" /></a>
+      <a href="https://wyszukiwarka-krs.ms.gov.pl/dane-szczegolowe-podmiotu;numerKRS=8956EYQf1XWH0%2FMfEQTuJA%3D%3D;typ=P" target="_blank"><img src="/img/socials/badge/krs.svg" alt="KRS badge" /></a>
     </td>
   </tr>
   <tr>
     <td>🚀 Exists on</td>
     <td>
-      <a href="https://www.codewars.com/users/SzymCode" target="_blank"><img src="https://img.shields.io/badge/CodeWars-4%20KYU-1f5be7?logo=codewars&logoColor=white" alt="CodeWars" /></a>
-      <a href="https://app.hackthebox.com/profile/2421667" target="_blank"><img src="https://img.shields.io/badge/HTB-111927?logo=hackthebox&logoColor=9FEF00" alt="Hack The Box" /></a>
-      <a href="https://lichess.org/@/S1CChess" target="_blank"><img src="https://img.shields.io/badge/Lichess-000000?logo=lichess&logoColor=white" alt="Lichess" /></a>
+      <a href="https://www.codewars.com/users/SzymCode" target="_blank"><img src="/img/socials/badge/codewars.svg" alt="CodeWars badge" /></a>
+      <a href="https://app.hackthebox.com/profile/2421667" target="_blank"><img src="/img/socials/badge/htb.svg" alt="Hack The Box badge" /></a>
+      <a href="https://lichess.org/@/S1CChess" target="_blank"><img src="/img/socials/badge/lichess.svg" alt="Lichess badge" /></a>
     </td>
   </tr>
   <tr>
