@@ -37,7 +37,7 @@ I’m dedicated to writing reliable, maintainable code, and I enjoy testing with
     <td>
       <a href="https://nuxt.com/" target="_blank"><img src="/img/technologies/badge/nuxt.svg" alt="Nuxt badge" /></a>
       <a href="https://laravel.com/" target="_blank"><img src="/img/technologies/badge/laravel.svg" alt="Laravel badge" /></a>
-      <a href="https://www.docker.com/" target="_blank"><img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" alt="Docker" /></a>
+      <a href="https://www.docker.com/" target="_blank"><img src="/img/technologies/badge/docker.svg" alt="Docker badge" /></a>
     </td>
   </tr>
   <tr>
@@ -45,8 +45,8 @@ I’m dedicated to writing reliable, maintainable code, and I enjoy testing with
     <td>
       <a href="https://nextjs.org/" target="_blank"><img src="/img/technologies/badge/next.svg" alt="Next badge" /></a>
       <a href="https://react.dev/" target="_blank"><img src="/img/technologies/badge/react.svg" alt="React badge" /></a>
-      <a href="https://symfony.com/" target="_blank"><img src="/img/technologies/badge/symfony.svg" alt="Symfony badge" /></a>
-      <a href="https://kubernetes.io/" target="_blank"><img src="https://img.shields.io/badge/K8s-326CE5?&logo=kubernetes&logoColor=white" /></a>
+      <a href="https://astro.build/" target="_blank"><img src="/img/technologies/badge/astro.svg" alt="Astro badge" /></a>
+      <a href="https://kubernetes.io/" target="_blank"><img src="/img/technologies/badge/k8s.svg" alt="Kubernetes badge" /></a>
     </td>
   </tr>
 </table>
