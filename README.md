@@ -695,7 +695,7 @@ I’m dedicated to writing reliable, maintainable code, and I enjoy testing with
 <br>
 
 ![Profile Details](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SzymCode&theme=transparent)
-![Productive Time](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=SzymCode&theme=transparent&utcOffset=+1)
-![Productive Time](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SzymCode&theme=transparent&utcOffset=+1)
+![Productive Time](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=SzymCode&theme=transparent&utcOffset=+7)
+![Productive Time](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SzymCode&theme=transparent&utcOffset=+7)
 
 </details>  
