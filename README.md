@@ -12,7 +12,7 @@ I’m dedicated to writing reliable, maintainable code, and I enjoy testing with
   <tr>
     <td>⭐ Portfolio</td>
     <td>
-      <a href="https://datamanager.atomic-it.org" target="_blank"><img src="https://github.com/SzymCode/SzymCode/assets/107359025/8454470d-3f70-484a-b12e-b902530cb9ba" height="12"> DataManager</a>
+      <a href="https://nucleify.io" target="_blank"><img src="https://github.com/SzymCode/SzymCode/assets/107359025/8454470d-3f70-484a-b12e-b902530cb9ba" height="12"> Nucleify</a>
     </td>
   </tr>
   <tr>
@@ -67,8 +67,8 @@ I’m dedicated to writing reliable, maintainable code, and I enjoy testing with
   </th>
   <tr>
     <td>
-      <a href="https://datamanager.atomic-it.org" target="_blank">
-        DataManager
+      <a href="https://nucleify.io" target="_blank">
+        Nucleify
       </a>
     </td>
     <td>
