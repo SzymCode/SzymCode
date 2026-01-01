@@ -6,6 +6,8 @@ As a self-taught developer, I’m actively seeking challenging career opportunit
 
 I’m dedicated to writing reliable, maintainable code, and I enjoy testing with tools such as Pest, PHPUnit, Jest, Vitest, Cypress, and Storybook to ensure high quality. Beyond development, I’m experienced in DevOps, Docker, CI/CD, and passionate about cybersecurity.
 
+Founder and core developer of [Nucleify](https://nucleify.io) - a modular, core-driven framework ecosystem for building scalable Laravel and Nuxt applications. Actively developed for over two years, featuring multiple reusable modules and unique overrides mechanisms.
+
 <br>
 
 <table>
@@ -448,10 +450,11 @@ I’m dedicated to writing reliable, maintainable code, and I enjoy testing with
      <b> Main </b>
     </td>
     <td>
-      <a href="https://www.prestashop.com/" target="_blank"><img src="/img/technologies/badge/prestashop.svg" alt="PrestaShop badge" /></a>
-      <a href="https://laravel.com/" target="_blank"><img src="/img/technologies/badge/laravel.svg" alt="Laravel badge" /></a>
+      <a href="https://nextjs.org/" target="_blank"><img src="/img/technologies/badge/next.svg" alt="Next badge" /></a>
+      <a href="https://react.dev/" target="_blank"><img src="/img/technologies/badge/react.svg" alt="React badge" /></a>
       <a href="https://nuxt.com/" target="_blank"><img src="/img/technologies/badge/nuxt.svg" alt="Nuxt badge" /></a>
       <a href="https://vuejs.org/" target="_blank"><img src="/img/technologies/badge/vue.svg" alt="Vue badge" /></a>
+      <a href="https://laravel.com/" target="_blank"><img src="/img/technologies/badge/laravel.svg" alt="Laravel badge" /></a>
       <a href="https://sass-lang.com/" target="_blank"><img src="/img/technologies/badge/sass.svg" alt="Sass badge" /></a>
       <a href="https://www.chartjs.org/" target="_blank"><img src="/img/technologies/badge/chart-js.svg" alt="Chart.js badge" /></a>
       <a href="https://storybook.js.org/" target="_blank"><img src="/img/technologies/badge/storybook.svg" alt="Storybook badge" /></a>
@@ -463,9 +466,8 @@ I’m dedicated to writing reliable, maintainable code, and I enjoy testing with
       Intermediate
     </td>
     <td>
+      <a href="https://www.prestashop.com/" target="_blank"><img src="/img/technologies/badge/prestashop.svg" alt="PrestaShop badge" /></a>
       <a href="https://symfony.com/" target="_blank"><img src="/img/technologies/badge/symfony.svg" alt="Symfony badge" /></a>
-      <a href="https://nextjs.org/" target="_blank"><img src="/img/technologies/badge/next.svg" alt="Next badge" /></a>
-      <a href="https://react.dev/" target="_blank"><img src="/img/technologies/badge/react.svg" alt="React badge" /></a>
       <a href="https://www.djangoproject.com/" target="_blank"><img src="/img/technologies/badge/django.svg" alt="Django badge" /></a>
       <a href="https://ui.shadcn.com/" target="_blank"><img src="/img/technologies/badge/shadcn.svg" alt="shadcn badge" /></a>
       <a href="https://tailwindcss.com/" target="_blank"><img src="/img/technologies/badge/tailwind.svg" alt="Tailwind badge" /></a>
