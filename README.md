@@ -1,7 +1,11 @@
-<h2 align="center">
-  Hi, I'm Szymon
-</h2>
+<div align="center">
+  
+## Hi, I'm Szymon
 
+**English** | [Polski](README_PL.md)
+
+</div>
+  
 As a self-taught developer, I’m actively seeking challenging career opportunities where I can grow and contribute. Every day, I work with technologies like **Laravel**, **Nuxt**, **Vue**, **Next**, **React**, **Symfony**, Django, Prestashop and WordPress, crafting user-friendly interfaces with CSS3/SCSS, PrimeVue, GSAP, Tailwind and Material UI.
 
 I’m dedicated to writing reliable, maintainable code, and I enjoy testing with tools such as Pest, PHPUnit, Jest, Vitest, Cypress, and Storybook to ensure high quality. Beyond development, I’m experienced in DevOps, Docker, CI/CD, and passionate about cybersecurity.
