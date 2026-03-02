@@ -10,7 +10,7 @@ As a self-taught developer, I’m actively seeking challenging career opportunit
 
 I’m dedicated to writing reliable, maintainable code, and I enjoy testing with tools such as Pest, PHPUnit, Jest, Vitest, Cypress, and Storybook to ensure high quality. Beyond development, I’m experienced in DevOps, Docker, CI/CD, and passionate about cybersecurity.
 
-Founder and core developer of [Nucleify](https://nucleify.io) - a modular, core-driven framework ecosystem for building scalable Laravel and Nuxt applications. Actively developed for over two years, featuring multiple reusable modules and unique overrides mechanisms.
+Founder and core developer of [Nucleify](https://nucleify.io/en/home) - a modular, core-driven framework ecosystem for building scalable Laravel and Nuxt applications. Actively developed for over two years, featuring multiple reusable modules and unique overrides mechanisms.
 
 <br>
 
@@ -18,7 +18,7 @@ Founder and core developer of [Nucleify](https://nucleify.io) - a modular, core-
   <tr>
     <td>⭐ Portfolio</td>
     <td>
-      <a href="https://nucleify.io" target="_blank"><img src="https://github.com/SzymCode/SzymCode/assets/107359025/8454470d-3f70-484a-b12e-b902530cb9ba" height="12"> Nucleify</a>
+      <a href="https://nucleify.io/en/home" target="_blank"><img src="https://github.com/SzymCode/SzymCode/assets/107359025/8454470d-3f70-484a-b12e-b902530cb9ba" height="12"> Nucleify</a>
     </td>
   </tr>
   <tr>
@@ -73,7 +73,7 @@ Founder and core developer of [Nucleify](https://nucleify.io) - a modular, core-
   </th>
   <tr>
     <td>
-      <a href="https://nucleify.io" target="_blank">
+      <a href="https://nucleify.io/en/home" target="_blank">
         Nucleify
       </a>
     </td>
