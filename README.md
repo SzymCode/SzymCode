@@ -62,6 +62,208 @@ Founder and core developer of [Nucleify](https://nucleify.io/en/home) - a modula
 
 
 
+<details><summary> <img src="https://github.com/SzymCode/SzymCode/assets/107359025/8454470d-3f70-484a-b12e-b902530cb9ba" height="12"> Nucleify </summary>
+<br>
+
+Nucleify is a modern, modular full-stack framework (built with Laravel + Vue/Nuxt) designed to speed up building websites, CMSs, and web apps - without the pain of legacy CMS systems.
+Want to create fast, organized web projects with best practices and full control over the code? Nucleify is your tool.
+
+### Modules
+
+<table>
+  <tr>
+    <td align="center" rowspan="5"><b>⚙️<br>Core</b></td>
+    <td><a href="https://github.com/Nucleify/nuc_api" target="_blank">nuc_api</a></td>
+    <td>Frontend API layer with request handling and error/success composables</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_database" target="_blank">nuc_database</a></td>
+    <td>Auto-discovers and runs seeders from enabled modules</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_globals" target="_blank">nuc_globals</a></td>
+    <td>App-wide constants, image URLs and environment helpers</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_modules" target="_blank">nuc_modules</a></td>
+    <td>Install, uninstall and configure modules at runtime</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_overrides" target="_blank">nuc_overrides</a></td>
+    <td>Override mechanism to replace core files selectively</td>
+  </tr>
+  <tr><td colspan="3"></td></tr>
+  <tr>
+    <td align="center" rowspan="4"><b>🔐<br>Auth &<br>Social</b></td>
+    <td><a href="https://github.com/Nucleify/nuc_auth" target="_blank">nuc_auth</a></td>
+    <td>Login, registration pages and test-login buttons</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_users" target="_blank">nuc_users</a></td>
+    <td>User profile dashboard and account management</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_friendship" target="_blank">nuc_friendship</a></td>
+    <td>Friend requests, lists, blocking and user popovers</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_share" target="_blank">nuc_share</a></td>
+    <td>Share dialogs, tabs and incoming share requests</td>
+  </tr>
+  <tr><td colspan="3"></td></tr>
+  <tr>
+    <td align="center" rowspan="4"><b>📦<br>Entities<br>& Data</b></td>
+    <td><a href="https://github.com/Nucleify/nuc_entities" target="_blank">nuc_entities</a></td>
+    <td>CRUD pages and dashboards for articles, contacts and money</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_entities_structural" target="_blank">nuc_entities_structural</a></td>
+    <td>CRUD for structural entities like questions and technologies</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_activity" target="_blank">nuc_activity</a></td>
+    <td>Activity log dashboard with chart and datatable</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_files" target="_blank">nuc_files</a></td>
+    <td>Upload, browse and organize files</td>
+  </tr>
+  <tr><td colspan="3"></td></tr>
+  <tr>
+    <td align="center" rowspan="5"><b>🧩<br>UI<br>Compo-<br>nents</b></td>
+    <td><a href="https://github.com/Nucleify/nuc_datatable" target="_blank">nuc_datatable</a></td>
+    <td>Data tables with sorting, filtering and pagination</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_charts" target="_blank">nuc_charts</a></td>
+    <td>Chart.js entity charts with configurable settings</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_dialog" target="_blank">nuc_dialog</a></td>
+    <td>Modal component for forms and confirmations</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_fields" target="_blank">nuc_fields</a></td>
+    <td>Field validation and getter helpers for forms</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_tooltip" target="_blank">nuc_tooltip</a></td>
+    <td>v-tooltip Vue directive for hover hints</td>
+  </tr>
+  <tr><td colspan="3"></td></tr>
+  <tr>
+    <td align="center" rowspan="5"><b>📄<br>Pages &<br>Layout</b></td>
+    <td><a href="https://github.com/Nucleify/nuc_pages" target="_blank">nuc_pages</a></td>
+    <td>Marketing and legal pages: home, about, GDPR, privacy, 404</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_sections" target="_blank">nuc_sections</a></td>
+    <td>Navbar, footer, contact form, email-us and FAQ</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_admin" target="_blank">nuc_admin</a></td>
+    <td>Administration panel page and layout</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_documentation" target="_blank">nuc_documentation</a></td>
+    <td>Docs viewer with sidebar, TOC and pagination</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_settings" target="_blank">nuc_settings</a></td>
+    <td>Settings page with menu tree and config panels</td>
+  </tr>
+  <tr><td colspan="3"></td></tr>
+  <tr>
+    <td align="center" rowspan="5"><b>🎨<br>Visual &<br>Theming</b></td>
+    <td><a href="https://github.com/Nucleify/nuc_animations" target="_blank">nuc_animations</a></td>
+    <td>Bounce, hexagons, scroll and split-text animations</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_colors" target="_blank">nuc_colors</a></td>
+    <td>Color theming with picker and SSR-aware plugins</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_dark_mode" target="_blank">nuc_dark_mode</a></td>
+    <td>Dark/light mode toggler with persistence</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_screen_lights" target="_blank">nuc_screen_lights</a></td>
+    <td>Ambient light bars at screen edges</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_screen_loader" target="_blank">nuc_screen_loader</a></td>
+    <td>Splash loader with logo and progress bar</td>
+  </tr>
+  <tr><td colspan="3"></td></tr>
+  <tr>
+    <td align="center" rowspan="5"><b>🔧<br>State &<br>Utilities</b></td>
+    <td><a href="https://github.com/Nucleify/nuc_stores" target="_blank">nuc_stores</a></td>
+    <td>Pinia, cookies, localStorage and sessionStorage adapters</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_loading" target="_blank">nuc_loading</a></td>
+    <td>useLoading composable and throttle control</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_performance" target="_blank">nuc_performance</a></td>
+    <td>Deferred CSS, lazy images and layout optimizations</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_media" target="_blank">nuc_media</a></td>
+    <td>Media-query helpers for client, desktop and mobile</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_time" target="_blank">nuc_time</a></td>
+    <td>Countdowns, days/hours/minutes left helpers</td>
+  </tr>
+  <tr><td colspan="3"></td></tr>
+  <tr>
+    <td align="center" rowspan="5"><b>🏗️<br>Builder &<br>Nav</b></td>
+    <td><a href="https://github.com/Nucleify/nuc_pagebuilder" target="_blank">nuc_pagebuilder</a></td>
+    <td>Drag-and-drop page builder with widgets and inspector</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_templates" target="_blank">nuc_templates</a></td>
+    <td>Author cards, cube, grid backgrounds, badges and more</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_dock" target="_blank">nuc_dock</a></td>
+    <td>macOS-inspired dock bar with app icons and popovers</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_navigation" target="_blank">nuc_navigation</a></td>
+    <td>Navigation components and contextual back button</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_pricings" target="_blank">nuc_pricings</a></td>
+    <td>Pricing plan section for tiered offerings</td>
+  </tr>
+  <tr><td colspan="3"></td></tr>
+  <tr>
+    <td align="center" rowspan="4"><b>🛠️<br>Dev<br>Tools</b></td>
+    <td><a href="https://github.com/Nucleify/nuc_tests" target="_blank">nuc_tests</a></td>
+    <td>Pest PHP test helpers, assertions and traits</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_openapi" target="_blank">nuc_openapi</a></td>
+    <td>OpenAPI 3.0 spec generation and Swagger UI</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_languages" target="_blank">nuc_languages</a></td>
+    <td>i18n switcher with locale files (EN, PL, VN)</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Nucleify/nuc_terminal" target="_blank">nuc_terminal</a></td>
+    <td>In-browser terminal with Artisan-style prompt</td>
+  </tr>
+</table>
+<br>
+</details>
+
+</details>
+<br>
+
+
 <details> <summary> 🔗 Projects </summary>
 <br>
 <table>
@@ -705,3 +907,4 @@ Founder and core developer of [Nucleify](https://nucleify.io/en/home) - a modula
 ![Productive Time](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SzymCode&theme=transparent&utcOffset=+7)
 
 </details>  
+
