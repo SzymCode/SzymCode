@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+cd "$(dirname "$0")/.." || exit 1
+
+pnpm postinstall
+pnpm check
+pnpm typeslint
+pnpm slint
+pnpm tests

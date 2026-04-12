@@ -1,0 +1,13 @@
+{
+  "extends": ["stylelint-config-standard-scss"],
+  "rules": {
+    "import-notation": null,
+    "media-query-no-invalid": null,
+    "media-feature-range-notation": null,
+    "at-rule-no-unknown": null,
+    "selector-pseudo-class-no-unknown": null,
+    "scss/comment-no-empty": null,
+    "no-descending-specificity": null
+  },
+  "ignoreFiles": ["**/*.vue"]
+}
