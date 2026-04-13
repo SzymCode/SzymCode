@@ -1,0 +1,490 @@
+:root {
+  --rainbow-0: hsl(132deg 55% 52%);
+  --rainbow-1: hsl(210deg 85% 58%);
+  --rainbow-2: hsl(258deg 70% 62%);
+  --rainbow-3: hsl(292deg 65% 62%);
+  --rainbow-4: hsl(0deg 85% 58%);
+  --rainbow-5: hsl(32deg 95% 56%);
+  --rainbow-6: hsl(52deg 95% 58%);
+  --rainbow-cycle-duration: 60s;
+  --rainbow-border-0: hsl(132deg 58% 62%);
+  --rainbow-border-1: hsl(210deg 88% 68%);
+  --rainbow-border-2: hsl(258deg 72% 70%);
+  --rainbow-border-3: hsl(292deg 68% 70%);
+  --rainbow-border-4: hsl(0deg 88% 68%);
+  --rainbow-border-5: hsl(32deg 96% 66%);
+  --rainbow-border-6: hsl(52deg 96% 68%);
+  --rainbow-glow-0: hsl(132deg 58% 62% / 48%);
+  --rainbow-glow-1: hsl(210deg 88% 68% / 48%);
+  --rainbow-glow-2: hsl(258deg 72% 70% / 48%);
+  --rainbow-glow-3: hsl(292deg 68% 70% / 48%);
+  --rainbow-glow-4: hsl(0deg 88% 68% / 48%);
+  --rainbow-glow-5: hsl(32deg 96% 66% / 48%);
+  --rainbow-glow-6: hsl(52deg 96% 68% / 48%);
+
+}
+
+@keyframes rainbow-text-cycle {
+  0% {
+    color: var(--rainbow-0);
+  }
+
+  12.5% {
+    color: var(--rainbow-1);
+  }
+
+  25% {
+    color: var(--rainbow-2);
+  }
+
+  37.5% {
+    color: var(--rainbow-3);
+  }
+
+  50% {
+    color: var(--rainbow-4);
+  }
+
+  62.5% {
+    color: var(--rainbow-5);
+  }
+
+  75% {
+    color: var(--rainbow-6);
+  }
+
+  87.5% {
+    color: var(--rainbow-6);
+  }
+
+  100% {
+    color: var(--rainbow-0);
+  }
+}
+
+@keyframes rainbow-bg-cycle {
+  0% {
+    background-color: var(--rainbow-0);
+  }
+
+  12.5% {
+    background-color: var(--rainbow-1);
+  }
+
+  25% {
+    background-color: var(--rainbow-2);
+  }
+
+  37.5% {
+    background-color: var(--rainbow-3);
+  }
+
+  50% {
+    background-color: var(--rainbow-4);
+  }
+
+  62.5% {
+    background-color: var(--rainbow-5);
+  }
+
+  75% {
+    background-color: var(--rainbow-6);
+  }
+
+  87.5% {
+    background-color: var(--rainbow-6);
+  }
+
+  100% {
+    background-color: var(--rainbow-0);
+  }
+}
+
+@keyframes rainbow-fill-cycle {
+  0% {
+    fill: var(--rainbow-0);
+  }
+
+  12.5% {
+    fill: var(--rainbow-1);
+  }
+
+  25% {
+    fill: var(--rainbow-2);
+  }
+
+  37.5% {
+    fill: var(--rainbow-3);
+  }
+
+  50% {
+    fill: var(--rainbow-4);
+  }
+
+  62.5% {
+    fill: var(--rainbow-5);
+  }
+
+  75% {
+    fill: var(--rainbow-6);
+  }
+
+  87.5% {
+    fill: var(--rainbow-6);
+  }
+
+  100% {
+    fill: var(--rainbow-0);
+  }
+}
+
+@keyframes rainbow-border-cycle {
+  0% {
+    border-color: var(--rainbow-border-0);
+  }
+
+  12.5% {
+    border-color: var(--rainbow-border-1);
+  }
+
+  25% {
+    border-color: var(--rainbow-border-2);
+  }
+
+  37.5% {
+    border-color: var(--rainbow-border-3);
+  }
+
+  50% {
+    border-color: var(--rainbow-border-4);
+  }
+
+  62.5% {
+    border-color: var(--rainbow-border-5);
+  }
+
+  75% {
+    border-color: var(--rainbow-border-6);
+  }
+
+  87.5% {
+    border-color: var(--rainbow-border-6);
+  }
+
+  100% {
+    border-color: var(--rainbow-border-0);
+  }
+}
+
+@keyframes rainbow-shadow-cycle {
+  0% {
+    box-shadow:
+      0 0 24px var(--rainbow-0);
+  }
+
+  12.5% {
+    box-shadow:
+      0 0 24px var(--rainbow-1);
+  }
+
+  25% {
+    box-shadow:
+      0 0 24px var(--rainbow-2);
+  }
+
+  37.5% {
+    box-shadow:
+      0 0 24px var(--rainbow-3);
+  }
+
+  50% {
+    box-shadow:
+      0 0 24px var(--rainbow-4);
+  }
+
+  62.5% {
+    box-shadow:
+      0 0 24px var(--rainbow-5);
+  }
+
+  75% {
+    box-shadow:
+      0 0 24px var(--rainbow-6);
+  }
+
+  87.5% {
+    box-shadow:
+      0 0 24px var(--rainbow-6);
+  }
+
+  100% {
+    box-shadow:
+      0 0 24px var(--rainbow-0);
+  }
+}
+
+@keyframes rainbow-grid-hue-spin {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  12.5% {
+    filter: hue-rotate(78deg);
+  }
+
+  25% {
+    filter: hue-rotate(126deg);
+  }
+
+  37.5% {
+    filter: hue-rotate(160deg);
+  }
+
+  50% {
+    filter: hue-rotate(228deg);
+  }
+
+  62.5% {
+    filter: hue-rotate(260deg);
+  }
+
+  75% {
+    filter: hue-rotate(280deg);
+  }
+
+  87.5% {
+    filter: hue-rotate(280deg);
+  }
+
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes rainbow-grid-glow-hue-spin {
+  0% {
+    filter: blur(40px) hue-rotate(0deg);
+  }
+
+  12.5% {
+    filter: blur(40px) hue-rotate(78deg);
+  }
+
+  25% {
+    filter: blur(40px) hue-rotate(126deg);
+  }
+
+  37.5% {
+    filter: blur(40px) hue-rotate(160deg);
+  }
+
+  50% {
+    filter: blur(40px) hue-rotate(228deg);
+  }
+
+  62.5% {
+    filter: blur(40px) hue-rotate(260deg);
+  }
+
+  75% {
+    filter: blur(40px) hue-rotate(280deg);
+  }
+
+  87.5% {
+    filter: blur(40px) hue-rotate(280deg);
+  }
+
+  100% {
+    filter: blur(40px) hue-rotate(360deg);
+  }
+}
+
+@mixin rainbow-color($index) {
+  color: var(--rainbow-#{$index});
+}
+
+@mixin rainbow-bg($index) {
+  background-color: var(--rainbow-#{$index});
+}
+
+@mixin rainbow-border($index, $width: 1px, $style: solid) {
+  border: $width $style var(--rainbow-#{$index});
+}
+
+@mixin rainbow-fill($index) {
+  fill: var(--rainbow-#{$index});
+}
+
+@mixin rainbow-text-auto($duration: null) {
+  $d: if($duration == null, var(--rainbow-cycle-duration, 10s), $duration);
+
+  animation: rainbow-text-cycle $d linear infinite;
+}
+
+@mixin rainbow-bg-auto($duration: null) {
+  $d: if($duration == null, var(--rainbow-cycle-duration, 10s), $duration);
+
+  animation: rainbow-bg-cycle $d linear infinite;
+}
+
+@mixin rainbow-fill-auto($duration: null) {
+  $d: if($duration == null, var(--rainbow-cycle-duration, 10s), $duration);
+
+  animation: rainbow-fill-cycle $d linear infinite;
+}
+
+@mixin rainbow-border-auto($duration: null) {
+  $d: if($duration == null, var(--rainbow-cycle-duration, 10s), $duration);
+
+  border: 2px solid var(--rainbow-border-0);
+  animation: rainbow-border-cycle $d linear infinite;
+}
+
+@mixin rainbow-bg-border-auto($duration: null) {
+  $d: if($duration == null, var(--rainbow-cycle-duration, 10s), $duration);
+
+  border: 2px solid var(--rainbow-border-0);
+  animation:
+    rainbow-bg-cycle $d linear infinite,
+    rainbow-border-cycle $d linear infinite;
+}
+
+@mixin rainbow-bg-border-glow-hover-auto($duration: null) {
+  $d: if($duration == null, var(--rainbow-cycle-duration, 10s), $duration);
+
+  @include rainbow-bg-border-auto($duration);
+
+  position: relative;
+  isolation: isolate;
+
+  &::after {
+    content: '';
+    position: absolute;
+    inset: -1px;
+    border-radius: inherit;
+    pointer-events: none;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+    animation: rainbow-shadow-cycle $d linear infinite;
+  }
+
+  &:hover::after,
+  &:focus-visible::after {
+    opacity: 1;
+  }
+}
+
+.rainbow-text-auto {
+  @include rainbow-text-auto;
+}
+
+.rainbow-bg-auto {
+  @include rainbow-bg-auto;
+}
+
+.rainbow-fill-auto {
+  @include rainbow-fill-auto;
+}
+
+.rainbow-border-auto {
+  @include rainbow-border-auto;
+}
+
+.rainbow-bg-border-auto {
+  @include rainbow-bg-border-auto;
+}
+
+.rainbow-bg-border-glow-hover-auto {
+  @include rainbow-bg-border-glow-hover-auto;
+}
+
+.rainbow-grid-lines-auto {
+  background-image:
+    linear-gradient(
+      color-mix(in srgb, var(--rainbow-0) 20%, transparent) 1px,
+      color-mix(in srgb, var(--rainbow-0) 8%, transparent) 1px
+    ),
+    linear-gradient(
+      90deg,
+      color-mix(in srgb, var(--rainbow-0) 20%, transparent) 1px,
+      color-mix(in srgb, var(--rainbow-0) 8%, transparent) 1px
+    );
+  animation: rainbow-grid-hue-spin var(--rainbow-cycle-duration, 60s) linear infinite;
+}
+
+.rainbow-grid-glow-auto {
+  background: radial-gradient(
+    circle,
+    color-mix(in srgb, var(--rainbow-0) 20%, transparent) 0%,
+    color-mix(in srgb, var(--rainbow-0) 9%, transparent) 45%,
+    transparent 70%
+  );
+  animation: rainbow-grid-glow-hue-spin var(--rainbow-cycle-duration, 60s) linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rainbow-text-auto,
+  .rainbow-bg-auto,
+  .rainbow-fill-auto,
+  .rainbow-border-auto,
+  .rainbow-bg-border-auto,
+  .rainbow-bg-border-glow-hover-auto,
+  .rainbow-grid-lines-auto,
+  .rainbow-grid-glow-auto {
+    animation: none !important;
+  }
+
+  .rainbow-grid-lines-auto {
+    filter: none;
+    background-image:
+      linear-gradient(
+        color-mix(in srgb, var(--rainbow-0) 20%, transparent) 1px,
+        color-mix(in srgb, var(--rainbow-0) 8%, transparent) 1px
+      ),
+      linear-gradient(
+        90deg,
+        color-mix(in srgb, var(--rainbow-0) 20%, transparent) 1px,
+        color-mix(in srgb, var(--rainbow-0) 8%, transparent) 1px
+      );
+  }
+
+  .rainbow-grid-glow-auto {
+    filter: blur(40px);
+    background: radial-gradient(
+      circle,
+      color-mix(in srgb, var(--rainbow-0) 20%, transparent) 0%,
+      color-mix(in srgb, var(--rainbow-0) 9%, transparent) 45%,
+      transparent 70%
+    );
+  }
+
+  .rainbow-bg-border-glow-hover-auto::after {
+    animation: none !important;
+    opacity: 0 !important;
+    box-shadow: none !important;
+  }
+
+  .rainbow-text-auto {
+    color: var(--rainbow-0);
+  }
+
+  .rainbow-bg-auto {
+    background-color: var(--rainbow-0);
+  }
+
+  .rainbow-fill-auto {
+    fill: var(--rainbow-0);
+  }
+
+  .rainbow-border-auto,
+  .rainbow-bg-border-auto,
+  .rainbow-bg-border-glow-hover-auto {
+    border-color: var(--rainbow-border-0);
+  }
+
+  .rainbow-bg-border-auto,
+  .rainbow-bg-border-glow-hover-auto {
+    background-color: var(--rainbow-0);
+  }
+}
