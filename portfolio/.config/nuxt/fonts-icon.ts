@@ -3,7 +3,7 @@ export const googleFontsConfig = {
   families: {
     Inter: '300..700',
   },
-  display: 'swap' as const,
+  display: 'optional' as const,
   subsets: ['latin'],
   preload: true,
   prefetch: false,

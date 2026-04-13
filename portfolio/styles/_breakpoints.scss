@@ -1,0 +1,55 @@
+$bp-xxs: 22.5rem; // 360px
+$bp-xs: 30rem; // 480px
+$bp-sm: 36rem; // 576px
+$bp-md: 48rem; // 768px
+$bp-lg: 56rem; // 896px
+$bp-xl: 75rem; // 1200px
+$bp-2xl: 90rem; // 1440px
+
+@mixin bp-from($min-width) {
+  @media (width >= $min-width) {
+    @content;
+  }
+}
+
+@mixin bp-xxs-up {
+  @include bp-from($bp-xxs) {
+    @content;
+  }
+}
+
+@mixin bp-xs-up {
+  @include bp-from($bp-xs) {
+    @content;
+  }
+}
+
+@mixin bp-sm-up {
+  @include bp-from($bp-sm) {
+    @content;
+  }
+}
+
+@mixin bp-md-up {
+  @include bp-from($bp-md) {
+    @content;
+  }
+}
+
+@mixin bp-lg-up {
+  @include bp-from($bp-lg) {
+    @content;
+  }
+}
+
+@mixin bp-xl-up {
+  @include bp-from($bp-xl) {
+    @content;
+  }
+}
+
+@mixin bp-2xl-up {
+  @include bp-from($bp-2xl) {
+    @content;
+  }
+}
