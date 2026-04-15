@@ -1,7 +1,7 @@
 <template>
-  <nav id="navbar">
+  <nav id="navbar" aria-label="Nawigacja główna">
     <div class="navbar-container">
-      <NuxtLink class="navbar-logo" to="#start">
+      <NuxtLink class="navbar-logo" to="#start" @click="closeMenu">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 256 256"
@@ -25,6 +25,20 @@
         </svg>
         <span class="navbar-logo-text rainbow-text-auto">SzymCode</span>
       </NuxtLink>
+
+      <button
+        type="button"
+        class="navbar-menu-toggle"
+        :aria-expanded="menuOpen"
+        :aria-controls="MOBILE_PANEL_ID"
+        :aria-label="menuOpen ? 'Zamknij menu' : 'Otwórz menu'"
+        @click="toggleMenu"
+      >
+        <span class="navbar-menu-toggle-bar" aria-hidden="true" />
+        <span class="navbar-menu-toggle-bar" aria-hidden="true" />
+        <span class="navbar-menu-toggle-bar" aria-hidden="true" />
+      </button>
+
       <div class="navbar-links">
         <NuxtLink
           v-for="link in navLinks"
@@ -49,6 +63,66 @@
         />
       </div>
     </div>
+
+    <Teleport to="body">
+      <Transition
+        name="navbar-overlay"
+        :duration="{ enter: overlayEnterMs, leave: 300 }"
+      >
+        <div
+          v-show="menuOpen"
+          :id="MOBILE_PANEL_ID"
+          class="navbar-overlay"
+          role="dialog"
+          aria-modal="true"
+          aria-label="Menu nawigacji"
+        >
+          <div
+            class="navbar-overlay-scrim"
+            aria-hidden="true"
+            @click="closeMenu"
+          />
+          <button
+            type="button"
+            class="navbar-overlay-close"
+            aria-label="Zamknij menu"
+            @click="closeMenu"
+          >
+            <Icon name="mdi:close" class="navbar-overlay-close-icon" />
+          </button>
+          <div class="navbar-overlay-content">
+            <ul class="navbar-overlay-list">
+              <li
+                v-for="link in navLinks"
+                :key="link.to"
+                class="navbar-overlay-item"
+              >
+                <NuxtLink
+                  class="navbar-overlay-link"
+                  :to="link.to"
+                  @click="closeMenu"
+                >
+                  {{ link.label }}
+                </NuxtLink>
+              </li>
+            </ul>
+            <div
+              class="navbar-overlay-cta-wrap"
+              :style="{
+                '--navbar-cta-delay': `${90 + (navLinks.length - 1) * 55 + 200}ms`,
+              }"
+            >
+              <CTAButton
+                text="Umów konsultację"
+                href="https://calendly.com/szymcode/it-mentoring-consultation"
+                target="_blank"
+                @click="closeMenu"
+              />
+            </div>
+          </div>
+        </div>
+      </Transition>
+    </Teleport>
   </nav>
 </template>
 
@@ -62,26 +136,144 @@ const navLinks = [
   { to: '#faq', label: 'FAQ' },
   { to: '#contact', label: 'Kontakt' },
 ] as const
+
+const MOBILE_PANEL_ID = 'navbar-mobile-panel'
+
+const overlayEnterMs = computed(() => {
+  const n = navLinks.length
+  const stagger = 55
+  const riseMs = 480
+  const firstDelay = 90
+  const tail = 60
+  const lastLinkDone = firstDelay + Math.max(0, n - 1) * stagger + riseMs
+  return Math.min(1800, Math.max(920, lastLinkDone + riseMs + tail))
+})
+
+const menuOpen = ref(false)
+
+function closeMenu() {
+  menuOpen.value = false
+}
+
+function toggleMenu() {
+  menuOpen.value = !menuOpen.value
+}
+
+function syncOverlayRainbowPhase() {
+  if (!import.meta.client) {
+    return
+  }
+  const panel = document.getElementById(MOBILE_PANEL_ID)
+  if (!panel) {
+    return
+  }
+  const raw = getComputedStyle(document.documentElement)
+    .getPropertyValue('--rainbow-cycle-duration')
+    .trim()
+  const parsed = Number.parseFloat(raw)
+  let ms = 60_000
+  if (!Number.isNaN(parsed) && parsed > 0) {
+    ms = raw.endsWith('ms') ? parsed : parsed * 1000
+  }
+  const delaySec = -((performance.now() % ms) / 1000)
+  panel.style.setProperty('--rainbow-overlay-phase', `${delaySec}s`)
+}
+
+watch(
+  menuOpen,
+  (open: boolean) => {
+    if (!import.meta.client) {
+      return
+    }
+    document.body.style.overflow = open ? 'hidden' : ''
+    if (open) {
+      syncOverlayRainbowPhase()
+    }
+  },
+  { flush: 'sync' }
+)
+
+onUnmounted(() => {
+  if (import.meta.client) {
+    document.body.style.overflow = ''
+  }
+})
+
+onMounted(() => {
+  if (!import.meta.client) {
+    return
+  }
+  const onEscape = (e: KeyboardEvent) => {
+    if (e.key === 'Escape') {
+      closeMenu()
+    }
+  }
+  const minWidthDesktop = window.matchMedia('(min-width: 56rem)')
+
+  const onDesktop = () => {
+    if (minWidthDesktop.matches) {
+      closeMenu()
+    }
+  }
+
+  window.addEventListener('keydown', onEscape)
+  minWidthDesktop.addEventListener('change', onDesktop)
+
+  onUnmounted(() => {
+    window.removeEventListener('keydown', onEscape)
+    minWidthDesktop.removeEventListener('change', onDesktop)
+  })
+})
 </script>
 
 <style lang="scss">
+@use '../styles/breakpoints' as *;
+
+$nav-ease: cubic-bezier(0.22, 1, 0.36, 1);
+
+@mixin nav-focus-ring {
+  &:focus-visible {
+    outline: 2px solid color-mix(in srgb, var(--rainbow-0) 70%, transparent);
+    outline-offset: 2px;
+  }
+}
+
+@keyframes navbar-overlay-rise {
+  from {
+    opacity: 0;
+    transform: translateY(1.35rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 #navbar {
   position: fixed;
-  top: 0;
-  left: 0;
+  inset: 0 0 auto;
   width: 100%;
   z-index: 100;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
-  backdrop-filter: blur(0.5rem);
-  background-color: #00000050;
+  padding-block: clamp(0.75rem, 0.25rem + 1.25vw, 1rem);
+  padding-inline: clamp(1rem, 4vw, 1.5rem);
+  background: #000;
+  border-bottom: 1px solid color-mix(in srgb, #fff 6%, transparent);
+
+  @include bp-lg-up {
+    backdrop-filter: blur(0.5rem);
+    background: rgb(0 0 0 / 50%);
+    border-bottom: none;
+  }
 
   .navbar-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 1rem;
     width: 100%;
     max-width: 1200px;
   }
@@ -89,50 +281,233 @@ const navLinks = [
   .navbar-logo {
     display: flex;
     align-items: center;
-    gap: 1rem;
-    color: white;
-    text-decoration: none;
-    font-size: 1.5rem;
+    gap: 0.75rem;
+    min-width: 0;
+    color: #fff;
+    font-size: clamp(1.125rem, 4vw, 1.5rem);
     font-weight: 700;
+    text-decoration: none;
 
-    .navbar-logo-mark {
-      display: block;
-      width: 3rem;
-      height: 3rem;
+    &-mark {
       flex-shrink: 0;
+      display: block;
+      width: clamp(2.25rem, 8vw, 3rem);
+      height: clamp(2.25rem, 8vw, 3rem);
+    }
+  }
+
+  .navbar-menu-toggle {
+    @include nav-focus-ring;
+
+    display: grid;
+    place-content: center;
+    gap: 0.35rem;
+    flex-shrink: 0;
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+    border: none;
+    border-radius: 0.375rem;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+
+    @include bp-lg-up {
+      display: none;
+    }
+
+    &-bar {
+      width: 1.5rem;
+      height: 2px;
+      border-radius: 1px;
+      background: currentcolor;
     }
   }
 
   .navbar-links {
-    display: flex;
+    display: none;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 3rem;
+    justify-content: flex-end;
+    gap: clamp(1rem, 2vw, 3rem);
 
-    .navbar-link {
-      text-decoration: none;
-      font-size: 1.125rem;
-      font-weight: 300;
+    @include bp-lg-up {
+      display: flex;
     }
 
-    .navbar-link-stack {
-      display: inline-grid;
-      align-items: center;
+    .navbar-link {
+      font-size: 1.125rem;
+      font-weight: 300;
+      text-decoration: none;
 
-      & > * {
-        grid-area: 1 / 1;
+      &-stack {
+        display: inline-grid;
+        align-items: center;
+
+        & > * {
+          grid-area: 1 / 1;
+        }
+      }
+
+      &-idle {
+        position: relative;
+        z-index: 1;
+        color: #fff;
+        transition: opacity 0.2s ease;
+      }
+
+      &:is(:hover, :focus-visible) &-idle {
+        opacity: 0;
+      }
+    }
+  }
+}
+
+.navbar-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4.5rem 1.5rem 2rem;
+
+  @include bp-lg-up {
+    display: none;
+  }
+
+  &.navbar-overlay-leave-active {
+    transition: opacity 0.3s ease;
+  }
+
+  &.navbar-overlay-leave-to {
+    opacity: 0;
+  }
+
+  &-scrim {
+    position: absolute;
+    inset: 0;
+    background: rgb(0 0 0 / 72%);
+    backdrop-filter: blur(10px);
+  }
+
+  &-close {
+    @include nav-focus-ring;
+
+    position: absolute;
+    top: 0.9rem;
+    right: 1rem;
+    z-index: 2;
+    display: grid;
+    place-content: center;
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+    border: none;
+    border-radius: 0.375rem;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+
+    &-icon {
+      width: 1.75rem;
+      height: 1.75rem;
+    }
+  }
+
+  &-content {
+    position: relative;
+    top: -3rem;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 24rem;
+    text-align: center;
+  }
+
+  &-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.35rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &-link {
+    display: block;
+    padding: 0.5rem 0.75rem;
+    font-size: clamp(1.25rem, 4.5vw, 1.5rem);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #fff;
+    text-decoration: none;
+
+    &:is(:hover, :focus-visible) {
+      color: color-mix(in srgb, #fff 88%, var(--rainbow-0));
+    }
+
+    &:focus-visible {
+      border-radius: 0.25rem;
+      outline: 2px solid color-mix(in srgb, var(--rainbow-0) 55%, transparent);
+      outline-offset: 2px;
+    }
+  }
+
+  &-cta-wrap {
+    margin-top: 2rem;
+
+    .cta-button {
+      &.rainbow-bg-border-glow-hover-auto {
+        animation-delay: var(--rainbow-overlay-phase, 0s);
+
+        &::after {
+          animation-delay: var(--rainbow-overlay-phase, 0s);
+        }
+      }
+    }
+  }
+
+  &.navbar-overlay-enter-active {
+    $rise: navbar-overlay-rise 0.48s $nav-ease both;
+
+    .navbar-overlay-close {
+      animation: navbar-overlay-rise 0.4s $nav-ease both;
+      animation-delay: 0.05s;
+    }
+
+    .navbar-overlay-item {
+      animation: $rise;
+
+      @for $i from 1 through 10 {
+        &:nth-child(#{$i}) {
+          animation-delay: #{0.09 + ($i - 1) * 0.055}s;
+        }
       }
     }
 
-    .navbar-link-idle {
-      position: relative;
-      z-index: 1;
-      color: white;
-      transition: opacity 0.2s ease;
+    .navbar-overlay-cta-wrap {
+      animation: $rise;
+      animation-delay: var(--navbar-cta-delay, 0.45s);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    &.navbar-overlay-leave-active {
+      transition-duration: 0.01ms !important;
     }
 
-    .navbar-link:hover .navbar-link-idle,
-    .navbar-link:focus-visible .navbar-link-idle {
-      opacity: 0;
+    &.navbar-overlay-enter-active .navbar-overlay-close,
+    &.navbar-overlay-enter-active .navbar-overlay-item,
+    &.navbar-overlay-enter-active .navbar-overlay-cta-wrap {
+      animation: none !important;
+      animation-delay: 0s !important;
+      opacity: 1 !important;
+      transform: none !important;
     }
   }
 }

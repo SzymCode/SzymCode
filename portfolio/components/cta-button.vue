@@ -1,5 +1,11 @@
 <template>
-  <NuxtLink class="cta-button rainbow-bg-border-glow-hover-auto" :to="href">
+  <NuxtLink
+    class="cta-button rainbow-bg-border-glow-hover-auto"
+    :to="href"
+    :target="target"
+    :rel="target === '_blank' ? 'noopener noreferrer' : undefined"
+    @click="emit('click', $event)"
+  >
     <slot>
       <Icon v-if="icon" :name="icon" />
       <span class="cta-button-text">{{ text }}</span>
@@ -12,6 +18,11 @@ defineProps<{
   text: string
   icon?: string
   href: string
+  target?: string
+}>()
+
+const emit = defineEmits<{
+  click: [e: MouseEvent]
 }>()
 </script>
 
