@@ -127,6 +127,7 @@
 import CTAButton from './cta-button.vue'
 
 const navLinks = [
+  { to: '#start', label: 'Start' },
   { to: '#about', label: 'O mnie' },
   { to: '#offer', label: 'Oferta' },
   { to: '#reviews', label: 'Opinie' },
@@ -415,7 +416,7 @@ $nav-ease: cubic-bezier(0.22, 1, 0.36, 1);
 
   &-content {
     position: relative;
-    top: -3rem;
+    top: -2rem;
     z-index: 1;
     display: flex;
     flex-direction: column;
@@ -444,16 +445,6 @@ $nav-ease: cubic-bezier(0.22, 1, 0.36, 1);
     letter-spacing: 0.02em;
     color: #fff;
     text-decoration: none;
-
-    &:is(:hover, :focus-visible) {
-      color: color-mix(in srgb, #fff 88%, var(--rainbow-0));
-    }
-
-    &:focus-visible {
-      border-radius: 0.25rem;
-      outline: 2px solid color-mix(in srgb, var(--rainbow-0) 55%, transparent);
-      outline-offset: 2px;
-    }
   }
 
   &-cta-wrap {

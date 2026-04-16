@@ -1,4 +1,5 @@
 @use 'rainbow' as *;
+@use 'breakpoints' as *;
 
 @font-face {
   font-family: 'Inter Fallback';
@@ -13,6 +14,15 @@
   box-sizing: border-box;
   font-family: Inter, 'Inter Fallback', sans-serif;
   font-display: swap;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+
+  @include bp-lg-up {
+    scroll-padding-top: 200px;
+  }
 }
 
 body {
