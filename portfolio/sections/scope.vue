@@ -99,7 +99,9 @@
                     transform="rotate(-90 60 60)"
                   />
                 </svg>
-                <span class="scope-metric-value" aria-hidden="true"
+                <span
+                  class="scope-metric-value rainbow-text-auto"
+                  aria-hidden="true"
                   >{{ metric.score }}</span
                 >
               </div>
@@ -444,8 +446,8 @@ const scopeMetrics: readonly ScopeMetric[] = [
   }
 
   &-metric-progress {
-    stroke: hsl(145 72% 48%);
-    filter: drop-shadow(0 0 6px hsl(145 80% 45% / 0.45));
+    stroke: hsl(var(--rainbow-hue) 72% 48%);
+    filter: drop-shadow(0 0 6px hsl(var(--rainbow-hue) 58% 52% / 0.5));
     transition: stroke-dashoffset 0.9s cubic-bezier(0.33, 1, 0.68, 1);
   }
 
@@ -465,8 +467,7 @@ const scopeMetrics: readonly ScopeMetric[] = [
     font-weight: 700;
     font-variant-numeric: tabular-nums;
     letter-spacing: -0.03em;
-    color: hsl(145 65% 62%);
-    text-shadow: 0 0 18px hsl(145 80% 45% / 0.35);
+    text-shadow: 0 0 18px hsl(var(--rainbow-hue) 55% 52% / 0.35);
   }
 
   &-metric-label {
