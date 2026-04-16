@@ -13,6 +13,8 @@
       <Spacing />
       <Faq />
       <Spacing />
+      <Scope />
+      <Spacing />
       <Contact />
       <Spacing />
     </main>
@@ -28,8 +30,9 @@ import About from '~/sections/about.vue'
 import Contact from '~/sections/contact.vue'
 import Faq from '~/sections/faq.vue'
 import Offers from '~/sections/offers.vue'
-import Start from '~/sections/start.vue'
 import Reviews from '~/sections/reviews.vue'
+import Start from '~/sections/start.vue'
+import Scope from '~/sections/scope.vue'
 </script>
 
 <style lang="scss">

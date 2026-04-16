@@ -132,6 +132,7 @@ const navLinks = [
   { to: '#offer', label: 'Oferta' },
   { to: '#reviews', label: 'Opinie' },
   { to: '#faq', label: 'FAQ' },
+  { to: '#scope', label: 'Zakres' },
   { to: '#contact', label: 'Kontakt' },
 ] as const
 
