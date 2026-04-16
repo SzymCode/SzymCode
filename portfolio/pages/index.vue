@@ -18,12 +18,13 @@
       <Contact />
       <Spacing />
     </main>
-    <footer>Footer</footer>
+    <Footer />
   </div>
 </template>
 
 <script setup lang="ts">
 import Navbar from '~/components/navbar.vue'
+import Footer from '~/components/footer.vue'
 import GridBackground from '~/components/grid-background.vue'
 import Spacing from '~/components/spacing.vue'
 import About from '~/sections/about.vue'

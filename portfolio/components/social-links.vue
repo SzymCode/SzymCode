@@ -1,5 +1,9 @@
 <template>
-  <ul class="social-links" aria-label="Profile w mediach społecznościowych">
+  <ul
+    class="social-links"
+    :class="{ 'social-links-inline': variant === 'inline' }"
+    aria-label="Profile w mediach społecznościowych"
+  >
     <li v-for="item in items" :key="item.href">
       <NuxtLink
         class="social-links-link rainbow-border-auto"
@@ -16,15 +20,19 @@
 </template>
 
 <script setup lang="ts">
-interface SocialLinkItem {
+export interface SocialLinkItem {
   href: string
   icon: string
   label: string
 }
 
-defineProps<{
-  items: readonly SocialLinkItem[]
-}>()
+withDefaults(
+  defineProps<{
+    items: readonly SocialLinkItem[]
+    variant?: 'stack' | 'inline'
+  }>(),
+  { variant: 'stack' }
+)
 </script>
 
 <style lang="scss">
@@ -59,6 +67,12 @@ defineProps<{
 
   &-icon {
     font-size: 1.2rem;
+  }
+
+  &-inline {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
   }
 }
 </style>
