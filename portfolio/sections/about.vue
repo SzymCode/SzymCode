@@ -94,6 +94,11 @@ import SocialLinks, { type SocialLinkItem } from '~/components/social-links.vue'
 
 const socialLinksItems: SocialLinkItem[] = [
   {
+    href: 'https://calendly.com/szymcode/it-mentoring-consultation',
+    icon: 'mdi:calendar-clock',
+    label: 'Umów konsultację mentoringową',
+  },
+  {
     href: 'https://www.linkedin.com/in/szymon-radomski/',
     icon: 'mdi:linkedin',
     label: 'Profil LinkedIn',
@@ -107,11 +112,6 @@ const socialLinksItems: SocialLinkItem[] = [
     href: 'https://discord.gg/9Y2Fusxuc4',
     icon: 'mdi:discord',
     label: 'Serwer Discord Nucleify',
-  },
-  {
-    href: 'https://calendly.com/szymcode/it-mentoring-consultation',
-    icon: 'mdi:calendar-clock',
-    label: 'Umów konsultację mentoringową',
   },
 ]
 
