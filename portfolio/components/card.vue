@@ -5,7 +5,7 @@
     :to="href"
     target="_blank"
     rel="noopener noreferrer"
-    aria-label="Otwórz rekomendacje na LinkedIn"
+    :title="title"
   >
     <Icon
       name="mdi:format-quote-open"
@@ -55,15 +55,19 @@ withDefaults(
     role?: string
     icon?: string
     href?: string
+    title?: string
   }>(),
   {
     icon: 'mdi:account-circle-outline',
     href: '#',
+    title: 'Otwórz link',
   }
 )
 </script>
 
 <style lang="scss">
+@use '../styles/breakpoints' as *;
+
 .card {
   position: relative;
   display: flex;
@@ -76,20 +80,23 @@ withDefaults(
   padding: 1.25rem 1.25rem 1.15rem;
   text-decoration: none;
   color: inherit;
-  border: 1px solid transparent;
+  border: 1px solid hsl(var(--rainbow-hue) 58% 62%);
   border-radius: 1.25rem;
   background:
-    linear-gradient(180deg, rgb(255 255 255 / 0.08), rgb(255 255 255 / 0.02)),
-    linear-gradient(180deg, rgb(10 16 15 / 0.92), rgb(7 10 10 / 0.88));
+    linear-gradient(180deg, rgb(255 255 255 / 0.06), rgb(255 255 255 / 0.015)),
+    linear-gradient(180deg, rgb(7 12 11 / 0.95), rgb(4 7 7 / 0.92));
   backdrop-filter: blur(1rem);
-  box-shadow:
-    inset 0 1px 0 rgb(255 255 255 / 0.04),
-    0 8px 18px rgb(0 0 0 / 0.16);
   color: #fff;
 
   &:hover,
   &:focus-visible {
-    border-color: color-mix(in srgb, var(--rainbow-0) 35%, transparent);
+    background:
+      linear-gradient(
+        180deg,
+        color-mix(in srgb, hsl(var(--rainbow-hue) 55% 52%) 12%, rgb(255 255 255 / 0.06)),
+        color-mix(in srgb, hsl(var(--rainbow-hue) 55% 52%) 6%, rgb(255 255 255 / 0.015))
+      ),
+      linear-gradient(180deg, rgb(8 13 12 / 0.96), rgb(5 8 8 / 0.94));
   }
 
   &-quote-mark {
@@ -98,17 +105,16 @@ withDefaults(
     right: 1.15rem;
     z-index: 1;
     font-size: 1.25rem;
-    opacity: 0.9;
   }
 
   &-quote {
     margin: 0;
     padding-right: 2rem;
     font-size: 0.9rem;
-    line-height: 1.72;
+    line-height: 1.75;
     letter-spacing: -0.01em;
     color: color-mix(in srgb, #fff 86%, transparent);
-    text-wrap: pretty;
+    overflow-wrap: break-word;
   }
 
   &-meta {
@@ -142,7 +148,7 @@ withDefaults(
   }
 
   &-icon-symbol {
-    color: var(--rainbow-0);
+    color: hsl(var(--rainbow-hue) 55% 52%);
   }
 
   &-author {
@@ -154,7 +160,7 @@ withDefaults(
   }
 
   &-role {
-    font-size: 0.88rem;
+    font-size: 0.8rem;
     line-height: 1.3;
     color: color-mix(in srgb, #fff 52%, transparent);
     text-wrap: pretty;

@@ -7,8 +7,8 @@
           Mentoring, który daje konkretne efekty
         </h2>
         <p class="reviews-lead">
-          Kilka słów od osób, które uporządkowały naukę, portfolio i
-          przygotowanie do rekrutacji.
+          Kilka słów od osób, które ze mną pracowały albo którym pomagałem w
+          ramach mentoringu.
         </p>
       </div>
 
@@ -16,19 +16,21 @@
         <Swiper
           class="reviews-slider"
           :modules="[Autoplay]"
-          :slides-per-view="'auto'"
+          :slides-per-view="1"
           :space-between="16"
           :loop="true"
-          :speed="10000"
-          :allow-touch-move="true"
-          :grab-cursor="true"
+          :speed="500"
+          :watch-overflow="true"
           :autoplay="{
-            delay: 0,
+            delay: 5000,
             disableOnInteraction: false,
           }"
           :breakpoints="{
-            896: {
-              spaceBetween: 20,
+            460: {
+              slidesPerView: 'auto',
+              autoplay: {
+                delay: 3000,
+              },
             },
           }"
         >
@@ -41,8 +43,9 @@
               :quote="review.quote"
               :author="review.author"
               :role="review.role"
-              icon="mdi:linkedin"
               :href="linkedInRecommendationUrl"
+              icon="mdi:linkedin"
+              title="Otwórz rekomendacje na LinkedIn"
             />
           </SwiperSlide>
         </Swiper>
@@ -91,6 +94,18 @@ const reviews = [
     author: 'Katarzyna Smierzchalska',
     role: 'Programistka',
   },
+  {
+    quote:
+      'Pracowaliśmy razem ponad 8 miesięcy przy ekosystemie Nucleify w Atomic IT. Szymon prowadził prace konkretnie, dbając o kierunek produktu oraz jakość. Poznałem też jego bardziej osobistą stronę i to, jak radzi sobie z trudnościami.',
+    author: 'Mscibor Srebrny',
+    role: 'Programista Pythona',
+  },
+  {
+    quote:
+      'W trakcie stażu Szymon wykazał się wysokim zaangażowaniem i determinacją, wspierając realizację celów zespołu, w tym przygotowanie systemu CRM. Pracował sumiennie i skutecznie wdrażał feedback z testów oraz code review.',
+    author: 'Anna Wilk',
+    role: 'Scrum Master',
+  },
 ] as const
 </script>
 
@@ -105,16 +120,19 @@ const reviews = [
   overflow: hidden;
 
   &-inner {
-    width: min(1200px, calc(100% - 2rem));
+    width: 100%;
     margin-inline: auto;
 
-    @include bp-lg-up {
-      width: min(1200px, calc(100% - 4rem));
-    }
   }
 
   &-header {
-    margin: 0 0 clamp(1.75rem, 4vw, 2.5rem);
+    margin: 0 auto clamp(1rem, 4vw, 2.5rem);
+    padding-inline: 1rem;
+
+    @include bp-lg-up {
+      max-width: 1200px;
+      padding-inline: 0;
+    }
   }
 
   &-eyebrow {
@@ -142,8 +160,8 @@ const reviews = [
   &-slider-wrap {
     position: relative;
     overflow: hidden;
-    padding-inline: 0.25rem;
-
+    padding: .125rem 1rem;
+    
     &::before,
     &::after {
       content: '';
@@ -165,6 +183,8 @@ const reviews = [
     }
 
     @include bp-lg-up {
+      padding-inline: 0;
+
       &::before,
       &::after {
         width: clamp(1.75rem, 4.5vw, 4rem);
@@ -182,23 +202,17 @@ const reviews = [
 
   &-slider {
     width: 100%;
-    overflow: hidden;
+    overflow: visible;
 
     :deep(.swiper-wrapper) {
-      transition-timing-function: linear !important;
       align-items: stretch;
+      will-change: transform;
     }
   }
 
   &-slide {
-    width: min(22rem, calc(100vw - 3rem));
+    width: auto;
     height: auto;
-  }
-
-  @include bp-lg-up {
-    &-slide {
-      width: 24rem;
-    }
   }
 
   @media (prefers-reduced-motion: reduce) {

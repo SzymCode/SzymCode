@@ -3,7 +3,9 @@
     <div class="start-inner">
       <div class="start-copy">
         <h1 id="start-title" class="start-title">
-          <span class="start-title-line">Pierwszy krok w IT</span>
+          <span class="start-title-line"
+            >Pierwszy krok w <span class="rainbow-text-auto">IT</span></span
+          >
           <span class="start-title-line">albo kolejny poziom -</span>
           <span class="start-title-line">z planem, bez chaosu</span>
         </h1>
@@ -45,7 +47,6 @@
         title="Zobacz repozytorium Nucleify na GitHubie"
       >
         <div class="start-sphere-wrap">
-          <div class="start-sphere-aura rainbow-grid-glow-auto" />
           <svg
             class="start-sphere"
             xmlns="http://www.w3.org/2000/svg"
@@ -65,7 +66,7 @@
         </div>
 
         <p class="start-proof">
-          Twórca frameworka <strong>Nucleify</strong>
+          Twórca frameworka<strong class="rainbow-text-auto">Nucleify</strong>
           <span class="start-proof-sep" aria-hidden="true">•</span>
           150+ gwiazdek na GitHubie
         </p>
@@ -87,7 +88,7 @@ import CtaButton from '~/components/cta-button.vue'
   min-height: min(100vh, #{$bp-lg});
   display: flex;
   align-items: flex-start;
-  padding-block: clamp(7rem, 12vw, 7rem) clamp(3rem, 8vw, 5rem);
+  padding-block: clamp(6rem, 12vw, 7rem) clamp(3rem, 8vw, 5rem);
   padding-inline: clamp(1.25rem, 5vw, 3.5rem);
   color: #fff;
   overflow: hidden;
@@ -150,7 +151,7 @@ import CtaButton from '~/components/cta-button.vue'
     width: 100%;
     height: 0.2rem;
     margin: 0 0 clamp(1.15rem, 2.8vw, 1.5rem);
-    box-shadow: 0 0 1.25rem color-mix(in srgb, var(--rainbow-0) 55%, transparent);
+    box-shadow: 0 0 1.25rem color-mix(in srgb, var(--rainbow-current) 55%, transparent);
   }
 
   &-leads {
@@ -193,11 +194,8 @@ import CtaButton from '~/components/cta-button.vue'
     margin-inline: auto;
     border-left: 0;
     padding-left: 0;
-    animation: rainbow-border-cycle var(--rainbow-cycle-duration, 60s) linear
-      infinite;
 
     strong {
-      color: #fff;
       font-weight: 600;
     }
 
@@ -218,7 +216,7 @@ import CtaButton from '~/components/cta-button.vue'
       margin-inline: 0;
       align-items: baseline;
       border-left: 2px solid
-        color-mix(in srgb, var(--rainbow-border-0) 42%, transparent);
+        color-mix(in srgb, var(--rainbow-border-current) 42%, transparent);
       padding-left: 0.65rem;
 
       .start-proof-sep {
@@ -239,125 +237,86 @@ import CtaButton from '~/components/cta-button.vue'
 
   &-sphere-wrap {
     position: relative;
-    width: min(18rem, 72vw);
+    width: min(16rem, 64vw);
     aspect-ratio: 1;
     flex: none;
     margin-inline: auto;
+    margin-top: 1rem;
 
     @include bp-lg-up {
-      width: min(20rem, 88vw);
+      width: min(18rem, 88vw);
+      margin-top: 0;
     }
   }
 
-  &-sphere-aura {
-    position: absolute;
-    inset: 0;
-    transform: scale(1.32);
-    transform-origin: center;
-    opacity: 0.62;
-    border-radius: 50%;
-    box-shadow: 0 0 36px color-mix(in srgb, var(--rainbow-0) 35%, transparent);
-    animation:
-      rainbow-grid-glow-hue-spin var(--rainbow-cycle-duration, 60s) linear infinite,
-      rainbow-shadow-cycle var(--rainbow-cycle-duration, 60s) linear infinite;
-  }
-
-  &-sphere {
-    display: block;
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    filter: drop-shadow(0 0 12px color-mix(in srgb, var(--rainbow-0) 24%, transparent));
-    animation: start-sphere-drop-shadow var(--rainbow-cycle-duration, 60s) linear
-      infinite;
+  &-sphere-path-dark {
+    fill: hsl(132deg 46% 38%);
+    animation: start-logo-fill-dark var(--rainbow-cycle-duration, 60s) linear infinite;
   }
 
   &-sphere-path-light {
-    fill: color-mix(in srgb, var(--rainbow-0) 85%, white);
-    animation: rainbow-fill-cycle var(--rainbow-cycle-duration, 60s) linear infinite;
-  }
-
-  &-sphere-path-dark {
-    fill: hsl(132deg 45% 27%);
-    animation: start-fill-cycle-dark var(--rainbow-cycle-duration, 60s) linear infinite;
-    opacity: 0.95;
+    fill: hsl(132deg 78% 76%);
+    animation: start-logo-fill-light var(--rainbow-cycle-duration, 60s) linear infinite;
   }
 }
 
-@keyframes start-fill-cycle-dark {
-  0% {
-    fill: hsl(132deg 45% 27%);
+@keyframes start-logo-fill-light {
+  0% { 
+    fill: hsl(132deg 66% 62%);
   }
-
   12.5% {
-    fill: hsl(210deg 58% 29%);
+    fill: hsl(210deg 72% 66%);
   }
-
   25% {
-    fill: hsl(258deg 45% 31%);
+    fill: hsl(258deg 68% 68%);
   }
-
   37.5% {
-    fill: hsl(292deg 42% 31%);
+    fill: hsl(292deg 66% 68%);
   }
-
   50% {
-    fill: hsl(0deg 58% 29%);
+    fill: hsl(0deg 72% 66%);
   }
-
   62.5% {
-    fill: hsl(32deg 65% 29%);
+    fill: hsl(32deg 76% 66%);
   }
-
   75% {
-    fill: hsl(52deg 70% 29%);
+    fill: hsl(52deg 76% 67%);
   }
-
   87.5% {
-    fill: hsl(52deg 70% 29%);
+    fill: hsl(52deg 76% 67%);
   }
-
   100% {
-    fill: hsl(132deg 45% 27%);
+    fill: hsl(132deg 66% 62%);
   }
 }
 
-@keyframes start-sphere-drop-shadow {
+@keyframes start-logo-fill-dark {
   0% {
-    filter: drop-shadow(0 0 12px color-mix(in srgb, var(--rainbow-0) 24%, transparent));
+    fill: hsl(132deg 40% 29%);
   }
-
   12.5% {
-    filter: drop-shadow(0 0 12px color-mix(in srgb, var(--rainbow-1) 24%, transparent));
+    fill: hsl(210deg 44% 31%);
   }
-
   25% {
-    filter: drop-shadow(0 0 12px color-mix(in srgb, var(--rainbow-2) 24%, transparent));
+    fill: hsl(258deg 40% 32%);
   }
-
   37.5% {
-    filter: drop-shadow(0 0 12px color-mix(in srgb, var(--rainbow-3) 24%, transparent));
+    fill: hsl(292deg 38% 32%);
   }
-
   50% {
-    filter: drop-shadow(0 0 12px color-mix(in srgb, var(--rainbow-4) 24%, transparent));
+    fill: hsl(0deg 44% 31%);
   }
-
   62.5% {
-    filter: drop-shadow(0 0 12px color-mix(in srgb, var(--rainbow-5) 24%, transparent));
+    fill: hsl(32deg 48% 31%);
   }
-
   75% {
-    filter: drop-shadow(0 0 12px color-mix(in srgb, var(--rainbow-6) 24%, transparent));
+    fill: hsl(52deg 50% 31%);
   }
-
   87.5% {
-    filter: drop-shadow(0 0 12px color-mix(in srgb, var(--rainbow-6) 24%, transparent));
+    fill: hsl(52deg 50% 31%);
   }
-
   100% {
-    filter: drop-shadow(0 0 12px color-mix(in srgb, var(--rainbow-0) 24%, transparent));
+    fill: hsl(132deg 40% 29%);
   }
 }
 

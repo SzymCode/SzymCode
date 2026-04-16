@@ -1,7 +1,6 @@
 <template>
   <div class="nuc-grid-background">
     <div class="nuc-grid-background-grid rainbow-grid-lines-auto"></div>
-    <div class="nuc-grid-background-glow rainbow-grid-glow-auto"></div>
   </div>
 </template>
 
@@ -10,23 +9,23 @@
   position: absolute;
   inset: 0;
   pointer-events: none;
-  overflow: hidden;
   max-height: 100vh;
 
   &-grid {
     position: absolute;
     inset: 0;
     background-size: 60px 60px;
-    mask-image: radial-gradient(ellipse 80% 60% at 50% 40%, black 20%, transparent 70%);
+    mask-image: radial-gradient(ellipse 80% 60% at 50% 40%, black 20%, transparent 100%);
+    filter: brightness(1.5)
   }
+}
 
-  &-glow {
-    position: absolute;
-    width: 650px;
-    height: 650px;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+@media (width < 56rem) {
+  .nuc-grid-background {
+    &-grid {
+      height: 250vh;
+      mask-image: radial-gradient(ellipse 80% 60% at 50% 30%, black 10%, transparent 100%);
+    }
   }
 }
 </style>
