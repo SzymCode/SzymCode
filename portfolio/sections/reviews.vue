@@ -115,7 +115,7 @@ const reviews = [
 .reviews {
   position: relative;
   z-index: 1;
-  padding: clamp(2rem, 5vw, 3rem) 0 clamp(4rem, 8vw, 6rem);
+  padding: 0;
   color: #fff;
   overflow: hidden;
 

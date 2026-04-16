@@ -85,10 +85,9 @@ import CtaButton from '~/components/cta-button.vue'
 .start {
   position: relative;
   z-index: 1;
-  min-height: min(100vh, #{$bp-lg});
   display: flex;
   align-items: flex-start;
-  padding-block: clamp(6rem, 12vw, 7rem) clamp(3rem, 8vw, 5rem);
+  padding-block: clamp(6rem, 20vw, 14rem) 0;
   padding-inline: clamp(1.25rem, 5vw, 3.5rem);
   color: #fff;
   overflow: hidden;
