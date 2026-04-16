@@ -4,6 +4,7 @@
     <main>
       <GridBackground />
       <Start />
+      <Reviews />
     </main>
     <footer>Footer</footer>
   </div>
@@ -13,6 +14,7 @@
 import Navbar from '~/components/navbar.vue'
 import GridBackground from '~/components/grid-background.vue'
 import Start from '~/sections/start.vue'
+import Reviews from '~/sections/reviews.vue'
 </script>
 
 <style lang="scss">
