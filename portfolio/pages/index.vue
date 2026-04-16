@@ -11,6 +11,8 @@
       <Spacing />
       <Offers />
       <Spacing />
+      <Faq />
+      <Spacing />
     </main>
     <footer>Footer</footer>
   </div>
@@ -21,6 +23,7 @@ import Navbar from '~/components/navbar.vue'
 import GridBackground from '~/components/grid-background.vue'
 import Spacing from '~/components/spacing.vue'
 import About from '~/sections/about.vue'
+import Faq from '~/sections/faq.vue'
 import Offers from '~/sections/offers.vue'
 import Start from '~/sections/start.vue'
 import Reviews from '~/sections/reviews.vue'
