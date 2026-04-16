@@ -9,6 +9,8 @@
       <Spacing />
       <Reviews />
       <Spacing />
+      <Offers />
+      <Spacing />
     </main>
     <footer>Footer</footer>
   </div>
@@ -19,6 +21,7 @@ import Navbar from '~/components/navbar.vue'
 import GridBackground from '~/components/grid-background.vue'
 import Spacing from '~/components/spacing.vue'
 import About from '~/sections/about.vue'
+import Offers from '~/sections/offers.vue'
 import Start from '~/sections/start.vue'
 import Reviews from '~/sections/reviews.vue'
 </script>

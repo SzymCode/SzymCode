@@ -36,7 +36,7 @@
           class="start-cta"
           text="Wybierz plan"
           icon="mdi:arrow-right"
-          href="#plany"
+          href="#offer"
         />
       </div>
 
