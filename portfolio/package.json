@@ -21,7 +21,7 @@
     "test:coverage": "pnpm vitest run --coverage",
     "test:watch": "pnpm vitest",
     "typeslint": "tsc --noemit",
-    "wrangler": "pnpm wrangler deploy",
+    "wrangler": "pnpm exec wrangler deploy",
     "deploy": "pnpm run build && wrangler deploy"
   },
   "dependencies": {
