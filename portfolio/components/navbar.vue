@@ -47,10 +47,7 @@
           :to="link.to"
         >
           <span class="navbar-link-stack">
-            <span
-              class="navbar-link-rainbow rainbow-text-auto"
-              aria-hidden="true"
-            >
+            <span class="navbar-link rainbow-text-auto" aria-hidden="true">
               {{ link.label }}
             </span>
             <span class="navbar-link-idle">{{ link.label }}</span>
@@ -340,6 +337,11 @@ $nav-ease: cubic-bezier(0.22, 1, 0.36, 1);
       font-weight: 300;
       text-decoration: none;
 
+      &:hover .navbar-link-idle,
+      &:focus-visible .navbar-link-idle {
+        opacity: 0;
+      }
+
       &-stack {
         display: inline-grid;
         align-items: center;
@@ -354,10 +356,6 @@ $nav-ease: cubic-bezier(0.22, 1, 0.36, 1);
         z-index: 1;
         color: #fff;
         transition: opacity 0.2s ease;
-      }
-
-      &:is(:hover, :focus-visible) &-idle {
-        opacity: 0;
       }
     }
   }
