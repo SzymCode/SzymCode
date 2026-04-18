@@ -4,7 +4,7 @@ export const appConfig = {
       lang: 'pl',
     },
     title:
-      'Mentoring IT - rozwój kariery programisty i przygotowanie do rozmów. Uzyskaj awans!',
+      'Od zera do programera | mentoring IT, portfolio i rozmowy rekrutacyjne',
     titleTemplate: '%s',
     meta: [
       { charset: 'utf-8' },
@@ -12,7 +12,7 @@ export const appConfig = {
       {
         name: 'description',
         content:
-          'Zdobądź przewagę na rynku IT. Mentoring, przygotowanie do interview i rozwój umiejętności programistycznych w jednym miejscu.',
+          'Jak zacząć karierę w IT? Nauka programowania od podstaw, kurs programowania, mentoring IT, portfolio programisty, przygotowanie do rozmowy rekrutacyjnej i pierwsza praca jako programista.',
       },
     ],
     link: [
