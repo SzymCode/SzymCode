@@ -36,7 +36,8 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 text="LinkedIn"
-              />
+                >LinkedIn</NuxtLink
+              >
               <br />
               Repozytoria:
               <NuxtLink
@@ -44,16 +45,16 @@
                 to="https://github.com/SzymCode"
                 target="_blank"
                 rel="noopener noreferrer"
-                text="SzymCode"
-              />
+                >SzymCode</NuxtLink
+              >
               ·
               <NuxtLink
                 class="about-link rainbow-text-auto"
                 to="https://github.com/Nucleify/Nucleify"
                 target="_blank"
                 rel="noopener noreferrer"
-                text="Nucleify"
-              />
+                >Nucleify</NuxtLink
+              >
             </p>
           </div>
         </div>

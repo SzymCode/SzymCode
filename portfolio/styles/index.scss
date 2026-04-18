@@ -13,10 +13,10 @@
 * {
   box-sizing: border-box;
   font-family: Inter, 'Inter Fallback', sans-serif;
-  font-display: swap;
 }
 
 html {
+  scrollbar-gutter: stable;
   scroll-behavior: smooth;
   scroll-padding-top: 80px;
 
