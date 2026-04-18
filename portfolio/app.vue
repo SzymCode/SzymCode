@@ -7,8 +7,8 @@ const route = useRoute()
 
 useHead(() => ({
   meta: [
-    { property: 'og:image', content: '/img/og-image.png' },
-    { property: 'og:logo', content: '/img/logo.svg' },
+    { property: 'og:image', content: '/og-image.png' },
+    { property: 'og:logo', content: '/logo-sc.svg' },
     {
       name: 'author',
       content: 'Szymon Radomski (SzymCode)',
