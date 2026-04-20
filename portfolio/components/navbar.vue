@@ -1,7 +1,7 @@
 <template>
   <nav id="navbar" aria-label="Nawigacja główna">
     <div class="navbar-container">
-      <NuxtLink class="navbar-logo" to="#start" @click="closeMenu">
+      <NuxtLink class="navbar-logo" to="/" @click="closeMenu">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 256 256"
@@ -127,13 +127,13 @@
 import CTAButton from './cta-button.vue'
 
 const navLinks = [
-  { to: '#start', label: 'Start' },
-  { to: '#about', label: 'O mnie' },
-  { to: '#offer', label: 'Oferta' },
-  { to: '#reviews', label: 'Opinie' },
-  { to: '#faq', label: 'FAQ' },
-  { to: '#scope', label: 'Zakres' },
-  { to: '#contact', label: 'Kontakt' },
+  { to: '/#about', label: 'O mnie' },
+  { to: '/#offer', label: 'Oferta' },
+  { to: '/#reviews', label: 'Opinie' },
+  { to: '/#faq', label: 'FAQ' },
+  { to: '/#scope', label: 'Zakres' },
+  { to: '/#contact', label: 'Kontakt' },
+  { to: '/blog', label: 'Blog' },
 ] as const
 
 const MOBILE_PANEL_ID = 'navbar-mobile-panel'

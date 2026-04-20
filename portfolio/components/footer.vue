@@ -4,7 +4,7 @@
     <div class="footer-inner">
       <div class="footer-main">
         <div class="footer-brand">
-          <NuxtLink to="#start" class="footer-logo">
+          <NuxtLink to="/" class="footer-logo">
             <span class="footer-logo-text rainbow-text-auto">SzymCode</span>
           </NuxtLink>
           <p class="footer-tagline">
@@ -47,7 +47,7 @@
                 href="https://calendly.com/szymcode/it-mentoring-consultation"
                 target="_blank"
               />
-              <NuxtLink to="#contact" class="footer-sublink">
+              <NuxtLink to="/#contact" class="footer-sublink">
                 Wszystkie kanały
                 <Icon
                   name="mdi:arrow-right"
@@ -72,7 +72,7 @@
           © {{ year }} Szymon Radomski ·
           <span class="rainbow-text-auto">SzymCode</span>
         </p>
-        <NuxtLink to="#start" class="footer-back-top">
+        <NuxtLink to="#navbar" class="footer-back-top">
           <span class="footer-back-top-text">Wróć na górę</span>
           <Icon
             name="mdi:arrow-up"
@@ -92,13 +92,13 @@ import SocialLinks, { type SocialLinkItem } from '~/components/social-links.vue'
 const year = new Date().getFullYear()
 
 const navLinks = [
-  { to: '#start', label: 'Start' },
-  { to: '#about', label: 'O mnie' },
-  { to: '#offer', label: 'Oferta' },
-  { to: '#reviews', label: 'Opinie' },
-  { to: '#faq', label: 'FAQ' },
-  { to: '#scope', label: 'Zakres' },
-  { to: '#contact', label: 'Kontakt' },
+  { to: '/#about', label: 'O mnie' },
+  { to: '/#offer', label: 'Oferta' },
+  { to: '/#reviews', label: 'Opinie' },
+  { to: '/#faq', label: 'FAQ' },
+  { to: '/#scope', label: 'Zakres' },
+  { to: '/#contact', label: 'Kontakt' },
+  { to: '/blog', label: 'Blog' },
 ] as const
 
 const socialItems: readonly SocialLinkItem[] = [
