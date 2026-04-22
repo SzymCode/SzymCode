@@ -1,6 +1,6 @@
 ---
 title: Atomic Design - czy warto używać go do budowy skalowalnych UI?
-date: 2026-04-22
+date: 2026-01-24
 description: Jak wykorzystać Atomic Design w Nuxt i Vue, utrzymać spójność komponentów oraz oddzielić logikę biznesową od warstwy UI.
 ---
 

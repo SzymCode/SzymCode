@@ -1,6 +1,6 @@
 ---
 title: Dlaczego warto używać plików index - Folder-as-Component
-date: 2026-04-21
+date: 2026-02-03
 description: Jak uporządkować frontend w React/Vue/Nuxt dzięki wzorcowi Folder-as-Component i skalować projekt bez chaosu.
 ---
 
