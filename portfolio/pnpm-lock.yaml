@@ -29,6 +29,9 @@ importers:
       '@nuxtjs/sitemap':
         specifier: 7.2.10
         version: 7.2.10(h3@1.15.11)(magicast@0.5.2)(vite@7.3.2(@types/node@25.6.0)(jiti@2.6.1)(sass@1.87.0)(terser@5.46.1)(yaml@2.8.3))(vue@3.5.27(typescript@5.8.3))
+      marked:
+        specifier: 11.1.1
+        version: 11.1.1
       nuxt:
         specifier: 3.21.1
         version: 3.21.1(@biomejs/biome@2.4.6)(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)(@parcel/watcher@2.5.6)(@types/node@25.6.0)(@vue/compiler-sfc@3.5.32)(cac@6.7.14)(db0@0.3.4)(eslint@10.2.0(jiti@2.6.1))(ioredis@5.10.1)(magicast@0.5.2)(meow@13.2.0)(optionator@0.9.4)(rollup@4.60.1)(sass@1.87.0)(srvx@0.11.15)(stylelint@16.19.1(typescript@5.8.3))(terser@5.46.1)(typescript@5.8.3)(vite@7.3.2(@types/node@25.6.0)(jiti@2.6.1)(sass@1.87.0)(terser@5.46.1)(yaml@2.8.3))(yaml@2.8.3)
@@ -3871,6 +3874,11 @@ packages:
 
   magicast@0.5.2:
     resolution: {integrity: sha512-E3ZJh4J3S9KfwdjZhe2afj6R9lGIN5Pher1pF39UGrXRqq/VDaGVIGN13BjHd2u8B61hArAGOnso7nBOouW3TQ==}
+
+  marked@11.1.1:
+    resolution: {integrity: sha512-EgxRjgK9axsQuUa/oKMx5DEY8oXpKJfk61rT5iY3aRlgU6QJtUcxU5OAymdhCvWvhYcd9FKmO5eQoX8m9VGJXg==}
+    engines: {node: '>= 18'}
+    hasBin: true
 
   math-intrinsics@1.1.0:
     resolution: {integrity: sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==}
@@ -9490,6 +9498,8 @@ snapshots:
       '@babel/parser': 7.29.2
       '@babel/types': 7.29.0
       source-map-js: 1.2.1
+
+  marked@11.1.1: {}
 
   math-intrinsics@1.1.0:
     optional: true
