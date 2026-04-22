@@ -1,20 +1,27 @@
 <template>
   <article v-if="post" class="blog-article" aria-labelledby="post-title">
-    <header class="blog-article-head">
-      <NuxtLink class="blog-back" to="/blog">← Wszystkie wpisy</NuxtLink>
-      <p v-if="post.date" class="blog-article-date">
-        {{ formatDate(post.date) }}
-      </p>
-      <h1 id="post-title" class="blog-article-title">{{ post.title }}</h1>
-      <p v-if="post.description" class="blog-article-desc">
-        {{ post.description }}
-      </p>
-    </header>
-    <div class="blog-md" v-html="post.html" />
+    <div class="blog-layout">
+      <div class="blog-content">
+        <header class="blog-article-head">
+          <NuxtLink class="blog-back" to="/blog">← Wszystkie wpisy</NuxtLink>
+          <p v-if="post.date" class="blog-article-date">
+            {{ formatDate(post.date) }}
+          </p>
+          <h1 id="post-title" class="blog-article-title">{{ post.title }}</h1>
+          <p v-if="post.description" class="blog-article-desc">
+            {{ post.description }}
+          </p>
+        </header>
+        <div class="blog-md" v-html="post.html" />
+      </div>
+      <BlogPostToc class="blog-toc-wrap" />
+    </div>
   </article>
 </template>
 
 <script setup lang="ts">
+import BlogPostToc from '~/components/blog/post-toc.vue'
+
 type BlogPostContent = {
   title: string
   date: string
@@ -39,6 +46,8 @@ function formatDate(iso: string) {
 </script>
 
 <style lang="scss">
+@use '../../styles/rainbow' as *;
+
 .blog-article {
   position: relative;
   z-index: 1;
@@ -46,10 +55,33 @@ function formatDate(iso: string) {
   margin-inline: auto;
   padding: clamp(5.5rem, 14vw, 8rem) 0 clamp(3rem, 8vw, 5rem);
   color: color-mix(in srgb, #fff 88%, transparent);
-}
 
-.blog-article-head {
-  margin-bottom: clamp(1.75rem, 4vw, 2.5rem);
+  &-head {
+    margin-bottom: clamp(1.75rem, 4vw, 2.5rem);
+  }
+
+  &-date {
+    margin: 0 0 0.35rem;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: color-mix(in srgb, #fff 48%, transparent);
+  }
+
+  &-title {
+    margin: 0 0 0.5rem;
+    font-size: clamp(1.65rem, 4vw, 2.15rem);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    line-height: 1.15;
+    color: #fff;
+  }
+
+  &-desc {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: color-mix(in srgb, #fff 72%, transparent);
+  }
 }
 
 .blog-back {
@@ -66,98 +98,94 @@ function formatDate(iso: string) {
   }
 }
 
-.blog-article-date {
-  margin: 0 0 0.35rem;
-  font-size: 0.82rem;
-  font-weight: 600;
-  color: color-mix(in srgb, #fff 48%, transparent);
+.blog-layout {
+  display: grid;
+  gap: 1.25rem;
+
+  @media (min-width: 72rem) {
+    grid-template-columns: minmax(0, 1fr) minmax(13.5rem, 15rem);
+    align-items: start;
+  }
 }
 
-.blog-article-title {
-  margin: 0 0 0.5rem;
-  font-size: clamp(1.65rem, 4vw, 2.15rem);
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  line-height: 1.15;
-  color: #fff;
+.blog-content {
+  min-width: 0;
 }
 
-.blog-article-desc {
-  margin: 0;
-  font-size: 1rem;
-  line-height: 1.6;
-  color: color-mix(in srgb, #fff 72%, transparent);
+.blog-toc-wrap {
+  display: none;
+
+  @media (min-width: 72rem) {
+    display: block;
+    width: 100%;
+    margin-top: 0;
+  }
 }
 
 .blog-md {
   font-size: 1.02rem;
   line-height: 1.7;
 
-  :deep(h1),
-  :deep(h2),
-  :deep(h3) {
+  h1,
+  h2,
+  h3 {
     margin: 1.5em 0 0.5em;
     font-weight: 800;
     letter-spacing: -0.02em;
     color: #fff;
+    scroll-margin-top: -6rem;
   }
 
-  :deep(h1) {
+  h1 {
     font-size: 1.45rem;
   }
 
-  :deep(h2) {
+  h2 {
     font-size: 1.25rem;
   }
 
-  :deep(h3) {
+  h3 {
     font-size: 1.1rem;
   }
 
-  :deep(p) {
+  p {
     margin: 0 0 1em;
   }
 
-  :deep(ul),
-  :deep(ol) {
+  ul,
+  ol {
     margin: 0 0 1em;
     padding-left: 0;
     list-style-position: inside;
   }
 
-  :deep(li) {
+  li {
     margin-bottom: 0.35em;
   }
 
-  :deep(a) {
+  a {
     color: hsl(var(--rainbow-hue) 58% 62%);
     font-weight: 600;
     text-decoration: underline;
     text-underline-offset: 0.15em;
   }
 
-  :deep(code) {
-    font-size: 0.88em;
-    padding: 0.12em 0.35em;
-    border-radius: 0.3em;
-    background: rgb(255 255 255 / 0.08);
-  }
-
-  :deep(pre) {
+  pre {
     margin: 1em 0;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     overflow: auto;
     border-radius: 0.5rem;
-    background: rgb(0 0 0 / 0.45);
-    border: 1px solid rgb(255 255 255 / 0.08);
+    gap: 0;
+    line-height: 1.5;
+    background: black;
+    border: 1px solid hsl(var(--rainbow-hue) 58% 62%);
+
+    code {
+      font-size: 0.9rem;
+    }
   }
 
-  :deep(pre code) {
-    padding: 0;
-    background: none;
-  }
-
-  :deep(strong) {
+  strong {
     color: #fff;
   }
 }
