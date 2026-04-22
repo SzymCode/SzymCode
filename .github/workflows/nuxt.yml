@@ -8,9 +8,6 @@ jobs:
   # Checkout, Setup and Install Dependencies
   setup:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: portfolio
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -31,15 +28,12 @@ jobs:
           cache-dependency-path: portfolio/pnpm-lock.yaml
 
       - name: Install Node.js Dependencies
-        run: pnpm install
+        run: pnpm -C portfolio install
 
   # Biome
   biome:
     runs-on: ubuntu-latest
     needs: setup
-    defaults:
-      run:
-        working-directory: portfolio
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -60,18 +54,15 @@ jobs:
           cache-dependency-path: portfolio/pnpm-lock.yaml
 
       - name: Install Node.js Dependencies
-        run: pnpm install
+        run: pnpm -C portfolio install
 
       - name: Biome
-        run: pnpm run check
+        run: pnpm -C portfolio run check
 
   # Typeslint
   typeslint:
     runs-on: ubuntu-latest
     needs: setup
-    defaults:
-      run:
-        working-directory: portfolio
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -92,18 +83,15 @@ jobs:
           cache-dependency-path: portfolio/pnpm-lock.yaml
 
       - name: Install Node.js Dependencies
-        run: pnpm install
+        run: pnpm -C portfolio install
 
       - name: Typeslint
-        run: pnpm run typeslint
+        run: pnpm -C portfolio run typeslint
         
   # Stylelint
   stylelint:
     runs-on: ubuntu-latest
     needs: setup
-    defaults:
-      run:
-        working-directory: portfolio
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -124,18 +112,15 @@ jobs:
           cache-dependency-path: portfolio/pnpm-lock.yaml
 
       - name: Install Node.js Dependencies
-        run: pnpm install
+        run: pnpm -C portfolio install
 
       - name: Stylelint
-        run: pnpm run slint
+        run: pnpm -C portfolio run slint
 
   # Build Assets
   build:
     runs-on: ubuntu-latest
     needs: setup
-    defaults:
-      run:
-        working-directory: portfolio
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -156,18 +141,15 @@ jobs:
           cache-dependency-path: portfolio/pnpm-lock.yaml
 
       - name: Install Node.js Dependencies
-        run: pnpm install
+        run: pnpm -C portfolio install
 
       - name: Build Assets
-        run: pnpm run build
+        run: pnpm -C portfolio run build
 
   # Run Vitests
   test:
     runs-on: ubuntu-latest
     needs: setup
-    defaults:
-      run:
-        working-directory: portfolio
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -188,7 +170,7 @@ jobs:
           cache-dependency-path: portfolio/pnpm-lock.yaml
 
       - name: Install Node.js Dependencies
-        run: pnpm install
+        run: pnpm -C portfolio install
 
       - name: Execute tests via Vitest
-        run: pnpm run tests
+        run: pnpm -C portfolio run tests
