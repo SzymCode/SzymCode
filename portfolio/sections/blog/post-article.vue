@@ -47,6 +47,8 @@ function formatDate(iso: string) {
 
 <style lang="scss">
 @use '../../styles/rainbow' as *;
+@use 'highlight.js/styles/github-dark.css';
+
 
 .blog-article {
   position: relative;
@@ -172,16 +174,23 @@ function formatDate(iso: string) {
 
   pre {
     margin: 1em 0;
-    padding: 0.5rem 1rem;
+    padding: 0;
     overflow: auto;
-    border-radius: 0.5rem;
+    border-radius: 0.7rem;
     gap: 0;
     line-height: 1.5;
-    background: black;
     border: 1px solid hsl(var(--rainbow-hue) 58% 62%);
+    background:
+      linear-gradient(180deg, rgb(255 255 255 / 0.06), rgb(255 255 255 / 0.015)),
+      linear-gradient(180deg, rgb(7 12 11 / 0.95), rgb(4 7 7 / 0.92));
+    backdrop-filter: blur(1rem);
 
     code {
       font-size: 0.9rem;
+    }
+
+    code.hljs {
+      background: transparent;
     }
   }
 

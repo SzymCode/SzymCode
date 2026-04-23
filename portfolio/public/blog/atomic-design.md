@@ -63,7 +63,7 @@ Dzięki temu komponenty niższego poziomu pozostają wielokrotnego użytku.
 
 W bardziej rozbudowanych projektach można dodać jeszcze warstwę pomocniczą:
 
-```txt
+```html
 Bosons     -> typy, helpery, stałe (bez renderowania)
 Atoms      -> podstawowe komponenty UI
 Molecules  -> małe zestawy atomów

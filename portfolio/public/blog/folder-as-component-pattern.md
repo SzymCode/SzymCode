@@ -15,7 +15,7 @@ W tym wpisie pokazuję podejście, które dobrze skaluje się w projektach kompo
 
 Typowa, płaska struktura często wygląda tak:
 
-```txt
+```html
 components/
 ├── Button.vue
 ├── Button.types.ts
@@ -41,7 +41,7 @@ components/
 
 Zamiast nazywać każdy plik nazwą komponentu, nazwij **folder** nazwą komponentu, a wewnątrz trzymaj stały układ:
 
-```txt
+```html
 components/
 ├── button/
 │   ├── index.ts        # eksport komponentu i typów

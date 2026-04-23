@@ -1,3 +1,9 @@
+import hljs from 'highlight.js/lib/core'
+import bash from 'highlight.js/lib/languages/bash'
+import json from 'highlight.js/lib/languages/json'
+import php from 'highlight.js/lib/languages/php'
+import typescript from 'highlight.js/lib/languages/typescript'
+import xml from 'highlight.js/lib/languages/xml'
 import { marked } from 'marked'
 
 export type BlogPost = {
@@ -7,6 +13,83 @@ export type BlogPost = {
   description: string
   body: string
   html: string
+}
+
+hljs.registerLanguage('ts', typescript)
+hljs.registerLanguage('php', php)
+hljs.registerLanguage('html', xml)
+hljs.registerLanguage('xml', xml)
+hljs.registerLanguage('vue', xml)
+hljs.registerLanguage('bash', bash)
+hljs.registerLanguage('json', json)
+
+function slugify(value: string): string {
+  return value
+    .toLowerCase()
+    .trim()
+    .replace(/[^\w\s-]/g, '')
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-')
+}
+
+function escapeHtmlForCodeBlock(raw: string): string {
+  return raw
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+}
+
+const renderer = new marked.Renderer()
+const headingSlugCount = new Map<string, number>()
+
+function resetHeadingSlugCounters(): void {
+  headingSlugCount.clear()
+}
+
+renderer.heading = (text: string, level: number) => {
+  const base = slugify(text)
+  const n = headingSlugCount.get(base) ?? 0
+  headingSlugCount.set(base, n + 1)
+  const id = n === 0 ? base : `${base}-${n}`
+  const tag = `h${level}`
+  return `<${tag} id="${id}">${text}</${tag}>`
+}
+
+renderer.code = (code: string, infostring?: string) => {
+  const lang = infostring?.split(/\s+/)[0]
+  let innerHtml: string
+  let hasHighlighting = false
+
+  if (lang && hljs.getLanguage(lang)) {
+    try {
+      innerHtml = hljs.highlight(code, {
+        language: lang,
+      }).value
+      hasHighlighting = true
+    } catch (err) {
+      console.error('Highlight.js error:', err)
+      innerHtml = escapeHtmlForCodeBlock(code)
+    }
+  } else {
+    innerHtml = escapeHtmlForCodeBlock(code)
+  }
+
+  const classes = [
+    lang ? `language-${lang}` : '',
+    hasHighlighting ? 'hljs' : '',
+  ].filter(Boolean)
+  const classAttr = classes.length > 0 ? ` class="${classes.join(' ')}"` : ''
+  return `<pre><code${classAttr}>${innerHtml}</code></pre>`
+}
+
+marked.setOptions({
+  renderer,
+})
+
+function parseMarkdown(markdown: string): string {
+  resetHeadingSlugCounters()
+  return marked.parse(markdown, { async: false }) as string
 }
 
 function parseFrontmatter(raw: string): {
@@ -55,7 +138,7 @@ function buildPosts(): BlogPost[] {
         date: meta.date || '',
         description: meta.description || '',
         body: body.trim(),
-        html: marked.parse(body.trim(), { async: false }) as string,
+        html: parseMarkdown(body.trim()),
       }
     })
     .sort((a, b) => b.date.localeCompare(a.date))

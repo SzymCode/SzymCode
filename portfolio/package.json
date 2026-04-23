@@ -32,6 +32,7 @@
     "@nuxtjs/google-fonts": "3.2.0",
     "@nuxtjs/robots": "5.2.10",
     "@nuxtjs/sitemap": "7.2.10",
+    "highlight.js": "11.11.1",
     "marked": "11.1.1",
     "nuxt": "3.21.1",
     "vue": "3.5.27",
