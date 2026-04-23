@@ -47,7 +47,7 @@
         rel="noopener noreferrer"
         title="Zobacz repozytorium Nucleify na GitHubie"
       >
-        <div class="start-sphere-wrap">
+        <div ref="sphereWrap" class="start-sphere-wrap">
           <svg
             class="start-sphere"
             xmlns="http://www.w3.org/2000/svg"
@@ -86,7 +86,33 @@
 </template>
 
 <script setup lang="ts">
+import { onMounted, ref } from 'vue'
 import CtaButton from '~/components/cta-button.vue'
+
+const sphereWrap = ref<HTMLElement | null>(null)
+
+function syncStartSphereRainbowPhase() {
+  if (!import.meta.client || !sphereWrap.value) {
+    return
+  }
+  const raw = getComputedStyle(document.documentElement)
+    .getPropertyValue('--rainbow-cycle-duration')
+    .trim()
+  const parsed = Number.parseFloat(raw)
+  let ms = 60_000
+  if (!Number.isNaN(parsed) && parsed > 0) {
+    ms = raw.endsWith('ms') ? parsed : parsed * 1000
+  }
+  const delaySec = -((performance.now() % ms) / 1000)
+  sphereWrap.value.style.setProperty(
+    '--start-sphere-rainbow-phase',
+    `${delaySec}s`
+  )
+}
+
+onMounted(() => {
+  syncStartSphereRainbowPhase()
+})
 </script>
 
 <style lang="scss">
@@ -299,12 +325,16 @@ import CtaButton from '~/components/cta-button.vue'
 
   &-sphere-path-dark {
     fill: hsl(132deg 46% 38%);
-    animation: start-logo-fill-dark var(--rainbow-cycle-duration, 60s) linear infinite;
+    animation: start-logo-fill-dark var(--rainbow-cycle-duration, 60s) linear
+      infinite;
+    animation-delay: var(--start-sphere-rainbow-phase, 0s);
   }
 
   &-sphere-path-light {
     fill: hsl(132deg 78% 76%);
-    animation: start-logo-fill-light var(--rainbow-cycle-duration, 60s) linear infinite;
+    animation: start-logo-fill-light var(--rainbow-cycle-duration, 60s) linear
+      infinite;
+    animation-delay: var(--start-sphere-rainbow-phase, 0s);
   }
 }
 
