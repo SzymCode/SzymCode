@@ -127,12 +127,12 @@
 import CTAButton from './cta-button.vue'
 
 const navLinks = [
-  { to: '/#about', label: 'O mnie' },
   { to: '/#offer', label: 'Oferta' },
   { to: '/#reviews', label: 'Opinie' },
   { to: '/#faq', label: 'FAQ' },
   { to: '/#scope', label: 'Zakres' },
   { to: '/#contact', label: 'Kontakt' },
+  { to: '/kursy', label: 'Kursy' },
   { to: '/blog', label: 'Blog' },
 ] as const
 

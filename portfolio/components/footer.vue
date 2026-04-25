@@ -98,6 +98,7 @@ const navLinks = [
   { to: '/#faq', label: 'FAQ' },
   { to: '/#scope', label: 'Zakres' },
   { to: '/#contact', label: 'Kontakt' },
+  { to: '/kursy', label: 'Kursy' },
   { to: '/blog', label: 'Blog' },
 ] as const
 
