@@ -18,7 +18,7 @@ Founder and core developer of [Nucleify](https://nucleify.io/en/home) - a modula
   <tr>
     <td>⭐ Portfolio</td>
     <td>
-      <a href="https://nucleify.io/en/home" target="_blank"><img src="https://github.com/SzymCode/SzymCode/assets/107359025/8454470d-3f70-484a-b12e-b902530cb9ba" height="12"> Nucleify</a>
+      <a href="https://nucleify.io/en/home" target="_blank"><img src="https://github.com/SzymCode/SzymCode/assets/107359025/8454470d-3f70-484a-b12e-b902530cb9ba" height="12"> Nucleify</a> / <a href="https://szymco.de" target="_blank">szymco.de</a>
     </td>
   </tr>
   <tr>
