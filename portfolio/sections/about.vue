@@ -18,13 +18,13 @@
             </p>
 
             <p>
-              W <strong>Atomic IT</strong> rozwijam ekosystem
+              W <strong>Atomic IT</strong> rozwijam
               <strong>Nucleify</strong>
-              - modularny framework dla
-              <strong>Laravela</strong>
-              i <strong>Nuxt (Vue)</strong> oraz
-              <strong>React (Next.js)</strong>, z naciskiem na skalowalną
-              architekturę, jakość i sensowną współpracę z backendem.
+              — monorepo i kompilator UI:
+              <strong>build once, move to any framework</strong>
+              (Vue · React · Nuxt · Next · Astro · Svelte · Solid). Produkt
+              zostaje we wspólnym jądrze; zmieniasz shell bez przepisywania
+              biznesu.
             </p>
 
             <p>
@@ -123,9 +123,9 @@ const highlightTagItems: HighlightTagItem[] = [
     title: 'Repozytorium Nucleify na GitHubie',
   },
   {
-    label: 'Full-stack: Laravel, Nuxt, React, TypeScript',
-    href: 'https://github.com/SzymCode',
-    title: 'Profil GitHub SzymCode',
+    label: '7 shelli: Vue · React · Nuxt · Next · Astro · Svelte · Solid',
+    href: 'https://github.com/Nucleify/Nucleify',
+    title: 'Repozytorium Nucleify na GitHubie',
   },
   {
     label: 'Mentoring 1:1 i konsultacje',

@@ -10,7 +10,7 @@ Samouk z pasją do rozwoju - szukam ambitnych projektów, w których mogę wnie�
 
 Stawiam na niezawodny, łatwy w utrzymaniu kod - testuję z Pest, PHPUnit, Jest, Vitest, Cypress i Storybook. Mam też doświadczenie w DevOps, Docker i CI/CD, a cyberbezpieczeństwo traktuję jako dodatkową dziedzinę rozwoju.
 
-Twórca i główny developer [Nucleify](https://nucleify.io/pl/dev) - modularnego frameworka full-stack (Laravel + Nuxt) do szybkiego tworzenia stron, CMS-ów i aplikacji webowych. 40+ modułów wielokrotnego użytku, system overrides do nadpisywania plików core i pagebuilder z edytorem drag-and-drop - wszystko rozwijane aktywnie od ponad dwóch lat.
+Twórca i główny developer [Nucleify](https://nucleify.io) — **zbuduj raz, przenieś na dowolny framework**. Jedno wspólne jądro produktu (web · admin · docs) z przenośnym kompilatorem emitującym do **Vue · React · Nuxt · Next · Astro · Svelte · Solid**, żeby zmieniać stack bez przepisywania biznesu.
 
 <br>
 
@@ -18,7 +18,7 @@ Twórca i główny developer [Nucleify](https://nucleify.io/pl/dev) - modularneg
   <tr>
     <td>⭐ Portfolio</td>
     <td>
-      <a href="https://nucleify.io/en/home" target="_blank"><img src="https://github.com/SzymCode/SzymCode/assets/107359025/8454470d-3f70-484a-b12e-b902530cb9ba" height="12"> Nucleify</a> / <a href="https://szymco.de" target="_blank">szymco.de</a>
+      <a href="https://nucleify.io" target="_blank"><img src="/img/logo/nucleify.svg" height="18" width="18" alt=""> Nucleify</a> / <a href="https://szymco.de" target="_blank">szymco.de</a>
     </td>
   </tr>
   <tr>
@@ -62,204 +62,42 @@ Twórca i główny developer [Nucleify](https://nucleify.io/pl/dev) - modularneg
 
 
 
-<details><summary> <img src="https://github.com/SzymCode/SzymCode/assets/107359025/8454470d-3f70-484a-b12e-b902530cb9ba" height="12"> Nucleify </summary>
+<details><summary> <img src="/img/logo/nucleify.svg" height="20" width="20" alt=""> Nucleify </summary>
 <br>
 
-Nucleify to nowoczesny, modularny full-stackowy framework (zbudowany z Laravel + Vue/Nuxt) zaprojektowany, aby przyspieszyć tworzenie stron internetowych, systemów CMS i aplikacji webowych - bez bólu związanego z przestarzałymi systemami CMS. 
-Chcesz tworzyć szybkie, zorganizowane projekty webowe z najlepszymi praktykami i pełną kontrolą nad kodem? Nucleify to Twoje narzędzie.
+**Zbuduj raz. Przenieś na dowolny framework.**
 
-### Moduły
+Nucleify trzyma produkt w jednym wspólnym jądrze — **web**, **admin** i **docs** — więc zmiana stacka nie oznacza przepisywania biznesu. Przenośny kompilator UI emituje do siedmiu shelli; backend na **Supabase**; UI przez [nucleify-ui](https://www.npmjs.com/package/nucleify-ui).
 
-<table>
-  <tr>
-    <td align="center" rowspan="5"><b>⚙️<br>Core</b></td>
-    <td><a href="https://github.com/Nucleify/nuc_api" target="_blank">nuc_api</a></td>
-    <td>Frontendowa warstwa API z obsługą żądań i composables</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_database" target="_blank">nuc_database</a></td>
-    <td>Automatyczne wykrywanie i uruchamianie seederów z modułów</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_globals" target="_blank">nuc_globals</a></td>
-    <td>Globalne stałe, adresy URL obrazów i helpery środowiska</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_modules" target="_blank">nuc_modules</a></td>
-    <td>Instalacja, odinstalowanie i konfiguracja modułów w runtime</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_overrides" target="_blank">nuc_overrides</a></td>
-    <td>Mechanizm nadpisywania plików core przez moduły</td>
-  </tr>
-  <tr><td colspan="3"></td></tr>
-  <tr>
-    <td align="center" rowspan="4"><b>🔐<br>Auth i<br>Social</b></td>
-    <td><a href="https://github.com/Nucleify/nuc_auth" target="_blank">nuc_auth</a></td>
-    <td>Strony logowania, rejestracji i przyciski testowego logowania</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_users" target="_blank">nuc_users</a></td>
-    <td>Dashboard profilu użytkownika i zarządzanie kontem</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_friendship" target="_blank">nuc_friendship</a></td>
-    <td>Zaproszenia do znajomych, listy, blokowanie i popovery</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_share" target="_blank">nuc_share</a></td>
-    <td>Dialogi udostępniania, zakładki i przychodzące żądania</td>
-  </tr>
-  <tr><td colspan="3"></td></tr>
-  <tr>
-    <td align="center" rowspan="4"><b>📦<br>Encje<br>i dane</b></td>
-    <td><a href="https://github.com/Nucleify/nuc_entities" target="_blank">nuc_entities</a></td>
-    <td>Strony CRUD i dashboardy dla artykułów, kontaktów i finansów</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_entities_structural" target="_blank">nuc_entities_structural</a></td>
-    <td>CRUD dla encji strukturalnych jak pytania i technologie</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_activity" target="_blank">nuc_activity</a></td>
-    <td>Dashboard logów aktywności z wykresem i tabelą</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_files" target="_blank">nuc_files</a></td>
-    <td>Przesyłanie, przeglądanie i organizowanie plików</td>
-  </tr>
-  <tr><td colspan="3"></td></tr>
-  <tr>
-    <td align="center" rowspan="5"><b>🧩<br>Komponenty<br>UI</b></td>
-    <td><a href="https://github.com/Nucleify/nuc_datatable" target="_blank">nuc_datatable</a></td>
-    <td>Tabele danych z sortowaniem, filtrowaniem i paginacją</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_charts" target="_blank">nuc_charts</a></td>
-    <td>Wykresy encji Chart.js z konfigurowalnymi ustawieniami</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_dialog" target="_blank">nuc_dialog</a></td>
-    <td>Komponent modalny do formularzy i potwierdzeń</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_fields" target="_blank">nuc_fields</a></td>
-    <td>Walidacja pól i helpery getterów dla formularzy</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_tooltip" target="_blank">nuc_tooltip</a></td>
-    <td>Dyrektywa Vue v-tooltip dla podpowiedzi po najechaniu</td>
-  </tr>
-  <tr><td colspan="3"></td></tr>
-  <tr>
-    <td align="center" rowspan="5"><b>📄<br>Strony<br>i układ</b></td>
-    <td><a href="https://github.com/Nucleify/nuc_pages" target="_blank">nuc_pages</a></td>
-    <td>Strony marketingowe i prawne: home, about, RODO, 404</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_sections" target="_blank">nuc_sections</a></td>
-    <td>Navbar, footer, formularz kontaktowy, email-us i FAQ</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_admin" target="_blank">nuc_admin</a></td>
-    <td>Strona i układ panelu administracyjnego</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_documentation" target="_blank">nuc_documentation</a></td>
-    <td>Przeglądarka dokumentacji z sidebarem, TOC i paginacją</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_settings" target="_blank">nuc_settings</a></td>
-    <td>Strona ustawień z drzewem menu i panelami konfiguracji</td>
-  </tr>
-  <tr><td colspan="3"></td></tr>
-  <tr>
-    <td align="center" rowspan="5"><b>🎨<br>Wygląd<br>i motywy</b></td>
-    <td><a href="https://github.com/Nucleify/nuc_animations" target="_blank">nuc_animations</a></td>
-    <td>Animacje bounce, hexagons, scroll i split-text</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_colors" target="_blank">nuc_colors</a></td>
-    <td>Motywy kolorystyczne z pickerem i pluginami SSR</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_dark_mode" target="_blank">nuc_dark_mode</a></td>
-    <td>Przełącznik trybu ciemnego/jasnego z persystencją</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_screen_lights" target="_blank">nuc_screen_lights</a></td>
-    <td>Dekoracyjne paski świetlne na krawędziach ekranu</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_screen_loader" target="_blank">nuc_screen_loader</a></td>
-    <td>Loader startowy z logo i paskiem postępu</td>
-  </tr>
-  <tr><td colspan="3"></td></tr>
-  <tr>
-    <td align="center" rowspan="5"><b>🔧<br>Stan i<br>narzędzia</b></td>
-    <td><a href="https://github.com/Nucleify/nuc_stores" target="_blank">nuc_stores</a></td>
-    <td>Adaptery Pinia, cookies, localStorage i sessionStorage</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_loading" target="_blank">nuc_loading</a></td>
-    <td>Composable useLoading i kontrola throttle</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_performance" target="_blank">nuc_performance</a></td>
-    <td>Opóźniony CSS, leniwe obrazy i optymalizacje layoutu</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_media" target="_blank">nuc_media</a></td>
-    <td>Helpery media-query dla klienta, desktopu i mobile</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_time" target="_blank">nuc_time</a></td>
-    <td>Odliczanie, ile dni/godzin/minut pozostało</td>
-  </tr>
-  <tr><td colspan="3"></td></tr>
-  <tr>
-    <td align="center" rowspan="5"><b>🏗️<br>Kreator<br>i nawigacja</b></td>
-    <td><a href="https://github.com/Nucleify/nuc_pagebuilder" target="_blank">nuc_pagebuilder</a></td>
-    <td>Kreator stron drag-and-drop z widżetami i inspektorem</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_templates" target="_blank">nuc_templates</a></td>
-    <td>Karty autorów, sześcian, siatki tła, odznaki i więcej</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_dock" target="_blank">nuc_dock</a></td>
-    <td>Dock z ikonką aplikacji, linkami i popoverami</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_navigation" target="_blank">nuc_navigation</a></td>
-    <td>Komponenty nawigacji i kontekstowy przycisk wstecz</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_pricings" target="_blank">nuc_pricings</a></td>
-    <td>Sekcja cennikowa z planami taryfowymi</td>
-  </tr>
-  <tr><td colspan="3"></td></tr>
-  <tr>
-    <td align="center" rowspan="4"><b>🛠️<br>Narzędzia<br>dev</b></td>
-    <td><a href="https://github.com/Nucleify/nuc_tests" target="_blank">nuc_tests</a></td>
-    <td>Helpery testowe Pest PHP, asercje i traity</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_openapi" target="_blank">nuc_openapi</a></td>
-    <td>Generowanie specyfikacji OpenAPI 3.0 i Swagger UI</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_languages" target="_blank">nuc_languages</a></td>
-    <td>Przełącznik i18n z plikami lokalizacji (EN, PL, VN)</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/Nucleify/nuc_terminal" target="_blank">nuc_terminal</a></td>
-    <td>Terminal w przeglądarce z promptem w stylu Artisan</td>
-  </tr>
-</table>
+### Shelle
+
+<p align="center">
+  <a href="https://vuejs.org/" target="_blank"><img src="/img/technologies/logo/vue.svg" height="32" width="32" alt="Vue" /></a>
+  <a href="https://react.dev/" target="_blank"><img src="/img/technologies/logo/react.svg" height="32" width="32" alt="React" /></a>
+  <a href="https://nuxt.com/" target="_blank"><img src="/img/technologies/logo/nuxt.svg" height="32" width="32" alt="Nuxt" /></a>
+  <a href="https://nextjs.org/" target="_blank"><img src="/img/technologies/logo/next.svg" height="32" width="32" alt="Next.js" /></a>
+  <a href="https://astro.build/" target="_blank"><img src="/img/technologies/logo/astro.svg" height="32" width="32" alt="Astro" /></a>
+  <a href="https://svelte.dev/" target="_blank"><img src="/img/technologies/logo/svelte.svg" height="32" width="32" alt="Svelte" /></a>
+  <a href="https://www.solidjs.com/" target="_blank"><img src="/img/technologies/logo/solid.svg" height="32" width="32" alt="Solid" /></a>
+</p>
+
+<p align="center"><strong>Vue · React · Nuxt · Next · Astro · Svelte · Solid</strong><br />
+<em>Nie tylko React/Next ani Vue/Nuxt — siedem celów emit z jednego jądra.</em></p>
+
+### Co robi
+
+⭐ **Dowolny stack → dowolny inny** — migracja bez przepisywania logiki produktu<br>
+⭐ **Wspólne jądro** — API, SQL i UI jako jeden produkt między shellami<br>
+⭐ **Przenośny kompilator** — napisz raz, emit Vue / React / Solid / Svelte i więcej<br>
+⭐ **Setup jedną komendą** — `make run` + `make web` z roota repo<br>
+
 <br>
-</details>
+<a href="https://nucleify.io" target="_blank">Live</a> ·
+<a href="https://docs.nucleify.io/pl/docs/getting-started/introduction" target="_blank">Docs</a> ·
+<a href="https://nucleify.io/en/investor" target="_blank">Investor</a> ·
+<a href="https://github.com/Nucleify/Nucleify" target="_blank">GitHub</a>
 
+<br>
 </details>
 <br>
 
@@ -275,34 +113,26 @@ Chcesz tworzyć szybkie, zorganizowane projekty webowe z najlepszymi praktykami 
   </th>
   <tr>
     <td>
-      <a href="https://nucleify.io/en/home" target="_blank">
-        Nucleify
+      <a href="https://nucleify.io" target="_blank">
+        <img src="/img/logo/nucleify.svg" height="18" width="18" alt=""> Nucleify
       </a>
     </td>
     <td>
-      <a href="https://www.typescriptlang.org/" target="_blank"><img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="TypeScript" /></a>
-      <a href="https://www.php.net/" target="_blank"><img src="/img/technologies/logo/php.svg" height="25" width="25" alt="PHP" /></a>
-      <a href="https://laravel.com/" target="_blank"><img src="/img/technologies/logo/laravel.svg" height="25" width="25" alt="Laravel" /></a>
-      <a href="https://nuxt.com/" target="_blank"><img src="/img/technologies/logo/nuxt.svg" height="25" width="25" alt="Nuxt" /></a>
       <a href="https://vuejs.org/" target="_blank"><img src="/img/technologies/logo/vue.svg" height="25" width="25" alt="Vue" /></a>
-      <a href="https://pinia.vuejs.org/" target="_blank"><img src="/img/technologies/logo/pinia.svg" height="25" width="25" alt="Pinia" /></a>
-      <a href="https://primevue.org/" target="_blank"><img src="/img/technologies/logo/primevue.svg" height="25" width="25" alt="PrimeVue" /></a>
-      <a href="https://www.chartjs.org/" target="_blank"><img src="/img/technologies/logo/chart-js.svg" height="25" width="25" alt="Chart.js" /></a>
-      <a href="https://greensock.com/gsap/" target="_blank"><img src="/img/technologies/logo/gsap.svg" height="25" width="25" alt="GSAP" /></a>
-      <a href="https://sass-lang.com/" target="_blank"><img src="/img/technologies/logo/sass.svg" height="25" width="25" alt="Sass" /></a>
-      <a href="https://html.com/" target="_blank"><img src="/img/technologies/logo/html5.svg" height="25" width="25" alt="HTML5" /></a>
+      <a href="https://react.dev/" target="_blank"><img src="/img/technologies/logo/react.svg" height="25" width="25" alt="React" /></a>
+      <a href="https://nuxt.com/" target="_blank"><img src="/img/technologies/logo/nuxt.svg" height="25" width="25" alt="Nuxt" /></a>
+      <a href="https://nextjs.org/" target="_blank"><img src="/img/technologies/logo/next.svg" height="25" width="25" alt="Next.js" /></a>
+      <a href="https://astro.build/" target="_blank"><img src="/img/technologies/logo/astro.svg" height="25" width="25" alt="Astro" /></a>
+      <a href="https://svelte.dev/" target="_blank"><img src="/img/technologies/logo/svelte.svg" height="25" width="25" alt="Svelte" /></a>
+      <a href="https://www.solidjs.com/" target="_blank"><img src="/img/technologies/logo/solid.svg" height="25" width="25" alt="Solid" /></a>
+      <a href="https://www.typescriptlang.org/" target="_blank"><img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="TypeScript" /></a>
+      <a href="https://supabase.com/" target="_blank"><img src="/img/technologies/logo/supabase.svg" height="25" width="25" alt="Supabase" /></a>
+      <a href="https://www.cloudflare.com/" target="_blank"><img src="/img/technologies/logo/cloudflare.svg" height="25" width="25" alt="Cloudflare" /></a>
       <a href="https://www.docker.com/" target="_blank"><img src="/img/technologies/logo/docker.svg" height="25" width="25" alt="Docker" /></a>
-      <a href="https://www.heroku.com/" target="_blank"><img src="/img/technologies/logo/heroku.svg" height="25" width="25" alt="Heroku" /></a>
-      <a href="https://www.mysql.com/" target="_blank"><img src="/img/technologies/logo/mysql.svg" height="25" width="25" alt="MySQL" /></a>
-      <a href="https://pestphp.com/" target="_blank"><img src="/img/technologies/logo/pest.svg" height="24" width="24" alt="PestPHP" /></a>
       <a href="https://vitest.dev/" target="_blank"><img src="/img/technologies/logo/vitest.svg" height="25" width="25" alt="Vitest" /></a>
-      <a href="https://storybook.js.org/" target="_blank"><img src="/img/technologies/logo/storybook.svg" height="25" width="25" alt="Storybook" /></a>
-      <a href="https://www.cypress.io/" target="_blank"><img src="/img/technologies/logo/cypress.svg" height="25" width="25" alt="Cypress" /></a>
       <a href="https://biomejs.dev/" target="_blank"><img src="/img/technologies/logo/biome.svg" height="25" width="25" alt="Biome" /></a>
       <a href="https://stylelint.io/" target="_blank"><img src="/img/technologies/logo/stylelint.svg" height="25" width="25" alt="Stylelint" /></a>
-      <a href="https://github.com/features/actions" target="_blank"><img src="/img/technologies/logo/github.svg" height="25" width="25" alt="Github Actions" /></a>
-      <a href="https://typicode.github.io/husky/" target="_blank"><img src="/img/technologies/logo/husky.svg" height="25" width="25" alt="Husky" /></a>
-      <a href="https://sonarcloud.io/" target="_blank"><img src="/img/technologies/logo/sonarcloud.svg" height="25" width="25" alt="SonarCloud" /></a>
+      <a href="https://github.com/features/actions" target="_blank"><img src="/img/technologies/logo/github.svg" height="25" width="25" alt="GitHub Actions" /></a>
     </td>
   </tr>
   <tr>
