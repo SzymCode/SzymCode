@@ -18,7 +18,7 @@ Founder and core developer of [Nucleify](https://nucleify.io) — **build once, 
   <tr>
     <td>⭐ Portfolio</td>
     <td>
-      <a href="https://nucleify.io" target="_blank"><img src="/img/logo/nucleify.svg" height="18" width="18" alt=""> Nucleify</a> / <a href="https://szymco.de" target="_blank">szymco.de</a>
+      <a href="https://nucleify.io" target="_blank"><img src="https://nucleify.io/favicon.ico" height="13" width="13" alt=""> Nucleify</a> / <a href="https://szymco.de" target="_blank">szymco.de</a>
     </td>
   </tr>
   <tr>
@@ -62,7 +62,7 @@ Founder and core developer of [Nucleify](https://nucleify.io) — **build once, 
 
 
 
-<details><summary> <img src="/img/logo/nucleify.svg" height="20" width="20" alt=""> Nucleify </summary>
+<details><summary> <img src="https://nucleify.io/favicon.ico" height="13" width="13" alt=""> Nucleify </summary>
 <br>
 
 **Build once. Move to any framework.**
