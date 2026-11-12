@@ -9,7 +9,7 @@
       </li>
     </ul>
     <p v-else class="blog-empty">
-      Brak wpisów — dodaj pliki <code>.md</code> w <code>public/blog</code>.
+      Brak wpisów - dodaj pliki <code>.md</code> w <code>public/blog</code>.
     </p>
   </section>
 </template>

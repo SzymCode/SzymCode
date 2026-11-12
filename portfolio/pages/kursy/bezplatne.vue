@@ -2,10 +2,9 @@
   <div class="course-category-view">
     <Navbar />
     <main class="course-category-view-main">
-      <GridBackground />
       <CourseCategoryHero
         title-highlight="bez opłat"
-        lead="Wstępy i warsztaty — zanim wejdziesz w pełny program, możesz sprawdzić formę i tempo pracy."
+        lead="Wstępy i warsztaty - zanim wejdziesz w pełny program, możesz sprawdzić formę i tempo pracy."
       />
       <CourseListGrid
         :courses="freeCourses"
@@ -29,7 +28,7 @@ useHead({
     {
       name: 'description',
       content:
-        'Bezpłatne kursy SzymCode: Vue, React, SCSS — materiały startowe i warsztaty.',
+        'Bezpłatne kursy SzymCode: Vue, React, SCSS - materiały startowe i warsztaty.',
     },
   ],
 })

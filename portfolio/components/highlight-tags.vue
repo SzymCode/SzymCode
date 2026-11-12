@@ -1,5 +1,5 @@
 <template>
-  <ul class="highlight-tags" aria-label="Skrót doświadczenia — linki">
+  <ul class="highlight-tags" aria-label="Skrót doświadczenia - linki">
     <li v-for="item in items" :key="item.label" class="highlight-tags-item">
       <NuxtLink
         class="highlight-tags-tag"

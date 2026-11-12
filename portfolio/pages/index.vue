@@ -2,7 +2,7 @@
   <div id="index">
     <Navbar />
     <main>
-      <GridBackground />
+      <Shear />
       <Start />
       <Spacing />
       <About />
@@ -25,7 +25,6 @@
 <script setup lang="ts">
 import Navbar from '~/components/navbar.vue'
 import Footer from '~/components/footer.vue'
-import GridBackground from '~/components/grid-background.vue'
 import Spacing from '~/components/spacing.vue'
 import About from '~/sections/about.vue'
 import Contact from '~/sections/contact.vue'

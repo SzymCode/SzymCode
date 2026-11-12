@@ -10,7 +10,7 @@ As a self-taught developer, I’m actively seeking challenging career opportunit
 
 I’m dedicated to writing reliable, maintainable code, and I enjoy testing with tools such as Pest, PHPUnit, Jest, Vitest, Cypress, and Storybook to ensure high quality. Beyond development, I’m experienced in DevOps, Docker, CI/CD, and passionate about cybersecurity.
 
-Founder and core developer of [Nucleify](https://nucleify.io) — **build once, move to any framework**. One shared product nucleus (web · admin · docs) with a portable compiler that emits to **Vue · React · Nuxt · Next · Astro · Svelte · Solid**, so you can migrate stacks without rewriting the business.
+Founder and core developer of [Nucleify](https://nucleify.io) - **migrate your project directly framework-to-framework without touching business logic**. Cloud-powered TypeScript AST compiler & CLI ([@nucleify/cli](https://cli.nucleify.io)) emitting clean, native code to **Vue · React · Nuxt · Next · Astro · Svelte · Solid** alongside a shared product nucleus (web · admin · docs).
 
 <br>
 
@@ -19,6 +19,12 @@ Founder and core developer of [Nucleify](https://nucleify.io) — **build once, 
     <td>⭐ Portfolio</td>
     <td>
       <a href="https://nucleify.io" target="_blank"><img src="https://nucleify.io/favicon.ico" height="13" width="13" alt=""> Nucleify</a> / <a href="https://szymco.de" target="_blank">szymco.de</a>
+    </td>
+  </tr>
+  <tr>
+    <td><img src="https://nucleify.io/favicon.ico" height="13" width="13" alt=""> Nucleify</td>
+    <td>
+      <a href="https://nucleify.io" target="_blank">Product page</a>, <a href="https://cli.nucleify.io" target="_blank">Compiler CLI</a>, <a href="https://play.nucleify.io" target="_blank">Playground</a>, <a href="https://ui.nucleify.io" target="_blank">nucleify-ui</a>
     </td>
   </tr>
   <tr>
@@ -65,11 +71,27 @@ Founder and core developer of [Nucleify](https://nucleify.io) — **build once, 
 <details><summary> <img src="https://nucleify.io/favicon.ico" height="13" width="13" alt=""> Nucleify </summary>
 <br>
 
-**Build once. Move to any framework.**
+<h3>Build once. Move to any framework.</h3>
 
-Nucleify keeps your product in one shared nucleus — **web**, **admin**, and **docs** — so switching stacks does not mean rewriting the business. A portable UI compiler emits to seven shells; backend on **Supabase**; UI with [nucleify-ui](https://www.npmjs.com/package/nucleify-ui).
+Migrate your project directly framework-to-framework without touching business logic. Nucleify provides a cloud AST compiler, CLI, and shared nucleus (web, admin, and docs) powered by **Supabase** and portable UI components via [nucleify-ui](https://ui.nucleify.io).
 
-### Shells
+⭐ **Any stack → any other** - direct framework-to-framework migration without losing business logic<br>
+⭐ **Nucleify CLI (`nuc`)** - compile, watch, and emit components with one command (`nuc emit`)<br>
+⭐ **Live Playground** - test and compare AST emissions in real time at [play.nucleify.io](https://play.nucleify.io)<br>
+⭐ **Shared nucleus** - API, SQL schema, CMS and UI stay unified as one single product across shells<br>
+⭐ **Cloud AST Engine** - deep TypeScript AST transformations emitting clean, framework-native code<br>
+⭐ **One-command setup** - `make run` + `make web` from the repository root<br>
+
+### ⚡ Nucleify CLI & Cloud AST Compiler
+
+At the heart of the ecosystem is [`@nucleify/cli`](https://cli.nucleify.io) (`nuc`), a cloud-powered TypeScript AST compiler & framework migration engine:
+
+- **Multi-Target Code Emission (`nuc emit`)** - Write portable UI components once and emit clean, idiomatic code to any framework target.
+- **Instant Watch Mode (`nuc emit --watch`)** - Live AST compilation in the cloud with instant feedback across all shells.
+- **Automated Migration Engine (`nuc migrate`)** - Migrate components directly framework-to-framework with full business logic preservation.
+- **Environment Diagnostics (`nuc doctor`)** - Validate tokens, Gateway connectivity, and shell targets.
+
+<h2 align="center">Frameworks</h3>
 
 <p align="center">
   <a href="https://vuejs.org/" target="_blank"><img src="/img/technologies/logo/vue.svg" height="32" width="32" alt="Vue" /></a>
@@ -81,21 +103,18 @@ Nucleify keeps your product in one shared nucleus — **web**, **admin**, and **
   <a href="https://www.solidjs.com/" target="_blank"><img src="/img/technologies/logo/solid.svg" height="32" width="32" alt="Solid" /></a>
 </p>
 
-<p align="center"><strong>Vue · React · Nuxt · Next · Astro · Svelte · Solid</strong><br />
-<em>Not locked to React/Next or Vue/Nuxt alone — seven emit targets from one nucleus.</em></p>
+<p align="center"><strong>Vue · React · Nuxt · Next.js · Astro · Svelte · Solid</strong><br />
+<em>Zero vendor lock-in - emit to 7 native frameworks via @nucleify/cli.</em></p>
 
-### What it does
-
-⭐ **Any stack → any other** — migrate without rewriting product logic<br>
-⭐ **Shared nucleus** — API, SQL, and UI stay one product across shells<br>
-⭐ **Portable compiler** — write once, emit Vue / React / Solid / Svelte and more<br>
-⭐ **One-command setup** — `make run` + `make web` from the repo root<br>
-
-<br>
-<a href="https://nucleify.io" target="_blank">Live</a> ·
-<a href="https://docs.nucleify.io/en/docs/getting-started/introduction" target="_blank">Docs</a> ·
-<a href="https://nucleify.io/en/investor" target="_blank">Investor</a> ·
-<a href="https://github.com/Nucleify/Nucleify" target="_blank">GitHub</a>
+<p align="center">
+  <a href="https://nucleify.io" target="_blank">Product page</a> ·
+  <a href="https://cli.nucleify.io" target="_blank">Compiler CLI</a> ·
+  <a href="https://play.nucleify.io" target="_blank">Playground</a> ·
+  <a href="https://ui.nucleify.io" target="_blank">nucleify-ui</a> ·
+  <a href="https://docs.nucleify.io/en/docs/getting-started/introduction" target="_blank">Docs</a> ·
+  <a href="https://nucleify.io/en/investor" target="_blank">Investor</a> ·
+  <a href="https://github.com/Nucleify/Nucleify" target="_blank">GitHub</a>
+</p>
 
 <br>
 </details>
@@ -114,10 +133,11 @@ Nucleify keeps your product in one shared nucleus — **web**, **admin**, and **
   <tr>
     <td>
       <a href="https://nucleify.io" target="_blank">
-        <img src="/img/logo/nucleify.svg" height="18" width="18" alt=""> Nucleify
+        <img src="https://nucleify.io/favicon.ico" height="13" width="13" alt=""> Nucleify
       </a>
     </td>
     <td>
+      <a href="https://www.typescriptlang.org/" target="_blank"><img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="TypeScript" /></a>
       <a href="https://vuejs.org/" target="_blank"><img src="/img/technologies/logo/vue.svg" height="25" width="25" alt="Vue" /></a>
       <a href="https://react.dev/" target="_blank"><img src="/img/technologies/logo/react.svg" height="25" width="25" alt="React" /></a>
       <a href="https://nuxt.com/" target="_blank"><img src="/img/technologies/logo/nuxt.svg" height="25" width="25" alt="Nuxt" /></a>
@@ -125,7 +145,6 @@ Nucleify keeps your product in one shared nucleus — **web**, **admin**, and **
       <a href="https://astro.build/" target="_blank"><img src="/img/technologies/logo/astro.svg" height="25" width="25" alt="Astro" /></a>
       <a href="https://svelte.dev/" target="_blank"><img src="/img/technologies/logo/svelte.svg" height="25" width="25" alt="Svelte" /></a>
       <a href="https://www.solidjs.com/" target="_blank"><img src="/img/technologies/logo/solid.svg" height="25" width="25" alt="Solid" /></a>
-      <a href="https://www.typescriptlang.org/" target="_blank"><img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="TypeScript" /></a>
       <a href="https://supabase.com/" target="_blank"><img src="/img/technologies/logo/supabase.svg" height="25" width="25" alt="Supabase" /></a>
       <a href="https://www.cloudflare.com/" target="_blank"><img src="/img/technologies/logo/cloudflare.svg" height="25" width="25" alt="Cloudflare" /></a>
       <a href="https://www.docker.com/" target="_blank"><img src="/img/technologies/logo/docker.svg" height="25" width="25" alt="Docker" /></a>

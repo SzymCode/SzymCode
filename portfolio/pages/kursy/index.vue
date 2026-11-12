@@ -2,7 +2,6 @@
   <div class="kursy-hub-page">
     <Navbar />
     <main class="kursy-hub-main">
-      <GridBackground />
       <section class="kursy-hub-hero" aria-labelledby="kursy-hub-title">
         <div class="kursy-hub-inner">
           <p class="kursy-hub-eyebrow rainbow-text-auto">Kursy</p>

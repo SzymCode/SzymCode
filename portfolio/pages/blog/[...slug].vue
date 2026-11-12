@@ -1,10 +1,7 @@
 <template>
   <div id="blog-top" class="blog-page">
     <Navbar />
-    <main class="blog-main">
-      <GridBackground />
-      <BlogPostArticle :post="post" />
-    </main>
+    <main class="blog-main"><BlogPostArticle :post="post" /></main>
     <Footer />
   </div>
 </template>

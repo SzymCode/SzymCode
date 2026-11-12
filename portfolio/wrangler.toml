@@ -4,8 +4,8 @@ compatibility_date = "2026-04-06"
 account_id = "7c5285307cec0088f9f25c2388e5558e"
 
 routes = [
-  "szymco.de/*",
-  "www.szymco.de/*"
+  { pattern = "szymco.de/*", zone_name = "szymco.de" },
+  { pattern = "www.szymco.de/*", zone_name = "szymco.de" }
 ]
 
 [site]

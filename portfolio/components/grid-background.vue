@@ -10,13 +10,15 @@
   inset: 0;
   pointer-events: none;
   max-height: 100vh;
+  contain: paint;
 
   &-grid {
     position: absolute;
     inset: 0;
     background-size: 60px 60px;
-    mask-image: radial-gradient(ellipse 80% 60% at 50% 40%, black 20%, transparent 100%);
-    filter: brightness(1.5)
+    mask-image: radial-gradient(ellipse 80% 60% at 50% 40%, black 5%, transparent 100%);
+    filter: brightness(1.5);
+    transform: translateZ(0);
   }
 }
 

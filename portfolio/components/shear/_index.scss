@@ -1,0 +1,51 @@
+.nuc-shear {
+  --shell-mx: 0;
+  --shell-my: 0;
+  --shell-iris: 165%;
+  --shell-iris-x: 18%;
+  --shell-iris-y: 40%;
+
+  pointer-events: none;
+  position: fixed;
+  inset: -12%;
+  z-index: 0;
+  transform: perspective(1000px) rotateX(calc(var(--shell-my) * -8deg)) rotateY(calc(var(--shell-mx) * 10deg)) translate3d(calc(var(--shell-mx) * 36px), calc(var(--shell-my) * 28px), 0);
+  transform-origin: 50% 35%;
+  will-change: transform;
+
+  @media (max-width: 959px) {
+    --shell-iris-x: 12%;
+    --shell-iris-y: 18%;
+  }
+}
+
+.nuc-aura {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(circle 850px at calc(50% + var(--shell-mx) * 15%) calc(38% + var(--shell-my) * 15%),
+    #{'hsl(var(--rainbow-hue) 60% 45% / 0.11)'} 0%,
+    #{'hsl(calc(var(--rainbow-hue) + 38deg) 55% 40% / 0.06)'} 42%,
+    transparent 72%);
+  opacity: 0.75;
+  transition: opacity 0.3s ease;
+}
+
+.nuc-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(color-mix(in srgb, hsl(var(--rainbow-hue) 58% 58%) 26%, transparent) 1px,
+      transparent 1px),
+    linear-gradient(90deg,
+      color-mix(in srgb, hsl(var(--rainbow-hue) 58% 58%) 26%, transparent) 1px,
+      transparent 1px);
+  background-size: 72px 72px;
+  mask-image: radial-gradient(circle at var(--shell-iris-x) var(--shell-iris-y),
+      #000 var(--shell-iris),
+      transparent calc(var(--shell-iris) + 18%));
+  opacity: 0.7;
+  transform: translate3d(calc(var(--shell-mx) * -22px),
+      calc(var(--shell-my) * -18px),
+      0);
+}

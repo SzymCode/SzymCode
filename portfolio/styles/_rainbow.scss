@@ -1,166 +1,50 @@
-@property --rainbow-hue {
-  syntax: '<angle>';
-  inherits: true;
-  initial-value: 132deg;
-}
+@use 'nui-rainbow/styles.css' as *;
 
 :root {
-  --rainbow-cycle-duration: 60s;
-  --rainbow-grid-cycle-duration: 120s;
-  --rainbow-hue: 132deg;
+  --rainbow-cycle-duration: 12s;
+  --rainbow-grid-cycle-duration: 24s;
+  --nui-rainbow-duration: var(--rainbow-cycle-duration, 12s);
+  --rainbow-hue: 152deg;
 
-  animation: rainbow-hue-cycle var(--rainbow-cycle-duration, 60s) linear infinite;
-}
-
-@keyframes rainbow-hue-cycle {
-  0% {
-    --rainbow-hue: 132deg;
-  }
-
-  12.5% {
-    --rainbow-hue: 210deg;
-  }
-
-  25% {
-    --rainbow-hue: 258deg;
-  }
-
-  37.5% {
-    --rainbow-hue: 292deg;
-  }
-
-  50% {
-    --rainbow-hue: 360deg;
-  }
-
-  62.5% {
-    --rainbow-hue: 392deg;
-  }
-
-  75% {
-    --rainbow-hue: 412deg;
-  }
-
-  87.5% {
-    --rainbow-hue: 412deg;
-  }
-
-  100% {
-    --rainbow-hue: 492deg;
-  }
-}
-
-@keyframes rainbow-grid-hue-spin {
-  0% {
-    filter: hue-rotate(0deg);
-  }
-
-  12.5% {
-    filter: hue-rotate(78deg);
-  }
-
-  25% {
-    filter: hue-rotate(126deg);
-  }
-
-  37.5% {
-    filter: hue-rotate(160deg);
-  }
-
-  50% {
-    filter: hue-rotate(228deg);
-  }
-
-  62.5% {
-    filter: hue-rotate(260deg);
-  }
-
-  75% {
-    filter: hue-rotate(280deg);
-  }
-
-  87.5% {
-    filter: hue-rotate(280deg);
-  }
-
-  100% {
-    filter: hue-rotate(360deg);
-  }
-}
-
-@keyframes rainbow-grid-glow-hue-spin {
-  0% {
-    filter: blur(40px) hue-rotate(0deg);
-  }
-
-  12.5% {
-    filter: blur(40px) hue-rotate(78deg);
-  }
-
-  25% {
-    filter: blur(40px) hue-rotate(126deg);
-  }
-
-  37.5% {
-    filter: blur(40px) hue-rotate(160deg);
-  }
-
-  50% {
-    filter: blur(40px) hue-rotate(228deg);
-  }
-
-  62.5% {
-    filter: blur(40px) hue-rotate(260deg);
-  }
-
-  75% {
-    filter: blur(40px) hue-rotate(280deg);
-  }
-
-  87.5% {
-    filter: blur(40px) hue-rotate(280deg);
-  }
-
-  100% {
-    filter: blur(40px) hue-rotate(360deg);
-  }
+  animation: nui-rainbow-hue-cycle var(--nui-rainbow-duration, 12s) linear infinite;
+  animation-play-state: var(--nui-rainbow-play-state, running);
 }
 
 @mixin rainbow-color($index) {
-  color: var(--rainbow-#{$index});
+  color: var(--rainbow-#{$index}, var(--nui-rainbow-color));
 }
 
 @mixin rainbow-bg($index) {
-  background-color: var(--rainbow-#{$index});
+  background-color: var(--rainbow-#{$index}, var(--nui-rainbow-color));
 }
 
 @mixin rainbow-border($index, $width: 1px, $style: solid) {
-  border: $width $style var(--rainbow-#{$index});
+  border: $width $style var(--rainbow-#{$index}, var(--nui-rainbow-color-border, var(--nui-rainbow-color)));
 }
 
 @mixin rainbow-fill($index) {
-  fill: var(--rainbow-#{$index});
+  fill: var(--rainbow-#{$index}, var(--nui-rainbow-color));
 }
 
 @mixin rainbow-text-auto($duration: null) {
-  color: hsl(var(--rainbow-hue) 55% 52%);
+  color: var(--nui-rainbow-color, hsl(var(--rainbow-hue) 55% 52%));
 }
 
 @mixin rainbow-bg-auto($duration: null) {
-  background-color: hsl(var(--rainbow-hue) 55% 52%);
+  background-color: var(--nui-rainbow-color, hsl(var(--rainbow-hue) 55% 52%));
 }
 
 @mixin rainbow-fill-auto($duration: null) {
-  fill: hsl(var(--rainbow-hue) 55% 52%);
+  fill: var(--nui-rainbow-color, hsl(var(--rainbow-hue) 55% 52%));
 }
 
 @mixin rainbow-border-auto($duration: null) {
-  border: 2px solid hsl(var(--rainbow-hue) 58% 62%);
+  border: 2px solid var(--nui-rainbow-color-border, hsl(var(--rainbow-hue) 58% 62%));
 }
 
 @mixin rainbow-bg-border-auto($duration: null) {
-  border: 2px solid hsl(var(--rainbow-hue) 58% 62%);
-  background-color: hsl(var(--rainbow-hue) 55% 52%);
+  border: 2px solid var(--nui-rainbow-color-border, hsl(var(--rainbow-hue) 58% 62%));
+  background-color: var(--nui-rainbow-color, hsl(var(--rainbow-hue) 55% 52%));
 }
 
 @mixin rainbow-bg-border-glow-hover-auto($duration: null) {
@@ -178,7 +62,7 @@
     z-index: -1;
     opacity: 0;
     transition: opacity 0.25s ease;
-    box-shadow: 0 0 20px hsl(var(--rainbow-hue) 58% 62% / 48%);
+    box-shadow: var(--nui-rainbow-glow, 0 0 20px hsl(var(--rainbow-hue) 58% 62% / 48%));
   }
 
   &:hover::after,
@@ -213,22 +97,18 @@
 
 .rainbow-grid-lines-auto {
   background-image:
-    linear-gradient(
-        color-mix(in srgb, hsl(var(--rainbow-hue) 55% 52%) 20%, transparent) 1px,
-        color-mix(in srgb, hsl(var(--rainbow-hue) 55% 52%) 8%, transparent) 1px
-    ),
-    linear-gradient(
-      90deg,
-        color-mix(in srgb, hsl(var(--rainbow-hue) 55% 52%) 20%, transparent) 1px,
-        color-mix(in srgb, hsl(var(--rainbow-hue) 55% 52%) 8%, transparent) 1px
-    );
+    linear-gradient(color-mix(in srgb, var(--nui-rainbow-color, hsl(var(--rainbow-hue) 55% 52%)) 20%, transparent) 1px,
+      color-mix(in srgb, var(--nui-rainbow-color, hsl(var(--rainbow-hue) 55% 52%)) 8%, transparent) 1px),
+    linear-gradient(90deg,
+      color-mix(in srgb, var(--nui-rainbow-color, hsl(var(--rainbow-hue) 55% 52%)) 20%, transparent) 1px,
+      color-mix(in srgb, var(--nui-rainbow-color, hsl(var(--rainbow-hue) 55% 52%)) 8%, transparent) 1px);
 }
 
 @media (prefers-reduced-motion: reduce) {
   :root {
     animation: none !important;
 
-    --rainbow-hue: 132deg;
+    --rainbow-hue: 152deg;
   }
 
   .rainbow-text-auto,
@@ -243,38 +123,5 @@
 
   .rainbow-grid-lines-auto {
     filter: none;
-    background-image:
-      linear-gradient(
-        color-mix(in srgb, hsl(var(--rainbow-hue) 55% 52%) 20%, transparent) 1px,
-        color-mix(in srgb, hsl(var(--rainbow-hue) 55% 52%) 8%, transparent) 1px
-      ),
-      linear-gradient(
-        90deg,
-        color-mix(in srgb, hsl(var(--rainbow-hue) 55% 52%) 20%, transparent) 1px,
-        color-mix(in srgb, hsl(var(--rainbow-hue) 55% 52%) 8%, transparent) 1px
-      );
-  }
-
-  .rainbow-text-auto {
-    color: hsl(var(--rainbow-hue) 55% 52%);
-  }
-
-  .rainbow-bg-auto {
-    background-color: hsl(var(--rainbow-hue) 55% 52%);
-  }
-
-  .rainbow-fill-auto {
-    fill: hsl(var(--rainbow-hue) 55% 52%);
-  }
-
-  .rainbow-border-auto,
-  .rainbow-bg-border-auto,
-  .rainbow-bg-border-glow-hover-auto {
-    border-color: hsl(var(--rainbow-hue) 58% 62%);
-  }
-
-  .rainbow-bg-border-auto,
-  .rainbow-bg-border-glow-hover-auto {
-    background-color: hsl(var(--rainbow-hue) 55% 52%);
   }
 }

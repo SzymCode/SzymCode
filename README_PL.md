@@ -10,7 +10,7 @@ Samouk z pasją do rozwoju - szukam ambitnych projektów, w których mogę wnie�
 
 Stawiam na niezawodny, łatwy w utrzymaniu kod - testuję z Pest, PHPUnit, Jest, Vitest, Cypress i Storybook. Mam też doświadczenie w DevOps, Docker i CI/CD, a cyberbezpieczeństwo traktuję jako dodatkową dziedzinę rozwoju.
 
-Twórca i główny developer [Nucleify](https://nucleify.io) — **zbuduj raz, przenieś na dowolny framework**. Jedno wspólne jądro produktu (web · admin · docs) z przenośnym kompilatorem emitującym do **Vue · React · Nuxt · Next · Astro · Svelte · Solid**, żeby zmieniać stack bez przepisywania biznesu.
+Twórca i główny developer [Nucleify](https://nucleify.io) - **przenieś swój projekt z frameworka do frameworka bezpośrednio, bez naruszania logiki biznesowej**. Chmurowy kompilator TypeScript AST i CLI ([@nucleify/cli](https://cli.nucleify.io)) emitujący czysty, natywny kod do **Vue · React · Nuxt · Next · Astro · Svelte · Solid** oraz wspólne jądro produktu (web · admin · docs).
 
 <br>
 
@@ -19,6 +19,12 @@ Twórca i główny developer [Nucleify](https://nucleify.io) — **zbuduj raz, p
     <td>⭐ Portfolio</td>
     <td>
       <a href="https://nucleify.io" target="_blank"><img src="https://nucleify.io/favicon.ico" height="13" width="13" alt=""> Nucleify</a> / <a href="https://szymco.de" target="_blank">szymco.de</a>
+    </td>
+  </tr>
+  <tr>
+    <td><img src="https://nucleify.io/favicon.ico" height="13" width="13" alt=""> Nucleify</td>
+    <td>
+      <a href="https://nucleify.io" target="_blank">Strona Główna</a>, <a href="https://cli.nucleify.io" target="_blank">Kompiler CLI</a>, <a href="https://play.nucleify.io" target="_blank">Playground</a>, <a href="https://ui.nucleify.io" target="_blank">nucleify-ui</a>
     </td>
   </tr>
   <tr>
@@ -65,11 +71,27 @@ Twórca i główny developer [Nucleify](https://nucleify.io) — **zbuduj raz, p
 <details><summary> <img src="https://nucleify.io/favicon.ico" height="13" width="13" alt=""> Nucleify </summary>
 <br>
 
-**Zbuduj raz. Przenieś na dowolny framework.**
+<h3>Zbuduj raz. Przenieś na dowolny framework.</h3>
 
-Nucleify trzyma produkt w jednym wspólnym jądrze — **web**, **admin** i **docs** — więc zmiana stacka nie oznacza przepisywania biznesu. Przenośny kompilator UI emituje do siedmiu shelli; backend na **Supabase**; UI przez [nucleify-ui](https://www.npmjs.com/package/nucleify-ui).
+Przenieś swój projekt z frameworka do frameworka bezpośrednio, bez naruszania logiki biznesowej. Nucleify oferuje chmurowy kompilator AST, CLI i wspólne jądro (web, admin i docs) z backendem opartym na **Supabase** oraz przenośnymi komponentami UI przez [nucleify-ui](https://ui.nucleify.io).
 
-### Shelle
+⭐ **Dowolny stack → dowolny inny** - bezpośrednia migracja framework-do-frameworka bez naruszania logiki biznesowej<br>
+⭐ **Nucleify CLI (`nuc`)** - kompilacja, tryb watch i emisja komponentów jedną komendą (`nuc emit`)<br>
+⭐ **Playground na żywo** - testuj i porównuj emisję AST w czasie rzeczywistym na [play.nucleify.io](https://play.nucleify.io)<br>
+⭐ **Wspólne jądro** - API, schemat bazy SQL, CMS i UI jako jeden spójny produkt we wszystkich shellach<br>
+⭐ **Silnik Cloud AST** - głęboka transformacja TypeScript AST emitująca czysty, natywny kod frameworka<br>
+⭐ **Setup jedną komendą** - `make run` + `make web` z roota repozytorium<br>
+
+### ⚡ Nucleify CLI i Kompilator Cloud AST
+
+Sercem całego ekosystemu jest [`@nucleify/cli`](https://cli.nucleify.io) (`nuc`), wiersz poleceń z silnikiem kompilacji TypeScript AST w chmurze i mechanizmem migracji:
+
+- **Wielotargetowa emisja kodu (`nuc emit`)** - Pisz przenośne komponenty UI raz i emituj czysty, idiomatyczny kod do dowolnego frameworka.
+- **Natychmiastowy tryb obserwatora (`nuc emit --watch`)** - Rekompilacja AST na żywo w chmurze z błyskawicznym feedbackiem we wszystkich shellach.
+- **Automatyczny silnik migracji (`nuc migrate`)** - Bezpośrednia migracja framework-do-frameworka z zachowaniem pełnej logiki biznesowej.
+- **Diagnostyka środowiska (`nuc doctor`)** - Weryfikacja tokenów, łączności z Gatewayem i dostępnych targetów.
+
+<h2 align="center">Frameworki</h3>
 
 <p align="center">
   <a href="https://vuejs.org/" target="_blank"><img src="/img/technologies/logo/vue.svg" height="32" width="32" alt="Vue" /></a>
@@ -81,21 +103,18 @@ Nucleify trzyma produkt w jednym wspólnym jądrze — **web**, **admin** i **do
   <a href="https://www.solidjs.com/" target="_blank"><img src="/img/technologies/logo/solid.svg" height="32" width="32" alt="Solid" /></a>
 </p>
 
-<p align="center"><strong>Vue · React · Nuxt · Next · Astro · Svelte · Solid</strong><br />
-<em>Nie tylko React/Next ani Vue/Nuxt — siedem celów emit z jednego jądra.</em></p>
+<p align="center"><strong>Vue · React · Nuxt · Next.js · Astro · Svelte · Solid</strong><br />
+<em>Zero vendor lock-in - kompilacja do 7 natywnych frameworków przez @nucleify/cli.</em></p>
 
-### Co robi
-
-⭐ **Dowolny stack → dowolny inny** — migracja bez przepisywania logiki produktu<br>
-⭐ **Wspólne jądro** — API, SQL i UI jako jeden produkt między shellami<br>
-⭐ **Przenośny kompilator** — napisz raz, emit Vue / React / Solid / Svelte i więcej<br>
-⭐ **Setup jedną komendą** — `make run` + `make web` z roota repo<br>
-
-<br>
-<a href="https://nucleify.io" target="_blank">Live</a> ·
-<a href="https://docs.nucleify.io/pl/docs/getting-started/introduction" target="_blank">Docs</a> ·
-<a href="https://nucleify.io/en/investor" target="_blank">Investor</a> ·
-<a href="https://github.com/Nucleify/Nucleify" target="_blank">GitHub</a>
+<p align="center">
+  <a href="https://nucleify.io" target="_blank">Strona produktu</a> ·
+  <a href="https://cli.nucleify.io" target="_blank">Compiler CLI</a> ·
+  <a href="https://play.nucleify.io" target="_blank">Playground</a> ·
+  <a href="https://ui.nucleify.io" target="_blank">nucleify-ui</a> ·
+  <a href="https://docs.nucleify.io/pl/docs/getting-started/introduction" target="_blank">Docs</a> ·
+  <a href="https://nucleify.io/en/investor" target="_blank">Investor</a> ·
+  <a href="https://github.com/Nucleify/Nucleify" target="_blank">GitHub</a>
+</p>
 
 <br>
 </details>
@@ -114,10 +133,11 @@ Nucleify trzyma produkt w jednym wspólnym jądrze — **web**, **admin** i **do
   <tr>
     <td>
       <a href="https://nucleify.io" target="_blank">
-        <img src="/img/logo/nucleify.svg" height="18" width="18" alt=""> Nucleify
+        <img src="https://nucleify.io/favicon.ico" height="13" width="13" alt=""> Nucleify
       </a>
     </td>
     <td>
+      <a href="https://www.typescriptlang.org/" target="_blank"><img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="TypeScript" /></a>
       <a href="https://vuejs.org/" target="_blank"><img src="/img/technologies/logo/vue.svg" height="25" width="25" alt="Vue" /></a>
       <a href="https://react.dev/" target="_blank"><img src="/img/technologies/logo/react.svg" height="25" width="25" alt="React" /></a>
       <a href="https://nuxt.com/" target="_blank"><img src="/img/technologies/logo/nuxt.svg" height="25" width="25" alt="Nuxt" /></a>
@@ -125,7 +145,6 @@ Nucleify trzyma produkt w jednym wspólnym jądrze — **web**, **admin** i **do
       <a href="https://astro.build/" target="_blank"><img src="/img/technologies/logo/astro.svg" height="25" width="25" alt="Astro" /></a>
       <a href="https://svelte.dev/" target="_blank"><img src="/img/technologies/logo/svelte.svg" height="25" width="25" alt="Svelte" /></a>
       <a href="https://www.solidjs.com/" target="_blank"><img src="/img/technologies/logo/solid.svg" height="25" width="25" alt="Solid" /></a>
-      <a href="https://www.typescriptlang.org/" target="_blank"><img src="/img/technologies/logo/typescript.svg" height="25" width="25" alt="TypeScript" /></a>
       <a href="https://supabase.com/" target="_blank"><img src="/img/technologies/logo/supabase.svg" height="25" width="25" alt="Supabase" /></a>
       <a href="https://www.cloudflare.com/" target="_blank"><img src="/img/technologies/logo/cloudflare.svg" height="25" width="25" alt="Cloudflare" /></a>
       <a href="https://www.docker.com/" target="_blank"><img src="/img/technologies/logo/docker.svg" height="25" width="25" alt="Docker" /></a>

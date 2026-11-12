@@ -2,10 +2,9 @@
   <div class="course-category-view">
     <Navbar />
     <main class="course-category-view-main">
-      <GridBackground />
       <CourseCategoryHero
         title-highlight="premium"
-        lead="Pełne programy z modułami, zadaniami i konsultacjami — pod realne wdrożenia i pracę w zespole."
+        lead="Pełne programy z modułami, zadaniami i konsultacjami - pod realne wdrożenia i pracę w zespole."
       />
       <CourseListGrid
         :courses="paidCourses"
@@ -29,7 +28,7 @@ useHead({
     {
       name: 'description',
       content:
-        'Płatne kursy SzymCode: Laravel, Nuxt, Next.js — programy z praktyką pod produkcję.',
+        'Płatne kursy SzymCode: Laravel, Nuxt, Next.js - programy z praktyką pod produkcję.',
     },
   ],
 })

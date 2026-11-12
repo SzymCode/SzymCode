@@ -2,7 +2,6 @@
   <div id="blog-top" class="blog-page">
     <Navbar />
     <main class="blog-main">
-      <GridBackground />
       <BlogListHero />
       <BlogListGrid :posts="posts" />
     </main>
@@ -26,7 +25,7 @@ useHead({
   meta: [
     {
       name: 'description',
-      content: 'Wpisy bloga SzymCode — mentoring IT, development i kariera.',
+      content: 'Wpisy bloga SzymCode - mentoring IT, development i kariera.',
     },
   ],
 })

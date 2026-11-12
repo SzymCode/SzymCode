@@ -20,7 +20,7 @@
             <p>
               W <strong>Atomic IT</strong> rozwijam
               <strong>Nucleify</strong>
-              — monorepo i kompilator UI:
+              - monorepo i kompilator UI:
               <strong>build once, move to any framework</strong>
               (Vue · React · Nuxt · Next · Astro · Svelte · Solid). Produkt
               zostaje we wspólnym jądrze; zmieniasz shell bez przepisywania
